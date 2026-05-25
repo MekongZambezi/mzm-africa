@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useLang } from '../context/LanguageContext'
 
-const LANG_LABELS = { en: 'EN', vi: 'VI', zh: '中文' }
+const LANG_LABELS = { en: 'EN', vi: 'VI' }
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
