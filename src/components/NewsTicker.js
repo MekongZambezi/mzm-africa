@@ -1,10 +1,12 @@
 const headlines = [
-  'MZM Africa opens Vietnam commercial office to bridge SEA investor networks with Zimbabwe minerals',
-  'Zimbabwe Feb 2026 raw mineral export ban creates urgent demand for beneficiation infrastructure',
-  'Great Dyke chrome corridor: 50 TPH wash plant model achieves ~2.6 month payback at full utilisation',
-  'MZM attends Mining & Construction Vietnam Expo 2026 under strategic Two-Hat engagement model',
-  'Gold cluster model targets ASM producers across Zimbabwe greenstone belts',
-  'Copper opportunity: Magondi Belt stratabound deposits under active evaluation',
+  'MZM Africa: Chrome and lithium projects live — SPV structured, title verified, CAPEX confirmed',
+  'Zimbabwe Ministry of Mines declares 14 Critical Minerals — State SPV co-investment now mandatory for all foreign participation',
+  'Great Dyke chrome corridor: 50 TPH wash plant model achieves 2.6 month estimated payback at full utilisation',
+  'Lithium projects structured under Zimbabwe Critical Minerals SPV framework — investor presentations available on request',
+  'MZM attends Mining and Construction Vietnam Expo 2026 — active mandate introductions underway',
+  'Copper: Antech-verified grades 3.73% and 2.45% Cu confirmed across Magondi Belt samples',
+  'Zimbabwe May 2026: Small and medium scale gold reserved for Zimbabwean citizens — large-scale foreign investment remains open',
+  'MZM operates within MMCZ, FGR, and Ministry of Mines regulatory frameworks — Zimbabwe and Asia',
 ]
 
 export default function NewsTicker() {
