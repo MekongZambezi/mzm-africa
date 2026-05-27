@@ -4,9 +4,9 @@ const team = [
   {
     initials: 'AM',
     name: 'Andy Moyo',
-    role: 'Managing Director',
+    role: 'Director & Managing Partner',
     location: 'Harare, Zimbabwe',
-    bio: 'Leads regulatory strategy, government relations, and investor relationships. Dual background in mineral facilitation and international education. Primary point of contact for investment mandates and Ministry of Mines engagements.',
+    bio: 'Andy Moyo is a Zimbabwean minerals commercialisation specialist and founder of MZM Consultants. He specialises in SPV structuring, asset due diligence, and cross-border deal facilitation across Zimbabwe\'s critical minerals sector. Operating between Zimbabwe and Asia, he directs the firm\'s investment facilitation and regulatory compliance operations, serving Asian capital networks seeking structured, legally compliant entry into Zimbabwe\'s chrome, lithium, and platinum group metals market.',
   },
   {
     initials: 'AR',
@@ -24,10 +24,10 @@ const team = [
   },
   {
     initials: 'CM',
-    name: 'Chido Mumvuri',
-    role: 'Business Development Manager',
+    name: 'Chido Chashe A. Mumvuri',
+    role: 'Head of Business Development & Trade',
     location: 'Zimbabwe',
-    bio: 'Coordinates business development pipeline management, investor follow-up, and new opportunity sourcing across both the Zimbabwe and Vietnam markets.',
+    bio: 'Chido Mumvuri is a co-founder of MZM Consultants and the firm\'s commercial lead. She holds a degree in Marketing and brings direct experience in Zimbabwe-China trade to MZM\'s offtake structuring and market development operations. She manages the firm\'s commodity trading relationships with Asian buyers across Zimbabwe\'s critical minerals portfolio and drives commercial partnership development across MZM\'s target markets.',
   },
 ]
 
