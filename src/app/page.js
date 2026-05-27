@@ -10,7 +10,14 @@ const SERVICE_ICONS = [
   <svg key="4" className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>,
 ]
 
-const MINERAL_STATUS = ['bg-green-900/40 text-green-400', 'bg-green-900/40 text-green-400', 'bg-[#C4A04A]/10 text-[#C4A04A]', 'bg-[#C4A04A]/10 text-[#C4A04A]']
+const MINERAL_STATUS = [
+  'bg-green-900/40 text-green-400',
+  'bg-green-900/40 text-green-400',
+  'bg-yellow-900/40 text-yellow-500',
+  'bg-[#C4A04A]/10 text-[#C4A04A]',
+  'bg-[#C4A04A]/10 text-[#C4A04A]',
+  'bg-[#C4A04A]/10 text-[#C4A04A]',
+]
 
 export default function Home() {
   const { t } = useLang()
@@ -18,7 +25,7 @@ export default function Home() {
 
   return (
     <>
-      {/* HERO — video background */}
+      {/* HERO */}
       <section className="relative min-h-screen flex flex-col justify-end pb-20 pt-32 overflow-hidden">
         <video
           autoPlay
@@ -43,11 +50,11 @@ export default function Home() {
             <span className="text-[#C4A04A] italic">{t.hero.headline2}</span>
           </h1>
 
-          <p className="text-gray-300 text-lg font-light max-w-lg mb-4 leading-relaxed">
-            MZM is the Zimbabwean firm that structures the deal before it finds the investor — and the legal partner foreign capital now requires to operate in Zimbabwe's critical minerals sector.
+          <p className="text-gray-300 text-lg font-light max-w-2xl mb-3 leading-relaxed">
+            {t.hero.sub}
           </p>
-          <p className="text-gray-400 text-sm font-light max-w-lg mb-10 leading-relaxed">
-            Chrome and lithium projects. Live and investor-ready. Harare and Hanoi.
+          <p className="text-gray-500 text-xs font-light max-w-lg mb-10 leading-relaxed tracking-wide uppercase">
+            {t.hero.tagline}
           </p>
 
           <div className="flex flex-wrap gap-4 items-center mb-16">
@@ -114,7 +121,29 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SERVICES — with mining-processing photo background strip */}
+      {/* MID-PAGE CTA */}
+      <section className="py-16 bg-[#0A0E18] border-y border-white/8">
+        <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
+          <div className="max-w-2xl">
+            <h2 className="font-serif text-3xl md:text-4xl font-bold mb-3">
+              The deal is structured before you arrive.
+            </h2>
+            <p className="text-gray-400 font-light leading-relaxed">
+              Chrome and lithium projects — SPV established, title verified, capital model confirmed. Request an investment brief and receive a full project overview within 48 hours.
+            </p>
+          </div>
+          <div className="flex flex-col sm:flex-row gap-4 shrink-0">
+            <Link href="/contact" className="bg-[#C4A04A] text-[#080C14] text-xs font-black tracking-widest uppercase px-8 py-4 hover:bg-[#E0CA8E] transition-colors text-center">
+              Request An Investment Brief
+            </Link>
+            <Link href="/contact" className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase px-8 py-4 border border-[#C4A04A]/40 hover:bg-[#C4A04A]/10 transition-colors text-center">
+              Speak To The Team
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* SERVICES */}
       <section className="py-24 relative overflow-hidden" style={{ background: '#0A0E18' }}>
         <div
           className="absolute inset-y-0 right-0 w-1/2 opacity-10"
@@ -165,7 +194,7 @@ export default function Home() {
             {t.minerals.heading1}<br />
             <span className="text-[#C4A04A] italic">{t.minerals.heading2}</span>
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {t.minerals.items.map((m, i) => (
               <div key={m.name} className="border border-white/10 p-8 hover:border-[#C4A04A]/40 hover:-translate-y-1 transition-all duration-300">
                 <div className="font-serif text-5xl font-bold text-[#C4A04A]/40 leading-none mb-2">{m.symbol}</div>
@@ -184,7 +213,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* WHY ZIMBABWE — real mining site photo */}
+      {/* WHY ZIMBABWE */}
       <section
         className="py-28 relative overflow-hidden"
         style={{
@@ -205,7 +234,7 @@ export default function Home() {
               <span className="text-[#C4A04A] italic">{t.zimBanner.heading2}</span>
             </h2>
             <p className="text-gray-300 font-light text-lg mb-6 leading-relaxed max-w-2xl">
-              Zimbabwe's February 2026 raw mineral export ban and May 2026 Critical Minerals declaration have created a defined legal architecture for foreign investment. Chrome, lithium, nickel, copper, and PGMs are now declared Critical Minerals with mandatory State SPV co-investment required.
+              Zimbabwe's May 2026 Critical Minerals declaration formally defined the investment architecture for 14 commodities — mandating State SPV co-investment for all foreign participation in chrome, lithium, nickel, copper, and PGMs.
             </p>
             <p className="text-gray-400 font-light text-base mb-10 leading-relaxed max-w-xl">
               This does not complicate the investment case. It defines it. Investors who understand the framework and work within it have a clearer, more protected path than at any previous point in Zimbabwe's mining history.
@@ -233,7 +262,7 @@ export default function Home() {
               </div>
               <h2 className="font-serif text-3xl font-bold mb-6">Where MZM stands<br /><span className="text-[#C4A04A] italic">on the May 2026 announcements</span></h2>
               <p className="text-gray-300 font-light leading-relaxed mb-4">
-                Zimbabwe's Ministry of Mines issued two policy statements on 22 May 2026. The small and medium scale gold mining sector is now reserved exclusively for Zimbabwean citizens and wholly Zimbabwean-owned entities. Chrome, lithium, nickel, copper, and platinum group metals have been formally declared Critical Minerals, with mandatory State SPV co-investment now required for all exploitation.
+                Zimbabwe's Ministry of Mines issued two policy instruments on 22 May 2026. The small and medium scale gold mining sector is now reserved exclusively for Zimbabwean citizens and wholly Zimbabwean-owned entities. Fourteen minerals have been formally declared Critical Minerals, with mandatory State SPV co-investment now required for all exploitation.
               </p>
               <p className="text-gray-400 font-light leading-relaxed">
                 MZM's active projects — chrome and lithium — are structured in full compliance with both instruments. MZM does not facilitate investment in sectors or at scales that conflict with government policy.
@@ -241,13 +270,15 @@ export default function Home() {
             </div>
             <div className="space-y-0 border border-white/10">
               {[
-                ['Chrome', 'Active. Investor-ready. Structured under the Critical Minerals SPV framework. Title verified. CAPEX confirmed.'],
-                ['Lithium', 'Active. Investor-ready. Structured under the Critical Minerals SPV framework. Title verified. CAPEX confirmed.'],
-                ['Gold', 'Foreign participation restricted to large-scale operations above 20kg/month and $15M capital investment. MZM facilitates large-scale structures only.'],
-                ['Copper / Nickel', 'Declared Critical Minerals. Foreign investment remains open under the State SPV framework. Pipeline — not yet investor-ready.'],
+                ['Chrome', 'Active. Investor-ready. Declared Critical Mineral. SPV structured, title verified, CAPEX confirmed.'],
+                ['Lithium', 'Active. Investor-ready. Declared Critical Mineral. SPV structured, title verified, CAPEX confirmed.'],
+                ['PGMs', 'Declared Critical Mineral. Pipeline — investor matching and SPV formation underway for undeveloped Great Dyke entry points.'],
+                ['Copper & Nickel', 'Declared Critical Minerals. Foreign investment open under State SPV framework. Pipeline — not yet investor-ready.'],
+                ['Manganese, REE, Graphite, Tungsten, Niobium, Antimony', 'Declared Critical Minerals. Under evaluation — commercial assessment and market intelligence in progress.'],
+                ['Gold', 'Declared Strategic Mineral. Foreign participation restricted to large-scale operations above 20kg/month and USD 15M capital. MZM facilitates large-scale structures only.'],
               ].map(([label, desc]) => (
                 <div key={label} className="flex gap-5 p-6 border-b border-white/8 last:border-0">
-                  <div className="font-serif text-sm font-bold text-[#C4A04A] min-w-[80px] mt-0.5">{label}</div>
+                  <div className="font-serif text-sm font-bold text-[#C4A04A] min-w-[100px] mt-0.5 shrink-0">{label}</div>
                   <p className="text-gray-400 text-sm font-light leading-relaxed">{desc}</p>
                 </div>
               ))}
