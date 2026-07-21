@@ -1,3 +1,4 @@
+
 'use client'
 import { useState } from 'react'
 
@@ -44,13 +45,13 @@ export default function Contact() {
               <span className="text-[#C4A04A] italic">an opportunity?</span>
             </h2>
             <p className="text-gray-300 font-light text-lg leading-relaxed mb-10">
-              Whether you&apos;re an investor, OEM supplier, or potential offtake partner — we&apos;d like to hear from you. We respond within 48 hours.
+              Whether you&apos;re an investor, title holder, OEM supplier, or potential offtake partner, we&apos;d like to hear from you. We respond within 48 hours.
             </p>
 
             <div className="space-y-6">
               {[
-                ['Email', 'info@mzmafrica.com', 'mailto:info@mzmafrica.com'],
-                ['Zimbabwe Office', 'Harare, Zimbabwe', null],
+                ['Email', 'projects@mzmafrica.com', 'mailto:projects@mzmafrica.com'],
+                ['Zimbabwe Office', 'Bulawayo, Zimbabwe', null],
                 ['Vietnam Office', 'Hanoi, Vietnam', null],
               ].map(([label, value, href]) => (
                 <div key={label} className="flex gap-4">
@@ -72,7 +73,7 @@ export default function Contact() {
             <div className="mt-10 border-t border-white/8 pt-8">
               <div className="text-xs font-bold tracking-widest uppercase text-gray-500 mb-3">Areas of Interest</div>
               <div className="flex flex-wrap gap-2">
-                {['Chrome Investment', 'Gold Investment', 'Copper / Nickel', 'Commodity Trading', 'OEM Supply', 'General Partnership'].map((tag) => (
+                {['Chrome Investment', 'Lithium Investment', 'Gold Investment', 'Copper Investment', 'Quartz Investment', 'Other Minerals', 'Commodity Trading', 'OEM Supply', 'General Partnership'].map((tag) => (
                   <span key={tag} className="text-xs text-[#C4A04A] border border-[#7A6230] px-3 py-1 font-medium">{tag}</span>
                 ))}
               </div>
@@ -124,7 +125,9 @@ export default function Contact() {
                     <option value="">Select one</option>
                     <option>Chrome Investment Opportunity</option>
                     <option>Gold Investment Opportunity</option>
-                    <option>Copper / Nickel Opportunity</option>
+                    <option>Copper Investment Opportunity</option>
+                    <option>Quartz Investment Opportunity</option>
+                    <option>Other Mineral Opportunity</option>
                     <option>Commodity Trading / Offtake</option>
                     <option>OEM / Equipment Supply</option>
                     <option>General Partnership Enquiry</option>
@@ -145,7 +148,7 @@ export default function Contact() {
                 </button>
 
                 {status === 'error' && (
-                  <p className="text-red-400 text-sm text-center">Something went wrong. Please email us directly at info@mzmafrica.com</p>
+                  <p className="text-red-400 text-sm text-center">Something went wrong. Please email us directly at projects@mzmafrica.com</p>
                 )}
               </form>
             )}
