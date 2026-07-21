@@ -4,7 +4,7 @@ export const metadata = { title: 'About MZM Africa | Mekong Zambezi Meridian Con
 export default function About() {
   return (
     <>
-      {/* HERO — solid gradient, no text over photo */}
+      {/* HERO: solid gradient, no text over photo */}
       <section className="pt-40 pb-24 border-b border-white/10 relative overflow-hidden bg-[#080C14]">
         <div
           className="absolute inset-0"
@@ -26,7 +26,7 @@ export default function About() {
           </h1>
           <p className="text-gray-200 font-light text-lg md:text-xl max-w-2xl leading-relaxed">
             Mekong Zambezi Meridian Consultants is a Zimbabwe-registered mining facilitation
-            and deal-structuring firm, connecting the country's critical minerals to investors
+            and deal-structuring firm, connecting the country's minerals to investors
             and buyers across Asia.
           </p>
         </div>
@@ -43,30 +43,31 @@ export default function About() {
               </span>
             </div>
             <h2 className="font-serif text-4xl font-bold mb-7 leading-tight max-w-[20ch]">
-              A deal is built here{' '}
-              <span className="text-[#C4A04A] italic font-medium">before an investor ever sees it.</span>
+              The meridian between{' '}
+              <span className="text-[#C4A04A] italic font-medium">title and capital.</span>
             </h2>
             <p className="text-gray-200 font-light text-lg leading-relaxed mb-5">
-              MZM identifies, verifies, and structures investment-ready opportunities in chrome
-              and lithium — then connects qualified international investors to compliant,
-              government-aligned deals.
+              MZM sits at the centre point between two parties: the title holder who owns the
+              ground, and the investor who holds the capital to develop it. We identify, verify,
+              and structure investment-ready opportunities in chrome, lithium and gold, then bring
+              compliant, fully structured deals to qualified international investors.
             </p>
             <p className="text-gray-300 font-light leading-relaxed mb-5">
-              Under Zimbabwe's May 2026 Critical Minerals framework, foreign investment in chrome,
-              lithium, copper, nickel, and PGMs must be structured through a compliant Zimbabwean
-              SPV that includes the State's mandatory minimum shareholding.
+              Under Zimbabwe's May 2026 Critical Minerals framework, foreign investment in the
+              country's declared critical minerals must be structured through a compliant
+              Zimbabwean SPV that includes the State's mandatory minimum shareholding.
             </p>
             <p className="text-gray-300 font-light leading-relaxed">
-              MZM structures and manages that framework on behalf of investors and claim holders —
-              from SPV formation through to Ministry of Mines and MMCZ approval.
+              MZM structures compliant deals within that framework, on behalf of investors and
+              claim holders, from SPV formation through to Ministry of Mines and MMCZ approval.
             </p>
           </div>
           <div className="border border-white/10 rounded-sm bg-[#121826]">
             {[
-              ['Zimbabwe-Registered and Compliant', 'Incorporated in Zimbabwe, with direct working relationships across the Ministry of Mines, MMCZ, and FGR. Not a foreign firm claiming access — a Zimbabwean firm that holds it.'],
+              ['Zimbabwe-Registered and Compliant', 'Incorporated in Zimbabwe, with direct working relationships across the Ministry of Mines, MMCZ, and FGR. Not a foreign firm claiming access, but a Zimbabwean firm that holds it.'],
               ['Structure First', 'The SPV, escrow, title verification, shareholder agreement, and CAPEX model are complete before the investor call. You arrive at a deal, not a prospect.'],
-              ['Hanoi Commercial Base', 'An operational presence in Vietnam — direct access to Vietnamese and Chinese OEM equipment networks and the Asian investor community allocating capital to African critical minerals.'],
-              ['Government-Aligned by Design', 'Every deal is built to comply with Zimbabwe\'s beneficiation mandate and the Critical Minerals framework from day one — the structural protection that keeps investor capital clear of regulatory risk.'],
+              ['Hanoi Commercial Base', 'An operational presence in Vietnam, with direct access to Vietnamese and Chinese OEM equipment networks and the Asian investor community allocating capital to African minerals.'],
+              ['Compliant by Design', 'Every deal is built to comply with Zimbabwe\'s beneficiation mandate and the Critical Minerals framework from day one. That structural discipline keeps investor capital clear of regulatory risk.'],
             ].map(([title, desc]) => (
               <div key={title} className="flex gap-5 p-7 border-b border-white/10 last:border-0">
                 <div className="w-2 h-2 bg-[#C4A04A] rounded-full mt-2 shrink-0 shadow-[0_0_0_4px_rgba(196,160,74,0.12)]" />
@@ -131,7 +132,7 @@ export default function About() {
             </h2>
             <p className="text-gray-200 font-light leading-relaxed mb-5">
               MZM was founded by Zimbabweans who saw a persistent gap: the mining sector had the
-              geology, the reform momentum, and the political will — but lacked structured access
+              geology, the reform momentum, and the political will, but lacked structured access
               to the capital concentrated in East and Southeast Asia.
             </p>
             <p className="text-gray-300 font-light leading-relaxed mb-5">
@@ -141,14 +142,14 @@ export default function About() {
             </p>
             <p className="text-gray-300 font-light leading-relaxed">
               Zimbabwe's May 2026 regulatory changes made this bridge more relevant, not less.
-              Foreign investors now need a compliant Zimbabwean partner in the SPV structure —
+              Foreign investors now need a compliant Zimbabwean partner in the SPV structure.
               MZM was built to be exactly that.
             </p>
           </div>
           <div
             className="h-80 rounded-sm border border-white/10 relative overflow-hidden"
             style={{
-              backgroundImage: 'url(/images/mining-processing.jpg)',
+              backgroundImage: 'url(/images/about-operations.jpg)',
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
@@ -156,7 +157,7 @@ export default function About() {
             <div className="absolute inset-0 bg-[#080C14]/35" />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#080C14] to-transparent h-28" />
             <div className="absolute bottom-0 left-0 right-0 px-6 py-5 text-xs text-gray-400 tracking-wide">
-              Great Dyke corridor · <span className="text-[#C4A04A] font-semibold">chrome &amp; PGM belt</span>
+              Ore processing and <span className="text-[#C4A04A] font-semibold">beneficiation operations</span>
             </div>
           </div>
         </div>
@@ -177,9 +178,9 @@ export default function About() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              ['01', 'Deal Structuring', 'MZM builds the legal and commercial framework — SPV, escrow, title verification, shareholder agreement — before approaching investors. Every deal presented has been through this process.'],
+              ['01', 'Deal Structuring', 'MZM builds the legal and commercial framework, including the SPV, escrow, title verification, and shareholder agreement, before approaching investors. Every deal presented has been through this process.'],
               ['02', 'Regulatory Navigation', 'MZM manages the Ministry of Mines approval process, MMCZ registration, ZiMRA compliance, and the Critical Minerals SPV requirement on behalf of investors. Working relationships, not contacts on a list.'],
-              ['03', 'Capital and Equipment Bridge', 'MZM connects Zimbabwean projects to Vietnamese and Chinese OEM equipment networks and the Asian investor community — a geographic and relational advantage built over time, not sourced from a directory.'],
+              ['03', 'Capital and Equipment Bridge', 'MZM connects Zimbabwean projects to Vietnamese and Chinese OEM equipment networks and the Asian investor community. A geographic and relational advantage built over time, not sourced from a directory.'],
             ].map(([num, title, desc]) => (
               <div key={title}>
                 <div className="font-serif text-3xl text-[#C4A04A] font-semibold mb-3 leading-none">
