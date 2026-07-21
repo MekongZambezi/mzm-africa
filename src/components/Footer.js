@@ -44,11 +44,11 @@ export default function Footer() {
             <ul className="space-y-4 text-sm text-gray-400">
               <li>
                 <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">{f.email}</div>
-                <a href="mailto:info@mzmafrica.com" className="hover:text-[#C4A04A] transition-colors">info@mzmafrica.com</a>
+                <a href="mailto:projects@mzmafrica.com" className="hover:text-[#C4A04A] transition-colors">projects@mzmafrica.com</a>
               </li>
               <li>
                 <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">{f.offices}</div>
-                <div>Harare, Zimbabwe</div>
+                <div>Bulawayo, Zimbabwe</div>
                 <div>Hanoi, Vietnam</div>
               </li>
               <li>
