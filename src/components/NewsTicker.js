@@ -1,12 +1,12 @@
 const headlines = [
-  'MZM Africa: Chrome and lithium projects live — SPV structured, title verified, CAPEX confirmed',
-  'Zimbabwe Ministry of Mines declares 14 Critical Minerals — State SPV co-investment now mandatory for all foreign participation',
-  'Great Dyke chrome corridor: 50 TPH wash plant model achieves 2.6 month estimated payback at full utilisation',
-  'Lithium projects structured under Zimbabwe Critical Minerals SPV framework — investor presentations available on request',
-  'MZM attends Mining and Construction Vietnam Expo 2026 — active mandate introductions underway',
-  'Copper: Antech-verified grades 3.73% and 2.45% Cu confirmed across Magondi Belt samples',
-  'Zimbabwe May 2026: Small and medium scale gold reserved for Zimbabwean citizens — large-scale foreign investment remains open',
-  'MZM operates within MMCZ, FGR, and Ministry of Mines regulatory frameworks — Zimbabwe and Asia',
+  'MZM Africa: chrome, lithium and gold mandates active. SPV structured, title verified, CAPEX confirmed',
+  'MZM attends Mine Entra 2026, Zimbabwe\'s premier mining, engineering and transport expo. Bulawayo, 29 to 31 July',
+  'Zimbabwe declares 14 Critical Minerals, May 2026. State SPV co-investment now required for all foreign participation',
+  'Lithium mandates structured under Zimbabwe\'s Critical Minerals framework. Investor presentations available on request',
+  'Copper in pipeline: opportunities under commercial evaluation, aligned with Asian refined-metal demand',
+  'Quartz added to MZM\'s mandate: high-purity quartz under commercial and market assessment',
+  'Gold: large-scale foreign investment open. MZM structures large-scale entry only, compliant with the 2026 reservation policy',
+  'MZM operates across Zimbabwe and Asia, within MMCZ, FGR and Ministry of Mines frameworks',
 ]
 
 export default function NewsTicker() {
