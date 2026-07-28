@@ -93,7 +93,7 @@ export default function Home() {
             <span className="text-[#C4A04A] italic">before capital moves</span>
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-white/8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-white/10">
             {[
               {
                 num: '01',
@@ -122,7 +122,7 @@ export default function Home() {
       </section>
 
       {/* MID-PAGE CTA */}
-      <section className="py-16 bg-[#0A0E18] border-y border-white/8">
+      <section className="py-16 bg-[#0A0E18] border-y border-white/10">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="max-w-2xl">
             <h2 className="font-serif text-3xl md:text-4xl font-bold mb-3">
@@ -166,7 +166,7 @@ export default function Home() {
           </h2>
           <p className="text-gray-400 font-light max-w-xl mb-14 text-lg">{t.services.sub}</p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-white/8 max-w-4xl">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-white/10 max-w-4xl">
             {t.services.items.map((s, i) => (
               <Link key={s.title} href={s.href} className="group bg-[#0A0E18] p-10 hover:bg-[#111825] transition-colors relative overflow-hidden">
                 <div className="absolute bottom-0 left-0 w-full h-0.5 bg-[#C4A04A] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
@@ -217,12 +217,13 @@ export default function Home() {
       <section
         className="py-28 relative overflow-hidden"
         style={{
-          backgroundImage: 'url(/images/mining-site-2.jpg)',
+          backgroundImage: 'url(/images/policy-banner.jpg)',
           backgroundSize: 'cover',
-          backgroundPosition: 'center top',
+          backgroundPosition: 'center',
         }}
       >
-        <div className="absolute inset-0 bg-[#080C14]/88" />
+        <div className="absolute inset-0 bg-[#080C14]/80" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#080C14] via-[#080C14]/85 to-[#080C14]/30" />
         <div className="relative max-w-7xl mx-auto px-6">
           <div className="max-w-3xl">
             <div className="flex items-center gap-3 mb-4">
@@ -252,7 +253,7 @@ export default function Home() {
       </section>
 
       {/* POLICY STATEMENT */}
-      <section className="py-20 bg-[#0A0E18] border-t border-white/8">
+      <section className="py-20 bg-[#0A0E18] border-t border-white/10">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
             <div>
@@ -277,7 +278,7 @@ export default function Home() {
                 ['Quartz', 'Under commercial and market assessment. Pipeline, recently added to MZM\'s mandate.'],
                 ['Other Minerals', 'Zimbabwe\'s remaining declared minerals are evaluated under mandate as investor demand and title availability develop.'],
               ].map(([label, desc]) => (
-                <div key={label} className="flex gap-5 p-6 border-b border-white/8 last:border-0">
+                <div key={label} className="flex gap-5 p-6 border-b border-white/10 last:border-0">
                   <div className="font-serif text-sm font-bold text-[#C4A04A] min-w-[100px] mt-0.5 shrink-0">{label}</div>
                   <p className="text-gray-400 text-sm font-light leading-relaxed">{desc}</p>
                 </div>
