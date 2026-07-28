@@ -11,6 +11,7 @@ async function getPost(slug) {
   if (!fs.existsSync(filePath)) return null
   const raw = fs.readFileSync(filePath, 'utf8')
   const { data, content } = matter(raw)
+  if (data.date instanceof Date) data.date = data.date.toISOString().slice(0, 10)
   const processed = await remark().use(html).process(content)
   return { ...data, slug, contentHtml: processed.toString() }
 }
