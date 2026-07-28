@@ -9,6 +9,13 @@ const team = [
     bio: 'Andy Moyo is a Zimbabwean minerals commercialisation specialist and founder of MZM Consultants. He specialises in SPV structuring, asset due diligence, and cross-border deal facilitation across Zimbabwe\'s critical minerals sector. Operating between Zimbabwe and Asia, he directs the firm\'s investment facilitation and regulatory compliance operations, serving Asian capital networks seeking structured, legally compliant entry into Zimbabwe\'s chrome, lithium, and platinum group metals market.',
   },
   {
+    initials: 'CM',
+    name: 'Chido A. Mumvuri',
+    role: 'Deputy Managing Director & Head of Business Development',
+    location: 'Zimbabwe',
+    bio: 'Chido A. Mumvuri is Deputy Managing Director and Head of Business Development at MZM Consultants, which she co-founded. Her work sits at the point where Zimbabwean mineral mandates meet Asian demand: she develops the firm\'s commercial partnerships, manages trading relationships with Asian buyers, and shapes how MZM\'s opportunities are presented to international counterparties.',
+  },
+  {
     initials: 'AR',
     name: 'Alvin Raymond',
     role: 'Commercial Director',
@@ -21,13 +28,6 @@ const team = [
     role: 'Investment Partnerships Manager',
     location: 'Hanoi, Vietnam',
     bio: 'Hanoi-based. Manages investor qualification, deal closing, and Southeast Asian capital network relationships. Bridges MZM\'s Zimbabwean operations with Vietnamese and regional OEM/investor communities.',
-  },
-  {
-    initials: 'CM',
-    name: 'Chido Chashe A. Mumvuri',
-    role: 'Head of Business Development & Trade',
-    location: 'Zimbabwe',
-    bio: 'Chido Mumvuri is a co-founder of MZM Consultants and the firm\'s commercial lead. She holds a degree in Marketing and brings direct experience in Zimbabwe-China trade to MZM\'s offtake structuring and market development operations. She manages the firm\'s commodity trading relationships with Asian buyers across Zimbabwe\'s critical minerals portfolio and drives commercial partnership development across MZM\'s target markets.',
   },
 ]
 
