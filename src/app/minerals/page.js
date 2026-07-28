@@ -67,6 +67,7 @@ const activeMinerals = [
 
 const pipelineMinerals = [
   {
+    id: 'copper',
     symbol: 'Cu',
     name: 'Copper',
     tier: 'Critical Mineral · 22 May 2026',
@@ -82,6 +83,7 @@ const pipelineMinerals = [
     ],
   },
   {
+    id: 'quartz',
     symbol: 'Qz',
     name: 'Quartz',
     tier: 'Recently Added to Mandate',
@@ -221,7 +223,7 @@ export default function Minerals() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-white/8">
             {pipelineMinerals.map((m) => (
-              <div key={m.symbol} className="bg-[#0A0E18] p-8 hover:bg-[#0D1320] transition-colors">
+              <div key={m.symbol} id={m.id} className="bg-[#0A0E18] p-8 hover:bg-[#0D1320] transition-colors">
                 <div className="flex items-start justify-between mb-4">
                   <div className="font-serif text-5xl font-bold text-[#C4A04A]/30 leading-none">{m.symbol}</div>
                   <span className={`text-[10px] font-black tracking-widest uppercase px-3 py-1 ${m.statusColor}`}>{m.status}</span>
