@@ -22,9 +22,9 @@ export default function Navbar() {
 
   const navItems = [
     { label: t.nav.home, href: '/' },
-    { label: t.nav.about, href: '/about', children: t.nav.aboutSub.map((l, i) => ({ label: l, href: ['/about#vision', '/about#story', '/about#role'][i] })) },
-    { label: t.nav.services, href: '/services', children: t.nav.servicesSub.map((l, i) => ({ label: l, href: ['/services#facilitation', '/services#advisory', '/services#trading', '/services#dd'][i] })) },
-    { label: t.nav.minerals, href: '/minerals', children: t.nav.mineralsSub.map((l, i) => ({ label: l, href: ['/minerals#chrome', '/minerals#gold', '/minerals#copper', '/minerals#nickel'][i] })) },
+    { label: t.nav.about, href: '/about', children: t.nav.aboutSub.map((l, i) => ({ label: l, href: ['/about#vision', '/about#story', '/about#role'][i] || '/about' })) },
+    { label: t.nav.services, href: '/services', children: t.nav.servicesSub.map((l, i) => ({ label: l, href: ['/services#facilitation', '/services#advisory', '/services#trading', '/services#dd'][i] || '/services' })) },
+    { label: t.nav.minerals, href: '/minerals', children: t.nav.mineralsSub.map((l, i) => ({ label: l, href: ['/minerals#chrome', '/minerals#lithium', '/minerals#gold', '/minerals#copper', '/minerals#quartz'][i] || '/minerals' })) },
     { label: t.nav.news, href: '/news' },
     { label: t.nav.team, href: '/team' },
     { label: t.nav.contact, href: '/contact' },
