@@ -12,7 +12,8 @@ function getPosts() {
   return files.map(filename => {
     const raw = fs.readFileSync(path.join(postsDir, filename), 'utf8')
     const { data } = matter(raw)
-    return { slug: filename.replace('.md', ''), ...data }
+    const date = data.date instanceof Date ? data.date.toISOString().slice(0, 10) : String(data.date || '')
+    return { slug: filename.replace('.md', ''), ...data, date }
   }).sort((a, b) => new Date(b.date) - new Date(a.date))
 }
 
