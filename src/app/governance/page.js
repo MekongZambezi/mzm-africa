@@ -3,16 +3,15 @@ import PageHero, { SectionLabel } from '../../components/PageHero'
 
 export const metadata = {
   title: 'Governance and Ethics | MZM Africa',
-  description: 'MZM governance standards: mandate review, anti-corruption rules, sanctions and anti-money-laundering screening, conflicts of interest and fee disclosure.',
+  description: 'MZM governance standards: mandate review, dealing with officials, conflicts of interest and fee disclosure.',
 }
 
 const checks = [
   ['Verification', 'Title, documents and counterparty identity pass our verification standard.'],
-  ['Regulatory fit', 'The structure complies with current Zimbabwean law and sector policy.'],
+  ['Regulatory fit', 'The structure complies with current Zimbabwean law and sector policy, including the sectors reserved for Zimbabwean citizens.'],
   ['Conflict check', 'No MZM team member or related business holds an undisclosed interest.'],
   ['Fee letter', 'Fees are agreed in writing and disclosed to all parties.'],
   ['Registration', 'Foreign investment is registered with the Zimbabwe Investment and Development Agency from the outset.'],
-  ['Sanctions and anti-money-laundering', 'Counterparties, beneficial owners and political contacts are screened, and investor source of funds is documented.'],
 ]
 
 const officials = [
@@ -35,8 +34,8 @@ export default function Governance() {
       <section className="py-24 bg-[#080C14]">
         <div className="max-w-7xl mx-auto px-6">
           <SectionLabel>Mandate Review</SectionLabel>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold mb-4">Six checks <span className="text-[#C4A04A] italic">before any mandate.</span></h2>
-          <p className="text-gray-400 font-light max-w-2xl mb-12">No mandate is accepted until the Managing Director and the practice lead have confirmed all six.</p>
+          <h2 className="font-serif text-4xl md:text-5xl font-bold mb-4">Five checks <span className="text-[#C4A04A] italic">before any mandate.</span></h2>
+          <p className="text-gray-400 font-light max-w-2xl mb-12">No mandate is accepted until the Managing Director and the practice lead have confirmed all five.</p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-white/10 border border-white/10">
             {checks.map(([title, body], i) => (
               <div key={title} className="bg-[#080C14] p-8">
@@ -71,8 +70,8 @@ export default function Governance() {
       <section className="py-24 bg-[#080C14]">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
           {[
-            ['Sanctions', 'Every counterparty, its beneficial owners and any political figure involved in a transaction are screened against international sanctions lists before engagement. A match ends the engagement.'],
-            ['Anti-money-laundering', 'MZM keeps an identification file on every party and documents the source of investor funds. Payments move only through recognised banking channels.'],
+            ['Official channels', 'Investment is registered with ZIDA, minerals are sold through Zimbabwe’s official marketing channels, and exports follow ZimTrade and customs procedures. MZM does not offer routes around them.'],
+            ['Conflicts of interest', 'Any interest an MZM team member or related business holds in a transaction is disclosed in writing to all parties before work begins.'],
             ['Corporate structure', 'MZM is a Zimbabwe-registered firm headquartered in Bulawayo, with an Asia desk in Hanoi. Fees are invoiced only through MZM’s registered company accounts.'],
           ].map(([title, body]) => (
             <div key={title}>

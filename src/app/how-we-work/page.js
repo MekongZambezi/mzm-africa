@@ -9,7 +9,7 @@ export const metadata = {
 const steps = [
   ['01', 'Originate', 'Our Zimbabwe desk identifies projects; our Asia desk identifies investors, buyers and suppliers. Every lead is logged in a single pipeline.'],
   ['02', 'Screen', 'Title, documents and counterparties are checked against our verification standard. Opportunities that fail are closed and never shown to an investor.'],
-  ['03', 'Mandate review', 'Senior review against six checks: verification, regulatory fit, conflicts, a signed fee letter, investment registration, and sanctions and anti-money-laundering screening.'],
+  ['03', 'Mandate review', 'Senior review against five checks: verification, regulatory fit, conflicts of interest, a signed fee letter, and investment registration with ZIDA.'],
   ['04', 'Package', 'An investor-ready document set: summary, verified data, regulatory position and proposed structure.'],
   ['05', 'Match', 'The package is presented to pre-qualified counterparties under a non-disclosure agreement.'],
   ['06', 'Structure and approve', 'Terms are negotiated and the required registrations and ministry approvals are managed with licensed counsel.'],
@@ -18,9 +18,9 @@ const steps = [
 
 const standard = [
   ['Title and documents', 'Ownership, registration and permits verified with the relevant registry before any introduction.'],
-  ['Counterparty identity', 'Beneficial owners identified for every company we work with.'],
-  ['Sanctions screening', 'Every counterparty and every political contact is screened against international sanctions lists.'],
-  ['Source of funds', 'Investor funds documented in line with anti-money-laundering requirements.'],
+  ['Counterparty identity', 'Company registration, directors and authority to transact confirmed for every party we introduce.'],
+  ['Reserved sectors', 'Structures respect the sectors reserved for Zimbabwean citizens, with foreign participation only where the law allows it.'],
+  ['Official channels', 'Licensing, mineral sales and exports run through the institutions that govern them.'],
   ['Regulatory fit', 'Each structure is checked against current Zimbabwean law and policy before investors are quoted.'],
 ]
 
@@ -108,7 +108,7 @@ export default function HowWeWork() {
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
           <div>
             <h2 className="font-serif text-3xl font-bold mb-2">Read our governance standards.</h2>
-            <p className="text-gray-400 font-light">How MZM deals with officials, conflicts, sanctions and anti-money-laundering requirements.</p>
+            <p className="text-gray-400 font-light">How MZM deals with officials, conflicts of interest and fee disclosure.</p>
           </div>
           <Link href="/governance" className="shrink-0 bg-[#C4A04A] text-[#080C14] text-xs font-black tracking-widest uppercase px-10 py-4 hover:bg-[#E0CA8E] transition-colors">
             Governance and Ethics

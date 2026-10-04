@@ -20,22 +20,47 @@ const STATUS = {
 }
 
 const products = [
-  { title: 'Tobacco', status: 'now', image: '/images/product-tobacco.jpg', alt: 'Cured tobacco leaves', body: 'Flue-cured Virginia leaf from Zimbabwean growers and merchants. Tobacco is already the main product traded between the two countries.' },
+  { title: 'Tobacco', status: 'now', image: '/images/product-tobacco.jpg', alt: 'Cured tobacco leaves', body: 'Flue-cured Virginia leaf supplied through licensed Zimbabwean merchants. Tobacco is already the main product Zimbabwe sells to Vietnam.' },
   { title: 'Processed and Shelf-Stable Foods', status: 'open', image: '/images/product-foods.jpg', alt: 'Dried fruit and nuts', body: 'Dried fruit, nuts, juice concentrates, tea and coffee. Import requirements are confirmed product by product before any supply commitment.' },
   { title: 'Fresh Fruit', status: 'access', image: '/images/product-fruit.jpg', alt: 'Blueberries growing on the bush', body: 'Blueberries, citrus and avocados. Fresh fruit can be supplied once Vietnam approves import access for each fruit through its plant health process.' },
-  { title: 'Processed Minerals', status: 'open', image: '/images/product-minerals.jpg', alt: 'Rolled steel products', body: 'Ferrochrome and other processed metals from licensed Zimbabwean producers, handled with our Mining and Beneficiation practice.' },
+  { title: 'Processed Minerals', status: 'open', image: '/images/product-minerals.jpg', alt: 'Rolled steel products', body: 'Ferrochrome and other processed metals from licensed producers, sold through Zimbabwe’s official mineral marketing channels.' },
+]
+
+const moreProducts = [
+  ['Cotton lint', 'For spinning mills. Vietnam’s textile industry imports most of the cotton it uses.'],
+  ['Leather and hides', 'Raw hides and finished leather for footwear and leather goods manufacturers.'],
+  ['Macadamia and other nuts', 'In-shell and processed nuts for Asian processors and food importers.'],
+]
+
+const zimPriorities = [
+  ['Investment', 'National Development Strategy 2 (2026 to 2030) and the National Industrial Development Policy II call for investment in value addition, agro-processing and mineral beneficiation.'],
+  ['Export markets', 'Export earnings are concentrated in a few minerals and a few buyers. ZimTrade and the Horticulture Recovery and Growth Plan prioritise new markets for agricultural and manufactured goods.'],
+]
+
+const vnPriorities = [
+  ['Investing abroad', 'The GoGlobal Programme (Decision 626/QD-TTg, 2026), led by the Ministry of Industry and Trade, supports Vietnamese firms investing abroad in agro-processing, textiles, leather and manufacturing, and names Africa as a potential market.'],
+  ['Raw materials', 'Vietnam’s processing industries import large volumes of cotton, tobacco and other agricultural raw materials.'],
+]
+
+const institutions = [
+  ['ZIDA', 'Zimbabwe Investment and Development Agency', 'Investment licences, Special Economic Zone permits and investor registration.'],
+  ['ZimTrade', 'National trade development and promotion agency', 'Export development, market information and buyer programmes.'],
+  ['MMCZ', 'Minerals Marketing Corporation of Zimbabwe', 'Marketing and sale of minerals other than gold and silver.'],
+  ['Fidelity Gold Refinery', 'Gold buying and refining', 'Sale of all gold produced in Zimbabwe.'],
+  ['ZERA', 'Zimbabwe Energy Regulatory Authority', 'Licensing and registration of power generation.'],
+  ['Sector ministries', 'Mines, Agriculture, Industry and Commerce, Energy, Tourism', 'Sector permits, policy approvals and reserved-sector rules.'],
 ]
 
 const exportSteps = [
   ['01', 'Verify the producer', 'Registration, capacity, quality and certification checked in Zimbabwe.'],
   ['02', 'Match the buyer', 'Introductions to Vietnamese importers and processors through our Hanoi desk.'],
   ['03', 'Meet import rules', 'Plant health certificates, product standards and customs documents prepared in advance.'],
-  ['04', 'Ship and settle', 'Pre-shipment inspection and payment through recognised banking channels.'],
+  ['04', 'Ship and settle', 'Pre-shipment inspection, licensed clearing agents, and payment through recognised banking channels.'],
 ]
 
 const flows = {
   into: ['Investment capital for processing and agro-industry', 'Equipment, machinery and solar technology', 'Processing and supply-chain expertise', 'Clean mobility for tourism destinations'],
-  out: ['Tobacco, horticulture and agricultural produce', 'Processed minerals and metals', 'Verified investment opportunities', 'Access to Southern African markets'],
+  out: ['Tobacco, cotton and horticultural produce', 'Leather, nuts and processed foods', 'Processed minerals and metals', 'Verified investment opportunities'],
 }
 
 const Arrow = () => (
@@ -92,6 +117,29 @@ export default function Corridor() {
         </div>
       </section>
 
+
+      {/* POLICY FIT */}
+      <section className="py-24 bg-[#080C14]">
+        <div className="max-w-7xl mx-auto px-6">
+          <SectionLabel>Why the Corridor Works</SectionLabel>
+          <h2 className="font-serif text-4xl md:text-5xl font-bold mb-4">Two sets of national priorities <span className="text-[#C4A04A] italic">that point the same way.</span></h2>
+          <p className="text-gray-400 font-light max-w-3xl mb-12 leading-relaxed">Zimbabwe wants investment in value addition and new markets for its exports. Vietnam wants its companies to invest abroad and needs raw materials for its processing industries. The Corridor serves both.</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {[['Zimbabwe', zimPriorities], ['Vietnam', vnPriorities]].map(([country, items]) => (
+              <div key={country} className="border border-white/10 bg-[#0A0E18] p-10">
+                <h3 className="font-serif text-3xl font-semibold mb-6 text-[#C4A04A]">{country}</h3>
+                {items.map(([title, body]) => (
+                  <div key={title} className="py-5 border-t border-white/10">
+                    <div className="text-[10px] font-black tracking-widest uppercase text-gray-400 mb-2">{title}</div>
+                    <p className="text-gray-200 font-light leading-relaxed">{body}</p>
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* EXPORT AND MARKET ACCESS */}
       <section id="source" className="py-24 bg-[#080C14] scroll-mt-20">
         <div className="max-w-7xl mx-auto px-6">
@@ -112,6 +160,16 @@ export default function Corridor() {
                   <p className="text-gray-400 text-sm font-light leading-relaxed">{p.body}</p>
                 </div>
               </article>
+            ))}
+          </div>
+
+          <div className="mt-5 grid grid-cols-1 md:grid-cols-3 gap-px bg-white/10 border border-white/10">
+            {moreProducts.map(([title, body]) => (
+              <div key={title} className="bg-[#0A0E18] p-6">
+                <span className={`inline-block text-[10px] font-black tracking-widest uppercase px-3 py-1 mb-3 ${STATUS.open.cls}`}>{STATUS.open.label}</span>
+                <h3 className="font-serif text-xl font-semibold mb-2">{title}</h3>
+                <p className="text-gray-400 text-sm font-light leading-relaxed">{body}</p>
+              </div>
             ))}
           </div>
 
@@ -146,6 +204,25 @@ export default function Corridor() {
                 </span>
                 <span className="text-gray-400 font-light text-sm md:max-w-md md:text-right">{p.summary}</span>
               </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+
+      {/* INSTITUTIONS */}
+      <section className="py-24 bg-[#080C14] border-t border-white/8">
+        <div className="max-w-7xl mx-auto px-6">
+          <SectionLabel>Official Channels</SectionLabel>
+          <h2 className="font-serif text-4xl md:text-5xl font-bold mb-4">The institutions <span className="text-[#C4A04A] italic">every deal runs through.</span></h2>
+          <p className="text-gray-400 font-light max-w-3xl mb-12 leading-relaxed">MZM does not offer routes around Zimbabwe’s institutions. Every investment, mineral sale and export follows the official channel for it, and we prepare our clients for each one.</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-white/10 border border-white/10">
+            {institutions.map(([abbr, name, role]) => (
+              <div key={abbr} className="bg-[#080C14] p-8">
+                <div className="font-serif text-2xl font-bold text-[#C4A04A] mb-1">{abbr}</div>
+                <div className="text-gray-400 text-xs font-medium mb-4">{name}</div>
+                <p className="text-gray-200 text-sm font-light leading-relaxed">{role}</p>
+              </div>
             ))}
           </div>
         </div>

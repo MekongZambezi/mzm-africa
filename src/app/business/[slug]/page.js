@@ -54,6 +54,26 @@ export default function PracticePage({ params }) {
         </div>
       </section>
 
+      <section className="py-20 bg-[#0A0E18] border-t border-white/8">
+        <div className="max-w-7xl mx-auto px-6">
+          <SectionLabel>Policy Alignment</SectionLabel>
+          <h2 className="font-serif text-4xl font-bold mb-10 leading-tight">Where both countries' <span className="text-[#C4A04A] italic">priorities meet.</span></h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-white/10 border border-white/10">
+            {[['What Zimbabwe is prioritising', p.zimbabwe, 'Bulawayo'], ['What Vietnam is prioritising', p.vietnam, 'Hanoi']].map(([title, items, city]) => (
+              <div key={title} className="bg-[#080C14] p-8">
+                <div className="text-[10px] font-black tracking-widest uppercase text-gray-500 mb-2">{city}</div>
+                <h3 className="font-serif text-2xl font-semibold mb-5 text-[#C4A04A]">{title}</h3>
+                <ul className="space-y-3">
+                  {items.map((it) => (
+                    <li key={it} className="flex gap-3 text-sm text-gray-200 font-light leading-relaxed"><span className="text-[#C4A04A] shrink-0">—</span>{it}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="py-16 bg-[#0A0E18] border-y border-white/8">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
