@@ -1,10 +1,15 @@
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
-import { remark } from 'remark'
-import html from 'remark-html'
+import { markdownToHtml } from '../../../lib/markdown'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
+
+function formatDate(d) {
+  const date = new Date(`${d}T00:00:00Z`)
+  if (isNaN(date)) return d
+  return date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' })
+}
 
 async function getPost(slug) {
   const filePath = path.join(process.cwd(), 'content/news', `${slug}.md`)
@@ -12,8 +17,26 @@ async function getPost(slug) {
   const raw = fs.readFileSync(filePath, 'utf8')
   const { data, content } = matter(raw)
   if (data.date instanceof Date) data.date = data.date.toISOString().slice(0, 10)
-  const processed = await remark().use(html).process(content)
-  return { ...data, slug, contentHtml: processed.toString() }
+  const contentHtml = await markdownToHtml(content)
+  return { ...data, slug, contentHtml }
+}
+
+// Build every article at deploy time, so a broken article or chart fails the
+// build (and the live site stays as it was) instead of failing for visitors.
+export function generateStaticParams() {
+  const dir = path.join(process.cwd(), 'content/news')
+  if (!fs.existsSync(dir)) return []
+  return fs.readdirSync(dir).filter((f) => f.endsWith('.md')).map((f) => ({ slug: f.replace(/\.md$/, '') }))
+}
+
+export async function generateMetadata({ params }) {
+  const post = await getPost(params.slug)
+  if (!post) return {}
+  return {
+    title: `${post.title} | MZM Africa`,
+    description: post.excerpt,
+    openGraph: { title: post.title, description: post.excerpt, type: 'article', images: post.image ? [post.image] : [] },
+  }
 }
 
 export default async function NewsPost({ params }) {
@@ -30,15 +53,14 @@ export default async function NewsPost({ params }) {
           </Link>
           <div className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase mb-3">{post.category || 'Update'}</div>
           <h1 className="font-serif text-4xl md:text-5xl font-bold leading-tight mb-4">{post.title}</h1>
-          <div className="text-gray-500 text-sm">{post.date}</div>
+          <div className="text-gray-500 text-sm">{formatDate(post.date)}</div>
         </div>
       </section>
 
       <section className="py-16 bg-[#080C14]">
         <div className="max-w-3xl mx-auto px-6">
           <div
-            className="prose prose-invert prose-gold max-w-none text-gray-300 font-light leading-relaxed"
-            style={{ fontFamily: 'Mulish, sans-serif' }}
+            className="article-body"
             dangerouslySetInnerHTML={{ __html: post.contentHtml }}
           />
         </div>

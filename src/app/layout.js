@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import { LanguageProvider } from '../context/LanguageContext'
 
 export const metadata = {
+  metadataBase: new URL('https://mzmafrica.com'),
   title: 'MZM Africa | Mekong Zambezi Meridian Consultants',
   description: "Zimbabwe's youth-owned mining facilitation and beneficiation advisory firm connecting Africa's mineral wealth with Southeast Asian capital.",
 }
