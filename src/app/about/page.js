@@ -65,8 +65,8 @@ export default function About() {
           </div>
           <div className="border border-white/10 rounded-sm bg-[#121826]">
             {[
-              ['Zimbabwe-Registered and Compliant', 'Incorporated in Zimbabwe, with direct working relationships across the Ministry of Mines, MMCZ, and FGR. Not a foreign firm claiming access, but a Zimbabwean firm that holds it.'],
-              ['Structure First', 'The SPV, escrow, title verification, shareholder agreement, and CAPEX model are complete before the investor call. You arrive at a deal, not a prospect.'],
+              ['Zimbabwe-Registered and Compliant', 'Incorporated in Zimbabwe and experienced in the procedures of the Ministry of Mines, MMCZ, Fidelity Gold Refinery and ZIDA. Every engagement runs through official channels.'],
+              ['Structure First', 'Title verification, the compliant ownership model, the shareholder framework and the capital model are prepared before investors are introduced.'],
               ['Hanoi Commercial Base', 'An operational presence in Vietnam, with direct access to Vietnamese and Chinese OEM equipment networks and the Asian investor community allocating capital to African minerals.'],
               ['Compliant by Design', 'Every deal is built to comply with Zimbabwe\'s beneficiation mandate and the Critical Minerals framework from day one. That structural discipline keeps investor capital clear of regulatory risk.'],
             ].map(([title, desc]) => (
@@ -179,8 +179,8 @@ export default function About() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              ['01', 'Deal Structuring', 'MZM builds the legal and commercial framework, including the SPV, escrow, title verification, and shareholder agreement, before approaching investors. Every deal presented has been through this process.'],
-              ['02', 'Regulatory Navigation', 'MZM manages the Ministry of Mines approval process, MMCZ registration, ZiMRA compliance, and the Critical Minerals SPV requirement on behalf of investors. Working relationships, not contacts on a list.'],
+              ['01', 'Deal Structuring', 'MZM prepares the legal and commercial framework, including title verification, the ownership structure, escrow and the shareholder framework, before approaching investors. Every opportunity presented has been through this process.'],
+              ['02', 'Regulatory Navigation', 'MZM manages the Ministry of Mines approval process, MMCZ registration, ZIMRA compliance, and the Critical Minerals SPV requirement on behalf of investors, through official procedures and with licensed counsel.'],
               ['03', 'Capital and Equipment Bridge', 'MZM connects Zimbabwean projects to Vietnamese and Chinese OEM equipment networks and the Asian investor community. A geographic and relational advantage built over time, not sourced from a directory.'],
             ].map(([num, title, desc]) => (
               <div key={title}>
@@ -210,7 +210,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
             {[
               ['Headquarters', 'Bulawayo, Zimbabwe', 'Project origination, field verification, regulatory approvals and delivery on the ground.', '/images/zimbabwe-landscape.jpg', 'Grassland and hills in Zimbabwe'],
-              ['Asia Desk', 'Hanoi, Vietnam', 'Investor, buyer and supplier relationships across Vietnam and Southeast Asia, in English and Vietnamese.', '/images/hanoi.jpg', 'Lake and skyline in Hanoi'],
+              ['Asia Desk', 'Hanoi, Vietnam', 'Investor, buyer and supplier relationships across Vietnam and Southeast Asia.', '/images/hanoi.jpg', 'Lake and skyline in Hanoi'],
             ].map(([kind, city, desc, img, alt]) => (
               <div key={city} className="border border-white/10 bg-[#121826]">
                 <div className="aspect-[16/9] overflow-hidden"><img src={img} alt={alt} className="w-full h-full object-cover" /></div>

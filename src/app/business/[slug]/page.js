@@ -93,7 +93,7 @@ export default function PracticePage({ params }) {
       <section className="py-16 bg-[#080C14]">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
           <div>
-            <h2 className="font-serif text-3xl font-bold mb-2">Discuss a {p.title.toLowerCase()} opportunity.</h2>
+            <h2 className="font-serif text-3xl font-bold mb-2">Discuss an opportunity in {p.title}.</h2>
             <p className="text-gray-400 font-light">
               Write to <a href={`mailto:${p.contact}`} className="text-[#C4A04A] hover:text-[#E0CA8E]">{p.contact}</a>. We respond within 48 hours.
             </p>

@@ -35,7 +35,7 @@ export default function Navbar() {
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-[#080C14]/95 backdrop-blur-md border-b border-white/8' : 'bg-transparent'}`}>
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
-        <Link href="/" className="flex items-center">
+        <Link href="/" className="flex items-center shrink-0">
           <img src="/images/mzm-logo.jpg" alt="MZM Africa" className="h-12 w-auto object-contain" />
         </Link>
 
@@ -47,7 +47,7 @@ export default function Navbar() {
                 {item.children && <svg className="w-3 h-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>}
               </Link>
               {item.children && (
-                <div className="absolute top-full left-0 hidden group-hover:block bg-[#0F1520] border border-white/10 min-w-[260px] shadow-2xl z-50">
+                <div className="absolute top-full left-0 hidden group-hover:block group-focus-within:block bg-[#0F1520] border border-white/10 min-w-[260px] shadow-2xl z-50">
                   {item.children.map((child) => (
                     <Link key={child.label} href={child.href} className="block px-5 py-3 text-sm text-gray-300 hover:text-[#C4A04A] hover:bg-white/5 border-b border-white/5 last:border-0 transition-colors">{child.label}</Link>
                   ))}
@@ -57,20 +57,20 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <div className="hidden xl:flex items-center gap-4">
+        <div className="hidden xl:flex items-center gap-4 shrink-0">
           <div className="flex items-center gap-1 border border-white/15 px-1 py-1">
             {Object.entries(LANG_LABELS).map(([code, label]) => (
-              <button key={code} onClick={() => switchLang(code)} className={`text-xs font-bold tracking-wider px-2 py-1 transition-colors ${lang === code ? 'bg-[#C4A04A] text-[#080C14]' : 'text-gray-500 hover:text-gray-300'}`}>
+              <button key={code} onClick={() => switchLang(code)} aria-pressed={lang === code} aria-label={code === 'vi' ? 'Tiếng Việt' : 'English'} className={`text-xs font-bold tracking-wider px-2 py-1 transition-colors ${lang === code ? 'bg-[#C4A04A] text-[#080C14]' : 'text-gray-500 hover:text-gray-300'}`}>
                 {label}
               </button>
             ))}
           </div>
-          <Link href="/contact" className="text-xs font-bold tracking-widest uppercase text-[#C4A04A] border border-[#7A6230] px-5 py-2.5 hover:bg-[#C4A04A] hover:text-[#080C14] transition-colors">
+          <Link href="/contact" className="hidden 2xl:inline-block whitespace-nowrap text-xs font-bold tracking-widest uppercase text-[#C4A04A] border border-[#7A6230] px-5 py-2.5 hover:bg-[#C4A04A] hover:text-[#080C14] transition-colors">
             {t.nav.cta}
           </Link>
         </div>
 
-        <button onClick={() => setMobileOpen(!mobileOpen)} className="xl:hidden text-white p-2">
+        <button onClick={() => setMobileOpen(!mobileOpen)} aria-label={mobileOpen ? 'Close menu' : 'Open menu'} aria-expanded={mobileOpen} className="xl:hidden text-white p-2">
           {mobileOpen
             ? <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
             : <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" /></svg>

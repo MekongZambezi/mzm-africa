@@ -6,7 +6,7 @@ export const metadata = {
 }
 
 const genuine = [
-  'MZM email comes only from addresses ending in @mzmafrica.com.',
+  'MZM email comes only from addresses ending in @mzmafrica.com. Our team may also contact you on WhatsApp, WeChat or Zalo, but documents and payment details are only ever sent from an @mzmafrica.com address.',
   'Fees are agreed in a signed fee letter before any work begins.',
   'Payments to MZM are made only to MZM’s registered company bank accounts, never to a personal account.',
   'MZM never asks for payment to release documents, reserve a claim, or secure access to officials.',

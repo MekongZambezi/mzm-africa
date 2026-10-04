@@ -12,9 +12,9 @@ const activeMinerals = [
     statusColor: 'bg-green-900/40 text-green-400',
     grade: 'Chrome Concentrate',
     region: 'Zimbabwe',
-    body: "Zimbabwe holds one of the world's most significant chromite endowments, and the February 2026 raw mineral export regulations redirected unbeneficiated ore to domestic processing, creating structural demand for wash plant and concentrator investment. MZM's chrome mandate is live: title verified, assay confirmed, CAPEX modelled, and SPV structure in place. Project specifics, including location, grade data and financial models, are disclosed to qualified investors under NDA.",
+    body: "Zimbabwe holds one of the world's most significant chromite endowments, and the February 2026 raw mineral export regulations redirected unbeneficiated ore to domestic processing, creating structural demand for wash plant and concentrator investment. MZM's chrome mandate is live: title verified, assay confirmed, CAPEX modelled, and the compliant ownership structure prepared. Project specifics, including location, grade data and financial models, are disclosed to qualified investors under NDA.",
     keyFacts: [
-      'SPV structured and title verified',
+      'Title verified and ownership structure prepared',
       'Independent assay confirmed',
       'CAPEX model complete',
       'Domestic beneficiation and export offtake routes established',
@@ -34,9 +34,9 @@ const activeMinerals = [
     region: 'Zimbabwe',
     body: "Zimbabwe holds the largest lithium deposits in Africa, and Asian demand for battery-grade lithium products is structurally outpacing supply. MZM's lithium mandate is live and structured for compliant foreign investment under the Critical Minerals framework: title verified, CAPEX confirmed, and State SPV co-investment accounted for. Project specifics, including location, resource data and financial models, are disclosed to qualified investors under NDA.",
     keyFacts: [
-      'SPV structured and title verified',
+      'Title verified and ownership structure prepared',
       'CAPEX model complete',
-      'State SPV co-investment structured and accounted for',
+      'State SPV participation built into the proposed structure',
       'Asian battery supply chain: primary offtake market',
       'Full project detail available under NDA',
     ],
@@ -52,11 +52,11 @@ const activeMinerals = [
     statusColor: 'bg-green-900/40 text-green-400',
     grade: 'Large-Scale Structures Only',
     region: 'Zimbabwe',
-    body: "Gold is declared a Strategic Mineral under the May 2026 instruments. Following the Ministry of Mines policy statement of 22 May 2026, the small and medium scale gold mining sector is reserved exclusively for Zimbabwean citizens and wholly Zimbabwean-owned entities. Foreign participation is legally permissible only in large-scale operations exceeding the prescribed production and capital thresholds. MZM's gold mandate is live and structured on that basis: SPV structured, title verified, CAPEX confirmed. Project specifics are disclosed to qualified investors under NDA.",
+    body: "Gold is declared a Strategic Mineral under the May 2026 instruments. Following the Ministry of Mines policy statement of 22 May 2026, the small and medium scale gold mining sector is reserved exclusively for Zimbabwean citizens and wholly Zimbabwean-owned entities. Foreign participation is legally permissible only in large-scale operations exceeding the prescribed production and capital thresholds. MZM's gold mandate is live and structured on that basis: title verified, structure and capital model prepared. Project specifics are disclosed to qualified investors under NDA.",
     keyFacts: [
       'Small and medium scale gold: reserved for Zimbabwean citizens',
       'Foreign participation: large-scale operations only',
-      'SPV structured, title verified, CAPEX confirmed',
+      'Title verified, structure and capital model prepared',
       'All gold marketing through Fidelity Gold Refinery, mandatory',
       'Full project detail available under NDA',
     ],
@@ -129,7 +129,7 @@ export default function Minerals() {
             <span className="text-[#C4A04A] italic">Structured. Verified. Compliant.</span>
           </h1>
           <p className="text-gray-400 font-light max-w-2xl text-lg leading-relaxed">
-            MZM's mandate covers chrome, lithium, gold, copper and quartz, with further minerals structured on investor request. Every mandate is built under Zimbabwe's current regulatory framework. Status, legal classification, and investor eligibility are stated plainly for each commodity.
+            MZM's mandate covers chrome, lithium, gold, copper and quartz, with further minerals structured on investor request. Every mandate is built under Zimbabwe's current regulatory framework. Status, legal classification, and investor eligibility are stated plainly for each commodity. Artisanal and small-scale mining, granite mining and quarrying are reserved for Zimbabwean citizens; foreign participation is structured only where the law allows it.
           </p>
           <div className="mt-8 flex flex-wrap gap-6">
             <Link href="/services" className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase border border-[#C4A04A]/40 px-6 py-3 hover:bg-[#C4A04A]/10 transition-colors">Mining Services</Link>

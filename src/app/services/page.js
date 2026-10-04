@@ -6,8 +6,8 @@ const services = [
     id: 'facilitation',
     num: '01',
     title: 'Investment Facilitation',
-    lead: 'Connecting qualified investors with verified Zimbabwean mineral assets — structured before the conversation starts.',
-    body: "MZM identifies, verifies, and structures investment opportunities in Zimbabwe's chrome, lithium, and critical minerals sector. The SPV, escrow arrangement, title verification, shareholder agreement, and financial model are in place before an investor is approached. You arrive at a deal, not a discussion about whether one is possible.",
+    lead: 'Connecting qualified investors with verified Zimbabwean mineral assets, with the structure prepared before introductions.',
+    body: "MZM identifies, verifies, and structures investment opportunities in Zimbabwe's chrome, lithium, and critical minerals sector. Title verification, the compliant ownership model, the escrow arrangement, the shareholder framework and the financial model are prepared before an investor is approached, so discussions begin from a defined proposal.",
     deliverables: [
       'SPV formation structured under Zimbabwe\'s Critical Minerals framework',
       'Escrow-controlled claim transfer through registered mining lawyers',

@@ -29,7 +29,7 @@ export const practices = [
       "Agriculture is one of the main anchors of Zimbabwe's economy and the basis of today's trade with Vietnam. MZM works in both directions: Asian capital and equipment into processing, and Zimbabwean produce to Asian buyers.",
     context: [
       "Zimbabwe's National Development Strategy 2 (2026 to 2030) prioritises agricultural productivity and sustainable agro-processing value chains.",
-      'The Horticulture Recovery and Growth Plan targets a US$2 billion horticulture industry by 2030, with export competitiveness as a stated goal.',
+      'The Horticulture Recovery and Growth Plan sets out to grow the horticulture industry substantially by 2030, with export competitiveness as a stated goal.',
       'Tobacco is already the main product Zimbabwe sells to Vietnam, and Vietnam’s textile industry is a large importer of cotton.',
     ],
     zimbabwe: [
@@ -78,7 +78,7 @@ export const practices = [
     ],
     vietnam: [
       'Leading solar panel manufacturing and export base',
-      'Energy generation the largest sector of Vietnamese outbound investment in early 2026',
+      'Energy generation among the leading sectors of recent Vietnamese outbound investment',
     ],
     services: [
       'Captive solar and storage sourcing for mining and agro-processing clients',
@@ -104,7 +104,7 @@ export const practices = [
     lead:
       "Industrialisation and value addition sit at the centre of Zimbabwe's development strategy, and Vietnam's GoGlobal programme names the same industries for its firms abroad. MZM helps Asian manufacturers assess, license and establish operations in Zimbabwe.",
     context: [
-      'The National Industrial Development Policy II (2026 to 2030) aims to raise manufactured exports from US$400 million to US$1 billion across 16 priority value chains.',
+      'The National Industrial Development Policy II (2026 to 2030) aims to more than double manufactured exports across 16 priority value chains.',
       'Cabinet approved the Integrated Provincial Special Economic Zones framework in May 2026, with zones matched to each province’s strengths.',
       'Investors in Special Economic Zones and industrial parks can access tax and customs incentives under the ZIDA Act.',
     ],

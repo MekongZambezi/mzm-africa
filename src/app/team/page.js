@@ -4,8 +4,8 @@ const team = [
   {
     initials: 'AM',
     name: 'Andy Moyo',
-    role: 'Director & Managing Partner',
-    location: 'Harare, Zimbabwe',
+    role: 'Managing Director',
+    location: 'Hanoi, Vietnam',
     bio: 'Andy Moyo is a Zimbabwean minerals commercialisation specialist and founder of MZM Consultants. He specialises in SPV structuring, asset due diligence, and cross-border deal facilitation across Zimbabwe\'s critical minerals sector. Operating between Zimbabwe and Asia, he directs the firm\'s investment facilitation and regulatory compliance operations, serving Asian capital networks seeking structured, legally compliant entry into Zimbabwe\'s chrome, lithium, and platinum group metals market.',
   },
   {

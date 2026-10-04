@@ -26,6 +26,8 @@ export default function Home() {
           muted
           loop
           playsInline
+          preload="metadata"
+          poster="/images/hero-poster.jpg"
           className="absolute inset-0 w-full h-full object-cover"
         >
           <source src="/images/hero-video.mp4" type="video/mp4" />
@@ -176,7 +178,7 @@ export default function Home() {
               {
                 num: '01',
                 title: 'Structure before investors',
-                body: 'Most brokers find interest then build structure. MZM builds structure then finds investors. The SPV, escrow arrangement, title verification, shareholder agreement, and financial model are done before the first investor conversation. When you engage MZM, you are looking at a deal, not a discussion about whether one is possible.',
+                body: 'Most brokers find interest first and look for a structure afterwards. MZM works the other way. Title verification, the compliant ownership model, the shareholder framework and the financial model are prepared before investors are introduced, so every discussion starts from a defined proposal.',
               },
               {
                 num: '02',
@@ -185,8 +187,8 @@ export default function Home() {
               },
               {
                 num: '03',
-                title: 'Working relationships, not directory entries',
-                body: "MZM's relationships with Zimbabwe's Ministry of Mines, MMCZ, and FGR are operational. When a deal requires ministry sign-off, an export permit, or a regulatory clearance, MZM navigates that directly. This is what separates a firm that understands Zimbabwe from one that claims to.",
+                title: 'Official channels, managed properly',
+                body: "Ministry of Mines approvals, MMCZ registration, Fidelity Gold Refinery sales and ZIDA licensing each follow a defined procedure. MZM prepares the filings, manages each process with licensed counsel, and keeps investors informed at every step. MZM offers no route around these institutions.",
               },
             ].map((claim) => (
               <div key={claim.num} className="bg-[#080C14] p-10 hover:bg-[#0D1320] transition-colors border-t-2 border-transparent hover:border-[#C4A04A]">
@@ -195,28 +197,6 @@ export default function Home() {
                 <p className="text-gray-400 font-light leading-relaxed text-sm">{claim.body}</p>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* MID-PAGE CTA */}
-      <section className="py-16 bg-[#0A0E18] border-y border-white/10">
-        <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
-          <div className="max-w-2xl">
-            <h2 className="font-serif text-3xl md:text-4xl font-bold mb-3">
-              Review a mandate in detail.
-            </h2>
-            <p className="text-gray-400 font-light leading-relaxed">
-              Chrome, lithium and gold mandates, SPV established, title verified, capital model confirmed. Request an investment brief and receive a full project overview within 48 hours.
-            </p>
-          </div>
-          <div className="flex flex-col sm:flex-row gap-4 shrink-0">
-            <Link href="/contact" className="bg-[#C4A04A] text-[#080C14] text-xs font-black tracking-widest uppercase px-8 py-4 hover:bg-[#E0CA8E] transition-colors text-center">
-              Request An Investment Brief
-            </Link>
-            <Link href="/contact" className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase px-8 py-4 border border-[#C4A04A]/40 hover:bg-[#C4A04A]/10 transition-colors text-center">
-              Speak To The Team
-            </Link>
           </div>
         </div>
       </section>
@@ -307,13 +287,13 @@ export default function Home() {
                 Zimbabwe's Ministry of Mines issued two policy instruments on 22 May 2026. The small and medium scale gold mining sector is now reserved exclusively for Zimbabwean citizens and wholly Zimbabwean-owned entities. Fourteen minerals have been formally declared Critical Minerals, with mandatory State SPV co-investment now required for all exploitation.
               </p>
               <p className="text-gray-400 font-light leading-relaxed">
-                MZM's active mandates in chrome, lithium and gold are structured in full compliance with both instruments. MZM does not facilitate investment in sectors or at scales that conflict with government policy.
+                MZM's active mandates in chrome, lithium and gold are structured in full compliance with both instruments. MZM does not facilitate investment in sectors or at scales that conflict with government policy. Artisanal and small-scale mining is reserved for Zimbabwean citizens, so foreign participation is structured only in large-scale operations and in processing.
               </p>
             </div>
             <div className="space-y-0 border border-white/10">
               {[
-                ['Chrome', 'Active. Investor-ready. Declared Critical Mineral. SPV structured, title verified, CAPEX confirmed.'],
-                ['Lithium', 'Active. Investor-ready. Declared Critical Mineral. SPV structured, title verified, CAPEX confirmed.'],
+                ['Chrome', 'Active. Investor-ready. Declared Critical Mineral. Title verified, structure and capital model prepared.'],
+                ['Lithium', 'Active. Investor-ready. Declared Critical Mineral. Title verified, structure and capital model prepared.'],
                 ['Gold', 'Active. Declared Strategic Mineral. Foreign participation restricted to large-scale operations above 20kg per month and USD 15M capital. MZM structures large-scale entry only.'],
                 ['Copper', 'Declared Critical Mineral. Pipeline, under commercial evaluation.'],
                 ['Quartz', 'Under commercial and market assessment. Pipeline, recently added to MZM\'s mandate.'],

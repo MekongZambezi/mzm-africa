@@ -46,7 +46,7 @@ export default function Contact() {
               <span className="text-[#C4A04A] italic">an opportunity?</span>
             </h2>
             <p className="text-gray-300 font-light text-lg leading-relaxed mb-10">
-              Whether you&apos;re an investor, project owner, buyer, supplier or producer, we&apos;d like to hear from you. We respond within 48 hours, in English or Vietnamese.
+              Whether you&apos;re an investor, project owner, buyer, supplier or producer, we&apos;d like to hear from you. We respond within 48 hours.
             </p>
 
             <div className="space-y-6">

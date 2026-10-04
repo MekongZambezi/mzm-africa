@@ -27,7 +27,7 @@ export const translations = {
       stats: [
         { num: '5', label: 'Investment Practices' },
         { num: '3', label: 'Active Investor-Ready Mining Mandates' },
-        { num: '2', label: 'Offices: Bulawayo and Hanoi' },
+        { num: '2', label: 'Bases: Bulawayo and Hanoi' },
         { num: '48hr', label: 'Investment Brief Turnaround' },
       ],
     },
@@ -51,7 +51,7 @@ export const translations = {
       label: 'Flagship Programme',
       heading1: 'The Zimbabwe-Vietnam Corridor.',
       heading2: 'Two directions, one team.',
-      body: 'We bring Vietnamese investment into Zimbabwe, and we take Zimbabwean products to Vietnamese buyers. Our Hanoi desk works with Vietnamese companies in their own language; our Bulawayo team handles verification, approvals and delivery on the ground.',
+      body: 'We bring Vietnamese investment into Zimbabwe, and we take Zimbabwean products to Vietnamese buyers. Our Hanoi desk works with Vietnamese companies on the ground in Vietnam; our Bulawayo team handles verification, approvals and delivery on the ground.',
       intoTitle: 'Into Zimbabwe',
       into: ['Investment capital', 'Equipment and solar technology', 'Processing expertise', 'Clean mobility'],
       outTitle: 'Into Asia',
@@ -66,7 +66,7 @@ export const translations = {
       sub: "We don't just advise. We structure deals, validate assets, and walk investors from due diligence to production.",
       learnMore: 'Learn more',
       items: [
-        { title: 'Investment Facilitation', desc: "Connecting qualified investors with vetted Zimbabwean mineral assets across the full project lifecycle. SPV structured, compliant, and investor-ready before engagement begins.", href: '/services#facilitation' },
+        { title: 'Investment Facilitation', desc: "Connecting qualified investors with vetted Zimbabwean mineral assets across the full project lifecycle. Title verified and structured for compliance before investors are introduced.", href: '/services#facilitation' },
         { title: 'Beneficiation Advisory', desc: "Technical and commercial advisory on converting raw ore to export-grade concentrate, aligned with Zimbabwe's 2026 mineral export mandate and Critical Minerals framework.", href: '/services#advisory' },
         { title: 'Commodity Trading', desc: "Structured trading of chrome, gold, copper, lithium and quartz through MMCZ-registered channels to Chinese, Vietnamese, and Asian buyers.", href: '/services#trading' },
         { title: 'Due Diligence', desc: "Independent geological, legal, and financial validation of Zimbabwean mining claims, protecting investor capital before deployment.", href: '/services#dd' },
@@ -78,9 +78,9 @@ export const translations = {
       heading2: 'Structured. Verified. Compliant.',
       viewAll: 'View full mineral portfolio',
       items: [
-        { symbol: 'Cr', name: 'Chrome', status: 'Active · Investor Ready', desc: 'Chrome concentrate for domestic beneficiation and export offtake. SPV structured, title verified, CAPEX confirmed.' },
-        { symbol: 'Li', name: 'Lithium', status: 'Active · Investor Ready', desc: 'Hard-rock lithium structured under Zimbabwe\'s Critical Minerals framework. SPV structured, title verified, CAPEX confirmed.' },
-        { symbol: 'Au', name: 'Gold', status: 'Active · Investor Ready', desc: 'Large-scale gold structures only, fully compliant with Zimbabwe\'s 2026 sector reservation policy. SPV structured, title verified, CAPEX confirmed.' },
+        { symbol: 'Cr', name: 'Chrome', status: 'Active · Investor Ready', desc: 'Chrome concentrate for domestic beneficiation and export offtake. Title verified, structure and capital model prepared.' },
+        { symbol: 'Li', name: 'Lithium', status: 'Active · Investor Ready', desc: 'Hard-rock lithium structured under Zimbabwe\'s Critical Minerals framework. Title verified, structure and capital model prepared.' },
+        { symbol: 'Au', name: 'Gold', status: 'Active · Investor Ready', desc: 'Large-scale gold structures only, fully compliant with Zimbabwe\'s 2026 sector reservation policy. Title verified, structure and capital model prepared.' },
         { symbol: 'Cu', name: 'Copper', status: 'Pipeline', desc: 'Copper opportunities under commercial evaluation, aligned with Asian refined-metal demand.' },
         { symbol: 'Qz', name: 'Quartz', status: 'Pipeline', desc: 'High-purity quartz under commercial and market assessment. Recently added to MZM\'s mandate.' },
         { symbol: '+', name: 'Other Minerals', status: 'On Request', desc: 'Whatever commodity an investor is seeking, MZM sources, verifies and structures access to it across Zimbabwe\'s declared mineral base, under the same compliant framework.' },
@@ -95,7 +95,7 @@ export const translations = {
     },
     cta: {
       heading: 'Ready to discuss a mandate?',
-      sub: 'Chrome, lithium and gold mandates, SPV established, title verified, capital model confirmed. Request an investment brief.',
+      sub: 'Chrome, lithium and gold mandates: title verified, structure and capital model prepared. Request an investment brief.',
       btn: 'Request An Investment Brief',
     },
     footer: {
@@ -134,15 +134,15 @@ export const translations = {
   vi: {
     nav: {
       home: 'Trang Chủ',
-      about: 'Về Chúng Tôi',
+      about: 'Về MZM',
       aboutSub: ['Tầm Nhìn & Sứ Mệnh', 'Câu Chuyện Của Chúng Tôi', 'Văn Phòng', 'Quản Trị & Đạo Đức'],
-      business: 'Lĩnh Vực Hoạt Động',
+      business: 'Lĩnh Vực',
       businessSub: ['Tất Cả Lĩnh Vực', 'Khai Khoáng & Chế Biến', 'Nông Nghiệp & Chế Biến Nông Sản', 'Năng Lượng', 'Sản Xuất & Khu Công Nghiệp', 'Du Lịch & Giao Thông'],
-      corridor: 'Hành Lang Hợp Tác',
+      corridor: 'Hành Lang',
       corridorSub: ['Đầu Tư Vào Zimbabwe', 'Nhập Hàng Từ Zimbabwe', 'Xuất Khẩu Sang Việt Nam'],
-      howWeWork: 'Cách Chúng Tôi Làm Việc',
+      howWeWork: 'Quy Trình',
       howWeWorkSub: ['Quy Trình Hợp Tác', 'Tiêu Chuẩn Xác Minh', 'Nguyên Tắc Phí', 'Dịch Vụ Khai Khoáng'],
-      news: 'Phân Tích & Tin Tức',
+      news: 'Tin Tức',
       team: 'Đội Ngũ',
       contact: 'Liên Hệ',
       cta: 'Liên Hệ Ngay',
@@ -158,7 +158,7 @@ export const translations = {
       stats: [
         { num: '5', label: 'Lĩnh Vực Đầu Tư' },
         { num: '3', label: 'Dự Án Khai Khoáng Sẵn Sàng Cho Nhà Đầu Tư' },
-        { num: '2', label: 'Văn Phòng: Bulawayo và Hà Nội' },
+        { num: '2', label: 'Cơ Sở: Bulawayo và Hà Nội' },
         { num: '48h', label: 'Thời Gian Phản Hồi Hồ Sơ Đầu Tư' },
       ],
     },
@@ -182,7 +182,7 @@ export const translations = {
       label: 'Chương Trình Trọng Điểm',
       heading1: 'Hành Lang Zimbabwe - Việt Nam.',
       heading2: 'Hai chiều, một đội ngũ.',
-      body: 'Chúng tôi đưa đầu tư Việt Nam vào Zimbabwe, và đưa sản phẩm Zimbabwe đến người mua Việt Nam. Văn phòng Hà Nội làm việc với doanh nghiệp Việt Nam bằng tiếng Việt; đội ngũ tại Bulawayo phụ trách xác minh, phê duyệt và triển khai tại chỗ.',
+      body: 'Chúng tôi đưa đầu tư Việt Nam vào Zimbabwe, và đưa sản phẩm Zimbabwe đến người mua Việt Nam. Văn phòng Hà Nội làm việc trực tiếp với doanh nghiệp tại Việt Nam; đội ngũ tại Bulawayo phụ trách xác minh, phê duyệt và triển khai tại chỗ.',
       intoTitle: 'Vào Zimbabwe',
       into: ['Vốn đầu tư', 'Thiết bị và công nghệ điện mặt trời', 'Kinh nghiệm chế biến', 'Giao thông sạch'],
       outTitle: 'Sang Châu Á',
@@ -197,7 +197,7 @@ export const translations = {
       sub: 'Chúng tôi không chỉ tư vấn. Chúng tôi cấu trúc giao dịch, xác nhận tài sản và đồng hành cùng nhà đầu tư từ thẩm định đến sản xuất.',
       learnMore: 'Tìm hiểu thêm',
       items: [
-        { title: 'Hỗ Trợ Đầu Tư', desc: 'Kết nối nhà đầu tư đủ tiêu chuẩn với các tài sản khoáng sản Zimbabwe đã được kiểm định. SPV được cấu trúc, tuân thủ và sẵn sàng cho nhà đầu tư trước khi tham gia.', href: '/services#facilitation' },
+        { title: 'Hỗ Trợ Đầu Tư', desc: 'Kết nối nhà đầu tư đủ tiêu chuẩn với các tài sản khoáng sản Zimbabwe đã được kiểm định. Quyền sở hữu đã xác minh và cấu trúc tuân thủ trước khi giới thiệu nhà đầu tư.', href: '/services#facilitation' },
         { title: 'Tư Vấn Chế Biến Khoáng Sản', desc: 'Tư vấn kỹ thuật và thương mại về chuyển đổi quặng thô thành tinh quặng xuất khẩu, phù hợp với lệnh xuất khẩu khoáng sản năm 2026 của Zimbabwe.', href: '/services#advisory' },
         { title: 'Giao Dịch Hàng Hóa', desc: 'Giao dịch có cấu trúc crom, vàng, đồng, lithium và thạch anh qua kênh đã đăng ký MMCZ đến người mua Trung Quốc, Việt Nam và châu Á.', href: '/services#trading' },
         { title: 'Thẩm Định Dự Án', desc: 'Xác nhận độc lập về địa chất, pháp lý và tài chính của các mỏ Zimbabwe, bảo vệ vốn nhà đầu tư trước khi triển khai.', href: '/services#dd' },
@@ -209,8 +209,8 @@ export const translations = {
       heading2: 'Được cấu trúc. Đã xác minh. Tuân thủ.',
       viewAll: 'Xem danh mục khoáng sản đầy đủ',
       items: [
-        { symbol: 'Cr', name: 'Crom', status: 'Hoạt Động · Sẵn Sàng Đầu Tư', desc: 'Tinh quặng crom phục vụ chế biến trong nước và xuất khẩu. SPV đã cấu trúc, quyền sở hữu đã xác minh, vốn đầu tư đã xác nhận.' },
-        { symbol: 'Li', name: 'Lithium', status: 'Hoạt Động · Sẵn Sàng Đầu Tư', desc: 'Lithium đá cứng được cấu trúc theo khung Khoáng Sản Quan Trọng của Zimbabwe. SPV đã cấu trúc, quyền sở hữu đã xác minh, vốn đầu tư đã xác nhận.' },
+        { symbol: 'Cr', name: 'Crom', status: 'Hoạt Động · Sẵn Sàng Đầu Tư', desc: 'Tinh quặng crom phục vụ chế biến trong nước và xuất khẩu. Quyền sở hữu đã xác minh, cấu trúc và mô hình vốn đã chuẩn bị.' },
+        { symbol: 'Li', name: 'Lithium', status: 'Hoạt Động · Sẵn Sàng Đầu Tư', desc: 'Lithium đá cứng được cấu trúc theo khung Khoáng Sản Quan Trọng của Zimbabwe. Quyền sở hữu đã xác minh, cấu trúc và mô hình vốn đã chuẩn bị.' },
         { symbol: 'Au', name: 'Vàng', status: 'Hoạt Động · Sẵn Sàng Đầu Tư', desc: 'Chỉ cấu trúc quy mô lớn, tuân thủ đầy đủ chính sách dành riêng ngành vàng năm 2026 của Zimbabwe.' },
         { symbol: 'Cu', name: 'Đồng', status: 'Trong Kế Hoạch', desc: 'Cơ hội đồng đang được đánh giá thương mại, phù hợp với nhu cầu kim loại tinh luyện tại châu Á.' },
         { symbol: 'Qz', name: 'Thạch Anh', status: 'Trong Kế Hoạch', desc: 'Thạch anh độ tinh khiết cao đang được đánh giá thương mại và thị trường. Mới được bổ sung vào danh mục của MZM.' },
@@ -226,7 +226,7 @@ export const translations = {
     },
     cta: {
       heading: 'Sẵn sàng trao đổi về một dự án?',
-      sub: 'Các dự án crom, lithium và vàng: SPV đã thành lập, quyền sở hữu đã xác minh, mô hình vốn đã xác nhận.',
+      sub: 'Các dự án crom, lithium và vàng: quyền sở hữu đã xác minh, cấu trúc và mô hình vốn đã chuẩn bị.',
       btn: 'Yêu Cầu Hồ Sơ Đầu Tư',
     },
     footer: {
@@ -289,7 +289,7 @@ export const translations = {
       stats: [
         { num: '5', label: '投资业务领域' },
         { num: '3', label: '已就绪的矿业投资项目' },
-        { num: '2', label: '办公室：布拉瓦约与河内' },
+        { num: '2', label: '业务基地：布拉瓦约与河内' },
         { num: '48小时', label: '投资简报响应时间' },
       ],
     },
@@ -313,7 +313,7 @@ export const translations = {
       label: '旗舰项目',
       heading1: '津巴布韦-越南合作走廊。',
       heading2: '双向流通，一个团队。',
-      body: '我们将越南投资引入津巴布韦，并将津巴布韦产品带给越南买家。河内业务部以越南语与越南企业合作；布拉瓦约团队负责当地的核实、审批与落地执行。',
+      body: '我们将越南投资引入津巴布韦，并将津巴布韦产品带给越南买家。河内业务部在越南当地与越南企业直接合作；布拉瓦约团队负责当地的核实、审批与落地执行。',
       intoTitle: '进入津巴布韦',
       into: ['投资资本', '设备与光伏技术', '加工经验', '清洁出行'],
       outTitle: '进入亚洲',
@@ -328,7 +328,7 @@ export const translations = {
       sub: '我们不只是提供建议。我们构建交易结构、验证资产，并全程陪伴投资者从尽职调查到投产。',
       learnMore: '了解更多',
       items: [
-        { title: '投资促进', desc: '将合格投资者与经过严格筛选的津巴布韦矿产资产对接。SPV架构完备、合规到位，在接触前即已准备好迎接投资者。', href: '/services#facilitation' },
+        { title: '投资促进', desc: '将合格投资者与经过严格筛选的津巴布韦矿产资产对接。产权已核实，在引荐投资者之前完成合规结构设计。', href: '/services#facilitation' },
         { title: '矿石加工咨询', desc: '提供技术与商业咨询，将原矿转化为出口级精矿，与津巴布韦2026年矿产出口加工法令完全对接。', href: '/services#advisory' },
         { title: '大宗商品贸易', desc: '通过MMCZ注册渠道，向中国、越南及亚洲买家进行铬矿、黄金、铜矿、锂矿和石英的结构化交易。', href: '/services#trading' },
         { title: '尽职调查', desc: '对津巴布韦矿权和矿区进行独立的地质、法律和财务尽职调查，在资金部署前保护投资者权益。', href: '/services#dd' },
@@ -340,9 +340,9 @@ export const translations = {
       heading2: '架构完备。已核实。合规运营。',
       viewAll: '查看完整矿产组合',
       items: [
-        { symbol: 'Cr', name: '铬矿', status: '运营中 · 可投资', desc: '面向国内加工与出口贸易的铬精矿。SPV架构完备，产权已核实，资本支出已确认。' },
-        { symbol: 'Li', name: '锂矿', status: '运营中 · 可投资', desc: '按津巴布韦关键矿产框架构建的硬岩型锂矿项目。SPV架构完备，产权已核实，资本支出已确认。' },
-        { symbol: 'Au', name: '黄金', status: '运营中 · 可投资', desc: '仅限大规模结构，完全符合津巴布韦2026年黄金行业保留政策。SPV架构完备，产权已核实，资本支出已确认。' },
+        { symbol: 'Cr', name: '铬矿', status: '运营中 · 可投资', desc: '面向国内加工与出口贸易的铬精矿。产权已核实，交易结构与资本模型已准备。' },
+        { symbol: 'Li', name: '锂矿', status: '运营中 · 可投资', desc: '按津巴布韦关键矿产框架构建的硬岩型锂矿项目。产权已核实，交易结构与资本模型已准备。' },
+        { symbol: 'Au', name: '黄金', status: '运营中 · 可投资', desc: '仅限大规模结构，完全符合津巴布韦2026年黄金行业保留政策。产权已核实，交易结构与资本模型已准备。' },
         { symbol: 'Cu', name: '铜矿', status: '储备中', desc: '铜矿机会正在进行商业评估，契合亚洲精炼金属需求。' },
         { symbol: 'Qz', name: '石英', status: '储备中', desc: '高纯度石英正在进行商业与市场评估，为MZM近期新增的授权矿种。' },
         { symbol: '+', name: '其他矿产', status: '按需洽谈', desc: '无论投资者寻求何种矿产，MZM均可在同一合规框架下为其寻源、核实并构建准入通道。' },
@@ -357,7 +357,7 @@ export const translations = {
     },
     cta: {
       heading: '准备好洽谈项目了吗？',
-      sub: '铬矿、锂矿和黄金项目：SPV已建立，产权已核实，资本模型已确认。请求投资简报。',
+      sub: '铬矿、锂矿和黄金项目：产权已核实，交易结构与资本模型已准备。请求投资简报。',
       btn: '申请投资简报',
     },
     footer: {

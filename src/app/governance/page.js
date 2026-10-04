@@ -35,7 +35,7 @@ export default function Governance() {
         <div className="max-w-7xl mx-auto px-6">
           <SectionLabel>Mandate Review</SectionLabel>
           <h2 className="font-serif text-4xl md:text-5xl font-bold mb-4">Five checks <span className="text-[#C4A04A] italic">before any mandate.</span></h2>
-          <p className="text-gray-400 font-light max-w-2xl mb-12">No mandate is accepted until the Managing Director and the practice lead have confirmed all five.</p>
+          <p className="text-gray-400 font-light max-w-2xl mb-12">No mandate is accepted until the Managing Director has confirmed all five.</p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-white/10 border border-white/10">
             {checks.map(([title, body], i) => (
               <div key={title} className="bg-[#080C14] p-8">
