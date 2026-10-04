@@ -79,7 +79,7 @@ export default function Services() {
           </div>
           <h1 className="font-serif text-5xl md:text-6xl font-bold mb-4">What We Do</h1>
           <p className="text-gray-400 font-light text-lg max-w-xl leading-relaxed">
-            Four services. Each one built around a single principle: the deal is structured, verified, and compliant before investor capital moves.
+            Four services. Each one built around a single principle: every engagement is verified and compliant before investor capital moves.
           </p>
         </div>
       </section>

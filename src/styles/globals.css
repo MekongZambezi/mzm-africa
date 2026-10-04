@@ -216,3 +216,5 @@ h1, h2, h3, h4 {
   .chart-col { width: 18px; }
   .chart-xlabel-minor { display: none; }
 }
+
+.article-body > h2:first-child { margin-top: 0; padding-top: 0; border-top: 0; }

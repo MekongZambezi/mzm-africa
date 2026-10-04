@@ -1,6 +1,7 @@
 
 'use client'
 import { useState } from 'react'
+import Link from 'next/link'
 
 export default function Contact() {
   const [status, setStatus] = useState('idle')
@@ -124,6 +125,7 @@ export default function Contact() {
                   <select name="interest" className="w-full bg-[#0F1520] border border-white/10 text-white px-4 py-3 text-sm focus:border-[#C4A04A]/60 focus:outline-none transition-colors appearance-none">
                     <option value="">Select one</option>
                     <option>Chrome Investment Opportunity</option>
+                    <option>Lithium Investment Opportunity</option>
                     <option>Gold Investment Opportunity</option>
                     <option>Copper Investment Opportunity</option>
                     <option>Quartz Investment Opportunity</option>
@@ -138,6 +140,10 @@ export default function Contact() {
                   <label className="block text-xs font-bold tracking-widest uppercase text-gray-500 mb-2">Message</label>
                   <textarea name="message" rows={5} placeholder="Tell us about your investment mandate or what you're looking for..." className="w-full bg-[#0F1520] border border-white/10 text-white px-4 py-3 text-sm focus:border-[#C4A04A]/60 focus:outline-none transition-colors placeholder-gray-600 resize-none" />
                 </div>
+
+                <p className="text-xs text-gray-500 leading-relaxed">
+                  By sending this form you agree to MZM handling your details as set out in our <Link href="/privacy" className="text-[#C4A04A] underline underline-offset-2">privacy policy</Link>.
+                </p>
 
                 <button
                   type="submit"
