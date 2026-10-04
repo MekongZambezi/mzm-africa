@@ -64,7 +64,7 @@ export const translations = {
       cta: 'Read The Opportunity',
     },
     cta: {
-      heading: 'The deal is structured before you arrive.',
+      heading: 'Ready to discuss a mandate?',
       sub: 'Chrome, lithium and gold mandates, SPV established, title verified, capital model confirmed. Request an investment brief.',
       btn: 'Request An Investment Brief',
     },
@@ -161,7 +161,7 @@ export const translations = {
       cta: 'Tìm Hiểu Cơ Hội',
     },
     cta: {
-      heading: 'Thỏa thuận đã được cấu trúc trước khi bạn đến.',
+      heading: 'Sẵn sàng trao đổi về một dự án?',
       sub: 'Các dự án crom, lithium và vàng: SPV đã thành lập, quyền sở hữu đã xác minh, mô hình vốn đã xác nhận.',
       btn: 'Yêu Cầu Hồ Sơ Đầu Tư',
     },
@@ -258,7 +258,7 @@ export const translations = {
       cta: '了解投资机遇',
     },
     cta: {
-      heading: '投资者到来之前，交易已构建完毕。',
+      heading: '准备好洽谈项目了吗？',
       sub: '铬矿、锂矿和黄金项目：SPV已建立，产权已核实，资本模型已确认。请求投资简报。',
       btn: '申请投资简报',
     },

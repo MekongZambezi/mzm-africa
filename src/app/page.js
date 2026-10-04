@@ -102,8 +102,8 @@ export default function Home() {
               },
               {
                 num: '02',
-                title: 'The legal requirement, not just a preference',
-                body: "Under Zimbabwe's May 2026 Critical Minerals framework, foreign investment in the country's declared critical minerals must be structured through a Zimbabwean entity within the State SPV. MZM is that entity. This is not positioning. It is the legal requirement for any investor who wants to participate in Zimbabwe's minerals sector correctly.",
+                title: 'Built for the State SPV framework',
+                body: "Under Zimbabwe's May 2026 Critical Minerals framework, the State takes a mandatory minimum shareholding, through designated special purpose vehicles, in the exploitation of declared critical minerals. MZM structures foreign participation to meet that requirement, including State participation, ministerial approval and in-country processing, so each deal is compliant from the outset.",
               },
               {
                 num: '03',
@@ -126,7 +126,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="max-w-2xl">
             <h2 className="font-serif text-3xl md:text-4xl font-bold mb-3">
-              The deal is structured before you arrive.
+              Review a mandate in detail.
             </h2>
             <p className="text-gray-400 font-light leading-relaxed">
               Chrome, lithium and gold mandates, SPV established, title verified, capital model confirmed. Request an investment brief and receive a full project overview within 48 hours.
@@ -301,7 +301,7 @@ export default function Home() {
         <div className="relative h-full flex items-center justify-center">
           <div className="text-center">
             <p className="font-serif text-2xl md:text-3xl font-semibold text-white mb-2">
-              The deal is structured before you arrive.
+              Structured within Zimbabwe's regulatory framework.
             </p>
             <p className="text-[#C4A04A] text-sm font-medium tracking-widest uppercase">Chrome · Lithium · Gold</p>
           </div>
