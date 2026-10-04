@@ -6,7 +6,7 @@ import { LanguageProvider } from '../context/LanguageContext'
 export const metadata = {
   metadataBase: new URL('https://mzmafrica.com'),
   title: 'MZM Africa | Mekong Zambezi Meridian Consultants',
-  description: "MZM Africa is a Zimbabwe-registered mining facilitation and deal structuring firm. We verify and structure compliant investment in Zimbabwe's chrome, lithium and wider minerals sector.",
+  description: "MZM Africa is a Zimbabwean investment facilitation firm headquartered in Bulawayo, with an Asia desk in Hanoi. We verify and structure compliant investment across mining and beneficiation, agriculture, energy, manufacturing, and tourism and mobility.",
 }
 
 export default function RootLayout({ children }) {

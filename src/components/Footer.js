@@ -19,7 +19,7 @@ export default function Footer() {
             <h4 className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase mb-5">{f.company}</h4>
             <ul className="space-y-3">
               {f.companyLinks.map((label, i) => (
-                <li key={i}><Link href={['/about', '/team', '/about#vision', '/about#role'][i]} className="text-gray-400 text-sm hover:text-white transition-colors">{label}</Link></li>
+                <li key={i}><Link href={['/about', '/team', '/how-we-work', '/governance'][i] || '/about'} className="text-gray-400 text-sm hover:text-white transition-colors">{label}</Link></li>
               ))}
             </ul>
           </div>
@@ -27,7 +27,7 @@ export default function Footer() {
             <h4 className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase mb-5">{f.services}</h4>
             <ul className="space-y-3">
               {f.serviceLinks.map((label, i) => (
-                <li key={i}><Link href={['/services#facilitation', '/services#advisory', '/services#trading', '/services#dd'][i]} className="text-gray-400 text-sm hover:text-white transition-colors">{label}</Link></li>
+                <li key={i}><Link href={['/minerals', '/business/agriculture', '/business/energy', '/business/manufacturing', '/business/tourism', '/corridor'][i] || '/business'} className="text-gray-400 text-sm hover:text-white transition-colors">{label}</Link></li>
               ))}
             </ul>
           </div>
@@ -40,8 +40,8 @@ export default function Footer() {
               </li>
               <li>
                 <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">{f.offices}</div>
-                <div>Bulawayo, Zimbabwe</div>
-                <div>Hanoi, Vietnam</div>
+                <div>{f.hq}</div>
+                <div>{f.asia}</div>
               </li>
               <li>
                 <Link href="/contact" className="inline-block mt-2 text-xs font-bold tracking-widest uppercase text-[#C4A04A] border border-[#7A6230] px-4 py-2 hover:bg-[#C4A04A] hover:text-[#080C14] transition-colors">{f.enquire}</Link>
@@ -51,7 +51,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-8">
           <p className="text-xs text-gray-500">© {new Date().getFullYear()} Mekong Zambezi Meridian Consultants. {f.rights}</p>
-          <p className="text-xs text-gray-600">{f.registered} · <Link href="/privacy" className="hover:text-gray-400 transition-colors">Privacy policy</Link></p>
+          <p className="text-xs text-gray-600">{f.registered} · <Link href="/fraud-notice" className="text-gray-400 hover:text-[#C4A04A] transition-colors">{f.fraud}</Link> · <Link href="/governance" className="hover:text-gray-400 transition-colors">{f.companyLinks[3]}</Link> · <Link href="/privacy" className="hover:text-gray-400 transition-colors">{f.privacy}</Link></p>
         </div>
       </div>
     </footer>

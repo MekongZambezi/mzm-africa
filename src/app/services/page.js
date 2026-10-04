@@ -1,5 +1,5 @@
 import Link from 'next/link'
-export const metadata = { title: 'Services | MZM Africa' }
+export const metadata = { title: 'Mining Services | MZM Africa' }
 
 const services = [
   {
@@ -75,7 +75,7 @@ export default function Services() {
         <div className="relative max-w-7xl mx-auto px-6">
           <div className="flex items-center gap-3 mb-3">
             <div className="w-7 h-px bg-[#C4A04A]" />
-            <span className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase">Services</span>
+            <span className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase">Mining and Beneficiation · Services</span>
           </div>
           <h1 className="font-serif text-5xl md:text-6xl font-bold mb-4">What We Do</h1>
           <p className="text-gray-400 font-light text-lg max-w-xl leading-relaxed">

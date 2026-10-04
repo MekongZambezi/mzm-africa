@@ -20,11 +20,13 @@ export default function Navbar() {
 
   if (!t) return null
 
+  const withLinks = (labels, hrefs, fallback) => labels.map((l, i) => ({ label: l, href: hrefs[i] || fallback }))
+
   const navItems = [
-    { label: t.nav.home, href: '/' },
-    { label: t.nav.about, href: '/about', children: t.nav.aboutSub.map((l, i) => ({ label: l, href: ['/about#vision', '/about#story', '/about#role'][i] || '/about' })) },
-    { label: t.nav.services, href: '/services', children: t.nav.servicesSub.map((l, i) => ({ label: l, href: ['/services#facilitation', '/services#advisory', '/services#trading', '/services#dd'][i] || '/services' })) },
-    { label: t.nav.minerals, href: '/minerals', children: t.nav.mineralsSub.map((l, i) => ({ label: l, href: ['/minerals#chrome', '/minerals#lithium', '/minerals#gold', '/minerals#copper', '/minerals#quartz'][i] || '/minerals' })) },
+    { label: t.nav.about, href: '/about', children: withLinks(t.nav.aboutSub, ['/about#vision', '/about#story', '/about#offices', '/governance'], '/about') },
+    { label: t.nav.business, href: '/business', children: withLinks(t.nav.businessSub, ['/business', '/minerals', '/business/agriculture', '/business/energy', '/business/manufacturing', '/business/tourism'], '/business') },
+    { label: t.nav.corridor, href: '/corridor', children: withLinks(t.nav.corridorSub, ['/corridor#invest', '/corridor#source', '/corridor#producers'], '/corridor') },
+    { label: t.nav.howWeWork, href: '/how-we-work', children: withLinks(t.nav.howWeWorkSub, ['/how-we-work', '/how-we-work#verification', '/how-we-work#fees', '/services'], '/how-we-work') },
     { label: t.nav.news, href: '/news' },
     { label: t.nav.team, href: '/team' },
     { label: t.nav.contact, href: '/contact' },
@@ -37,15 +39,15 @@ export default function Navbar() {
           <img src="/images/mzm-logo.jpg" alt="MZM Africa" className="h-12 w-auto object-contain" />
         </Link>
 
-        <ul className="hidden lg:flex items-center gap-1">
+        <ul className="hidden xl:flex items-center gap-1">
           {navItems.map((item) => (
             <li key={item.label} className="relative group">
-              <Link href={item.href} className={`flex items-center gap-1 px-3 py-2 text-sm font-medium tracking-wide transition-colors ${pathname === item.href ? 'text-[#C4A04A]' : 'text-gray-300 hover:text-white'}`}>
+              <Link href={item.href} className={`flex items-center gap-1 px-2.5 xl:px-3 py-2 text-[13px] xl:text-sm font-medium tracking-wide whitespace-nowrap transition-colors ${pathname === item.href || (item.href !== '/' && pathname.startsWith(item.href + '/')) ? 'text-[#C4A04A]' : 'text-gray-300 hover:text-white'}`}>
                 {item.label}
                 {item.children && <svg className="w-3 h-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>}
               </Link>
               {item.children && (
-                <div className="absolute top-full left-0 hidden group-hover:block bg-[#0F1520] border border-white/10 min-w-[220px] shadow-2xl z-50">
+                <div className="absolute top-full left-0 hidden group-hover:block bg-[#0F1520] border border-white/10 min-w-[260px] shadow-2xl z-50">
                   {item.children.map((child) => (
                     <Link key={child.label} href={child.href} className="block px-5 py-3 text-sm text-gray-300 hover:text-[#C4A04A] hover:bg-white/5 border-b border-white/5 last:border-0 transition-colors">{child.label}</Link>
                   ))}
@@ -55,7 +57,7 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <div className="hidden lg:flex items-center gap-4">
+        <div className="hidden xl:flex items-center gap-4">
           <div className="flex items-center gap-1 border border-white/15 px-1 py-1">
             {Object.entries(LANG_LABELS).map(([code, label]) => (
               <button key={code} onClick={() => switchLang(code)} className={`text-xs font-bold tracking-wider px-2 py-1 transition-colors ${lang === code ? 'bg-[#C4A04A] text-[#080C14]' : 'text-gray-500 hover:text-gray-300'}`}>
@@ -68,7 +70,7 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <button onClick={() => setMobileOpen(!mobileOpen)} className="lg:hidden text-white p-2">
+        <button onClick={() => setMobileOpen(!mobileOpen)} className="xl:hidden text-white p-2">
           {mobileOpen
             ? <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
             : <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" /></svg>
@@ -77,7 +79,7 @@ export default function Navbar() {
       </div>
 
       {mobileOpen && (
-        <div className="lg:hidden bg-[#0F1520] border-t border-white/10 px-6 py-4">
+        <div className="xl:hidden bg-[#0F1520] border-t border-white/10 px-6 py-4 max-h-[calc(100vh-4rem)] overflow-y-auto">
           <div className="flex gap-2 mb-4 pb-4 border-b border-white/8">
             {Object.entries(LANG_LABELS).map(([code, label]) => (
               <button key={code} onClick={() => switchLang(code)} className={`text-xs font-bold px-3 py-1.5 border transition-colors ${lang === code ? 'border-[#C4A04A] text-[#C4A04A] bg-[#C4A04A]/10' : 'border-white/15 text-gray-400'}`}>{label}</button>

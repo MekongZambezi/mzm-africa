@@ -122,7 +122,7 @@ export default function Minerals() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex items-center gap-3 mb-3">
             <div className="w-7 h-px bg-[#C4A04A]" />
-            <span className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase">Declared. Classified. Open for Investment.</span>
+            <span className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase">Our Business · Lead Practice · Mining and Beneficiation</span>
           </div>
           <h1 className="font-serif text-5xl md:text-6xl font-bold mb-4">
             The minerals MZM works across.<br />
@@ -131,6 +131,10 @@ export default function Minerals() {
           <p className="text-gray-400 font-light max-w-2xl text-lg leading-relaxed">
             MZM's mandate covers chrome, lithium, gold, copper and quartz, with further minerals structured on investor request. Every mandate is built under Zimbabwe's current regulatory framework. Status, legal classification, and investor eligibility are stated plainly for each commodity.
           </p>
+          <div className="mt-8 flex flex-wrap gap-6">
+            <Link href="/services" className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase border border-[#C4A04A]/40 px-6 py-3 hover:bg-[#C4A04A]/10 transition-colors">Mining Services</Link>
+            <Link href="/business" className="text-gray-300 text-xs font-bold tracking-widest uppercase px-2 py-3 hover:text-[#C4A04A] transition-colors">All Five Practices →</Link>
+          </div>
         </div>
       </section>
 

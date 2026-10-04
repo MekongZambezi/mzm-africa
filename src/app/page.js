@@ -2,13 +2,7 @@
 import Link from 'next/link'
 import NewsTicker from '../components/NewsTicker'
 import { useLang } from '../context/LanguageContext'
-
-const SERVICE_ICONS = [
-  <svg key="1" className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.2}><path strokeLinecap="round" strokeLinejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>,
-  <svg key="2" className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" /></svg>,
-  <svg key="3" className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.2}><path strokeLinecap="round" strokeLinejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" /></svg>,
-  <svg key="4" className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>,
-]
+import { practices } from '../lib/practices'
 
 const MINERAL_STATUS = [
   'bg-green-900/40 text-green-400',
@@ -61,7 +55,7 @@ export default function Home() {
             <Link href="/contact" className="bg-[#C4A04A] text-[#080C14] text-xs font-black tracking-widest uppercase px-8 py-4 hover:bg-[#E0CA8E] transition-colors">
               {t.hero.cta1}
             </Link>
-            <Link href="/about" className="text-white text-xs font-semibold tracking-widest uppercase flex items-center gap-2 hover:text-[#C4A04A] transition-colors">
+            <Link href="/business" className="text-white text-xs font-semibold tracking-widest uppercase flex items-center gap-2 hover:text-[#C4A04A] transition-colors">
               {t.hero.cta2}
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
@@ -80,6 +74,90 @@ export default function Home() {
 
       {/* NEWS TICKER */}
       <NewsTicker />
+
+      {/* OUR BUSINESS: FIVE PRACTICES */}
+      <section className="py-24 bg-[#080C14]">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-14">
+            <div>
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-7 h-px bg-[#C4A04A]" />
+                <span className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase">{t.homePractices.label}</span>
+              </div>
+              <h2 className="font-serif text-4xl md:text-5xl font-bold">
+                {t.homePractices.heading1}<br />
+                <span className="text-[#C4A04A] italic">{t.homePractices.heading2}</span>
+              </h2>
+            </div>
+            <p className="text-gray-400 font-light max-w-md leading-relaxed">{t.homePractices.sub}</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-5">
+            {practices.map((p, i) => (
+              <Link
+                key={p.slug}
+                href={p.href}
+                className={`group relative overflow-hidden border border-white/10 hover:border-[#C4A04A]/50 transition-colors min-h-[340px] flex flex-col justify-end ${i < 2 ? 'lg:col-span-3' : 'lg:col-span-2'}`}
+              >
+                <img src={p.image} alt={p.imageAlt} className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#080C14] via-[#080C14]/75 to-[#080C14]/15" />
+                <div className="relative p-8">
+                  <div className="flex items-center gap-3 mb-3">
+                    <span className="font-serif text-2xl font-bold text-[#C4A04A]">{p.num}</span>
+                    {i === 0 && <span className="text-[10px] font-black tracking-widest uppercase px-3 py-1 bg-[#C4A04A] text-[#080C14]">{t.homePractices.lead}</span>}
+                  </div>
+                  <h3 className="font-serif text-2xl md:text-3xl font-semibold mb-2 leading-snug">{t.homePractices.items[i].title}</h3>
+                  <p className="text-gray-300 text-sm font-light leading-relaxed mb-4 max-w-md">{t.homePractices.items[i].summary}</p>
+                  <span className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase flex items-center gap-2">
+                    {t.homePractices.explore}
+                    <svg className="w-3 h-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+                  </span>
+                </div>
+              </Link>
+            ))}
+          </div>
+          <div className="mt-8 text-right">
+            <Link href="/business" className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase inline-flex items-center gap-2 hover:gap-3 transition-all">
+              {t.homePractices.viewAll}
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* THE CORRIDOR */}
+      <section className="py-24 relative overflow-hidden border-y border-white/10" style={{ backgroundImage: 'url(/images/hanoi.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <div className="absolute inset-0 bg-[#080C14]/90" />
+        <div className="relative max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+          <div>
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-7 h-px bg-[#C4A04A]" />
+              <span className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase">{t.homeCorridor.label}</span>
+            </div>
+            <h2 className="font-serif text-4xl md:text-5xl font-bold mb-6">
+              {t.homeCorridor.heading1}<br />
+              <span className="text-[#C4A04A] italic">{t.homeCorridor.heading2}</span>
+            </h2>
+            <p className="text-gray-300 font-light text-lg leading-relaxed mb-10">{t.homeCorridor.body}</p>
+            <div className="flex flex-wrap gap-4">
+              <Link href="/corridor#invest" className="bg-[#C4A04A] text-[#080C14] text-xs font-black tracking-widest uppercase px-8 py-4 hover:bg-[#E0CA8E] transition-colors">{t.homeCorridor.cta1}</Link>
+              <Link href="/corridor#source" className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase px-8 py-4 border border-[#C4A04A]/40 hover:bg-[#C4A04A]/10 transition-colors">{t.homeCorridor.cta2}</Link>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-white/10 border border-white/10">
+            {[[t.homeCorridor.intoTitle, t.homeCorridor.into, 'Bulawayo'], [t.homeCorridor.outTitle, t.homeCorridor.out, 'Hanoi']].map(([title, items, city]) => (
+              <div key={title} className="bg-[#080C14]/85 p-8">
+                <div className="text-[10px] font-black tracking-widest uppercase text-gray-500 mb-2">{city}</div>
+                <h3 className="font-serif text-2xl font-semibold mb-5 text-[#C4A04A]">{title}</h3>
+                <ul className="space-y-3">
+                  {items.map((it) => (
+                    <li key={it} className="flex gap-3 text-sm text-gray-200 font-light"><span className="text-[#C4A04A] shrink-0">—</span>{it}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* CORE CLAIMS */}
       <section className="py-24 bg-[#080C14]">
@@ -143,46 +221,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SERVICES */}
-      <section className="py-24 relative overflow-hidden" style={{ background: '#0A0E18' }}>
-        <div
-          className="absolute inset-y-0 right-0 w-1/2 opacity-10"
-          style={{
-            backgroundImage: 'url(/images/mining-processing.jpg)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-          }}
-        />
-        <div className="absolute inset-y-0 right-0 w-1/2 bg-gradient-to-r from-[#0A0E18] to-transparent" />
-
-        <div className="relative max-w-7xl mx-auto px-6">
-          <div className="flex items-center gap-3 mb-3">
-            <div className="w-7 h-px bg-[#C4A04A]" />
-            <span className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase">{t.services.label}</span>
-          </div>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold mb-4">
-            {t.services.heading1}<br />
-            <span className="text-[#C4A04A] italic">{t.services.heading2}</span>
-          </h2>
-          <p className="text-gray-400 font-light max-w-xl mb-14 text-lg">{t.services.sub}</p>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-white/10 max-w-4xl">
-            {t.services.items.map((s, i) => (
-              <Link key={s.title} href={s.href} className="group bg-[#0A0E18] p-10 hover:bg-[#111825] transition-colors relative overflow-hidden">
-                <div className="absolute bottom-0 left-0 w-full h-0.5 bg-[#C4A04A] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
-                <div className="text-[#C4A04A] mb-5">{SERVICE_ICONS[i]}</div>
-                <h3 className="font-serif text-xl font-semibold mb-3">{s.title}</h3>
-                <p className="text-gray-400 font-light leading-relaxed text-sm">{s.desc}</p>
-                <div className="mt-6 text-[#C4A04A] text-xs font-bold tracking-widest uppercase flex items-center gap-2">
-                  {t.services.learnMore}
-                  <svg className="w-3 h-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* MINERALS */}
       <section className="py-24 bg-[#080C14]">
         <div className="max-w-7xl mx-auto px-6">
@@ -204,7 +242,10 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <div className="mt-8 text-right">
+          <div className="mt-8 flex flex-wrap justify-end gap-8">
+            <Link href="/services" className="text-gray-300 text-xs font-bold tracking-widest uppercase flex items-center gap-2 hover:text-[#C4A04A] transition-colors">
+              {t.nav.howWeWorkSub[3]}
+            </Link>
             <Link href="/minerals" className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase flex items-center gap-2 justify-end hover:gap-3 transition-all">
               {t.minerals.viewAll}
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>

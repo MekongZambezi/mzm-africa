@@ -46,14 +46,15 @@ export default function Contact() {
               <span className="text-[#C4A04A] italic">an opportunity?</span>
             </h2>
             <p className="text-gray-300 font-light text-lg leading-relaxed mb-10">
-              Whether you&apos;re an investor, title holder, OEM supplier, or potential offtake partner, we&apos;d like to hear from you. We respond within 48 hours.
+              Whether you&apos;re an investor, project owner, buyer, supplier or producer, we&apos;d like to hear from you. We respond within 48 hours, in English or Vietnamese.
             </p>
 
             <div className="space-y-6">
               {[
                 ['Email', 'projects@mzmafrica.com', 'mailto:projects@mzmafrica.com'],
-                ['Zimbabwe Office', 'Bulawayo, Zimbabwe', null],
-                ['Vietnam Office', 'Hanoi, Vietnam', null],
+                ['Tourism and Mobility', 'emobility@mzmafrica.com', 'mailto:emobility@mzmafrica.com'],
+                ['Headquarters', 'Bulawayo, Zimbabwe', null],
+                ['Asia Desk', 'Hanoi, Vietnam', null],
               ].map(([label, value, href]) => (
                 <div key={label} className="flex gap-4">
                   <div className="w-10 h-10 border border-[#C4A04A]/30 flex items-center justify-center shrink-0">
@@ -74,7 +75,7 @@ export default function Contact() {
             <div className="mt-10 border-t border-white/8 pt-8">
               <div className="text-xs font-bold tracking-widest uppercase text-gray-500 mb-3">Areas of Interest</div>
               <div className="flex flex-wrap gap-2">
-                {['Chrome Investment', 'Lithium Investment', 'Gold Investment', 'Copper Investment', 'Quartz Investment', 'Other Minerals', 'Commodity Trading', 'OEM Supply', 'General Partnership'].map((tag) => (
+                {['Mining & Beneficiation', 'Agriculture', 'Energy', 'Manufacturing', 'Tourism & Mobility', 'Buying from Zimbabwe', 'Selling into Vietnam', 'Equipment Supply', 'General Partnership'].map((tag) => (
                   <span key={tag} className="text-xs text-[#C4A04A] border border-[#7A6230] px-3 py-1 font-medium">{tag}</span>
                 ))}
               </div>
@@ -124,21 +125,35 @@ export default function Contact() {
                   <label className="block text-xs font-bold tracking-widest uppercase text-gray-500 mb-2">Area of Interest</label>
                   <select name="interest" className="w-full bg-[#0F1520] border border-white/10 text-white px-4 py-3 text-sm focus:border-[#C4A04A]/60 focus:outline-none transition-colors appearance-none">
                     <option value="">Select one</option>
-                    <option>Chrome Investment Opportunity</option>
-                    <option>Lithium Investment Opportunity</option>
-                    <option>Gold Investment Opportunity</option>
-                    <option>Copper Investment Opportunity</option>
-                    <option>Quartz Investment Opportunity</option>
-                    <option>Other Mineral Opportunity</option>
-                    <option>Commodity Trading / Offtake</option>
-                    <option>OEM / Equipment Supply</option>
-                    <option>General Partnership Enquiry</option>
+                    <optgroup label="Mining and Beneficiation">
+                      <option>Chrome Investment Opportunity</option>
+                      <option>Lithium Investment Opportunity</option>
+                      <option>Gold Investment Opportunity</option>
+                      <option>Copper Investment Opportunity</option>
+                      <option>Quartz Investment Opportunity</option>
+                      <option>Other Mineral Opportunity</option>
+                      <option>Commodity Trading / Offtake</option>
+                    </optgroup>
+                    <optgroup label="Other Practices">
+                      <option>Agriculture and Agro-processing</option>
+                      <option>Energy</option>
+                      <option>Manufacturing and Industrial Parks</option>
+                      <option>Tourism and Mobility</option>
+                    </optgroup>
+                    <optgroup label="The Corridor">
+                      <option>Buying Zimbabwean Products</option>
+                      <option>Selling Zimbabwean Products into Vietnam</option>
+                    </optgroup>
+                    <optgroup label="General">
+                      <option>OEM / Equipment Supply</option>
+                      <option>General Partnership Enquiry</option>
+                    </optgroup>
                   </select>
                 </div>
 
                 <div>
                   <label className="block text-xs font-bold tracking-widest uppercase text-gray-500 mb-2">Message</label>
-                  <textarea name="message" rows={5} placeholder="Tell us about your investment mandate or what you're looking for..." className="w-full bg-[#0F1520] border border-white/10 text-white px-4 py-3 text-sm focus:border-[#C4A04A]/60 focus:outline-none transition-colors placeholder-gray-600 resize-none" />
+                  <textarea name="message" rows={5} placeholder="Tell us about your investment, product or what you're looking for..." className="w-full bg-[#0F1520] border border-white/10 text-white px-4 py-3 text-sm focus:border-[#C4A04A]/60 focus:outline-none transition-colors placeholder-gray-600 resize-none" />
                 </div>
 
                 <p className="text-xs text-gray-500 leading-relaxed">

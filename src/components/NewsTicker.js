@@ -1,4 +1,6 @@
 const headlines = [
+  'MZM now operates five investment practices: mining and beneficiation, agriculture, energy, manufacturing, and tourism and mobility',
+  'The Zimbabwe-Vietnam Corridor: investment into Zimbabwe, and Zimbabwean products to Vietnamese buyers',
   'MZM Africa: chrome, lithium and gold mandates active. SPV structured, title verified, CAPEX confirmed',
   'MZM attends Mine Entra 2026, Zimbabwe\'s premier mining, engineering and transport expo. Bulawayo, 29 to 31 July',
   'Zimbabwe declares 14 Critical Minerals, May 2026. State SPV co-investment now required for all foreign participation',

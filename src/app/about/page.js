@@ -21,13 +21,14 @@ export default function About() {
             </span>
           </div>
           <h1 className="font-serif text-5xl md:text-6xl font-bold mb-6 max-w-[16ch] leading-[1.1]">
-            Zimbabwe's minerals,{' '}
+            Zimbabwean investment,{' '}
             <span className="text-[#C4A04A] italic font-medium">structured for serious capital.</span>
           </h1>
           <p className="text-gray-200 font-light text-lg md:text-xl max-w-2xl leading-relaxed">
-            Mekong Zambezi Meridian Consultants is a Zimbabwe-registered mining facilitation
-            and deal-structuring firm, connecting the country's minerals to investors
-            and buyers across Asia.
+            Mekong Zambezi Meridian Consultants is a Zimbabwe-registered investment facilitation
+            and deal-structuring firm, headquartered in Bulawayo with an Asia desk in Hanoi. We
+            connect investors and buyers across Asia with Zimbabwe through five practices, with
+            mining and beneficiation as our lead practice.
           </p>
         </div>
       </section>
@@ -99,8 +100,8 @@ export default function About() {
                 Vision
               </div>
               <p className="font-serif text-3xl font-semibold leading-snug text-white">
-                To be the primary Zimbabwean deal-structuring firm for critical minerals
-                investment between Africa and Asia by 2030.
+                To be the leading Zimbabwean investment facilitation firm on the Zimbabwe-Asia
+                corridor by 2030.
               </p>
             </div>
             <div className="p-11 rounded-sm border border-white/10 bg-[#121826]">
@@ -108,8 +109,8 @@ export default function About() {
                 Mission
               </div>
               <p className="font-serif text-3xl font-semibold leading-snug text-white">
-                To structure, verify, and close compliant mineral investment deals that generate
-                returns for investors and lasting value for Zimbabwe.
+                To structure, verify, and close compliant investment and trade that delivers
+                value for investors, buyers and Zimbabwe.
               </p>
             </div>
           </div>
@@ -189,6 +190,35 @@ export default function About() {
                 <div className="w-full h-0.5 mb-6" style={{ background: 'linear-gradient(90deg,#C4A04A,transparent)' }} />
                 <h3 className="font-sans font-bold text-lg mb-3 text-white">{title}</h3>
                 <p className="text-gray-300 font-light text-sm leading-relaxed">{desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* OFFICES */}
+      <section id="offices" className="py-24 bg-[#080C14] border-t border-white/10 scroll-mt-20">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="flex items-center gap-3 mb-5">
+            <div className="w-7 h-px bg-[#C4A04A]" />
+            <span className="text-[#C4A04A] text-xs font-bold tracking-[0.22em] uppercase">Our Offices</span>
+          </div>
+          <h2 className="font-serif text-4xl font-bold mb-12 max-w-xl leading-tight">
+            One firm,{' '}
+            <span className="text-[#C4A04A] italic font-medium">two bases.</span>
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
+            {[
+              ['Headquarters', 'Bulawayo, Zimbabwe', 'Project origination, field verification, regulatory approvals and delivery on the ground.', '/images/zimbabwe-landscape.jpg', 'Grassland and hills in Zimbabwe'],
+              ['Asia Desk', 'Hanoi, Vietnam', 'Investor, buyer and supplier relationships across Vietnam and Southeast Asia, in English and Vietnamese.', '/images/hanoi.jpg', 'Lake and skyline in Hanoi'],
+            ].map(([kind, city, desc, img, alt]) => (
+              <div key={city} className="border border-white/10 bg-[#121826]">
+                <div className="aspect-[16/9] overflow-hidden"><img src={img} alt={alt} className="w-full h-full object-cover" /></div>
+                <div className="p-8">
+                  <div className="text-[#C4A04A] text-xs font-black tracking-[0.2em] uppercase mb-2">{kind}</div>
+                  <h3 className="font-serif text-3xl font-semibold mb-3">{city}</h3>
+                  <p className="text-gray-300 font-light text-sm leading-relaxed">{desc}</p>
+                </div>
               </div>
             ))}
           </div>
