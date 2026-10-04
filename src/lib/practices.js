@@ -151,7 +151,7 @@ export const practices = [
       'Tourism Special Economic Zones',
     ],
     vietnam: [
-      'Vietnamese groups expanding into African hospitality and electric mobility',
+      'Vietnamese groups expanding into African real estate and electric mobility',
       'GoGlobal Programme support for services and distribution abroad',
     ],
     services: [
