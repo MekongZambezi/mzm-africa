@@ -5,7 +5,8 @@ const nextConfig = {
   },
   async redirects() {
     return [
-      { source: '/business/mining', destination: '/minerals', permanent: true },
+      { source: '/minerals', destination: '/business/mining', permanent: true },
+      { source: '/services', destination: '/business/mining', permanent: true },
     ]
   },
 }

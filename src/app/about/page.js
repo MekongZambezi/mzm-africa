@@ -21,14 +21,14 @@ export default function About() {
             </span>
           </div>
           <h1 className="font-serif text-5xl md:text-6xl font-bold mb-6 max-w-[16ch] leading-[1.1]">
-            Zimbabwean investment,{' '}
-            <span className="text-[#C4A04A] italic font-medium">structured for serious capital.</span>
+            One team in{' '}
+            <span className="text-[#C4A04A] italic font-medium">Zimbabwe and Vietnam.</span>
           </h1>
           <p className="text-gray-200 font-light text-lg md:text-xl max-w-2xl leading-relaxed">
-            Mekong Zambezi Meridian Consultants is a Zimbabwe-registered investment facilitation
-            and deal-structuring firm, headquartered in Bulawayo with an Asia desk in Hanoi. We
-            connect investors and buyers across Asia with Zimbabwe through five practices, with
-            mining and beneficiation as our lead practice.
+            Mekong Zambezi Meridian Consultants is a Zimbabwe-registered firm, headquartered in
+            Bulawayo with an Asia desk in Hanoi. We help Asian companies invest in Zimbabwe, and
+            help Zimbabwean producers sell to Asia, across five sectors: mining, agriculture,
+            energy, manufacturing, and tourism and hospitality.
           </p>
         </div>
       </section>
@@ -44,31 +44,30 @@ export default function About() {
               </span>
             </div>
             <h2 className="font-serif text-4xl font-bold mb-7 leading-tight max-w-[20ch]">
-              The meridian between{' '}
-              <span className="text-[#C4A04A] italic font-medium">title and capital.</span>
+              Between Zimbabwean opportunity{' '}
+              <span className="text-[#C4A04A] italic font-medium">and Asian capital.</span>
             </h2>
             <p className="text-gray-200 font-light text-lg leading-relaxed mb-5">
-              MZM sits at the centre point between two parties: the title holder who owns the
-              ground, and the investor who holds the capital to develop it. We identify, verify,
-              and structure investment-ready opportunities in chrome, lithium and gold, then bring
-              compliant, fully structured deals to qualified international investors.
+              MZM works between two sides: Zimbabwean owners, producers and projects, and the
+              Asian investors and buyers who want to work with them. We find opportunities, check
+              them on the ground, prepare them under Zimbabwean law, and introduce them to the
+              right investor or buyer.
             </p>
             <p className="text-gray-300 font-light leading-relaxed mb-5">
-              Under Zimbabwe's May 2026 Critical Minerals framework, foreign investment in the
-              country's declared critical minerals must be structured through a compliant
-              Zimbabwean SPV that includes the State's mandatory minimum shareholding.
+              Our Managing Director leads the Asia desk in Hanoi. Our Commercial Director runs
+              our operations in Zimbabwe. Clients deal with the same small team in both countries.
             </p>
             <p className="text-gray-300 font-light leading-relaxed">
-              MZM structures compliant deals within that framework, on behalf of investors and
-              claim holders, from SPV formation through to Ministry of Mines and MMCZ approval.
+              Every engagement runs through Zimbabwe's official channels: ZIDA, ZimTrade, the
+              sector ministries, and the official sales channels for minerals and gold.
             </p>
           </div>
           <div className="border border-white/10 rounded-sm bg-[#121826]">
             {[
-              ['Zimbabwe-Registered and Compliant', 'Incorporated in Zimbabwe and experienced in the procedures of the Ministry of Mines, MMCZ, Fidelity Gold Refinery and ZIDA. Every engagement runs through official channels.'],
-              ['Structure First', 'Title verification, the compliant ownership model, the shareholder framework and the capital model are prepared before investors are introduced.'],
-              ['Hanoi Commercial Base', 'An operational presence in Vietnam, with direct access to Vietnamese and Chinese OEM equipment networks and the Asian investor community allocating capital to African minerals.'],
-              ['Compliant by Design', 'Every deal is built to comply with Zimbabwe\'s beneficiation mandate and the Critical Minerals framework from day one. That structural discipline keeps investor capital clear of regulatory risk.'],
+              ['Zimbabwe-Registered', 'Incorporated in Zimbabwe and familiar with the procedures of ZIDA, ZimTrade, the sector ministries, MMCZ, Fidelity Gold Refinery and ZERA.'],
+              ['Checked Before Introduction', 'Title, ownership, licences and the people involved are checked before any opportunity or supplier is introduced.'],
+              ['Hanoi Asia Desk', 'A working presence in Vietnam, meeting Vietnamese investors, buyers, equipment suppliers and trade bodies in person.'],
+              ['Five Sectors, One Standard', 'Mining, agriculture, energy, manufacturing, and tourism and hospitality all follow the same checks, the same fee rules and the same team.'],
             ].map(([title, desc]) => (
               <div key={title} className="flex gap-5 p-7 border-b border-white/10 last:border-0">
                 <div className="w-2 h-2 bg-[#C4A04A] rounded-full mt-2 shrink-0 shadow-[0_0_0_4px_rgba(196,160,74,0.12)]" />
@@ -109,8 +108,8 @@ export default function About() {
                 Mission
               </div>
               <p className="font-serif text-3xl font-semibold leading-snug text-white">
-                To structure, verify, and close compliant investment and trade that delivers
-                value for investors, buyers and Zimbabwe.
+                To bring checked investment and trade between Asia and Zimbabwe that benefits
+                investors, buyers and Zimbabwe.
               </p>
             </div>
           </div>
@@ -132,19 +131,19 @@ export default function About() {
               <span className="text-[#C4A04A] italic font-medium">between two economies.</span>
             </h2>
             <p className="text-gray-200 font-light leading-relaxed mb-5">
-              MZM was founded by Zimbabweans who saw a persistent gap: the mining sector had the
-              geology, the reform momentum, and the political will, but lacked structured access
-              to the capital concentrated in East and Southeast Asia.
+              MZM was founded by Zimbabweans who saw a gap: Zimbabwe has minerals, land, produce
+              and tourism assets, and wants investment and new export markets, but has had little
+              direct contact with the capital and buyers in East and Southeast Asia.
             </p>
             <p className="text-gray-300 font-light leading-relaxed mb-5">
-              The Hanoi base is not incidental. Vietnam is an industrial economy with OEM
-              manufacturing capacity and investors actively seeking African mineral supply-chain
-              exposure. MZM's presence there is an operational reality, not a marketing claim.
+              We chose Hanoi on purpose. Vietnam is a manufacturing economy that imports the raw
+              materials Zimbabwe produces, and its GoGlobal Programme, launched in 2026, encourages
+              Vietnamese firms to invest abroad, with Africa named as a market.
             </p>
             <p className="text-gray-300 font-light leading-relaxed">
-              Zimbabwe's May 2026 regulatory changes made this bridge more relevant, not less.
-              Foreign investors now need a compliant Zimbabwean partner in the SPV structure.
-              MZM was built to be exactly that.
+              Zimbabwe's 2026 reforms, from processing requirements in mining to new energy and
+              industrial policies, mean new investors need a partner who knows the rules on the
+              ground. MZM was built to be that partner.
             </p>
           </div>
           <div
@@ -158,7 +157,7 @@ export default function About() {
             <div className="absolute inset-0 bg-[#080C14]/35" />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#080C14] to-transparent h-28" />
             <div className="absolute bottom-0 left-0 right-0 px-6 py-5 text-xs text-gray-400 tracking-wide">
-              Ore processing and <span className="text-[#C4A04A] font-semibold">beneficiation operations</span>
+              Processing and <span className="text-[#C4A04A] font-semibold">value addition in Zimbabwe</span>
             </div>
           </div>
         </div>
@@ -170,7 +169,7 @@ export default function About() {
           <div className="flex items-center gap-3 mb-5">
             <div className="w-7 h-px bg-[#C4A04A]" />
             <span className="text-[#C4A04A] text-xs font-bold tracking-[0.22em] uppercase">
-              Our Role in Zimbabwe's Mining Sector
+              Our Role
             </span>
           </div>
           <h2 className="font-serif text-4xl font-bold mb-14 max-w-xl leading-tight">
@@ -179,9 +178,9 @@ export default function About() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              ['01', 'Deal Structuring', 'MZM prepares the legal and commercial framework, including title verification, the ownership structure, escrow and the shareholder framework, before approaching investors. Every opportunity presented has been through this process.'],
-              ['02', 'Regulatory Navigation', 'MZM manages the Ministry of Mines approval process, MMCZ registration, ZIMRA compliance, and the Critical Minerals SPV requirement on behalf of investors, through official procedures and with licensed counsel.'],
-              ['03', 'Capital and Equipment Bridge', 'MZM connects Zimbabwean projects to Vietnamese and Chinese OEM equipment networks and the Asian investor community. A geographic and relational advantage built over time, not sourced from a directory.'],
+              ['01', 'Checking Opportunities', 'MZM checks title, ownership, licences and the people involved before any opportunity or supplier is presented. Opportunities that fail the checks are not presented.'],
+              ['02', 'Working Through Institutions', 'MZM prepares clients for ZIDA licensing, sector ministry approvals, ZERA registration and export procedures, working with licensed counsel. Applications are made in the client\'s own name.'],
+              ['03', 'Connecting Two Markets', 'MZM connects Zimbabwean projects and producers with Asian investors, buyers and equipment suppliers, through relationships built in person in Hanoi and in Zimbabwe.'],
             ].map(([num, title, desc]) => (
               <div key={title}>
                 <div className="font-serif text-3xl text-[#C4A04A] font-semibold mb-3 leading-none">

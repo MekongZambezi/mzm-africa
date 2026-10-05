@@ -28,7 +28,7 @@ export default function Governance() {
         eyebrow="Governance and Ethics"
         title="Controls you can see,"
         accent="before you commit."
-        lead="Investors, buyers and regulators should know how MZM works before they work with us. These standards apply to every mandate in every practice."
+        lead="Investors, buyers and regulators should know how MZM works before they work with us. These standards apply to every mandate in every sector."
       />
 
       <section className="py-24 bg-[#080C14]">

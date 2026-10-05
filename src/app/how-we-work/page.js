@@ -38,7 +38,7 @@ export default function HowWeWork() {
         eyebrow="How We Work"
         title="Verified before"
         accent="you see it."
-        lead="One process applies in every practice. Opportunities are screened before they reach an investor, structured within Zimbabwean law, and supported through approval to closing."
+        lead="One process applies in every sector. Opportunities are screened before they reach an investor, structured within Zimbabwean law, and supported through approval to closing."
         image="/images/mining-site-2.jpg"
       />
 
@@ -55,10 +55,9 @@ export default function HowWeWork() {
               </li>
             ))}
             <li className="bg-[#0F1520] p-8 flex flex-col justify-between">
-              <p className="text-gray-300 font-light text-sm leading-relaxed">Mining clients can read our detailed mining services: investment facilitation, beneficiation advisory, commodity trading and due diligence.</p>
-              <Link href="/services" className="mt-6 text-[#C4A04A] text-xs font-bold tracking-widest uppercase">Mining services →</Link>
-            </li>
-          </ol>
+              <p className="text-gray-300 font-light text-sm leading-relaxed">The same process applies in all five sectors: mining, agriculture, energy, manufacturing, and tourism and hospitality.</p>
+              <Link href="/business" className="mt-6 text-[#C4A04A] text-xs font-bold tracking-widest uppercase">Our five sectors →</Link>
+            </li>          </ol>
         </div>
       </section>
 

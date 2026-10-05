@@ -1,4 +1,4 @@
-export const metadata = { title: 'Our Team | MZM Africa' }
+export const metadata = { title: 'Our Team | MZM Africa', description: 'The MZM Consultants leadership team in Hanoi and Zimbabwe.' }
 
 const team = [
   {
@@ -6,28 +6,21 @@ const team = [
     name: 'Andy Moyo',
     role: 'Managing Director',
     location: 'Hanoi, Vietnam',
-    bio: 'Andy Moyo is a Zimbabwean minerals commercialisation specialist and founder of MZM Consultants. He specialises in SPV structuring, asset due diligence, and cross-border deal facilitation across Zimbabwe\'s critical minerals sector. Operating between Zimbabwe and Asia, he directs the firm\'s investment facilitation and regulatory compliance operations, serving Asian capital networks seeking structured, legally compliant entry into Zimbabwe\'s chrome, lithium, and platinum group metals market.',
+    bio: 'Andy Moyo is the founder and Managing Director of MZM Consultants. Based in Hanoi, he leads the firm’s Asia desk and its work with Vietnamese and Asian investors, buyers and trade bodies. He directs every engagement across MZM’s five sectors, from the first meeting with an investor or buyer to the introduction of a checked opportunity in Zimbabwe.',
+  },
+  {
+    initials: 'EM',
+    name: 'Ebern Moyo',
+    role: 'Commercial Director',
+    location: 'Zimbabwe',
+    bio: 'Ebern Moyo is Commercial Director of MZM Consultants and runs the firm’s operations in Zimbabwe. He is responsible for checking opportunities and suppliers on the ground, working with Zimbabwean institutions, and managing delivery for clients across all five sectors. He works with the Managing Director in Hanoi so that clients deal with one team in both countries.',
   },
   {
     initials: 'CM',
     name: 'Chido A. Mumvuri',
     role: 'Deputy Managing Director & Head of Business Development',
     location: 'Zimbabwe',
-    bio: 'Chido A. Mumvuri is Deputy Managing Director and Head of Business Development at MZM Consultants, which she co-founded. Her work sits at the point where Zimbabwean mineral mandates meet Asian demand: she develops the firm\'s commercial partnerships, manages trading relationships with Asian buyers, and shapes how MZM\'s opportunities are presented to international counterparties.',
-  },
-  {
-    initials: 'AR',
-    name: 'Alvin Raymond',
-    role: 'Commercial Director',
-    location: 'Zimbabwe',
-    bio: 'Leads commercial deal structuring and claims-level ground intelligence across Zimbabwe\'s mineral corridors. Specialist in chrome wash plant operations and Great Dyke concession evaluation.',
-  },
-  {
-    initials: 'FN',
-    name: 'Firuz Nasirov',
-    role: 'Investment Partnerships Manager',
-    location: 'Hanoi, Vietnam',
-    bio: 'Hanoi-based. Manages investor qualification, deal closing, and Southeast Asian capital network relationships. Bridges MZM\'s Zimbabwean operations with Vietnamese and regional OEM/investor communities.',
+    bio: 'Chido A. Mumvuri is Deputy Managing Director and Head of Business Development at MZM Consultants, which she co-founded. She develops the firm’s commercial partnerships and shapes how MZM’s opportunities are presented to international investors and buyers.',
   },
 ]
 
@@ -40,13 +33,13 @@ export default function Team() {
             <div className="w-7 h-px bg-[#C4A04A]" />
             <span className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase">Our Team</span>
           </div>
-          <h1 className="font-serif text-5xl md:text-6xl font-bold">Two continents.<br /><span className="text-[#C4A04A] italic">One focused team.</span></h1>
+          <h1 className="font-serif text-5xl md:text-6xl font-bold">One team,<br /><span className="text-[#C4A04A] italic">in two countries.</span></h1>
         </div>
       </section>
 
       <section className="py-20 bg-[#080C14]">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {team.map((member) => (
               <div key={member.name} className="border border-white/10 p-8 hover:border-[#C4A04A]/30 transition-colors">
                 <div className="flex items-start gap-5 mb-5">

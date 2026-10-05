@@ -27,7 +27,7 @@ export default function Footer() {
             <h4 className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase mb-5">{f.services}</h4>
             <ul className="space-y-3">
               {f.serviceLinks.map((label, i) => (
-                <li key={i}><Link href={['/minerals', '/business/agriculture', '/business/energy', '/business/manufacturing', '/business/tourism', '/corridor'][i] || '/business'} className="text-gray-400 text-sm hover:text-white transition-colors">{label}</Link></li>
+                <li key={i}><Link href={['/business/mining', '/business/agriculture', '/business/energy', '/business/manufacturing', '/business/tourism', '/corridor'][i] || '/business'} className="text-gray-400 text-sm hover:text-white transition-colors">{label}</Link></li>
               ))}
             </ul>
           </div>

@@ -4,7 +4,7 @@ import { practices } from '../../lib/practices'
 
 export const metadata = {
   title: 'Our Business | MZM Africa',
-  description: 'MZM operates five investment practices in Zimbabwe: Mining and Beneficiation, Agriculture and Agro-processing, Energy, Manufacturing and Industrial Parks, and Tourism and Mobility.',
+  description: 'MZM works across five sectors in Zimbabwe: Mining and Beneficiation, Agriculture and Agro-processing, Energy, Manufacturing and Industrial Parks, and Tourism and Hospitality.',
 }
 
 export default function Business() {
@@ -12,9 +12,9 @@ export default function Business() {
     <>
       <PageHero
         eyebrow="Our Business"
-        title="Five practices."
+        title="Five sectors."
         accent="One standard."
-        lead="MZM is organised into five investment practices aligned with the priorities of Zimbabwe's National Development Strategy 2. Mining and Beneficiation is our lead practice. Every practice applies the same verification, structuring and approval process."
+        lead="MZM works in the five sectors where Zimbabwe most wants investment, as set out in its National Development Strategy 2. Every sector gets the same checks, the same fee rules and the same team."
         image="/images/zimbabwe-landscape.jpg"
       />
 
@@ -28,12 +28,12 @@ export default function Business() {
               <div className="p-8 flex flex-col flex-1">
                 <div className="flex items-center justify-between mb-4">
                   <span className="font-serif text-3xl font-bold text-[#C4A04A]/40">{p.num}</span>
-                  <span className={`text-[10px] font-black tracking-widest uppercase px-3 py-1 ${p.slug === 'mining' ? 'bg-[#C4A04A] text-[#080C14]' : 'bg-[#C4A04A]/10 text-[#C4A04A]'}`}>{p.tag}</span>
+                  <span className="text-[10px] font-black tracking-widest uppercase px-3 py-1 bg-[#C4A04A]/10 text-[#C4A04A]">Sector {p.num}</span>
                 </div>
                 <h2 className="font-serif text-2xl font-semibold mb-3">{p.title}</h2>
                 <p className="text-gray-400 text-sm font-light leading-relaxed flex-1">{p.summary}</p>
                 <div className="mt-6 text-[#C4A04A] text-xs font-bold tracking-widest uppercase flex items-center gap-2">
-                  Explore the practice
+                  Explore the sector
                   <svg className="w-3 h-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                 </div>
               </div>
@@ -45,7 +45,7 @@ export default function Business() {
               <SectionLabel>Flagship Programme</SectionLabel>
               <h2 className="font-serif text-3xl font-semibold mb-4 leading-snug">The Zimbabwe-Vietnam Corridor</h2>
               <p className="text-gray-300 text-sm font-light leading-relaxed">
-                A two-way programme that runs across all five practices: Vietnamese investment into Zimbabwe, and Zimbabwean products to Vietnamese buyers.
+                A two-way programme that runs across all five sectors: Vietnamese investment into Zimbabwe, and Zimbabwean products to Vietnamese buyers.
               </p>
             </div>
             <div className="mt-8 text-[#C4A04A] text-xs font-bold tracking-widest uppercase flex items-center gap-2">
@@ -60,7 +60,7 @@ export default function Business() {
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="max-w-2xl">
             <h2 className="font-serif text-3xl font-bold mb-2">The same process in every sector.</h2>
-            <p className="text-gray-400 font-light">Verification before introduction, disclosed fees, and full regulatory alignment. See how an MZM engagement works.</p>
+            <p className="text-gray-400 font-light">Checks before every introduction, fees in writing, and no paid access. See how an MZM engagement works.</p>
           </div>
           <Link href="/how-we-work" className="shrink-0 bg-[#C4A04A] text-[#080C14] text-xs font-black tracking-widest uppercase px-10 py-4 hover:bg-[#E0CA8E] transition-colors">
             How We Work

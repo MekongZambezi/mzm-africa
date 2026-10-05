@@ -1,14 +1,13 @@
 const headlines = [
-  'MZM now operates five investment practices: mining and beneficiation, agriculture, energy, manufacturing, and tourism and mobility',
+  'MZM works across five sectors: mining and beneficiation, agriculture, energy, manufacturing, and tourism and hospitality',
   'The Zimbabwe-Vietnam Corridor: investment into Zimbabwe, and Zimbabwean products to Vietnamese buyers',
-  'MZM Africa: chrome, lithium and gold mandates active. Title verified, structure and capital model prepared',
-  'MZM attends Mine Entra 2026, Zimbabwe\'s premier mining, engineering and transport expo. Bulawayo, 29 to 31 July',
-  'Zimbabwe declares 14 Critical Minerals, May 2026. State SPV co-investment now required for all foreign participation',
-  'Lithium mandates structured under Zimbabwe\'s Critical Minerals framework. Investor presentations available on request',
-  'Copper in pipeline: opportunities under commercial evaluation, aligned with Asian refined-metal demand',
-  'Quartz added to MZM\'s mandate: high-purity quartz under commercial and market assessment',
-  'Gold: large-scale foreign investment open. MZM structures large-scale entry only, compliant with the 2026 reservation policy',
-  'MZM operates across Zimbabwe and Asia, within MMCZ, FGR and Ministry of Mines frameworks',
+  'Vietnam launches its GoGlobal Programme, April 2026, naming Africa as a market for Vietnamese firms investing abroad',
+  'Zimbabwe declares 14 critical minerals, May 2026. Regulations on the State shareholding are pending',
+  'New energy rules, July 2026: no licence fee for renewable plants under 10 MW',
+  'Zimbabwe launches ZNIDP II, its industrial policy for 2026 to 2030',
+  'Vietnam imported 1.71 million tonnes of cotton in 2025, with no significant African supplier',
+  'MZM attends Mine Entra 2026 in Bulawayo, 29 to 31 July',
+  'Zimbabwe co-hosts the ICC Men\'s Cricket World Cup in 2027',
 ]
 
 export default function NewsTicker() {

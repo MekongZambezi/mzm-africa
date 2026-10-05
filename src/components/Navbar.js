@@ -24,9 +24,9 @@ export default function Navbar() {
 
   const navItems = [
     { label: t.nav.about, href: '/about', children: withLinks(t.nav.aboutSub, ['/about#vision', '/about#story', '/about#offices', '/governance'], '/about') },
-    { label: t.nav.business, href: '/business', children: withLinks(t.nav.businessSub, ['/business', '/minerals', '/business/agriculture', '/business/energy', '/business/manufacturing', '/business/tourism'], '/business') },
+    { label: t.nav.business, href: '/business', children: withLinks(t.nav.businessSub, ['/business', '/business/mining', '/business/agriculture', '/business/energy', '/business/manufacturing', '/business/tourism'], '/business') },
     { label: t.nav.corridor, href: '/corridor', children: withLinks(t.nav.corridorSub, ['/corridor#invest', '/corridor#source', '/corridor#producers'], '/corridor') },
-    { label: t.nav.howWeWork, href: '/how-we-work', children: withLinks(t.nav.howWeWorkSub, ['/how-we-work', '/how-we-work#verification', '/how-we-work#fees', '/services'], '/how-we-work') },
+    { label: t.nav.howWeWork, href: '/how-we-work', children: withLinks(t.nav.howWeWorkSub, ['/how-we-work', '/how-we-work#verification', '/how-we-work#fees'], '/how-we-work') },
     { label: t.nav.news, href: '/news' },
     { label: t.nav.team, href: '/team' },
     { label: t.nav.contact, href: '/contact' },
