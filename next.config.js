@@ -7,6 +7,7 @@ const nextConfig = {
     return [
       { source: '/minerals', destination: '/business/mining', permanent: true },
       { source: '/services', destination: '/business/mining', permanent: true },
+      { source: '/why-we-do-it', destination: '/opportunity', permanent: true },
     ]
   },
 }

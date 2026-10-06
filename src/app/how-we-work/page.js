@@ -2,12 +2,12 @@ import Link from 'next/link'
 import PageHero, { SectionLabel } from '../../components/PageHero'
 
 export const metadata = {
-  title: 'How We Do It | MZM Africa',
-  description: 'One process for every mandate: discovery and alignment, verification on the ground, structuring and approvals, execution, and implementation, run from Hanoi and Zimbabwe.',
+  title: 'Our Approach | MZM Africa',
+  description: 'One process for every engagement: discovery and alignment, verification on the ground, structuring and approvals, execution, and implementation, run from Hanoi and Zimbabwe.',
 }
 
 const steps = [
-  ['01', 'Discovery and Alignment', 'We define the mandate: sector, scale, timeline and objectives. We confirm the opportunity fits Zimbabwean law and policy, and check for conflicts of interest. A signed fee letter is in place before work begins.', 'Agreed mandate and signed fee letter'],
+  ['01', 'Discovery and Alignment', 'We define the engagement: sector, scale, timeline and objectives. We confirm the opportunity fits Zimbabwean law and policy, and check for conflicts of interest. A signed fee letter is in place before work begins.', 'Agreed scope and signed fee letter'],
   ['02', 'Verification on the Ground', 'Our Zimbabwe team checks title, ownership, licences and the people involved with the relevant authority, and visits the site or producer. Opportunities that fail are not presented.', 'Verification report'],
   ['03', 'Structuring and Approvals', 'We prepare the structure within the reserved-sector rules, the processing requirements and sector policy, and prepare ZIDA, ministry, ZERA or export filings with licensed counsel, in the client’s own name. For Vietnamese investors, we prepare the Zimbabwe documents needed for registration at home.', 'Approval-ready file in both countries'],
   ['04', 'Introduction and Execution', 'Under a non-disclosure agreement, we introduce the parties and manage negotiation, documentation and approvals through to signing.', 'Signed agreements and filed applications'],
@@ -23,19 +23,19 @@ const presence = [
 const commitments = [
   ['Verification before introduction', 'No opportunity, producer or counterparty is introduced before it passes our checks.'],
   ['Official channels only', 'Investment is registered with ZIDA, minerals are sold through MMCZ or Fidelity Gold Refinery, power projects are licensed or registered with ZERA, and exports follow ZimTrade and customs procedures.'],
-  ['Current law, applied', 'Structures follow the 2026 reserved-sector rules, processing requirements and critical minerals framework, with licensed counsel on every engagement.'],
+  ['Current law, applied', 'Structures follow the 2026 reserved-sector rules, processing requirements and critical minerals framework, with licensed counsel wherever legal advice is required.'],
   ['Fees in writing', 'Fees are agreed in a signed letter and disclosed to every party. Any interest held by an MZM team member is disclosed before work begins.'],
   ['No paid access', 'We never pay, or promise payment to, any official, and we do not work with anyone who charges for introductions to officials.'],
   ['Confidentiality', 'Project details are shared only under a non-disclosure agreement.'],
 ]
 
-export default function HowWeDoIt() {
+export default function OurApproach() {
   return (
     <>
       <PageHero
-        eyebrow="How We Do It"
+        eyebrow="Our Approach"
         title="One process. Two countries."
-        accent="Every mandate."
+        accent="Every engagement."
         lead="Every engagement follows the same five stages, run jointly by our Asia desk in Hanoi and our team in Zimbabwe."
         image="/images/practice-manufacturing.jpg"
       />
@@ -103,10 +103,10 @@ export default function HowWeDoIt() {
       <section className="py-20 bg-[#0A0E18] border-t border-white/10">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between md:items-center gap-8">
           <div>
-            <h2 className="font-serif text-4xl font-bold mb-2">Bring us a mandate.</h2>
+            <h2 className="font-serif text-4xl font-bold mb-2">Discuss your project with us.</h2>
             <p className="text-gray-400 font-light">We reply to every enquiry within 48 hours.</p>
           </div>
-          <Link href="/contact?type=consultation" className="shrink-0 bg-[#C4A04A] text-[#080C14] text-xs font-black tracking-widest uppercase px-10 py-5 hover:bg-[#E0CA8E] transition-colors">Schedule an Executive Consultation</Link>
+          <Link href="/contact?type=consultation" className="shrink-0 bg-[#C4A04A] text-[#080C14] text-xs font-black tracking-widest uppercase px-10 py-5 hover:bg-[#E0CA8E] transition-colors">Speak to Our Team</Link>
         </div>
       </section>
     </>

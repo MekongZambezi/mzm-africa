@@ -211,7 +211,7 @@ export const practices = [
       ['Vietnam Chamber of Commerce and Industry (VCCI)', 'National business federation'],
     ],
     boundaries:
-      'Manufacturing investments take longer and need several approvals. MZM works with licensed legal and tax advisers on every engagement and does not offer incentives or approvals that only government agencies can grant.',
+      'Manufacturing investments take longer and need several approvals. MZM works with licensed legal and tax advisers wherever advice is required, and does not offer incentives or approvals that only government agencies can grant.',
   },
   {
     slug: 'tourism',

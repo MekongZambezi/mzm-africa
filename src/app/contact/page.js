@@ -9,8 +9,8 @@ export default function Contact() {
 
   useEffect(() => {
     const type = new URLSearchParams(window.location.search).get('type')
-    if (type === 'consultation') setEnquiryType('Executive consultation')
-    if (type === 'brief') setEnquiryType('Discussion brief request')
+    if (type === 'consultation') setEnquiryType('Meeting with our team')
+    if (type === 'brief') setEnquiryType('Zimbabwe investment brief request')
   }, [])
 
   async function handleSubmit(e) {
@@ -41,7 +41,7 @@ export default function Contact() {
             <div className="w-7 h-px bg-[#C4A04A]" />
             <span className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase">Contact</span>
           </div>
-          <h1 className="font-serif text-5xl md:text-6xl font-bold mb-5">Bring us <span className="text-[#C4A04A] italic">a mandate.</span></h1>
+          <h1 className="font-serif text-5xl md:text-6xl font-bold mb-5">Discuss your project <span className="text-[#C4A04A] italic">with us.</span></h1>
           <p className="text-gray-200 font-light text-lg max-w-2xl leading-relaxed">Investment into Zimbabwe, supply from Zimbabwe, or entry into Vietnam. Tell us what you need, and the right person in Hanoi or Zimbabwe will respond.</p>
         </div>
       </section>
@@ -70,7 +70,7 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16">
           {/* Info */}
           <div>
-            <h2 className="font-serif text-3xl font-bold mb-4">Tell us about <span className="text-[#C4A04A] italic">your mandate.</span></h2>
+            <h2 className="font-serif text-3xl font-bold mb-4">Tell us about <span className="text-[#C4A04A] italic">your project.</span></h2>
             <p className="text-gray-300 font-light leading-relaxed mb-10">
               The more specific your enquiry, the faster we can respond. Please include the sector, what you want to invest in, buy or sell, the approximate scale and your timeline.
             </p>
@@ -79,7 +79,7 @@ export default function Contact() {
             <ol className="border-t border-white/10 mb-10">
               {[
                 ['Acknowledgement within 48 hours', 'Every enquiry receives a reply from an @mzmafrica.com address within 48 hours.'],
-                ['A first call', 'The Managing Director or the Commercial Director arranges a call to understand your mandate.'],
+                ['A first call', 'The Managing Director or the Commercial Director arranges a call to understand your project.'],
                 ['Non-disclosure agreement', 'Project details are exchanged only once a non-disclosure agreement is signed.'],
                 ['Signed fee letter', 'Work begins only after fees are agreed in writing.'],
               ].map(([title, body], i) => (
@@ -158,8 +158,8 @@ export default function Contact() {
                 <div>
                   <label className="block text-xs font-bold tracking-widest uppercase text-gray-500 mb-2">Enquiry Type</label>
                   <select name="enquiryType" value={enquiryType} onChange={(e) => setEnquiryType(e.target.value)} className="w-full bg-[#0F1520] border border-white/10 text-white px-4 py-3 text-sm focus:border-[#C4A04A]/60 focus:outline-none transition-colors appearance-none">
-                    <option>Executive consultation</option>
-                    <option>Discussion brief request</option>
+                    <option>Meeting with our team</option>
+                    <option>Zimbabwe investment brief request</option>
                     <option>General enquiry</option>
                   </select>
                 </div>
@@ -194,7 +194,7 @@ export default function Contact() {
 
                 <div>
                   <label className="block text-xs font-bold tracking-widest uppercase text-gray-500 mb-2">Message</label>
-                  <textarea name="message" rows={5} placeholder="Describe your mandate: sector, objective, approximate scale and timeline. Please do not send confidential documents until a non-disclosure agreement is in place." className="w-full bg-[#0F1520] border border-white/10 text-white px-4 py-3 text-sm focus:border-[#C4A04A]/60 focus:outline-none transition-colors placeholder-gray-600 resize-none" />
+                  <textarea name="message" rows={5} placeholder="Describe your project: sector, objective, approximate scale and timeline. Please do not send confidential documents until a non-disclosure agreement is in place." className="w-full bg-[#0F1520] border border-white/10 text-white px-4 py-3 text-sm focus:border-[#C4A04A]/60 focus:outline-none transition-colors placeholder-gray-600 resize-none" />
                 </div>
 
                 <p className="text-xs text-gray-500 leading-relaxed">

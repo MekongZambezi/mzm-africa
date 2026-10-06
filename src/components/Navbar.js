@@ -23,10 +23,12 @@ export default function Navbar() {
   const withLinks = (labels, hrefs, fallback) => labels.map((l, i) => ({ label: l, href: hrefs[i] || fallback }))
 
   const navItems = [
-    { label: t.nav.whatWeDo, href: '/what-we-do', children: withLinks(t.nav.whatWeDoSub, ['/what-we-do', '/business', '/business/mining', '/business/agriculture', '/business/energy', '/business/manufacturing', '/business/tourism'], '/what-we-do') },
-    { label: t.nav.why, href: '/why-we-do-it', children: withLinks(t.nav.whySub, ['/why-we-do-it#context', '/why-we-do-it#thesis', '/about', '/team'], '/why-we-do-it') },
-    { label: t.nav.howWeWork, href: '/how-we-work', children: withLinks(t.nav.howWeWorkSub, ['/how-we-work#framework', '/how-we-work#commitments', '/governance', '/fraud-notice'], '/how-we-work') },
+    { label: t.nav.capabilities, href: '/what-we-do', children: withLinks(t.nav.capabilitiesSub, ['/what-we-do#capability-01', '/what-we-do#capability-02', '/what-we-do#capability-03', '/what-we-do#capability-04'], '/what-we-do') },
+    { label: t.nav.sectors, href: '/business', children: withLinks(t.nav.sectorsSub, ['/business', '/business/mining', '/business/agriculture', '/business/energy', '/business/manufacturing', '/business/tourism'], '/business') },
+    { label: t.nav.opportunity, href: '/opportunity', children: withLinks(t.nav.opportunitySub, ['/opportunity#context', '/opportunity#thesis'], '/opportunity') },
+    { label: t.nav.approach, href: '/how-we-work', children: withLinks(t.nav.approachSub, ['/how-we-work#framework', '/how-we-work#commitments', '/governance', '/fraud-notice'], '/how-we-work') },
     { label: t.nav.corridor, href: '/corridor', children: withLinks(t.nav.corridorSub, ['/corridor#invest', '/corridor#source', '/corridor#producers'], '/corridor') },
+    { label: t.nav.about, href: '/about', children: withLinks(t.nav.aboutSub, ['/about', '/team', '/about#offices'], '/about') },
     { label: t.nav.news, href: '/news' },
     { label: t.nav.contact, href: '/contact' },
   ]
@@ -64,7 +66,7 @@ export default function Navbar() {
               </button>
             ))}
           </div>
-          <Link href="/contact" className="hidden 2xl:inline-block whitespace-nowrap text-xs font-bold tracking-widest uppercase text-[#C4A04A] border border-[#7A6230] px-5 py-2.5 hover:bg-[#C4A04A] hover:text-[#080C14] transition-colors">
+          <Link href="/contact?type=consultation" className="hidden 2xl:inline-block whitespace-nowrap text-xs font-bold tracking-widest uppercase text-[#C4A04A] border border-[#7A6230] px-5 py-2.5 hover:bg-[#C4A04A] hover:text-[#080C14] transition-colors">
             {t.nav.cta}
           </Link>
         </div>
@@ -92,7 +94,7 @@ export default function Navbar() {
               ))}
             </div>
           ))}
-          <Link href="/contact" onClick={() => setMobileOpen(false)} className="block mt-4 text-center text-xs font-bold tracking-widest uppercase text-[#C4A04A] border border-[#7A6230] px-5 py-3">{t.nav.cta}</Link>
+          <Link href="/contact?type=consultation" onClick={() => setMobileOpen(false)} className="block mt-4 text-center text-xs font-bold tracking-widest uppercase text-[#C4A04A] border border-[#7A6230] px-5 py-3">{t.nav.cta}</Link>
         </div>
       )}
     </nav>

@@ -2,7 +2,7 @@ import Link from 'next/link'
 import PageHero, { SectionLabel } from '../../components/PageHero'
 
 export const metadata = {
-  title: 'Why We Do It | MZM Africa',
+  title: 'The Opportunity: Why Zimbabwe, Why Vietnam | MZM Africa',
   description: 'Zimbabwe wants investment and new export markets. Vietnam wants raw materials and markets for its companies. Why MZM works between the two.',
 }
 
@@ -32,14 +32,14 @@ const values = [
 
 const Dash = () => <span className="text-[#C4A04A] shrink-0">—</span>
 
-export default function WhyWeDoIt() {
+export default function Opportunity() {
   return (
     <>
       <PageHero
-        eyebrow="Why We Do It"
-        title="Each economy needs"
-        accent="what the other has."
-        lead="Zimbabwe wants investment and new export markets. Vietnam wants raw materials and markets for its companies. Both governments set this out in their own policies."
+        eyebrow="The Opportunity"
+        title="Why Zimbabwe."
+        accent="Why Vietnam."
+        lead="Each economy needs what the other has. Zimbabwe wants investment and new export markets. Vietnam wants raw materials and markets for its companies. Both governments set this out in their own policies."
         image="/images/hanoi.jpg"
       />
 
@@ -110,7 +110,7 @@ export default function WhyWeDoIt() {
             <h2 className="font-serif text-4xl font-bold mb-2">See how we deliver.</h2>
             <p className="text-gray-400 font-light">One process, five stages, run in both countries.</p>
           </div>
-          <Link href="/how-we-work" className="shrink-0 bg-[#C4A04A] text-[#080C14] text-xs font-black tracking-widest uppercase px-10 py-5 hover:bg-[#E0CA8E] transition-colors">How We Do It</Link>
+          <Link href="/how-we-work" className="shrink-0 bg-[#C4A04A] text-[#080C14] text-xs font-black tracking-widest uppercase px-10 py-5 hover:bg-[#E0CA8E] transition-colors">Our Approach</Link>
         </div>
       </section>
     </>

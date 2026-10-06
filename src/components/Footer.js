@@ -19,7 +19,7 @@ export default function Footer() {
             <h4 className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase mb-5">{f.company}</h4>
             <ul className="space-y-3">
               {f.companyLinks.map((label, i) => (
-                <li key={i}><Link href={['/what-we-do', '/why-we-do-it', '/how-we-work', '/about', '/team', '/governance'][i] || '/about'} className="text-gray-400 text-sm hover:text-white transition-colors">{label}</Link></li>
+                <li key={i}><Link href={['/what-we-do', '/opportunity', '/how-we-work', '/about', '/team', '/governance'][i] || '/about'} className="text-gray-400 text-sm hover:text-white transition-colors">{label}</Link></li>
               ))}
             </ul>
           </div>

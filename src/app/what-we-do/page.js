@@ -3,7 +3,7 @@ import PageHero, { SectionLabel } from '../../components/PageHero'
 import { practices } from '../../lib/practices'
 
 export const metadata = {
-  title: 'What We Do | MZM Africa',
+  title: 'Capabilities | MZM Africa',
   description: 'Investment facilitation into Zimbabwe, export and market access, equipment and energy sourcing, and market-entry advisory, across five sectors.',
 }
 
@@ -13,12 +13,12 @@ const capabilities = [
     name: 'Investment Facilitation into Zimbabwe',
     need: 'Asian investors see opportunity in Zimbabwe but face unfamiliar rules, unverified sellers and new requirements to process minerals and produce in the country. ZIDA approved over USD 3 billion of investment in the first half of 2026, and its focus is now on approvals that become operating projects.',
     capability: [
-      'Opportunity sourcing across five sectors, matched to the investor’s mandate',
+      'Opportunity sourcing across five sectors, matched to the investor’s objectives',
       'Title, ownership, licence and counterparty checks with the relevant Zimbabwean authority',
       'Transaction structuring under the reserved-sector rules, the processing requirements and the critical minerals framework',
       'Preparation of ZIDA investment licence and Special Economic Zone applications, filed in the investor’s name with licensed counsel',
       'Site, partner and supplier introductions',
-      'Support after licensing, through construction and commissioning',
+      'Support after licensing, until the project is operating',
     ],
     impact: 'Investors reach ZIDA with a complete, compliant project, and deal with one accountable team from first meeting to operation.',
   },
@@ -67,7 +67,7 @@ export default function WhatWeDo() {
   return (
     <>
       <PageHero
-        eyebrow="What We Do"
+        eyebrow="Capabilities"
         title="Four capabilities. Five sectors."
         accent="One accountable team."
         lead="MZM delivers four capabilities: investment facilitation into Zimbabwe, export and market access for Zimbabwean producers, equipment and energy sourcing, and market-entry advisory. We apply them across mining, agriculture, energy, manufacturing, and tourism and hospitality, with one verification standard and one team accountable in Hanoi and in Zimbabwe."
@@ -120,10 +120,10 @@ export default function WhatWeDo() {
       <section className="py-20 bg-[#080C14]">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between md:items-center gap-8">
           <div>
-            <h2 className="font-serif text-4xl font-bold mb-2">Discuss a mandate.</h2>
+            <h2 className="font-serif text-4xl font-bold mb-2">Discuss your project with us.</h2>
             <p className="text-gray-400 font-light">Tell us the sector, the objective and the timeline. We reply within 48 hours.</p>
           </div>
-          <Link href="/contact?type=consultation" className="shrink-0 bg-[#C4A04A] text-[#080C14] text-xs font-black tracking-widest uppercase px-10 py-5 hover:bg-[#E0CA8E] transition-colors">Schedule an Executive Consultation</Link>
+          <Link href="/contact?type=consultation" className="shrink-0 bg-[#C4A04A] text-[#080C14] text-xs font-black tracking-widest uppercase px-10 py-5 hover:bg-[#E0CA8E] transition-colors">Speak to Our Team</Link>
         </div>
       </section>
     </>
