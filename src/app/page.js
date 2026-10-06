@@ -7,12 +7,12 @@ import { practices } from '../lib/practices'
 // Homepage copy in English and Vietnamese. Chinese falls back to English.
 const en = {
   eyebrow: 'Mekong Zambezi Meridian Consultants',
-  h1: ['Zimbabwe’s priorities', 'meet Vietnam’s.'],
-  sub: 'Raw materials from Zimbabwe. Investment from Vietnam. Zimbabwe’s development strategy and Vietnam’s GoGlobal Programme point at many of the same sectors, and we work where they overlap.',
-  cta1: 'Invest in Zimbabwe',
-  cta2: 'Buy from Zimbabwe',
-  cta3: 'Sell into Vietnam',
-  stats: [['Zimbabwe brings', ['Lithium, chrome, gold and other minerals', 'Cotton, tobacco, nuts and fruit', 'Special Economic Zones with tax incentives', 'Victoria Falls and five UNESCO World Heritage Sites']], ['Vietnam brings', ['Factories that import raw materials', 'Processing, machinery and solar equipment', 'Companies investing abroad under GoGlobal', '1.71 million tonnes of cotton imported in 2025']]],
+  h1: ['Building trade between', 'Zimbabwe and Vietnam.'],
+  sub: 'Asian investment into Zimbabwe. Zimbabwean products into Asia.',
+  cta1: 'Discover what we do',
+  cta2: 'Contact us',
+  cta3: ['Two Economies', ['What each country', 'brings to the other.'], 'Zimbabwe’s development strategy and Vietnam’s GoGlobal Programme point at many of the same sectors. We work where they overlap.', [['For Investors', 'Invest in Zimbabwe', 'Checked opportunities in five sectors.', '/business'], ['For Buyers', 'Buy from Zimbabwe', 'Verified producers of tobacco, cotton, nuts, fruit and more.', '/corridor#source'], ['For Zimbabwean Producers', 'Sell into Vietnam', 'Buyer introductions and export support.', '/corridor#producers']]],
+  stats: [['Zimbabwe', ['Lithium, chrome, gold and other minerals', 'Cotton, tobacco, nuts and fruit', 'Special Economic Zones with tax incentives', 'Victoria Falls and five UNESCO World Heritage Sites']], ['Vietnam', ['Factories that import raw materials', 'Processing, machinery and solar equipment', 'Companies investing abroad under GoGlobal', '1.71 million tonnes of cotton imported in 2025']]],
   sectorsLabel: 'Our Business',
   sectorsTitle: ['Five sectors.', 'One standard.'],
   sectorsSub: 'We work in the sectors where Zimbabwe most wants investment, and we apply the same checks in each.',
@@ -56,12 +56,12 @@ const en = {
 
 const vi = {
   eyebrow: 'Mekong Zambezi Meridian Consultants',
-  h1: ['Ưu tiên của Zimbabwe', 'gặp ưu tiên của Việt Nam.'],
-  sub: 'Nguyên liệu từ Zimbabwe. Đầu tư từ Việt Nam. Chiến lược phát triển của Zimbabwe và Chương trình GoGlobal của Việt Nam cùng hướng tới nhiều lĩnh vực chung, và chúng tôi làm việc ở nơi hai bên gặp nhau.',
-  cta1: 'Đầu tư vào Zimbabwe',
-  cta2: 'Mua hàng từ Zimbabwe',
-  cta3: 'Bán hàng vào Việt Nam',
-  stats: [['Zimbabwe có', ['Lithium, crôm, vàng và các khoáng sản khác', 'Bông, thuốc lá, các loại hạt và trái cây', 'Đặc khu Kinh tế với ưu đãi thuế', 'Thác Victoria và năm Di sản Thế giới UNESCO']], ['Việt Nam có', ['Nhà máy nhập khẩu nguyên liệu', 'Thiết bị chế biến, máy móc và điện mặt trời', 'Doanh nghiệp đầu tư ra nước ngoài theo GoGlobal', '1,71 triệu tấn bông nhập khẩu năm 2025']]],
+  h1: ['Xây dựng thương mại giữa', 'Zimbabwe và Việt Nam.'],
+  sub: 'Đầu tư châu Á vào Zimbabwe. Sản phẩm Zimbabwe vào châu Á.',
+  cta1: 'Tìm hiểu về chúng tôi',
+  cta2: 'Liên hệ',
+  cta3: ['Hai Nền Kinh Tế', ['Mỗi quốc gia', 'mang lại gì cho nhau.'], 'Chiến lược phát triển của Zimbabwe và Chương trình GoGlobal của Việt Nam cùng hướng tới nhiều lĩnh vực chung. Chúng tôi làm việc ở nơi hai bên gặp nhau.', [['Dành cho Nhà Đầu Tư', 'Đầu tư vào Zimbabwe', 'Cơ hội đã được kiểm tra trong năm lĩnh vực.', '/business'], ['Dành cho Người Mua', 'Mua hàng từ Zimbabwe', 'Nhà sản xuất thuốc lá, bông, các loại hạt, trái cây đã được thẩm định.', '/corridor#source'], ['Dành cho Nhà Sản Xuất Zimbabwe', 'Bán hàng vào Việt Nam', 'Kết nối người mua và hỗ trợ xuất khẩu.', '/corridor#producers']]],
+  stats: [['Zimbabwe', ['Lithium, crôm, vàng và các khoáng sản khác', 'Bông, thuốc lá, các loại hạt và trái cây', 'Đặc khu Kinh tế với ưu đãi thuế', 'Thác Victoria và năm Di sản Thế giới UNESCO']], ['Việt Nam', ['Nhà máy nhập khẩu nguyên liệu', 'Thiết bị chế biến, máy móc và điện mặt trời', 'Doanh nghiệp đầu tư ra nước ngoài theo GoGlobal', '1,71 triệu tấn bông nhập khẩu năm 2025']]],
   sectorsLabel: 'Lĩnh Vực Hoạt Động',
   sectorsTitle: ['Năm lĩnh vực.', 'Một tiêu chuẩn.'],
   sectorsSub: 'Chúng tôi hoạt động trong các lĩnh vực Zimbabwe ưu tiên thu hút đầu tư nhất, và áp dụng cùng một quy trình kiểm tra cho mỗi lĩnh vực.',
@@ -127,41 +127,62 @@ export default function Home() {
   return (
     <>
       {/* HERO */}
-      <section className="relative min-h-screen flex flex-col justify-end pb-20 pt-32 overflow-hidden">
-        <div className="absolute inset-0 grid grid-cols-1 md:grid-cols-2">
-          <div className="bg-cover bg-center" style={{ backgroundImage: 'url(/images/zimbabwe-landscape.jpg)' }} />
-          <div className="hidden md:block bg-cover bg-center" style={{ backgroundImage: 'url(/images/hanoi.jpg)' }} />
-        </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-[#080C14]/70 via-[#080C14]/55 to-[#080C14]" />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#080C14]/80 to-transparent" />
+      <style>{`@keyframes mzmFade{0%,40%{opacity:0}50%,90%{opacity:1}100%{opacity:0}}@keyframes mzmZoom{from{transform:scale(1)}to{transform:scale(1.08)}}.mzm-fade{animation:mzmFade 18s ease-in-out infinite}.mzm-zoom{animation:mzmZoom 18s ease-out infinite alternate}@media (prefers-reduced-motion:reduce){.mzm-fade,.mzm-zoom{animation:none}}`}</style>
+      <section className="relative h-screen min-h-[640px] flex flex-col justify-end pb-24 overflow-hidden">
+        <div className="absolute inset-0 bg-cover bg-center mzm-zoom" style={{ backgroundImage: 'url(/images/zimbabwe-landscape.jpg)' }} />
+        <div className="absolute inset-0 bg-cover bg-center mzm-fade" style={{ backgroundImage: 'url(/images/hanoi.jpg)' }} />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#080C14] via-[#080C14]/45 to-[#080C14]/20" />
+        <div className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-[#080C14]/80 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-6 w-full">
-          <div className="flex items-center gap-4 mb-6">
+          <div className="flex items-center gap-4 mb-8">
             <div className="w-10 h-px bg-[#C4A04A]" />
             <span className="text-[#C4A04A] text-xs font-bold tracking-[0.25em] uppercase">{c.eyebrow}</span>
           </div>
-          <h1 className="text-5xl md:text-7xl lg:text-[82px] font-serif font-bold leading-none mb-6" style={{ maxWidth: '900px' }}>
-            {c.h1[0]}<br /><span className="text-[#C4A04A] italic">{c.h1[1]}</span>
+          <h1 className="text-5xl md:text-7xl lg:text-[88px] font-serif font-bold leading-[1.0] mb-8">
+            <span className="lg:whitespace-nowrap">{c.h1[0]}</span><br /><span className="text-[#C4A04A] italic lg:whitespace-nowrap">{c.h1[1]}</span>
           </h1>
-          <p className="text-gray-200 text-lg font-light max-w-2xl mb-10 leading-relaxed">{c.sub}</p>
-          <div className="flex flex-wrap gap-4 items-center mb-16">
-            <Link href="/business" className="bg-[#C4A04A] text-[#080C14] text-xs font-black tracking-widest uppercase px-8 py-4 hover:bg-[#E0CA8E] transition-colors">{c.cta1}</Link>
-            <Link href="/corridor#source" className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase px-8 py-4 border border-[#C4A04A]/50 hover:bg-[#C4A04A]/10 transition-colors">{c.cta2}</Link>
-            <Link href="/corridor#producers" className="text-white text-xs font-bold tracking-widest uppercase px-8 py-4 border border-white/25 hover:border-[#C4A04A]/60 hover:text-[#C4A04A] transition-colors">{c.cta3}</Link>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-white/10 border border-white/10 max-w-4xl">
-            {c.stats.map(([title, items]) => (
-              <div key={title} className="bg-[#080C14]/80 backdrop-blur-sm p-6">
-                <div className="text-[#C4A04A] text-[11px] font-black tracking-widest uppercase mb-3">{title}</div>
-                <ul className="space-y-1.5">
-                  {items.map((it) => <li key={it} className="flex gap-3 text-sm text-gray-200 font-light"><span className="text-[#C4A04A] shrink-0">—</span>{it}</li>)}
-                </ul>
-              </div>
-            ))}
+          <p className="text-white text-xl md:text-2xl font-light mb-12 max-w-3xl">{c.sub}</p>
+          <div className="flex flex-wrap gap-8 items-center">
+            <Link href="/business" className="bg-[#C4A04A] text-[#080C14] text-xs font-black tracking-widest uppercase px-10 py-5 hover:bg-[#E0CA8E] transition-colors">{c.cta1}</Link>
+            <Link href="/contact" className="group text-white text-xs font-bold tracking-widest uppercase inline-flex items-center gap-2 hover:text-[#C4A04A] transition-colors">{c.cta2} <Arrow cls="w-4 h-4" /></Link>
           </div>
         </div>
       </section>
 
       <NewsTicker />
+
+      {/* TWO ECONOMIES */}
+      <section className="py-24 bg-[#080C14]">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-12">
+            <div>
+              <Label>{c.cta3[0]}</Label>
+              <h2 className="font-serif text-4xl md:text-5xl font-bold">{c.cta3[1][0]}<br /><span className="text-[#C4A04A] italic">{c.cta3[1][1]}</span></h2>
+            </div>
+            <p className="text-gray-400 font-light max-w-md leading-relaxed">{c.cta3[2]}</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-white/10 border border-white/10 mb-6">
+            {c.stats.map(([title, items]) => (
+              <div key={title} className="bg-[#0A0E18] p-10">
+                <h3 className="font-serif text-3xl font-semibold mb-6 text-[#C4A04A]">{title}</h3>
+                <ul className="space-y-3">
+                  {items.map((it) => <li key={it} className="flex gap-3 text-gray-200 font-light"><span className="text-[#C4A04A] shrink-0">—</span>{it}</li>)}
+                </ul>
+              </div>
+            ))}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {c.cta3[3].map(([who, title, body, href]) => (
+              <Link key={href} href={href} className="group border border-white/10 hover:border-[#C4A04A]/50 bg-[#080C14] p-8 transition-colors">
+                <div className="text-[10px] font-black tracking-widest uppercase text-gray-400 mb-3">{who}</div>
+                <div className="font-serif text-2xl font-semibold mb-2 group-hover:text-[#C4A04A] transition-colors">{title}</div>
+                <p className="text-gray-400 text-sm font-light mb-5">{body}</p>
+                <span className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase inline-flex items-center gap-2"><Arrow /></span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* FIVE SECTORS, EQUAL WEIGHT */}
       <section className="py-24 bg-[#080C14]">
