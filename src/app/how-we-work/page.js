@@ -2,116 +2,111 @@ import Link from 'next/link'
 import PageHero, { SectionLabel } from '../../components/PageHero'
 
 export const metadata = {
-  title: 'How We Work | MZM Africa',
-  description: 'The MZM engagement process: verification before introduction, structuring within Zimbabwean law, disclosed fees, and support through approval and closing.',
+  title: 'How We Do It | MZM Africa',
+  description: 'One process for every mandate: discovery and alignment, verification on the ground, structuring and approvals, execution, and implementation, run from Hanoi and Zimbabwe.',
 }
 
 const steps = [
-  ['01', 'Originate', 'Our Zimbabwe desk identifies projects; our Asia desk identifies investors, buyers and suppliers. Every lead is logged in a single pipeline.'],
-  ['02', 'Screen', 'Title, documents and counterparties are checked against our verification standard. Opportunities that fail are closed and never shown to an investor.'],
-  ['03', 'Mandate review', 'Senior review against five checks: verification, regulatory fit, conflicts of interest, a signed fee letter, and investment registration with ZIDA.'],
-  ['04', 'Package', 'An investor-ready document set: summary, verified data, regulatory position and proposed structure.'],
-  ['05', 'Match', 'The package is presented to pre-qualified counterparties under a non-disclosure agreement.'],
-  ['06', 'Structure and approve', 'Terms are negotiated and the required registrations and ministry approvals are managed with licensed counsel.'],
-  ['07', 'Close and follow through', 'MZM remains available after closing to support the relationship through the first year of operation.'],
+  ['01', 'Discovery and Alignment', 'We define the mandate: sector, scale, timeline and objectives. We confirm the opportunity fits Zimbabwean law and policy, and check for conflicts of interest. A signed fee letter is in place before work begins.', 'Agreed mandate and signed fee letter'],
+  ['02', 'Verification on the Ground', 'Our Zimbabwe team checks title, ownership, licences and the people involved with the relevant authority, and visits the site or producer. Opportunities that fail are not presented.', 'Verification report'],
+  ['03', 'Structuring and Approvals', 'We prepare the structure within the reserved-sector rules, the processing requirements and sector policy, and prepare ZIDA, ministry, ZERA or export filings with licensed counsel, in the client’s own name. For Vietnamese investors, we prepare the Zimbabwe documents needed for registration at home.', 'Approval-ready file in both countries'],
+  ['04', 'Introduction and Execution', 'Under a non-disclosure agreement, we introduce the parties and manage negotiation, documentation and approvals through to signing.', 'Signed agreements and filed applications'],
+  ['05', 'Implementation and Governance', 'After licensing, we coordinate suppliers, partners, power and permits through to operation, and report to both parties at agreed points.', 'An operating project or an established supply line'],
 ]
 
-const standard = [
-  ['Title and documents', 'Ownership, registration and permits verified with the relevant registry before any introduction.'],
-  ['Counterparty identity', 'Company registration, directors and authority to transact confirmed for every party we introduce.'],
-  ['Reserved sectors', 'Structures respect the sectors reserved for Zimbabwean citizens, with foreign participation only where the law allows it.'],
-  ['Official channels', 'Licensing, mineral sales and exports run through the institutions that govern them.'],
-  ['Regulatory fit', 'Each structure is checked against current Zimbabwean law and policy before investors are quoted.'],
+const presence = [
+  ['Hanoi, Vietnam', 'Asia Desk', 'Led by Managing Director Andy Moyo. Meets Vietnamese and Asian investors, buyers, equipment suppliers and trade bodies in person, in their own time zone.'],
+  ['Zimbabwe', 'Operations', 'Led by Commercial Director Ebern Moyo, with Deputy Managing Director Chido A. Mumvuri leading business development. Checks opportunities and suppliers on the ground, works with Zimbabwean institutions and manages delivery.'],
+  ['Both countries', 'Both sides of every approval', 'We work through ZIDA, ZimTrade, the sector ministries, MMCZ, Fidelity Gold Refinery and ZERA in Zimbabwe, and VCCI, VIETRADE and the relevant ministries in Vietnam. MZM is a private firm and does not represent any of them.'],
 ]
 
-const fees = [
-  'Every fee is agreed in a signed fee letter before work begins.',
-  'Every fee is disclosed to all parties to the transaction.',
-  'MZM does not add undisclosed margins to any price.',
-  'Fees are invoiced only through MZM’s registered company accounts.',
+const commitments = [
+  ['Verification before introduction', 'No opportunity, producer or counterparty is introduced before it passes our checks.'],
+  ['Official channels only', 'Investment is registered with ZIDA, minerals are sold through MMCZ or Fidelity Gold Refinery, power projects are licensed or registered with ZERA, and exports follow ZimTrade and customs procedures.'],
+  ['Current law, applied', 'Structures follow the 2026 reserved-sector rules, processing requirements and critical minerals framework, with licensed counsel on every engagement.'],
+  ['Fees in writing', 'Fees are agreed in a signed letter and disclosed to every party. Any interest held by an MZM team member is disclosed before work begins.'],
+  ['No paid access', 'We never pay, or promise payment to, any official, and we do not work with anyone who charges for introductions to officials.'],
+  ['Confidentiality', 'Project details are shared only under a non-disclosure agreement.'],
 ]
 
-export default function HowWeWork() {
+export default function HowWeDoIt() {
   return (
     <>
       <PageHero
-        eyebrow="How We Work"
-        title="Verified before"
-        accent="you see it."
-        lead="One process applies in every sector. Opportunities are screened before they reach an investor, structured within Zimbabwean law, and supported through approval to closing."
-        image="/images/mining-site-2.jpg"
+        eyebrow="How We Do It"
+        title="One process. Two countries."
+        accent="Every mandate."
+        lead="Every engagement follows the same five stages, run jointly by our Asia desk in Hanoi and our team in Zimbabwe."
+        image="/images/practice-manufacturing.jpg"
       />
 
-      <section className="py-24 bg-[#080C14]">
+      <section id="framework" className="py-24 bg-[#080C14] scroll-mt-20">
         <div className="max-w-7xl mx-auto px-6">
-          <SectionLabel>The Engagement Process</SectionLabel>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold mb-14">Seven steps, <span className="text-[#C4A04A] italic">from first lead to closing.</span></h2>
-          <ol className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-white/10 border border-white/10">
-            {steps.map(([num, title, body]) => (
-              <li key={num} className="bg-[#080C14] p-8">
-                <div className="font-serif text-4xl font-bold text-[#C4A04A]/30 mb-4">{num}</div>
-                <h3 className="font-serif text-2xl font-semibold mb-3">{title}</h3>
-                <p className="text-gray-400 font-light text-sm leading-relaxed">{body}</p>
+          <SectionLabel>The Operational Framework</SectionLabel>
+          <h2 className="font-serif text-4xl md:text-5xl font-bold mb-14">Five stages, <span className="text-[#C4A04A] italic">each with a defined output.</span></h2>
+          <ol className="border-t border-white/10">
+            {steps.map(([num, title, body, output]) => (
+              <li key={num} className="grid grid-cols-1 md:grid-cols-12 gap-6 py-10 border-b border-white/10">
+                <div className="md:col-span-1 font-serif text-5xl font-bold text-[#C4A04A] leading-none">{num}</div>
+                <div className="md:col-span-7">
+                  <h3 className="font-serif text-3xl font-semibold mb-3">{title}</h3>
+                  <p className="text-gray-300 font-light leading-relaxed">{body}</p>
+                </div>
+                <div className="md:col-span-4 md:pl-6 md:border-l border-white/10">
+                  <div className="text-[10px] font-black tracking-widest uppercase text-[#C4A04A] mb-2">Output</div>
+                  <p className="text-white font-light">{output}</p>
+                </div>
               </li>
             ))}
-            <li className="bg-[#0F1520] p-8 flex flex-col justify-between">
-              <p className="text-gray-300 font-light text-sm leading-relaxed">The same process applies in all five sectors: mining, agriculture, energy, manufacturing, and tourism and hospitality.</p>
-              <Link href="/business" className="mt-6 text-[#C4A04A] text-xs font-bold tracking-widest uppercase">Our five sectors →</Link>
-            </li>          </ol>
+          </ol>
         </div>
       </section>
 
-      <section id="verification" className="py-24 bg-[#0A0E18] border-y border-white/8 scroll-mt-20">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
-          <div>
-            <SectionLabel>Verification Standard</SectionLabel>
-            <h2 className="font-serif text-4xl font-bold mb-6 leading-tight">What we check <span className="text-[#C4A04A] italic">before an introduction.</span></h2>
-            <p className="text-gray-300 font-light leading-relaxed">
-              Fraudulent documents and unverified claims are a real risk in cross-border deals. Our verification standard protects investors, buyers and genuine project owners alike.
-            </p>
-          </div>
-          <div className="border border-white/10 bg-[#121826]">
-            {standard.map(([title, desc]) => (
-              <div key={title} className="flex gap-5 p-7 border-b border-white/10 last:border-0">
-                <div className="w-2 h-2 bg-[#C4A04A] rounded-full mt-2 shrink-0" />
-                <div>
-                  <h3 className="font-sans font-bold text-[15px] mb-2 text-white">{title}</h3>
-                  <p className="text-gray-300 text-sm font-light leading-relaxed">{desc}</p>
-                </div>
+      <section className="py-24 bg-[#0A0E18] border-y border-white/10">
+        <div className="max-w-7xl mx-auto px-6">
+          <SectionLabel>Cross-Border Advantage</SectionLabel>
+          <h2 className="font-serif text-4xl md:text-5xl font-bold mb-12">On the ground <span className="text-[#C4A04A] italic">in both countries.</span></h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {presence.map(([place, title, body]) => (
+              <div key={title} className="border border-white/10 border-t-2 border-t-[#C4A04A] bg-[#080C14] p-8">
+                <div className="text-[10px] font-black tracking-widest uppercase text-gray-400 mb-3">{place}</div>
+                <h3 className="font-serif text-2xl font-semibold mb-4">{title}</h3>
+                <p className="text-gray-300 font-light text-sm leading-relaxed">{body}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section id="fees" className="py-24 bg-[#080C14] scroll-mt-20">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
-          <div>
-            <SectionLabel>Fee Principles</SectionLabel>
-            <h2 className="font-serif text-4xl font-bold mb-6 leading-tight">Transparent fees, <span className="text-[#C4A04A] italic">agreed in writing.</span></h2>
-            <p className="text-gray-300 font-light leading-relaxed">
-              MZM is paid through disclosed professional fees: verification fees, market entry packages, mandate fees and success fees on completed transactions. Fee levels are set out in each engagement letter.
-            </p>
-          </div>
-          <ul className="space-y-0 border-t border-white/10">
-            {fees.map((f) => (
-              <li key={f} className="flex gap-4 py-5 border-b border-white/10 text-gray-200 font-light">
-                <span className="text-[#C4A04A] shrink-0">—</span>{f}
-              </li>
+      <section id="commitments" className="py-24 bg-[#080C14] scroll-mt-20">
+        <div className="max-w-7xl mx-auto px-6">
+          <SectionLabel>Risk Management</SectionLabel>
+          <h2 className="font-serif text-4xl md:text-5xl font-bold mb-12">Execution <span className="text-[#C4A04A] italic">commitments.</span></h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-white/10 border border-white/10">
+            {commitments.map(([title, body]) => (
+              <div key={title} className="bg-[#080C14] p-8 flex gap-5">
+                <span className="w-2 h-2 bg-[#C4A04A] mt-3 shrink-0" />
+                <div>
+                  <h3 className="font-sans font-bold text-lg mb-2 text-white">{title}</h3>
+                  <p className="text-gray-400 font-light text-sm leading-relaxed">{body}</p>
+                </div>
+              </div>
             ))}
-          </ul>
+          </div>
+          <div className="mt-8 flex flex-wrap gap-8">
+            <Link href="/governance" className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase">Governance and ethics →</Link>
+            <Link href="/fraud-notice" className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase">Fraud notice →</Link>
+          </div>
         </div>
       </section>
 
-      <section className="py-16 bg-[#0A0E18] border-t border-white/8">
-        <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
+      <section className="py-20 bg-[#0A0E18] border-t border-white/10">
+        <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between md:items-center gap-8">
           <div>
-            <h2 className="font-serif text-3xl font-bold mb-2">Read our governance standards.</h2>
-            <p className="text-gray-400 font-light">How MZM deals with officials, conflicts of interest and fee disclosure.</p>
+            <h2 className="font-serif text-4xl font-bold mb-2">Bring us a mandate.</h2>
+            <p className="text-gray-400 font-light">We reply to every enquiry within 48 hours.</p>
           </div>
-          <Link href="/governance" className="shrink-0 bg-[#C4A04A] text-[#080C14] text-xs font-black tracking-widest uppercase px-10 py-4 hover:bg-[#E0CA8E] transition-colors">
-            Governance and Ethics
-          </Link>
+          <Link href="/contact?type=consultation" className="shrink-0 bg-[#C4A04A] text-[#080C14] text-xs font-black tracking-widest uppercase px-10 py-5 hover:bg-[#E0CA8E] transition-colors">Schedule an Executive Consultation</Link>
         </div>
       </section>
     </>

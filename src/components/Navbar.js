@@ -23,12 +23,11 @@ export default function Navbar() {
   const withLinks = (labels, hrefs, fallback) => labels.map((l, i) => ({ label: l, href: hrefs[i] || fallback }))
 
   const navItems = [
-    { label: t.nav.about, href: '/about', children: withLinks(t.nav.aboutSub, ['/about#vision', '/about#story', '/about#offices', '/governance'], '/about') },
-    { label: t.nav.business, href: '/business', children: withLinks(t.nav.businessSub, ['/business', '/business/mining', '/business/agriculture', '/business/energy', '/business/manufacturing', '/business/tourism'], '/business') },
+    { label: t.nav.whatWeDo, href: '/what-we-do', children: withLinks(t.nav.whatWeDoSub, ['/what-we-do', '/business', '/business/mining', '/business/agriculture', '/business/energy', '/business/manufacturing', '/business/tourism'], '/what-we-do') },
+    { label: t.nav.why, href: '/why-we-do-it', children: withLinks(t.nav.whySub, ['/why-we-do-it#context', '/why-we-do-it#thesis', '/about', '/team'], '/why-we-do-it') },
+    { label: t.nav.howWeWork, href: '/how-we-work', children: withLinks(t.nav.howWeWorkSub, ['/how-we-work#framework', '/how-we-work#commitments', '/governance', '/fraud-notice'], '/how-we-work') },
     { label: t.nav.corridor, href: '/corridor', children: withLinks(t.nav.corridorSub, ['/corridor#invest', '/corridor#source', '/corridor#producers'], '/corridor') },
-    { label: t.nav.howWeWork, href: '/how-we-work', children: withLinks(t.nav.howWeWorkSub, ['/how-we-work', '/how-we-work#verification', '/how-we-work#fees'], '/how-we-work') },
     { label: t.nav.news, href: '/news' },
-    { label: t.nav.team, href: '/team' },
     { label: t.nav.contact, href: '/contact' },
   ]
 

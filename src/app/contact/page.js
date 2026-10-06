@@ -1,10 +1,17 @@
 
 'use client'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
 
 export default function Contact() {
   const [status, setStatus] = useState('idle')
+  const [enquiryType, setEnquiryType] = useState('General enquiry')
+
+  useEffect(() => {
+    const type = new URLSearchParams(window.location.search).get('type')
+    if (type === 'consultation') setEnquiryType('Executive consultation')
+    if (type === 'brief') setEnquiryType('Discussion brief request')
+  }, [])
 
   async function handleSubmit(e) {
     e.preventDefault()
@@ -12,11 +19,12 @@ export default function Contact() {
     const form = e.target
     const data = new FormData(form)
     try {
-      await fetch('/contact', {
+      const res = await fetch('/netlify-forms.html', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: new URLSearchParams(data).toString(),
       })
+      if (!res.ok) throw new Error('Form submission failed')
       setStatus('success')
       form.reset()
     } catch {
@@ -33,7 +41,28 @@ export default function Contact() {
             <div className="w-7 h-px bg-[#C4A04A]" />
             <span className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase">Contact</span>
           </div>
-          <h1 className="font-serif text-5xl md:text-6xl font-bold">Get In Touch</h1>
+          <h1 className="font-serif text-5xl md:text-6xl font-bold mb-5">Bring us <span className="text-[#C4A04A] italic">a mandate.</span></h1>
+          <p className="text-gray-200 font-light text-lg max-w-2xl leading-relaxed">Investment into Zimbabwe, supply from Zimbabwe, or entry into Vietnam. Tell us what you need, and the right person in Hanoi or Zimbabwe will respond.</p>
+        </div>
+      </section>
+
+      <section className="py-16 bg-[#080C14] border-b border-white/8">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-[10px] font-black tracking-widest uppercase text-gray-400 mb-6">Who should contact us</div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-px bg-white/10 border border-white/10">
+            {[
+              ['Institutional and corporate investors', 'Investment opportunities in any of our five sectors'],
+              ['Vietnamese and Asian companies investing abroad', 'Market entry, sites, partners and approvals in Zimbabwe'],
+              ['Buyers and importers', 'Verified supply of tobacco, cotton, leather, nuts, fruit, processed foods and processed minerals'],
+              ['Zimbabwean producers and title holders', 'Buyer introductions, export support and investment partners'],
+              ['Government agencies, chambers and trade bodies', 'Investment promotion, trade missions and business forums'],
+            ].map(([who, what]) => (
+              <div key={who} className="bg-[#080C14] p-6">
+                <div className="font-serif text-lg font-semibold mb-2 leading-snug">{who}</div>
+                <p className="text-gray-400 text-sm font-light leading-relaxed">{what}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -41,13 +70,28 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16">
           {/* Info */}
           <div>
-            <h2 className="font-serif text-3xl font-bold mb-4">
-              Ready to explore<br />
-              <span className="text-[#C4A04A] italic">an opportunity?</span>
-            </h2>
-            <p className="text-gray-300 font-light text-lg leading-relaxed mb-10">
-              Whether you&apos;re an investor, project owner, buyer, supplier or producer, we&apos;d like to hear from you. We respond within 48 hours.
+            <h2 className="font-serif text-3xl font-bold mb-4">Tell us about <span className="text-[#C4A04A] italic">your mandate.</span></h2>
+            <p className="text-gray-300 font-light leading-relaxed mb-10">
+              The more specific your enquiry, the faster we can respond. Please include the sector, what you want to invest in, buy or sell, the approximate scale and your timeline.
             </p>
+
+            <div className="text-[10px] font-black tracking-widest uppercase text-gray-400 mb-4">What happens next</div>
+            <ol className="border-t border-white/10 mb-10">
+              {[
+                ['Acknowledgement within 48 hours', 'Every enquiry receives a reply from an @mzmafrica.com address within 48 hours.'],
+                ['A first call', 'The Managing Director or the Commercial Director arranges a call to understand your mandate.'],
+                ['Non-disclosure agreement', 'Project details are exchanged only once a non-disclosure agreement is signed.'],
+                ['Signed fee letter', 'Work begins only after fees are agreed in writing.'],
+              ].map(([title, body], i) => (
+                <li key={title} className="flex gap-5 py-4 border-b border-white/10">
+                  <span className="font-serif text-2xl font-bold text-[#C4A04A] leading-none w-6 shrink-0">{i + 1}</span>
+                  <div>
+                    <div className="text-white font-semibold text-sm mb-1">{title}</div>
+                    <p className="text-gray-400 text-sm font-light">{body}</p>
+                  </div>
+                </li>
+              ))}
+            </ol>
 
             <div className="space-y-6">
               {[
@@ -71,13 +115,9 @@ export default function Contact() {
               ))}
             </div>
 
-            <div className="mt-10 border-t border-white/8 pt-8">
-              <div className="text-xs font-bold tracking-widest uppercase text-gray-500 mb-3">Areas of Interest</div>
-              <div className="flex flex-wrap gap-2">
-                {['Mining & Beneficiation', 'Agriculture', 'Energy', 'Manufacturing', 'Tourism & Hospitality', 'Buying from Zimbabwe', 'Selling into Vietnam', 'Equipment Supply', 'General Partnership'].map((tag) => (
-                  <span key={tag} className="text-xs text-[#C4A04A] border border-[#7A6230] px-3 py-1 font-medium">{tag}</span>
-                ))}
-              </div>
+            <div className="mt-10 border border-[#C4A04A]/30 bg-[#C4A04A]/5 p-5 text-sm text-gray-300 font-light leading-relaxed">
+              <span className="text-white font-semibold">Protect yourself from impersonation.</span> MZM email comes only from addresses ending in @mzmafrica.com. MZM never asks for payment to release documents or to secure access to officials.{' '}
+              <Link href="/fraud-notice" className="text-[#C4A04A] underline underline-offset-2">Read our fraud notice</Link>.
             </div>
           </div>
 
@@ -116,15 +156,24 @@ export default function Contact() {
                 </div>
 
                 <div>
-                  <label className="block text-xs font-bold tracking-widest uppercase text-gray-500 mb-2">Company</label>
-                  <input type="text" name="company" placeholder="Your company name" className="w-full bg-[#0F1520] border border-white/10 text-white px-4 py-3 text-sm focus:border-[#C4A04A]/60 focus:outline-none transition-colors placeholder-gray-600" />
+                  <label className="block text-xs font-bold tracking-widest uppercase text-gray-500 mb-2">Enquiry Type</label>
+                  <select name="enquiryType" value={enquiryType} onChange={(e) => setEnquiryType(e.target.value)} className="w-full bg-[#0F1520] border border-white/10 text-white px-4 py-3 text-sm focus:border-[#C4A04A]/60 focus:outline-none transition-colors appearance-none">
+                    <option>Executive consultation</option>
+                    <option>Discussion brief request</option>
+                    <option>General enquiry</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label className="block text-xs font-bold tracking-widest uppercase text-gray-500 mb-2">Organisation and Role</label>
+                  <input type="text" name="company" placeholder="Your organisation and position" className="w-full bg-[#0F1520] border border-white/10 text-white px-4 py-3 text-sm focus:border-[#C4A04A]/60 focus:outline-none transition-colors placeholder-gray-600" />
                 </div>
 
                 <div>
                   <label className="block text-xs font-bold tracking-widest uppercase text-gray-500 mb-2">Area of Interest</label>
                   <select name="interest" className="w-full bg-[#0F1520] border border-white/10 text-white px-4 py-3 text-sm focus:border-[#C4A04A]/60 focus:outline-none transition-colors appearance-none">
                     <option value="">Select one</option>
-                    <optgroup label="Invest in a Sector">
+                    <optgroup label="Sector">
                       <option>Mining and Beneficiation</option>
                       <option>Agriculture and Agro-processing</option>
                       <option>Energy</option>
@@ -136,15 +185,16 @@ export default function Contact() {
                       <option>Selling Zimbabwean Products into Vietnam</option>
                     </optgroup>
                     <optgroup label="General">
-                      <option>OEM / Equipment Supply</option>
-                      <option>General Partnership Enquiry</option>
+                      <option>Equipment and Energy Sourcing</option>
+                      <option>Market Entry Advisory</option>
+                      <option>Government, Chamber or Trade Body</option>
                     </optgroup>
                   </select>
                 </div>
 
                 <div>
                   <label className="block text-xs font-bold tracking-widest uppercase text-gray-500 mb-2">Message</label>
-                  <textarea name="message" rows={5} placeholder="Tell us about your investment, product or what you're looking for..." className="w-full bg-[#0F1520] border border-white/10 text-white px-4 py-3 text-sm focus:border-[#C4A04A]/60 focus:outline-none transition-colors placeholder-gray-600 resize-none" />
+                  <textarea name="message" rows={5} placeholder="Describe your mandate: sector, objective, approximate scale and timeline. Please do not send confidential documents until a non-disclosure agreement is in place." className="w-full bg-[#0F1520] border border-white/10 text-white px-4 py-3 text-sm focus:border-[#C4A04A]/60 focus:outline-none transition-colors placeholder-gray-600 resize-none" />
                 </div>
 
                 <p className="text-xs text-gray-500 leading-relaxed">

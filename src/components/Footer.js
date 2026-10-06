@@ -19,7 +19,7 @@ export default function Footer() {
             <h4 className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase mb-5">{f.company}</h4>
             <ul className="space-y-3">
               {f.companyLinks.map((label, i) => (
-                <li key={i}><Link href={['/about', '/team', '/how-we-work', '/governance'][i] || '/about'} className="text-gray-400 text-sm hover:text-white transition-colors">{label}</Link></li>
+                <li key={i}><Link href={['/what-we-do', '/why-we-do-it', '/how-we-work', '/about', '/team', '/governance'][i] || '/about'} className="text-gray-400 text-sm hover:text-white transition-colors">{label}</Link></li>
               ))}
             </ul>
           </div>
@@ -44,7 +44,7 @@ export default function Footer() {
                 <div>{f.asia}</div>
               </li>
               <li>
-                <Link href="/contact" className="inline-block mt-2 text-xs font-bold tracking-widest uppercase text-[#C4A04A] border border-[#7A6230] px-4 py-2 hover:bg-[#C4A04A] hover:text-[#080C14] transition-colors">{f.enquire}</Link>
+                <Link href="/contact?type=brief" className="inline-block mt-2 text-xs font-bold tracking-widest uppercase text-[#C4A04A] border border-[#7A6230] px-4 py-2 hover:bg-[#C4A04A] hover:text-[#080C14] transition-colors">{f.enquire}</Link>
               </li>
             </ul>
           </div>
