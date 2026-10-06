@@ -1,0 +1,1521 @@
+{
+  "Meta": {
+    "title": "MZM Africa | Mekong Zambezi Meridian Consultants",
+    "description": "Investment and trade between Zimbabwe and Vietnam. MZM helps Asian companies invest in Zimbabwe across mining, agriculture, energy, manufacturing and tourism, and helps Zimbabwean producers sell to Asia, with teams in Hanoi and Zimbabwe."
+  },
+  "Common": {
+    "explore": "Explore",
+    "readMore": "Read more",
+    "speakToTeam": "Speak to Our Team",
+    "discussProject": "Discuss your project with us.",
+    "reply48": "We reply to every enquiry within 48 hours.",
+    "output": "Output",
+    "getInTouch": "Get In Touch",
+    "otherSectors": "Other Sectors",
+    "backToNews": "Back to News",
+    "update": "Update"
+  },
+  "Nav": {
+    "capabilities": "Capabilities",
+    "capabilitiesSub": [
+      "Investment Facilitation",
+      "Export and Market Access",
+      "Equipment and Energy Sourcing",
+      "Market Entry Advisory"
+    ],
+    "sectors": "Sectors",
+    "sectorsSub": [
+      "All Sectors",
+      "Mining & Beneficiation",
+      "Agriculture & Agro-processing",
+      "Energy",
+      "Manufacturing & Industrial Parks",
+      "Tourism & Hospitality"
+    ],
+    "opportunity": "The Opportunity",
+    "opportunitySub": [
+      "Strategic Context",
+      "Our Thesis"
+    ],
+    "approach": "Our Approach",
+    "approachSub": [
+      "Operational Framework",
+      "Execution Commitments",
+      "Governance & Ethics",
+      "Fraud Notice"
+    ],
+    "corridor": "The Corridor",
+    "corridorSub": [
+      "Invest in Zimbabwe",
+      "Source from Zimbabwe",
+      "Sell into Vietnam"
+    ],
+    "about": "About",
+    "aboutSub": [
+      "About MZM",
+      "Our Team",
+      "Our Offices"
+    ],
+    "news": "Insights",
+    "contact": "Contact",
+    "cta": "Speak to Our Team",
+    "language": "Language",
+    "english": "English",
+    "vietnamese": "Tiếng Việt",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "homeLabel": "MZM Africa home"
+  },
+  "Footer": {
+    "desc": "Mekong Zambezi Meridian Consultants: investment and trade between Zimbabwe and Vietnam. Headquartered in Bulawayo, with an Asia desk in Hanoi.",
+    "company": "Company",
+    "services": "Our Business",
+    "contact": "Contact",
+    "companyLinks": [
+      "Capabilities",
+      "The Opportunity",
+      "Our Approach",
+      "About MZM",
+      "Our Team",
+      "Governance & Ethics"
+    ],
+    "serviceLinks": [
+      "Mining & Beneficiation",
+      "Agriculture & Agro-processing",
+      "Energy",
+      "Manufacturing & Industrial Parks",
+      "Tourism & Hospitality",
+      "The Zimbabwe-Vietnam Corridor"
+    ],
+    "email": "Email",
+    "offices": "Offices",
+    "hq": "Headquarters: Bulawayo, Zimbabwe",
+    "asia": "Asia Desk: Hanoi, Vietnam",
+    "enquire": "Request Our Investment Brief",
+    "rights": "All rights reserved.",
+    "registered": "Registered in Zimbabwe",
+    "fraud": "Fraud notice",
+    "privacy": "Privacy policy",
+    "governance": "Governance & Ethics"
+  },
+  "Home": {
+    "eyebrow": "Mekong Zambezi Meridian Consultants",
+    "h1": [
+      "Investment and trade",
+      "between Zimbabwe and Vietnam."
+    ],
+    "sub": "We help Asian companies invest in Zimbabwe, and Zimbabwean producers sell to Asia, with teams in Hanoi and Zimbabwe.",
+    "cta1": "Speak to Our Team",
+    "cta2": "Request Our Zimbabwe Investment Brief",
+    "mandateLabel": "Our Firm",
+    "mandateTitle": [
+      "What we do, why it matters,",
+      "and how we work."
+    ],
+    "pillars": [
+      [
+        "What We Do",
+        "We prepare and execute investment into Zimbabwe, and open Asian markets to Zimbabwean products. Four capabilities: investment facilitation, export and market access, equipment and energy sourcing, and market-entry advisory, across five sectors.",
+        "Our capabilities",
+        "/what-we-do"
+      ],
+      [
+        "Why It Matters",
+        "Zimbabwe needs investment that processes its resources at home, and new markets for its exports. Vietnam’s companies are investing abroad, and its factories import the raw materials Zimbabwe produces. Neither country has an embassy in the other’s capital. We work on the ground in both.",
+        "The opportunity",
+        "/opportunity"
+      ],
+      [
+        "How We Work",
+        "One process for every engagement: verification before introduction, structuring under current Zimbabwean law, approvals through official channels, and support through to operation. Our Hanoi desk and our Zimbabwe team run each engagement together.",
+        "Our approach",
+        "/how-we-work"
+      ]
+    ],
+    "sectorsLabel": "Our Sectors",
+    "sectorsTitle": [
+      "Five sectors.",
+      "One standard."
+    ],
+    "sectorsSub": "The sectors where Zimbabwe most wants investment, each held to the same verification standard and the same fee rules.",
+    "sectorText": {
+      "mining": [
+        "Mining and Beneficiation",
+        "Chrome, lithium, gold and critical minerals, structured for processing in Zimbabwe."
+      ],
+      "agriculture": [
+        "Agriculture and Agro-processing",
+        "Processing, cold chain, and Asian buyers for tobacco, cotton, nuts and fruit."
+      ],
+      "energy": [
+        "Energy",
+        "Captive solar and storage for mines, processors and factories."
+      ],
+      "manufacturing": [
+        "Manufacturing and Industrial Parks",
+        "Special Economic Zone entry for textile, leather, food and metal processors."
+      ],
+      "tourism": [
+        "Tourism and Hospitality",
+        "Hotel, lodge and conference investment at Zimbabwe’s leading destinations."
+      ]
+    },
+    "explore": "Explore",
+    "factsLabel": "The Case",
+    "factsTitle": [
+      "The case,",
+      "in four facts."
+    ],
+    "facts": [
+      [
+        "USD 3bn+",
+        "Investment approved by ZIDA in the first half of 2026"
+      ],
+      [
+        "2026",
+        "Vietnam’s GoGlobal Programme names Africa as a market for Vietnamese investment"
+      ],
+      [
+        "USD 1.36bn",
+        "Vietnamese outward investment in 2025, up 88.7%"
+      ],
+      [
+        "1.71m tonnes",
+        "Cotton imported by Vietnam in 2025, with no significant African supplier"
+      ]
+    ],
+    "closeTitle": "Discuss your project with us.",
+    "closeSub": "Investment, supply or market entry between Zimbabwe and Vietnam. We reply to every enquiry within 48 hours."
+  },
+  "Capabilities": {
+    "metaTitle": "Capabilities | MZM Africa",
+    "metaDescription": "Investment facilitation into Zimbabwe, export and market access, equipment and energy sourcing, and market-entry advisory, across five sectors.",
+    "eyebrow": "Capabilities",
+    "title": "Four capabilities. Five sectors.",
+    "accent": "One accountable team.",
+    "lead": "MZM delivers four capabilities: investment facilitation into Zimbabwe, export and market access for Zimbabwean producers, equipment and energy sourcing, and market-entry advisory. We apply them across mining, agriculture, energy, manufacturing, and tourism and hospitality, with one verification standard and one team accountable in Hanoi and in Zimbabwe.",
+    "needLabel": "The Market Need",
+    "capabilityLabel": "The Capability",
+    "impactLabel": "Client Impact",
+    "items": [
+      {
+        "num": "01",
+        "name": "Investment Facilitation into Zimbabwe",
+        "need": "Asian investors see opportunity in Zimbabwe but face unfamiliar rules, unverified sellers and new requirements to process minerals and produce in the country. ZIDA approved over USD 3 billion of investment in the first half of 2026, and its focus is now on approvals that become operating projects.",
+        "capability": [
+          "Opportunity sourcing across five sectors, matched to the investor’s objectives",
+          "Title, ownership, licence and counterparty checks with the relevant Zimbabwean authority",
+          "Transaction structuring under the reserved-sector rules, the processing requirements and the critical minerals framework",
+          "Preparation of ZIDA investment licence and Special Economic Zone applications, filed in the investor’s name with licensed counsel",
+          "Site, partner and supplier introductions",
+          "Support after licensing, until the project is operating"
+        ],
+        "impact": "Investors reach ZIDA with a complete, compliant project, and deal with one accountable team from first meeting to operation."
+      },
+      {
+        "num": "02",
+        "name": "Export and Market Access: Zimbabwe to Asia",
+        "need": "In June 2026, five mineral lines made up 86.8% of Zimbabwe’s goods exports and three buyers took 92.3%. Vietnam imported 1.71 million tonnes of cotton in 2025 with no significant African supplier, and tobacco is still the only established Zimbabwean export to Vietnam.",
+        "capability": [
+          "Buyer identification and introductions: spinning mills, tobacco manufacturers, leather and footwear makers, nut processors and food importers",
+          "Producer verification: registration, capacity, quality and certification",
+          "Product-by-product checks of Vietnamese import rules, including plant health, food safety and the raw tobacco tariff quota",
+          "Export documentation coordinated with licensed Zimbabwean clearing agents",
+          "Support for the official plant health process that opens Vietnam to each fresh fruit"
+        ],
+        "impact": "Zimbabwean producers reach new Asian buyers. Asian buyers secure verified supply, with documentation in order before the first shipment."
+      },
+      {
+        "num": "03",
+        "name": "Equipment, Technology and Energy Sourcing",
+        "need": "Power and equipment decide whether a licensed project operates. Government has directed that new smelting capacity and large mines provide their own power, and rules gazetted in July 2026 let own-use plants between 100 kW and 10 MW register rather than apply for a licence.",
+        "capability": [
+          "Captive solar and battery storage sourcing for mines, processors and factories",
+          "Processing machinery for minerals, agro-processing, textiles and leather",
+          "Supplier verification, technical specifications and procurement documents",
+          "Introductions to licensed power developers",
+          "Coordination of ZERA registration and licensing with the operator"
+        ],
+        "impact": "Power and equipment are specified, sourced and verified before operations begin."
+      },
+      {
+        "num": "04",
+        "name": "Market Entry and Regulatory Advisory",
+        "need": "Zimbabwe’s rules changed substantially in 2026: critical minerals, raw export controls, a new industrial policy and energy reforms. Vietnamese investors must also register outward investment at home, and that registration requires documents from the host country.",
+        "capability": [
+          "Sector entry briefings on regulation, incentives, labour and operating conditions",
+          "Reserved-sector and ownership analysis under SI 215 of 2025 and the Finance Act",
+          "A Zimbabwe-side document pack prepared for Vietnam’s outward investment registration (Decree 103/2026) and foreign exchange registration (Circular 34/2026)",
+          "Institutional engagement through official channels: ZIDA, ZimTrade, the sector ministries, VCCI and VIETRADE",
+          "Coordination with the client’s legal and tax advisers, and with licensed counsel in Zimbabwe"
+        ],
+        "impact": "Investment decisions are made on current rules, and approvals in both countries are prepared together."
+      }
+    ],
+    "sectorsLabel": "Our Sectors",
+    "sectorsTitle": [
+      "Applied in ",
+      "five sectors."
+    ],
+    "ctaTitle": "Discuss your project with us.",
+    "ctaSub": "Tell us the sector, the objective and the timeline. We reply within 48 hours.",
+    "cta": "Speak to Our Team"
+  },
+  "Opportunity": {
+    "metaTitle": "The Opportunity: Why Zimbabwe, Why Vietnam | MZM Africa",
+    "metaDescription": "Zimbabwe wants investment and new export markets. Vietnam wants raw materials and markets for its companies. Why MZM works between the two.",
+    "eyebrow": "The Opportunity",
+    "title": "Why Zimbabwe.",
+    "accent": "Why Vietnam.",
+    "lead": "Each economy needs what the other has. Zimbabwe wants investment and new export markets. Vietnam wants raw materials and markets for its companies. Both governments set this out in their own policies.",
+    "contextLabel": "The Strategic Context",
+    "contextTitle": [
+      "Why this matters ",
+      "now."
+    ],
+    "zimbabweTitle": "Zimbabwe",
+    "vietnamTitle": "Vietnam",
+    "zimbabwe": [
+      "National Development Strategy 2 (2026 to 2030) and the Zimbabwe National Industrial Development Policy II prioritise value addition, agro-processing and manufactured exports.",
+      "Since February 2026, raw mineral exports need an approved processing plan. In May 2026, 14 critical minerals were declared.",
+      "Export earnings are concentrated in a few minerals and a few buyers."
+    ],
+    "vietnam": [
+      "The GoGlobal Programme (Decision 626/QD-TTg, 6 April 2026) supports Vietnamese firms investing abroad and names Africa as a market.",
+      "Vietnamese outward investment reached USD 1.36 billion in 2025, up 88.7%.",
+      "Vietnamese factories import cotton, tobacco, leather and other raw materials at scale."
+    ],
+    "betweenTitle": "Between the two countries",
+    "between": [
+      "In November 2025 the two governments agreed to work towards a bilateral trade agreement and an investment protection agreement, and Zimbabwe appointed a special envoy to promote Vietnamese investment.",
+      "Neither country has an embassy in the other’s capital. Zimbabwe is represented from Kuala Lumpur and Vietnam from Pretoria."
+    ],
+    "thesisLabel": "Our Core Thesis",
+    "thesis": [
+      "Zimbabwe’s resources should be processed in Zimbabwe, financed and equipped by partners who intend to stay. Business between Zimbabwe and Vietnam should run through checked counterparties and official channels, with people on the ground in both countries.",
+      "MZM exists to make that the standard."
+    ],
+    "focusLabel": "Our Focus",
+    "focusTitle": [
+      "Value addition ",
+      "over transaction speed."
+    ],
+    "values": [
+      [
+        "Processing at home",
+        "We favour projects that add value in Zimbabwe: processing plants, packhouses, factories, and the power to run them."
+      ],
+      [
+        "Zimbabwean partners",
+        "We respect the sectors reserved for Zimbabwean citizens, and build supply and technology partnerships with Zimbabwean-owned businesses."
+      ],
+      [
+        "Long-term partnership",
+        "We measure an engagement by whether the project operates and lasts, not by how quickly a deal is signed."
+      ],
+      [
+        "The right to decline",
+        "Opportunities that fail our checks are not presented, whatever their size."
+      ]
+    ],
+    "visionLabel": "Vision",
+    "vision": "To be the leading Zimbabwean investment and trade firm on the Zimbabwe-Vietnam corridor by 2030.",
+    "missionLabel": "Mission",
+    "mission": "To bring checked investment and trade between Asia and Zimbabwe that benefits investors, buyers and Zimbabwe.",
+    "ctaTitle": "See how we deliver.",
+    "ctaSub": "One process, five stages, run in both countries.",
+    "cta": "Our Approach"
+  },
+  "Approach": {
+    "metaTitle": "Our Approach | MZM Africa",
+    "metaDescription": "One process for every engagement: discovery and alignment, verification on the ground, structuring and approvals, execution, and implementation, run from Hanoi and Zimbabwe.",
+    "eyebrow": "Our Approach",
+    "title": "One process. Two countries.",
+    "accent": "Every engagement.",
+    "lead": "Every engagement follows the same five stages, run jointly by our Asia desk in Hanoi and our team in Zimbabwe.",
+    "frameworkLabel": "The Operational Framework",
+    "frameworkTitle": [
+      "Five stages, ",
+      "each with a defined output."
+    ],
+    "outputLabel": "Output",
+    "steps": [
+      [
+        "01",
+        "Discovery and Alignment",
+        "We define the engagement: sector, scale, timeline and objectives. We confirm the opportunity fits Zimbabwean law and policy, and check for conflicts of interest. A signed fee letter is in place before work begins.",
+        "Agreed scope and signed fee letter"
+      ],
+      [
+        "02",
+        "Verification on the Ground",
+        "Our Zimbabwe team checks title, ownership, licences and the people involved with the relevant authority, and visits the site or producer. Opportunities that fail are not presented.",
+        "Verification report"
+      ],
+      [
+        "03",
+        "Structuring and Approvals",
+        "We prepare the structure within the reserved-sector rules, the processing requirements and sector policy, and prepare ZIDA, ministry, ZERA or export filings with licensed counsel, in the client’s own name. For Vietnamese investors, we prepare the Zimbabwe documents needed for registration at home.",
+        "Approval-ready file in both countries"
+      ],
+      [
+        "04",
+        "Introduction and Execution",
+        "Under a non-disclosure agreement, we introduce the parties and manage negotiation, documentation and approvals through to signing.",
+        "Signed agreements and filed applications"
+      ],
+      [
+        "05",
+        "Implementation and Governance",
+        "After licensing, we coordinate suppliers, partners, power and permits through to operation, and report to both parties at agreed points.",
+        "An operating project or an established supply line"
+      ]
+    ],
+    "presenceLabel": "Cross-Border Advantage",
+    "presenceTitle": [
+      "On the ground ",
+      "in both countries."
+    ],
+    "presence": [
+      [
+        "Hanoi, Vietnam",
+        "Asia Desk",
+        "Led by Managing Director Andy Moyo. Meets Vietnamese and Asian investors, buyers, equipment suppliers and trade bodies in person, in their own time zone."
+      ],
+      [
+        "Zimbabwe",
+        "Operations",
+        "Led by Commercial Director Ebern Moyo, with Deputy Managing Director Chido A. Mumvuri leading business development. Checks opportunities and suppliers on the ground, works with Zimbabwean institutions and manages delivery."
+      ],
+      [
+        "Both countries",
+        "Both sides of every approval",
+        "We work through ZIDA, ZimTrade, the sector ministries, MMCZ, Fidelity Gold Refinery and ZERA in Zimbabwe, and VCCI, VIETRADE and the relevant ministries in Vietnam. MZM is a private firm and does not represent any of them."
+      ]
+    ],
+    "commitmentsLabel": "Risk Management",
+    "commitmentsTitle": [
+      "Execution ",
+      "commitments."
+    ],
+    "commitments": [
+      [
+        "Verification before introduction",
+        "No opportunity, producer or counterparty is introduced before it passes our checks."
+      ],
+      [
+        "Official channels only",
+        "Investment is registered with ZIDA, minerals are sold through MMCZ or Fidelity Gold Refinery, power projects are licensed or registered with ZERA, and exports follow ZimTrade and customs procedures."
+      ],
+      [
+        "Current law, applied",
+        "Structures follow the 2026 reserved-sector rules, processing requirements and critical minerals framework, with licensed counsel wherever legal advice is required."
+      ],
+      [
+        "Fees in writing",
+        "Fees are agreed in a signed letter and disclosed to every party. Any interest held by an MZM team member is disclosed before work begins."
+      ],
+      [
+        "No paid access",
+        "We never pay, or promise payment to, any official, and we do not work with anyone who charges for introductions to officials."
+      ],
+      [
+        "Confidentiality",
+        "Project details are shared only under a non-disclosure agreement."
+      ]
+    ],
+    "governanceLink": "Governance and ethics →",
+    "fraudLink": "Fraud notice →",
+    "ctaTitle": "Discuss your project with us.",
+    "ctaSub": "We reply to every enquiry within 48 hours.",
+    "cta": "Speak to Our Team"
+  },
+  "Sectors": {
+    "metaTitle": "Sectors | MZM Africa",
+    "metaDescription": "MZM works across five sectors in Zimbabwe: Mining and Beneficiation, Agriculture and Agro-processing, Energy, Manufacturing and Industrial Parks, and Tourism and Hospitality.",
+    "eyebrow": "Sectors",
+    "title": "Five sectors.",
+    "accent": "One standard.",
+    "lead": "MZM works in the five sectors where Zimbabwe most wants investment, as set out in its National Development Strategy 2. Every sector gets the same checks, the same fee rules and the same team.",
+    "sectorTag": "Sector {num}",
+    "exploreSector": "Explore the sector",
+    "corridorLabel": "Flagship Programme",
+    "corridorTitle": "The Zimbabwe-Vietnam Corridor",
+    "corridorBody": "A two-way programme that runs across all five sectors: Vietnamese investment into Zimbabwe, and Zimbabwean products to Vietnamese buyers.",
+    "corridorLink": "About the Corridor",
+    "processTitle": "The same process in every sector.",
+    "processBody": "Checks before every introduction, fees in writing, and no paid access. See how an MZM engagement works.",
+    "processCta": "Our Approach",
+    "status": {
+      "open": "Open to investment",
+      "conditions": "Open, with conditions",
+      "trade": "Established trade",
+      "enquiries": "Enquiries welcome",
+      "access": "Awaiting market access",
+      "large": "Large-scale only"
+    },
+    "items": {
+      "mining": {
+        "title": "Mining and Beneficiation",
+        "imageAlt": "Excavators working at an open mine",
+        "summary": "Investment in chrome, lithium, gold and other minerals, set up so the ore is processed inside Zimbabwe.",
+        "lead": "Mining is Zimbabwe’s largest export earner, and the government now expects minerals to be processed in the country before they are sold abroad. MZM brings investors whose plans include that processing.",
+        "context": [
+          "Since 25 February 2026, raw mineral exports need a Ministry of Mines approved plan to process them in Zimbabwe.",
+          "On 22 May 2026 the Ministry declared 14 critical minerals, including lithium, chrome and copper. The State will hold a minimum shareholding in their exploitation. The regulations that set its size are still pending.",
+          "Mining took the largest share of investment licences approved by ZIDA in the first half of 2026."
+        ],
+        "focus": [
+          {
+            "name": "Chrome",
+            "status": "conditions",
+            "body": "Investment in ferrochrome and other processing. Raw chrome exports are no longer permitted."
+          },
+          {
+            "name": "Lithium",
+            "status": "conditions",
+            "body": "Processing investment, and projects with a processing plan. Large producers must build lithium sulphate capacity by January 2027."
+          },
+          {
+            "name": "Gold",
+            "status": "large",
+            "body": "Small and medium gold mining is reserved for Zimbabweans. MZM works only on large-scale projects, with all gold sold to Fidelity Gold Refinery."
+          },
+          {
+            "name": "Copper and other critical minerals",
+            "status": "enquiries",
+            "body": "Copper, nickel, platinum group metals, graphite and others, subject to the State shareholding rules once published."
+          }
+        ],
+        "services": [
+          "Title and ownership checks with the Ministry of Mines before any introduction",
+          "Project set-up for processing inside Zimbabwe",
+          "Introductions to Asian processing technology and equipment suppliers",
+          "Buyer introductions for licensed producers, with sales through MMCZ or Fidelity Gold Refinery",
+          "Power planning through our energy sector work"
+        ],
+        "zimbabwe": [
+          "Ministry of Mines beneficiation agenda (2026)",
+          "Critical minerals declaration (22 May 2026)",
+          "National Development Strategy 2 (2026 to 2030)"
+        ],
+        "vietnam": [
+          "GoGlobal Programme (Decision 626/QD-TTg, 2026): support for Vietnamese firms investing abroad",
+          "A growing steel industry that imports ferroalloys"
+        ],
+        "zimInstitutions": [
+          [
+            "Ministry of Mines and Mining Development",
+            "Mining titles, export approvals and processing plans"
+          ],
+          [
+            "Minerals Marketing Corporation of Zimbabwe (MMCZ)",
+            "Sole marketing and export agent for minerals other than gold and silver"
+          ],
+          [
+            "Fidelity Gold Refinery",
+            "Sole buyer, refiner and exporter of gold"
+          ],
+          [
+            "Zimbabwe Investment and Development Agency (ZIDA)",
+            "Investment licences"
+          ]
+        ],
+        "vnInstitutions": [
+          [
+            "Vietnam Steel Association",
+            "Steelmakers that buy ferroalloys"
+          ],
+          [
+            "Ministry of Finance",
+            "Registration of outward investment (Decree 103/2026)"
+          ],
+          [
+            "State Bank of Vietnam",
+            "Foreign exchange registration for outward investment (Circular 34/2026)"
+          ]
+        ],
+        "boundaries": "Artisanal mining, small and medium gold mining, quarrying and granite mining are reserved for Zimbabwean citizens. MZM works only on large-scale projects and processing. MZM does not buy or sell minerals itself: every sale goes through MMCZ or Fidelity Gold Refinery."
+      },
+      "agriculture": {
+        "title": "Agriculture and Agro-processing",
+        "imageAlt": "Tobacco growing in a field",
+        "summary": "Investment in processing, storage and cold chain, and Asian buyers for Zimbabwean tobacco, cotton, nuts and fruit.",
+        "lead": "Agriculture is the base of today’s trade with Vietnam: tobacco makes up almost all of what Zimbabwe sells there. MZM works in both directions, bringing Asian investment into processing and Zimbabwean produce to Asian buyers.",
+        "context": [
+          "Tobacco makes up almost all of Zimbabwe’s current exports to Vietnam.",
+          "Vietnam imported 1.71 million tonnes of cotton in 2025, mainly from the United States, Brazil and Australia, with no significant African supplier.",
+          "Zimbabwe’s horticulture growth plan focuses on blueberries, avocados, macadamia, citrus and coffee for export."
+        ],
+        "focus": [
+          {
+            "name": "Tobacco",
+            "status": "trade",
+            "body": "Flue-cured leaf sold through licensed Zimbabwean merchants to Vietnam’s licensed manufacturers, who import within an annual quota."
+          },
+          {
+            "name": "Cotton",
+            "status": "enquiries",
+            "body": "Lint for Vietnamese spinning mills, from ginners registered with the Agricultural Marketing Authority."
+          },
+          {
+            "name": "Nuts and fruit",
+            "status": "access",
+            "body": "Macadamia and processed nuts now. Fresh blueberries, citrus and avocados once Vietnam completes its plant health review for each fruit."
+          },
+          {
+            "name": "Agro-processing investment",
+            "status": "open",
+            "body": "Packhouses, cold chain, and oilseed, dairy and fruit processing."
+          }
+        ],
+        "services": [
+          "Investment in fruit, oilseed, dairy and cotton processing",
+          "Cold chain, packhouse and storage investment",
+          "Introductions to Vietnamese processing machinery suppliers",
+          "Asian buyer introductions for tobacco, cotton, nuts and processed foods",
+          "Guidance on Vietnamese import rules, product by product"
+        ],
+        "zimbabwe": [
+          "National Development Strategy 2 (2026 to 2030)",
+          "Horticulture growth plan to 2030",
+          "ZNIDP II: oilseeds, dairy, textiles and leather value chains"
+        ],
+        "vietnam": [
+          "GoGlobal Programme: agriculture and food processing named as priority sectors",
+          "Processing industries that rely on imported cotton, tobacco and nuts"
+        ],
+        "zimInstitutions": [
+          [
+            "Ministry of Lands, Agriculture, Fisheries, Water and Rural Development",
+            "Agricultural policy and production"
+          ],
+          [
+            "Tobacco Industry and Marketing Board (TIMB)",
+            "Licenses tobacco merchants, contractors and auction floors"
+          ],
+          [
+            "Agricultural Marketing Authority (AMA)",
+            "Registers cotton ginners and merchants"
+          ],
+          [
+            "ZimTrade",
+            "Export development and buyer programmes"
+          ]
+        ],
+        "vnInstitutions": [
+          [
+            "Vietnam Tobacco Association",
+            "Licensed tobacco manufacturers and buyers"
+          ],
+          [
+            "Vietnam Cotton and Spinning Association (VCOSA)",
+            "Spinning mills that buy cotton"
+          ],
+          [
+            "Plant Production and Protection Department",
+            "Plant health market access for fresh fruit"
+          ]
+        ],
+        "boundaries": "Tobacco grading and packaging are reserved for Zimbabwean citizens, and grain milling is open to foreign investors only above set investment and employment thresholds. MZM works with licensed Zimbabwean merchants and processors in these areas, and focuses on processing, storage and supply contracts, not land."
+      },
+      "energy": {
+        "title": "Energy",
+        "imageAlt": "Solar panels installed on grassland",
+        "summary": "Solar and storage for mines, processors and factories, with equipment sourced from Asian manufacturers.",
+        "lead": "Reliable power is one of the main limits on mining, processing and industrial growth in Zimbabwe. MZM connects operations that need power with Asian equipment suppliers and developers.",
+        "context": [
+          "Government has directed that new smelting capacity and large mines provide their own power.",
+          "Rules gazetted in July 2026 remove licence fees for renewable plants under 10 MW and let own-use plants from 100 kW to 10 MW register rather than apply for a licence.",
+          "Energy projects led ZIDA’s investment approvals by value in the first quarter of 2026."
+        ],
+        "focus": [
+          {
+            "name": "Captive solar for mines",
+            "status": "open",
+            "body": "Solar plants for mines and smelters that must supply their own power."
+          },
+          {
+            "name": "Storage and hybrid systems",
+            "status": "open",
+            "body": "Battery storage and hybrid systems for operations that need power around the clock."
+          },
+          {
+            "name": "Own-use plants for industry",
+            "status": "open",
+            "body": "Plants from 100 kW to 10 MW for agro-processors and factories, registered with ZERA."
+          },
+          {
+            "name": "Grid and distribution projects",
+            "status": "conditions",
+            "body": "Private distribution and virtual net metering, opened by the 2026 rules and licensed by ZERA."
+          }
+        ],
+        "services": [
+          "Solar and storage sourcing for mining and agro-processing clients",
+          "Introductions to Asian solar equipment manufacturers",
+          "Supplier checks and procurement documents",
+          "Introductions between Zimbabwean projects and licensed power developers",
+          "Power planning for MZM’s mining and agriculture clients"
+        ],
+        "zimbabwe": [
+          "National Development Strategy 2: energy infrastructure",
+          "2026 licensing and net metering reforms",
+          "Own-power direction for new smelting capacity"
+        ],
+        "vietnam": [
+          "A major solar panel manufacturing and export base",
+          "GoGlobal Programme: support for Vietnamese firms investing abroad"
+        ],
+        "zimInstitutions": [
+          [
+            "Ministry of Energy and Power Development",
+            "Energy policy"
+          ],
+          [
+            "Zimbabwe Energy Regulatory Authority (ZERA)",
+            "Licences and registration for power generation and distribution"
+          ],
+          [
+            "Zimbabwe Investment and Development Agency (ZIDA)",
+            "Investment licences"
+          ]
+        ],
+        "vnInstitutions": [
+          [
+            "Vietnam Energy Association",
+            "Industry body for power and renewables"
+          ],
+          [
+            "Vietnam Trade Promotion Agency (VIETRADE)",
+            "Runs the GoGlobal Programme Office"
+          ]
+        ],
+        "boundaries": "MZM advises and connects; it does not build or operate power plants. Generation projects are licensed or registered with ZERA by the developer or operator, with MZM coordinating the suppliers and partners."
+      },
+      "manufacturing": {
+        "title": "Manufacturing and Industrial Parks",
+        "imageAlt": "Machinery inside a factory",
+        "summary": "Site selection and Special Economic Zone entry for Asian manufacturers in textiles, leather, food and metal processing.",
+        "lead": "Industrialisation is at the centre of Zimbabwe’s development strategy, and Vietnam’s GoGlobal Programme names the same industries for its firms abroad. MZM helps Asian manufacturers choose a site, get licensed and start operating in Zimbabwe.",
+        "context": [
+          "The Zimbabwe National Industrial Development Policy II (2026 to 2030) aims to more than double manufactured exports.",
+          "Zimbabwe has six public Special Economic Zones, including manufacturing zones in Bulawayo and an agro-processing and beneficiation zone in Mutare.",
+          "ZIDA lists a five-year corporate tax holiday and duty rebates on capital equipment for Special Economic Zone investors."
+        ],
+        "focus": [
+          {
+            "name": "Textiles and garments",
+            "status": "open",
+            "body": "Spinning and garment plants close to Zimbabwean cotton."
+          },
+          {
+            "name": "Leather and footwear",
+            "status": "open",
+            "body": "Tanning, footwear and leather goods, using Zimbabwean hides."
+          },
+          {
+            "name": "Food and agro-processing",
+            "status": "open",
+            "body": "Food, oilseed and dairy processing for local and regional markets."
+          },
+          {
+            "name": "Metal processing",
+            "status": "open",
+            "body": "Steel and metal processing linked to Zimbabwe’s beneficiation policy."
+          }
+        ],
+        "services": [
+          "Site selection across Special Economic Zones and industrial parks",
+          "Special Economic Zone licensing support through ZIDA",
+          "Briefings on regulation, incentives and labour",
+          "Introductions to local partners, suppliers and service providers",
+          "Power and raw material planning through our energy and agriculture work"
+        ],
+        "zimbabwe": [
+          "ZNIDP II (2026 to 2030)",
+          "Local Content Strategy (2026 to 2035)",
+          "Special Economic Zones under the ZIDA Act"
+        ],
+        "vietnam": [
+          "GoGlobal Programme: textiles, footwear, food processing and mechanical engineering named as priority sectors",
+          "Target of in-depth support for 100 Vietnamese firms investing abroad by 2030"
+        ],
+        "zimInstitutions": [
+          [
+            "Ministry of Industry and Commerce",
+            "Industrial policy and reserved-sector permits"
+          ],
+          [
+            "Zimbabwe Investment and Development Agency (ZIDA)",
+            "Investment and Special Economic Zone licences"
+          ],
+          [
+            "Confederation of Zimbabwe Industries",
+            "Industry body for manufacturers"
+          ]
+        ],
+        "vnInstitutions": [
+          [
+            "Vietnam Textile and Apparel Association (VITAS)",
+            "Textile and garment manufacturers"
+          ],
+          [
+            "Leather, Footwear and Handbag Association (LEFASO)",
+            "Footwear and leather goods manufacturers"
+          ],
+          [
+            "Vietnam Chamber of Commerce and Industry (VCCI)",
+            "National business federation"
+          ]
+        ],
+        "boundaries": "Manufacturing investments take longer and need several approvals. MZM works with licensed legal and tax advisers wherever advice is required, and does not offer incentives or approvals that only government agencies can grant."
+      },
+      "tourism": {
+        "title": "Tourism and Hospitality",
+        "imageAlt": "Victoria Falls at sunset",
+        "summary": "Hotel, lodge and conference investment for Zimbabwe’s main tourism destinations.",
+        "lead": "Tourism is one of the pillars of Zimbabwe’s growth strategy, built around Victoria Falls and five UNESCO World Heritage Sites. MZM introduces hospitality investors and operators to the projects that growth needs.",
+        "context": [
+          "In November 2025 the government cut tourism registration fees and announced tax incentives for accommodation, conferencing, aviation and eco-tourism.",
+          "The Masuwe Special Economic Zone in Victoria Falls is designated for tourism and financial services.",
+          "Zimbabwe co-hosts the ICC Men’s Cricket World Cup in 2027."
+        ],
+        "focus": [
+          {
+            "name": "Hotels and lodges",
+            "status": "open",
+            "body": "New and upgraded accommodation at Victoria Falls, Hwange, Kariba and the eastern highlands."
+          },
+          {
+            "name": "Conference facilities",
+            "status": "open",
+            "body": "Conference and events venues, now covered by new tax incentives."
+          },
+          {
+            "name": "Eco-tourism",
+            "status": "open",
+            "body": "Low-impact lodges and camps near national parks and heritage sites."
+          },
+          {
+            "name": "Tourism zone projects",
+            "status": "open",
+            "body": "Projects in the Masuwe Special Economic Zone, licensed through ZIDA."
+          }
+        ],
+        "services": [
+          "Hospitality investment introductions",
+          "Market entry support for Asian hotel operators",
+          "Special Economic Zone licensing support through ZIDA",
+          "Registration and grading with the Zimbabwe Tourism Authority",
+          "Partner and supplier checks"
+        ],
+        "zimbabwe": [
+          "National Development Strategy 2: tourism and investment promotion",
+          "National tourism growth strategy",
+          "Tourism Special Economic Zones"
+        ],
+        "vietnam": [
+          "GoGlobal Programme: support for Vietnamese services and distribution firms abroad",
+          "Vietnamese groups expanding into African real estate and hospitality"
+        ],
+        "zimInstitutions": [
+          [
+            "Ministry of Tourism and Hospitality Industry",
+            "Tourism policy"
+          ],
+          [
+            "Zimbabwe Tourism Authority",
+            "Registers, grades and licenses tourism operators"
+          ],
+          [
+            "Zimbabwe Investment and Development Agency (ZIDA)",
+            "Investment and Special Economic Zone licences"
+          ]
+        ],
+        "vnInstitutions": [
+          [
+            "Vietnam Chamber of Commerce and Industry (VCCI)",
+            "National business federation"
+          ],
+          [
+            "Vietnam Trade Promotion Agency (VIETRADE)",
+            "Runs the GoGlobal Programme Office"
+          ]
+        ],
+        "boundaries": "Travel agencies and passenger transport, except international brands, are reserved for Zimbabwean citizens. MZM works on hotels, lodges and conference facilities, and introduces Zimbabwean partners for reserved activities."
+      }
+    }
+  },
+  "SectorPage": {
+    "eyebrow": "Sectors · Sector {num} of 05",
+    "whyLabel": "Why This Sector",
+    "whyTitle": [
+      "The opportunity ",
+      "in Zimbabwe."
+    ],
+    "whatLabel": "What MZM Does",
+    "focusLabel": "Focus Areas",
+    "focusTitle": [
+      "Where we work, ",
+      "and where it stands today."
+    ],
+    "focusSub": "Each area shows its current position under Zimbabwean and Vietnamese rules, so you know what is open now.",
+    "policyLabel": "Policy Alignment",
+    "policyTitle": [
+      "Where both countries’ ",
+      "priorities meet."
+    ],
+    "zimPriorities": "Zimbabwe’s priorities",
+    "vnPriorities": "Vietnam’s priorities",
+    "instLabel": "Institutions",
+    "instTitle": [
+      "The bodies ",
+      "this sector works through."
+    ],
+    "instSub": "MZM prepares clients for each of these institutions. MZM is a private firm and does not represent any of them.",
+    "zimbabwe": "Zimbabwe",
+    "vietnam": "Vietnam",
+    "limitsLabel": "What We Do Not Do",
+    "limitsTitle": [
+      "Clear limits, ",
+      "stated up front."
+    ],
+    "limitsBody": "Every opportunity is checked before it reaches an investor, and every fee is agreed in writing and disclosed to all parties.",
+    "readHow": "Read our approach",
+    "ctaTitle": "Discuss an opportunity in {sector}.",
+    "ctaWrite": "Write to",
+    "ctaReply": "We reply within 48 hours.",
+    "getInTouch": "Get In Touch",
+    "otherSectors": "Other Sectors"
+  },
+  "Corridor": {
+    "hero": {
+      "eyebrow": "Flagship Programme",
+      "title": "The Zimbabwe-Vietnam",
+      "accent": "Corridor.",
+      "lead": "A two-way programme. We bring Vietnamese investment into Zimbabwe, and we take Zimbabwean products to Vietnamese buyers. Our team in Bulawayo and our Asia desk in Hanoi manage both directions."
+    },
+    "doors": [
+      {
+        "id": "invest",
+        "who": "For Investors",
+        "title": "Invest in Zimbabwe",
+        "body": "Verified opportunities across our five sectors, structured for Zimbabwean law and policy.",
+        "cta": "See investment sectors"
+      },
+      {
+        "id": "source",
+        "who": "For Buyers and Importers",
+        "title": "Source from Zimbabwe",
+        "body": "Zimbabwean producers of agricultural and processed goods, verified before introduction through our Hanoi desk.",
+        "cta": "See export and market access"
+      },
+      {
+        "id": "producers",
+        "who": "For Zimbabwean Producers",
+        "title": "Sell into Vietnam",
+        "body": "Buyer introductions, export documentation and market entry support for growers and processors.",
+        "cta": "Register your interest"
+      }
+    ],
+    "flowsLabel": "What Flows Each Way",
+    "flowsTitle": [
+      "One corridor, ",
+      "two directions."
+    ],
+    "flows": [
+      [
+        "Into Zimbabwe",
+        [
+          "Investment capital for processing and agro-industry",
+          "Equipment, machinery and solar technology",
+          "Processing and supply-chain expertise",
+          "Hotel and hospitality investment"
+        ]
+      ],
+      [
+        "Into Asia",
+        [
+          "Tobacco, cotton and horticultural produce",
+          "Leather, nuts and processed foods",
+          "Processed minerals and metals",
+          "Verified investment opportunities"
+        ]
+      ]
+    ],
+    "whyLabel": "Why the Corridor Works",
+    "whyTitle": [
+      "Two sets of national priorities ",
+      "that point the same way."
+    ],
+    "whyLead": "Zimbabwe wants investment in value addition and new markets for its exports. Vietnam wants its companies to invest abroad and needs raw materials for its processing industries. The Corridor serves both.",
+    "priorities": [
+      [
+        "Zimbabwe",
+        [
+          [
+            "Investment",
+            "National Development Strategy 2 (2026 to 2030) and the Zimbabwe National Industrial Development Policy II (ZNIDP II) call for investment in value addition, agro-processing and mineral beneficiation."
+          ],
+          [
+            "Export markets",
+            "Export earnings are concentrated in a few minerals and a few buyers. ZimTrade and Zimbabwe’s horticulture growth plan prioritise new markets for agricultural and manufactured goods."
+          ]
+        ]
+      ],
+      [
+        "Vietnam",
+        [
+          [
+            "Investing abroad",
+            "The GoGlobal Programme (Decision 626/QD-TTg, 2026), led by the Ministry of Industry and Trade, supports Vietnamese firms investing abroad in agro-processing, textiles, leather and manufacturing, and names Africa as a potential market."
+          ],
+          [
+            "Raw materials",
+            "Vietnam’s processing industries import large volumes of cotton, tobacco and other agricultural raw materials."
+          ]
+        ]
+      ]
+    ],
+    "status": {
+      "now": "Established Trade",
+      "open": "Enquiries Welcome",
+      "access": "Awaiting Market Access"
+    },
+    "exportLabel": "Export and Market Access",
+    "exportTitle": [
+      "Zimbabwean products",
+      "for Vietnamese buyers."
+    ],
+    "exportLead": "Each product line shows where it stands today, so buyers know which trade is established and what depends on market access approval.",
+    "products": [
+      {
+        "title": "Tobacco",
+        "status": "now",
+        "image": "/images/product-tobacco.jpg",
+        "alt": "Cured tobacco leaves",
+        "body": "Flue-cured Virginia leaf supplied through licensed Zimbabwean merchants. Tobacco is already the main product Zimbabwe sells to Vietnam."
+      },
+      {
+        "title": "Processed and Shelf-Stable Foods",
+        "status": "open",
+        "image": "/images/product-foods.jpg",
+        "alt": "Dried fruit and nuts",
+        "body": "Dried fruit, nuts, juice concentrates, tea and coffee. Import requirements are confirmed product by product before any supply commitment."
+      },
+      {
+        "title": "Fresh Fruit",
+        "status": "access",
+        "image": "/images/product-fruit.jpg",
+        "alt": "Blueberries growing on the bush",
+        "body": "Blueberries, citrus and avocados. Fresh fruit can be supplied once Vietnam approves import access for each fruit through its plant health process."
+      },
+      {
+        "title": "Processed Minerals",
+        "status": "open",
+        "image": "/images/product-minerals.jpg",
+        "alt": "Rolled steel products",
+        "body": "Ferrochrome and other processed metals from licensed producers, sold through Zimbabwe’s official mineral marketing channels."
+      }
+    ],
+    "moreProducts": [
+      [
+        "Cotton lint",
+        "For spinning mills. Vietnam’s textile industry imports most of the cotton it uses."
+      ],
+      [
+        "Leather and hides",
+        "Raw hides and finished leather for footwear and leather goods manufacturers."
+      ],
+      [
+        "Macadamia and other nuts",
+        "In-shell and processed nuts for Asian processors and food importers."
+      ]
+    ],
+    "stepsTitle": "How an export deal works",
+    "stepsLead": "The same verification standard we apply to investors applies to every supplier we introduce.",
+    "steps": [
+      [
+        "01",
+        "Verify the producer",
+        "Registration, capacity, quality and certification checked in Zimbabwe."
+      ],
+      [
+        "02",
+        "Match the buyer",
+        "Introductions to Vietnamese importers and processors through our Hanoi desk."
+      ],
+      [
+        "03",
+        "Meet import rules",
+        "Plant health certificates, product standards and customs documents prepared in advance."
+      ],
+      [
+        "04",
+        "Ship and settle",
+        "Pre-shipment inspection, licensed clearing agents, and payment through recognised banking channels."
+      ]
+    ],
+    "investLabel": "Investment into Zimbabwe",
+    "investTitle": [
+      "Five ",
+      "investment sectors."
+    ],
+    "instLabel": "Official Channels",
+    "instTitle": [
+      "The institutions ",
+      "every deal runs through, in both countries."
+    ],
+    "instLead": "MZM does not offer routes around these institutions. Every investment, mineral sale and export follows the official channel for it, in Zimbabwe and in Vietnam, and we prepare our clients for each one. MZM is a private firm and does not represent any of them.",
+    "institutions": [
+      [
+        "ZIDA",
+        "Zimbabwe Investment and Development Agency",
+        "Investment licences, Special Economic Zone permits and investor registration."
+      ],
+      [
+        "ZimTrade",
+        "National trade development and promotion agency",
+        "Export development, market information and buyer programmes."
+      ],
+      [
+        "MMCZ",
+        "Minerals Marketing Corporation of Zimbabwe",
+        "Marketing and sale of minerals other than gold and silver."
+      ],
+      [
+        "Fidelity Gold Refinery",
+        "Gold buying and refining",
+        "Sale of all gold produced in Zimbabwe."
+      ],
+      [
+        "ZERA",
+        "Zimbabwe Energy Regulatory Authority",
+        "Licensing and registration of power generation."
+      ],
+      [
+        "Sector ministries",
+        "Mines, Agriculture, Industry and Commerce, Energy, Tourism",
+        "Sector permits, policy approvals and reserved-sector rules."
+      ],
+      [
+        "VCCI",
+        "Vietnam Chamber of Commerce and Industry",
+        "National business federation, business forums and buyer matching in Vietnam."
+      ],
+      [
+        "VIETRADE",
+        "Vietnam Trade Promotion Agency",
+        "Runs the GoGlobal Programme Office supporting Vietnamese firms investing abroad."
+      ],
+      [
+        "PPPD",
+        "Plant Production and Protection Department, Vietnam",
+        "Plant health reviews that open the Vietnamese market to each fresh fruit."
+      ]
+    ],
+    "buyerTitle": "Buying from Zimbabwe?",
+    "buyerBody": "Tell our Hanoi desk which products, volumes and specifications you need.",
+    "buyerCta": "Contact the Trade Desk",
+    "producerTitle": "A Zimbabwean producer?",
+    "producerBody": "Register your products for verification and buyer introductions in Vietnam.",
+    "producerCta": "Register as a Supplier",
+    "metaTitle": "The Zimbabwe-Vietnam Corridor | MZM Africa",
+    "metaDescription": "A two-way programme: Vietnamese investment into Zimbabwe, and Zimbabwean products to Vietnamese buyers. Managed from Bulawayo and Hanoi."
+  },
+  "About": {
+    "metaTitle": "About MZM | Mekong Zambezi Meridian Consultants",
+    "metaDescription": "MZM Consultants is a Zimbabwe-registered firm headquartered in Bulawayo, with an Asia desk in Hanoi, working on investment and trade between Zimbabwe and Vietnam.",
+    "eyebrow": "About MZM",
+    "title": "One team in",
+    "accent": "Zimbabwe and Vietnam.",
+    "lead": "Mekong Zambezi Meridian Consultants is a Zimbabwe-registered firm, headquartered in Bulawayo with an Asia desk in Hanoi. We help Asian companies invest in Zimbabwe, and help Zimbabwean producers sell to Asia, across five sectors: mining, agriculture, energy, manufacturing, and tourism and hospitality.",
+    "whatLabel": "What MZM Is",
+    "whatTitle": [
+      "Between Zimbabwean opportunity ",
+      "and Asian capital."
+    ],
+    "whatParas": [
+      "MZM works between two sides: Zimbabwean owners, producers and projects, and the Asian investors and buyers who want to work with them. We find opportunities, check them on the ground, prepare them under Zimbabwean law, and introduce them to the right investor or buyer.",
+      "Our Managing Director leads the Asia desk in Hanoi. Our Commercial Director runs our operations in Zimbabwe. Clients deal with the same small team in both countries.",
+      "Every engagement runs through Zimbabwe’s official channels: ZIDA, ZimTrade, the sector ministries, and the official sales channels for minerals and gold."
+    ],
+    "points": [
+      [
+        "Zimbabwe-Registered",
+        "Incorporated in Zimbabwe and familiar with the procedures of ZIDA, ZimTrade, the sector ministries, MMCZ, Fidelity Gold Refinery and ZERA."
+      ],
+      [
+        "Checked Before Introduction",
+        "Title, ownership, licences and the people involved are checked before any opportunity or supplier is introduced."
+      ],
+      [
+        "Hanoi Asia Desk",
+        "A working presence in Vietnam, meeting Vietnamese investors, buyers, equipment suppliers and trade bodies in person."
+      ],
+      [
+        "Five Sectors, One Standard",
+        "Mining, agriculture, energy, manufacturing, and tourism and hospitality all follow the same checks, the same fee rules and the same team."
+      ]
+    ],
+    "storyLabel": "Why Bulawayo and Hanoi",
+    "storyTitle": [
+      "Two bases, ",
+      "chosen for the work."
+    ],
+    "storyParas": [
+      "MZM was founded by Zimbabweans who saw a gap: Zimbabwe has minerals, land, produce and tourism assets, and wants investment and new export markets, but has had little direct contact with the capital and buyers in East and Southeast Asia.",
+      "We chose Hanoi on purpose. Vietnam is a manufacturing economy that imports the raw materials Zimbabwe produces, and its GoGlobal Programme, launched in 2026, encourages Vietnamese firms to invest abroad, with Africa named as a market.",
+      "Zimbabwe’s 2026 reforms, from processing requirements in mining to new energy and industrial policies, mean new investors need a partner who knows the rules on the ground. MZM was built to be that partner."
+    ],
+    "imageCaption": [
+      "Processing and ",
+      "value addition in Zimbabwe"
+    ],
+    "officesLabel": "Our Offices",
+    "officesTitle": [
+      "One firm, ",
+      "two bases."
+    ],
+    "offices": [
+      [
+        "Headquarters",
+        "Bulawayo, Zimbabwe",
+        "Project origination, field verification, regulatory approvals and delivery on the ground.",
+        "Grassland and hills in Zimbabwe"
+      ],
+      [
+        "Asia Desk",
+        "Hanoi, Vietnam",
+        "Investor, buyer and supplier relationships across Vietnam and Southeast Asia.",
+        "Lake and skyline in Hanoi"
+      ]
+    ],
+    "moreTitle": "More about how we work",
+    "moreLinks": [
+      [
+        "The Opportunity",
+        "/opportunity"
+      ],
+      [
+        "Our Approach",
+        "/how-we-work"
+      ],
+      [
+        "Our Team",
+        "/team"
+      ]
+    ]
+  },
+  "Team": {
+    "metaTitle": "Our Team | MZM Africa",
+    "metaDescription": "The MZM Consultants leadership team in Hanoi and Zimbabwe.",
+    "eyebrow": "Our Team",
+    "title": "One team,",
+    "accent": "in two countries.",
+    "members": [
+      {
+        "initials": "AM",
+        "name": "Andy Moyo",
+        "role": "Managing Director",
+        "location": "Hanoi, Vietnam",
+        "bio": "Andy Moyo is the founder and Managing Director of MZM Consultants. Based in Hanoi, he leads the firm’s Asia desk and its work with Vietnamese and Asian investors, buyers and trade bodies. He directs every engagement across MZM’s five sectors, from the first meeting with an investor or buyer to the introduction of a checked opportunity in Zimbabwe."
+      },
+      {
+        "initials": "EM",
+        "name": "Ebern Moyo",
+        "role": "Commercial Director",
+        "location": "Zimbabwe",
+        "bio": "Ebern Moyo is Commercial Director of MZM Consultants and runs the firm’s operations in Zimbabwe. He is responsible for checking opportunities and suppliers on the ground, working with Zimbabwean institutions, and managing delivery for clients across all five sectors. He works with the Managing Director in Hanoi so that clients deal with one team in both countries."
+      },
+      {
+        "initials": "CM",
+        "name": "Chido A. Mumvuri",
+        "role": "Deputy Managing Director & Head of Business Development",
+        "location": "Zimbabwe",
+        "bio": "Chido A. Mumvuri is Deputy Managing Director and Head of Business Development at MZM Consultants, which she co-founded. She develops the firm’s commercial partnerships and shapes how MZM’s opportunities are presented to international investors and buyers."
+      }
+    ]
+  },
+  "Contact": {
+    "metaTitle": "Contact | MZM Africa",
+    "metaDescription": "Contact MZM Consultants in Hanoi or Zimbabwe about investment in Zimbabwe, sourcing Zimbabwean products, or selling into Vietnam.",
+    "eyebrow": "Contact",
+    "title": "Discuss your project",
+    "accent": "with us.",
+    "lead": "Investment into Zimbabwe, supply from Zimbabwe, or entry into Vietnam. Tell us what you need, and the right person in Hanoi or Zimbabwe will respond.",
+    "whoLabel": "Who should contact us",
+    "who": [
+      [
+        "Institutional and corporate investors",
+        "Investment opportunities in any of our five sectors"
+      ],
+      [
+        "Vietnamese and Asian companies investing abroad",
+        "Market entry, sites, partners and approvals in Zimbabwe"
+      ],
+      [
+        "Buyers and importers",
+        "Verified supply of tobacco, cotton, leather, nuts, fruit, processed foods and processed minerals"
+      ],
+      [
+        "Zimbabwean producers and title holders",
+        "Buyer introductions, export support and investment partners"
+      ],
+      [
+        "Government agencies, chambers and trade bodies",
+        "Investment promotion, trade missions and business forums"
+      ]
+    ],
+    "formTitle": [
+      "Tell us about ",
+      "your project."
+    ],
+    "formIntro": "The more specific your enquiry, the faster we can respond. Please include the sector, what you want to invest in, buy or sell, the approximate scale and your timeline.",
+    "nextLabel": "What happens next",
+    "next": [
+      [
+        "Acknowledgement within 48 hours",
+        "Every enquiry receives a reply from an @mzmafrica.com address within 48 hours."
+      ],
+      [
+        "A first call",
+        "The Managing Director or the Commercial Director arranges a call to understand your project."
+      ],
+      [
+        "Non-disclosure agreement",
+        "Project details are exchanged only once a non-disclosure agreement is signed."
+      ],
+      [
+        "Signed fee letter",
+        "Work begins only after fees are agreed in writing."
+      ]
+    ],
+    "fraudTitle": "Protect yourself from impersonation.",
+    "fraudBody": "MZM email comes only from addresses ending in @mzmafrica.com. MZM never asks for payment to release documents or to secure access to officials.",
+    "fraudLink": "Read our fraud notice",
+    "emailLabel": "Email",
+    "hqLabel": "Headquarters",
+    "hq": "Bulawayo, Zimbabwe",
+    "asiaLabel": "Asia Desk",
+    "asia": "Hanoi, Vietnam",
+    "fields": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "enquiryType": "Enquiry Type",
+      "organisation": "Organisation and Role",
+      "interest": "Area of Interest",
+      "message": "Message"
+    },
+    "placeholders": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "name@company.com",
+      "organisation": "Your organisation and position",
+      "message": "Describe your project: sector, objective, approximate scale and timeline. Please do not send confidential documents until a non-disclosure agreement is in place."
+    },
+    "enquiryTypes": {
+      "meeting": "Meeting with our team",
+      "brief": "Zimbabwe investment brief request",
+      "general": "General enquiry"
+    },
+    "briefNote": "We will email the Zimbabwe Investment Brief to the address you provide.",
+    "selectOne": "Select one",
+    "groups": {
+      "sector": "Sector",
+      "corridor": "The Corridor",
+      "general": "General"
+    },
+    "interests": {
+      "mining": "Mining and Beneficiation",
+      "agriculture": "Agriculture and Agro-processing",
+      "energy": "Energy",
+      "manufacturing": "Manufacturing and Industrial Parks",
+      "tourism": "Tourism and Hospitality",
+      "buying": "Buying Zimbabwean Products",
+      "selling": "Selling Zimbabwean Products into Vietnam",
+      "equipment": "Equipment and Energy Sourcing",
+      "advisory": "Market Entry Advisory",
+      "government": "Government, Chamber or Trade Body"
+    },
+    "privacyBefore": "By sending this form you agree to MZM handling your details as set out in our",
+    "privacyLink": "privacy policy",
+    "submit": "Send Enquiry",
+    "sending": "Sending...",
+    "successTitle": "Thank You",
+    "successBody": "We have received your enquiry and will respond within 48 hours.",
+    "error": "Something went wrong. Please email us directly at projects@mzmafrica.com"
+  },
+  "Governance": {
+    "metaTitle": "Governance and Ethics | MZM Africa",
+    "metaDescription": "MZM governance standards: mandate review, dealing with officials, conflicts of interest and fee disclosure.",
+    "eyebrow": "Governance and Ethics",
+    "title": "Controls you can see,",
+    "accent": "before you commit.",
+    "lead": "Investors, buyers and regulators should know how MZM works before they work with us. These standards apply to every mandate in every sector.",
+    "reviewLabel": "Mandate Review",
+    "reviewTitle": [
+      "Five checks ",
+      "before any mandate."
+    ],
+    "reviewSub": "No mandate is accepted until the Managing Director has confirmed all five.",
+    "checks": [
+      [
+        "Verification",
+        "Title, documents and counterparty identity pass our verification standard."
+      ],
+      [
+        "Regulatory fit",
+        "The structure complies with current Zimbabwean law and sector policy, including the sectors reserved for Zimbabwean citizens."
+      ],
+      [
+        "Conflict check",
+        "No MZM team member or related business holds an undisclosed interest."
+      ],
+      [
+        "Fee letter",
+        "Fees are agreed in writing and disclosed to all parties."
+      ],
+      [
+        "Registration",
+        "Foreign investment is registered with the Zimbabwe Investment and Development Agency from the outset."
+      ]
+    ],
+    "officialsLabel": "Dealing with Officials",
+    "officialsTitle": [
+      "Institutional channels, ",
+      "no paid access."
+    ],
+    "officialsBody": "MZM engages government through institutions: the Zimbabwe Investment and Development Agency, sector ministries, chambers of commerce and diplomatic missions.",
+    "officials": [
+      "MZM never pays, or promises payment to, any official for access, approval or speed.",
+      "MZM does not work with anyone who charges a fee for introductions to officials.",
+      "Public figures may convene meetings or make introductions. They are never signatories to, or recipients of, MZM fees.",
+      "Gifts and hospitality above a modest value are recorded in a register."
+    ],
+    "columns": [
+      [
+        "Official channels",
+        "Investment is registered with ZIDA, minerals are sold through Zimbabwe’s official marketing channels, and exports follow ZimTrade and customs procedures. MZM does not offer routes around them."
+      ],
+      [
+        "Conflicts of interest",
+        "Any interest an MZM team member or related business holds in a transaction is disclosed in writing to all parties before work begins."
+      ],
+      [
+        "Corporate structure",
+        "MZM is a Zimbabwe-registered firm headquartered in Bulawayo, with an Asia desk in Hanoi. Fees are invoiced only through MZM’s registered company accounts."
+      ]
+    ],
+    "fraudPrompt": "Received a message claiming to be from MZM that you are unsure about?",
+    "fraudLink": "Read our fraud notice"
+  },
+  "FraudNotice": {
+    "metaTitle": "Fraud and Impersonation Notice | MZM Africa",
+    "metaDescription": "How to recognise genuine communication from MZM Consultants and what to do if you receive a suspicious message using our name.",
+    "eyebrow": "Fraud and Impersonation Notice",
+    "title": "Protect yourself",
+    "accent": "from impersonation.",
+    "lead": "Mining and trade opportunities attract fraud, and our name may be used by people who do not work for MZM. Here is how to recognise genuine communication from us.",
+    "label": "How MZM Communicates",
+    "listTitle": [
+      "Five things that are ",
+      "always true."
+    ],
+    "genuine": [
+      "MZM email comes only from addresses ending in @mzmafrica.com. Our team may also contact you on WhatsApp, WeChat or Zalo, but documents and payment details are only ever sent from an @mzmafrica.com address.",
+      "Fees are agreed in a signed fee letter before any work begins.",
+      "Payments to MZM are made only to MZM’s registered company bank accounts, never to a personal account.",
+      "MZM never asks for payment to release documents, reserve a claim, or secure access to officials.",
+      "Project details are shared only after a non-disclosure agreement, never through unsolicited messages."
+    ],
+    "unsureTitle": "If you are unsure",
+    "unsureBefore": "Do not send money or documents. Forward the message to",
+    "unsureAfter": "and we will confirm within 48 hours whether it came from MZM."
+  },
+  "Privacy": {
+    "metaTitle": "Privacy Policy | MZM Africa",
+    "metaDescription": "How MZM Africa collects, uses and protects personal information submitted through mzmafrica.com.",
+    "eyebrow": "Legal",
+    "title": "Privacy Policy",
+    "updated": "Last updated 7 October 2026",
+    "sections": [
+      {
+        "heading": "Who we are",
+        "body": [
+          "This website, mzmafrica.com, is operated by Mekong Zambezi Meridian Consultants (\"MZM\", \"we\", \"us\"), a company registered in Zimbabwe. MZM is responsible for the personal information collected through this website."
+        ]
+      },
+      {
+        "heading": "Information we collect",
+        "body": [
+          "When you send an enquiry through our contact form, we collect the details you provide: your first and last name, email address, organisation and role, enquiry type, area of interest and message.",
+          "When you email us directly, we receive your email address and the contents of your email.",
+          "We do not ask for, and ask you not to send through this website, identity documents, bank or card details, or any other sensitive personal information."
+        ]
+      },
+      {
+        "heading": "How we use it",
+        "body": [
+          "We use the information you send us to respond to your enquiry, to assess whether we can assist you, and to correspond with you about a potential engagement.",
+          "We do not sell your personal information, and we do not use it to send marketing messages unless you have asked us to."
+        ]
+      },
+      {
+        "heading": "Who processes it",
+        "body": [
+          "Contact form submissions are received and stored by Netlify, Inc., which hosts this website, and are forwarded to our business email. These providers may process and store data outside Zimbabwe. We share your information only with service providers that support our business and with professional advisers where needed to respond to your enquiry, or where the law requires it."
+        ]
+      },
+      {
+        "heading": "Website data",
+        "body": [
+          "Our hosting provider records standard technical information, such as IP addresses and the pages requested, to operate and secure the website.",
+          "This website loads fonts from Google Fonts, which means your browser connects to Google servers and shares your IP address with Google.",
+          "If you choose a language on this website, your choice is saved in a small cookie (NEXT_LOCALE) so the site shows the same language on your next visit. We do not use advertising or tracking cookies."
+        ]
+      },
+      {
+        "heading": "How long we keep it",
+        "body": [
+          "We keep enquiry information only for as long as needed to respond to you, to manage any resulting engagement, and to meet our legal and record-keeping obligations."
+        ]
+      },
+      {
+        "heading": "Your rights",
+        "body": [
+          "You can ask us to confirm what personal information we hold about you, to correct it, or to delete it. You can also object to how we use it. To make a request, email projects@mzmafrica.com. We may need to confirm your identity before acting on a request.",
+          "We handle personal information in line with applicable data protection law, including Zimbabwe's Cyber and Data Protection Act. If you are not satisfied with our response, you may contact the relevant data protection authority."
+        ]
+      },
+      {
+        "heading": "Security",
+        "body": [
+          "We take reasonable steps to protect the personal information we hold against loss, misuse and unauthorised access. No method of transmission over the internet is completely secure."
+        ]
+      },
+      {
+        "heading": "Changes to this policy",
+        "body": [
+          "We may update this policy from time to time. The date at the top of this page shows when it was last changed."
+        ]
+      }
+    ],
+    "contactHeading": "Contact",
+    "contactBefore": "Questions about this policy can be sent to"
+  },
+  "News": {
+    "metaTitle": "News and Insights | MZM Africa",
+    "metaDescription": "News, policy updates and market insights on investment and trade between Zimbabwe and Vietnam.",
+    "eyebrow": "News and Insights",
+    "title": "Latest From MZM",
+    "empty": "No posts yet",
+    "emptySub": "Check back soon for news and updates from MZM Africa.",
+    "readMore": "Read more",
+    "back": "Back to News",
+    "update": "Update",
+    "englishOnly": ""
+  }
+}

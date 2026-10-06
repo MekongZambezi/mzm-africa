@@ -1,0 +1,1521 @@
+{
+  "Meta": {
+    "title": "MZM Africa | Mekong Zambezi Meridian Consultants",
+    "description": "Đầu tư và thương mại giữa Zimbabwe và Việt Nam. MZM hỗ trợ doanh nghiệp châu Á đầu tư vào Zimbabwe trong các lĩnh vực khai khoáng, nông nghiệp, năng lượng, sản xuất và du lịch, đồng thời giúp nhà sản xuất Zimbabwe bán hàng sang châu Á, với đội ngũ tại Hà Nội và Zimbabwe."
+  },
+  "Common": {
+    "explore": "Xem chi tiết",
+    "readMore": "Xem thêm",
+    "speakToTeam": "Trao Đổi Với Chúng Tôi",
+    "discussProject": "Hãy trao đổi dự án của quý vị với chúng tôi.",
+    "reply48": "Chúng tôi phản hồi mọi yêu cầu trong vòng 48 giờ.",
+    "output": "Kết quả đầu ra",
+    "getInTouch": "Liên Hệ",
+    "otherSectors": "Các Lĩnh Vực Khác",
+    "backToNews": "Quay Lại Tin Tức",
+    "update": "Cập nhật"
+  },
+  "Nav": {
+    "capabilities": "Năng Lực",
+    "capabilitiesSub": [
+      "Hỗ Trợ Đầu Tư",
+      "Xuất Khẩu và Tiếp Cận Thị Trường",
+      "Cung Ứng Thiết Bị và Năng Lượng",
+      "Tư Vấn Gia Nhập Thị Trường"
+    ],
+    "sectors": "Lĩnh Vực",
+    "sectorsSub": [
+      "Tất Cả Lĩnh Vực",
+      "Khai Khoáng & Chế Biến",
+      "Nông Nghiệp & Chế Biến Nông Sản",
+      "Năng Lượng",
+      "Sản Xuất & Khu Công Nghiệp",
+      "Du Lịch & Khách Sạn"
+    ],
+    "opportunity": "Cơ Hội",
+    "opportunitySub": [
+      "Bối Cảnh Chiến Lược",
+      "Luận Điểm Cốt Lõi"
+    ],
+    "approach": "Phương Pháp",
+    "approachSub": [
+      "Khung Triển Khai",
+      "Cam Kết Thực Hiện",
+      "Quản Trị & Đạo Đức",
+      "Cảnh Báo Gian Lận"
+    ],
+    "corridor": "Hành Lang",
+    "corridorSub": [
+      "Đầu Tư Vào Zimbabwe",
+      "Nhập Hàng Từ Zimbabwe",
+      "Xuất Khẩu Sang Việt Nam"
+    ],
+    "about": "Về MZM",
+    "aboutSub": [
+      "Về MZM",
+      "Đội Ngũ",
+      "Văn Phòng"
+    ],
+    "news": "Tin Tức",
+    "contact": "Liên Hệ",
+    "cta": "Trao Đổi Với Chúng Tôi",
+    "language": "Ngôn ngữ",
+    "english": "English",
+    "vietnamese": "Tiếng Việt",
+    "openMenu": "Mở menu",
+    "closeMenu": "Đóng menu",
+    "homeLabel": "Trang chủ MZM Africa"
+  },
+  "Footer": {
+    "desc": "Mekong Zambezi Meridian Consultants: đầu tư và thương mại giữa Zimbabwe và Việt Nam. Trụ sở chính tại Bulawayo, văn phòng châu Á tại Hà Nội.",
+    "company": "Công Ty",
+    "services": "Lĩnh Vực Hoạt Động",
+    "contact": "Liên Hệ",
+    "companyLinks": [
+      "Năng Lực",
+      "Cơ Hội",
+      "Phương Pháp",
+      "Về MZM",
+      "Đội Ngũ",
+      "Quản Trị & Đạo Đức"
+    ],
+    "serviceLinks": [
+      "Khai Khoáng & Chế Biến",
+      "Nông Nghiệp & Chế Biến Nông Sản",
+      "Năng Lượng",
+      "Sản Xuất & Khu Công Nghiệp",
+      "Du Lịch & Khách Sạn",
+      "Hành Lang Zimbabwe - Việt Nam"
+    ],
+    "email": "Email",
+    "offices": "Văn Phòng",
+    "hq": "Trụ sở chính: Bulawayo, Zimbabwe",
+    "asia": "Văn phòng châu Á: Hà Nội, Việt Nam",
+    "enquire": "Yêu Cầu Tài Liệu Đầu Tư",
+    "rights": "Bảo lưu mọi quyền.",
+    "registered": "Đăng ký tại Zimbabwe",
+    "fraud": "Cảnh báo gian lận",
+    "privacy": "Chính sách bảo mật",
+    "governance": "Quản Trị & Đạo Đức"
+  },
+  "Home": {
+    "eyebrow": "Mekong Zambezi Meridian Consultants",
+    "h1": [
+      "Đầu tư và thương mại",
+      "giữa Zimbabwe và Việt Nam."
+    ],
+    "sub": "Chúng tôi giúp doanh nghiệp châu Á đầu tư vào Zimbabwe, và nhà sản xuất Zimbabwe bán hàng sang châu Á, với đội ngũ tại Hà Nội và Zimbabwe.",
+    "cta1": "Trao Đổi Với Chúng Tôi",
+    "cta2": "Yêu Cầu Tài Liệu Đầu Tư Zimbabwe",
+    "mandateLabel": "Về Chúng Tôi",
+    "mandateTitle": [
+      "Chúng tôi làm gì, vì sao quan trọng,",
+      "và cách chúng tôi làm việc."
+    ],
+    "pillars": [
+      [
+        "Chúng Tôi Làm Gì",
+        "Chúng tôi chuẩn bị và triển khai đầu tư vào Zimbabwe, và mở thị trường châu Á cho sản phẩm Zimbabwe. Bốn năng lực: hỗ trợ đầu tư, xuất khẩu và tiếp cận thị trường, cung ứng thiết bị và năng lượng, và tư vấn gia nhập thị trường, trong năm lĩnh vực.",
+        "Năng lực",
+        "/what-we-do"
+      ],
+      [
+        "Vì Sao Quan Trọng",
+        "Zimbabwe cần đầu tư để chế biến tài nguyên ngay trong nước, và thị trường mới cho hàng xuất khẩu. Doanh nghiệp Việt Nam đang đầu tư ra nước ngoài, và nhà máy Việt Nam nhập khẩu nguyên liệu mà Zimbabwe sản xuất. Hai nước chưa có đại sứ quán tại thủ đô của nhau. Chúng tôi làm việc trực tiếp tại cả hai nước.",
+        "Cơ hội",
+        "/opportunity"
+      ],
+      [
+        "Cách Chúng Tôi Làm Việc",
+        "Một quy trình cho mọi dự án: kiểm tra trước khi giới thiệu, cấu trúc theo pháp luật hiện hành của Zimbabwe, phê duyệt qua kênh chính thức, và hỗ trợ đến khi vận hành. Văn phòng Hà Nội và đội ngũ tại Zimbabwe cùng triển khai mỗi dự án.",
+        "Phương pháp",
+        "/how-we-work"
+      ]
+    ],
+    "sectorsLabel": "Lĩnh Vực",
+    "sectorsTitle": [
+      "Năm lĩnh vực.",
+      "Một tiêu chuẩn."
+    ],
+    "sectorsSub": "Các lĩnh vực Zimbabwe ưu tiên thu hút đầu tư nhất, cùng một tiêu chuẩn kiểm tra và cùng một quy tắc về phí.",
+    "sectorText": {
+      "mining": [
+        "Khai khoáng và Chế biến",
+        "Crôm, lithium, vàng và các khoáng sản quan trọng, được cấu trúc để chế biến tại Zimbabwe."
+      ],
+      "agriculture": [
+        "Nông nghiệp và Chế biến Nông sản",
+        "Chế biến, chuỗi lạnh và người mua châu Á cho thuốc lá, bông, các loại hạt và trái cây."
+      ],
+      "energy": [
+        "Năng lượng",
+        "Điện mặt trời và lưu trữ tự dùng cho mỏ, nhà máy chế biến và nhà máy sản xuất."
+      ],
+      "manufacturing": [
+        "Sản xuất và Khu Công nghiệp",
+        "Gia nhập Đặc khu Kinh tế cho doanh nghiệp dệt may, da giày, thực phẩm và chế biến kim loại."
+      ],
+      "tourism": [
+        "Du lịch và Khách sạn",
+        "Đầu tư khách sạn, khu nghỉ dưỡng và trung tâm hội nghị tại các điểm đến hàng đầu của Zimbabwe."
+      ]
+    },
+    "explore": "Xem chi tiết",
+    "factsLabel": "Cơ Sở",
+    "factsTitle": [
+      "Bốn con số",
+      "then chốt."
+    ],
+    "facts": [
+      [
+        "Hơn 3 tỷ USD",
+        "Vốn đầu tư được ZIDA phê duyệt trong 6 tháng đầu năm 2026"
+      ],
+      [
+        "2026",
+        "Chương trình GoGlobal của Việt Nam xác định châu Phi là thị trường đầu tư"
+      ],
+      [
+        "1,36 tỷ USD",
+        "Vốn đầu tư ra nước ngoài của Việt Nam năm 2025, tăng 88,7%"
+      ],
+      [
+        "1,71 triệu tấn",
+        "Bông Việt Nam nhập khẩu năm 2025, chưa có nhà cung cấp đáng kể nào từ châu Phi"
+      ]
+    ],
+    "closeTitle": "Hãy trao đổi dự án của quý vị với chúng tôi.",
+    "closeSub": "Đầu tư, cung ứng hoặc gia nhập thị trường giữa Zimbabwe và Việt Nam. Chúng tôi phản hồi mọi yêu cầu trong vòng 48 giờ."
+  },
+  "Capabilities": {
+    "metaTitle": "Năng Lực | MZM Africa",
+    "metaDescription": "Hỗ trợ đầu tư vào Zimbabwe, xuất khẩu và tiếp cận thị trường, tìm nguồn thiết bị và năng lượng, và tư vấn gia nhập thị trường, trong năm lĩnh vực.",
+    "eyebrow": "Năng Lực",
+    "title": "Bốn năng lực. Năm lĩnh vực.",
+    "accent": "Một đội ngũ chịu trách nhiệm.",
+    "lead": "MZM cung cấp bốn năng lực: hỗ trợ đầu tư vào Zimbabwe, xuất khẩu và tiếp cận thị trường cho các nhà sản xuất Zimbabwe, tìm nguồn thiết bị và năng lượng, và tư vấn gia nhập thị trường. Chúng tôi áp dụng các năng lực này trong các lĩnh vực khai khoáng, nông nghiệp, năng lượng, sản xuất, du lịch và khách sạn, với một tiêu chuẩn thẩm định chung và một đội ngũ chịu trách nhiệm tại Hà Nội và tại Zimbabwe.",
+    "needLabel": "Nhu cầu thị trường",
+    "capabilityLabel": "Năng lực triển khai",
+    "impactLabel": "Giá trị cho khách hàng",
+    "items": [
+      {
+        "num": "01",
+        "name": "Hỗ trợ Đầu tư vào Zimbabwe",
+        "need": "Các nhà đầu tư châu Á nhìn thấy cơ hội tại Zimbabwe nhưng phải đối mặt với những quy định chưa quen thuộc, những người bán chưa được thẩm định và các yêu cầu mới về chế biến khoáng sản và sản xuất trong nước. ZIDA đã phê duyệt hơn 3 tỷ USD vốn đầu tư trong sáu tháng đầu năm 2026, và hiện tập trung vào việc các dự án đã được phê duyệt thực sự đi vào hoạt động.",
+        "capability": [
+          "Tìm kiếm cơ hội trong năm lĩnh vực, phù hợp với mục tiêu của nhà đầu tư",
+          "Kiểm tra quyền sở hữu tài sản, chủ sở hữu, giấy phép và đối tác giao dịch với cơ quan có thẩm quyền liên quan của Zimbabwe",
+          "Cấu trúc giao dịch theo quy định về các ngành dành riêng cho công dân Zimbabwe, các yêu cầu về chế biến và khung quy định về khoáng sản quan trọng",
+          "Chuẩn bị hồ sơ xin giấy phép đầu tư của ZIDA và hồ sơ đăng ký vào Đặc khu Kinh tế, nộp dưới tên nhà đầu tư cùng với luật sư được cấp phép hành nghề",
+          "Giới thiệu địa điểm, đối tác và nhà cung cấp",
+          "Hỗ trợ sau khi được cấp phép, cho đến khi dự án đi vào hoạt động"
+        ],
+        "impact": "Nhà đầu tư tiếp cận ZIDA với một dự án hoàn chỉnh, tuân thủ quy định, và làm việc với một đội ngũ chịu trách nhiệm duy nhất từ buổi gặp đầu tiên đến khi dự án đi vào hoạt động."
+      },
+      {
+        "num": "02",
+        "name": "Xuất khẩu và Tiếp cận Thị trường: Từ Zimbabwe sang châu Á",
+        "need": "Trong tháng 6 năm 2026, năm dòng khoáng sản chiếm 86,8% kim ngạch xuất khẩu hàng hóa của Zimbabwe, và ba người mua chiếm 92,3%. Năm 2025, Việt Nam nhập khẩu 1,71 triệu tấn bông mà không có nhà cung cấp châu Phi nào đáng kể, và thuốc lá vẫn là mặt hàng xuất khẩu duy nhất của Zimbabwe đã có chỗ đứng tại Việt Nam.",
+        "capability": [
+          "Xác định và giới thiệu người mua: nhà máy kéo sợi, nhà sản xuất thuốc lá, nhà sản xuất da và giày dép, cơ sở chế biến hạt và nhà nhập khẩu thực phẩm",
+          "Thẩm định nhà sản xuất: tình trạng đăng ký, năng lực sản xuất, chất lượng và chứng nhận",
+          "Kiểm tra quy định nhập khẩu của Việt Nam đối với từng sản phẩm, bao gồm kiểm dịch thực vật, an toàn thực phẩm và hạn ngạch thuế quan đối với thuốc lá nguyên liệu",
+          "Phối hợp với các đại lý thông quan được cấp phép tại Zimbabwe để chuẩn bị chứng từ xuất khẩu",
+          "Hỗ trợ quy trình kiểm dịch thực vật chính thức để mở cửa thị trường Việt Nam cho từng loại trái cây tươi"
+        ],
+        "impact": "Các nhà sản xuất Zimbabwe tiếp cận được người mua mới tại châu Á. Người mua châu Á có được nguồn cung đã được thẩm định, với chứng từ đầy đủ trước lô hàng đầu tiên."
+      },
+      {
+        "num": "03",
+        "name": "Tìm nguồn Thiết bị, Công nghệ và Năng lượng",
+        "need": "Điện năng và thiết bị quyết định một dự án đã được cấp phép có thể vận hành hay không. Chính phủ Zimbabwe đã chỉ đạo các cơ sở nấu luyện mới và các mỏ lớn phải tự cung cấp điện, và các quy định được đăng công báo vào tháng 7 năm 2026 cho phép các nhà máy điện tự dùng có công suất từ 100 kW đến 10 MW chỉ cần đăng ký thay vì xin giấy phép.",
+        "capability": [
+          "Tìm nguồn điện mặt trời tự dùng và hệ thống lưu trữ điện bằng pin cho các mỏ, cơ sở chế biến và nhà máy",
+          "Máy móc chế biến khoáng sản, chế biến nông sản, dệt may và da",
+          "Thẩm định nhà cung cấp, thông số kỹ thuật và hồ sơ mua sắm",
+          "Giới thiệu các nhà phát triển dự án điện được cấp phép",
+          "Phối hợp với đơn vị vận hành trong việc đăng ký và cấp phép với ZERA"
+        ],
+        "impact": "Điện năng và thiết bị được xác định thông số, tìm nguồn và thẩm định trước khi bắt đầu vận hành."
+      },
+      {
+        "num": "04",
+        "name": "Tư vấn Gia nhập Thị trường và Pháp lý",
+        "need": "Năm 2026, các quy định của Zimbabwe đã thay đổi đáng kể: khoáng sản quan trọng, kiểm soát xuất khẩu nguyên liệu thô, chính sách công nghiệp mới và cải cách năng lượng. Nhà đầu tư Việt Nam cũng phải đăng ký đầu tư ra nước ngoài tại Việt Nam, và việc đăng ký này yêu cầu tài liệu từ nước tiếp nhận đầu tư.",
+        "capability": [
+          "Báo cáo tóm tắt về việc gia nhập từng lĩnh vực: quy định, ưu đãi, lao động và điều kiện hoạt động",
+          "Phân tích các ngành dành riêng cho công dân Zimbabwe và cơ cấu sở hữu theo Văn bản pháp quy SI 215 năm 2025 và Luật Tài chính",
+          "Bộ tài liệu phía Zimbabwe được chuẩn bị cho thủ tục đăng ký đầu tư ra nước ngoài của Việt Nam (Nghị định 103/2026/NĐ-CP) và đăng ký ngoại hối (Thông tư 34/2026/TT-NHNN)",
+          "Làm việc với các cơ quan qua kênh chính thức: ZIDA, ZimTrade, các bộ chuyên ngành, VCCI và VIETRADE",
+          "Phối hợp với cố vấn pháp lý và thuế của khách hàng, và với luật sư được cấp phép hành nghề tại Zimbabwe"
+        ],
+        "impact": "Quyết định đầu tư được đưa ra dựa trên quy định hiện hành, và hồ sơ phê duyệt tại cả hai nước được chuẩn bị đồng thời."
+      }
+    ],
+    "sectorsLabel": "Lĩnh vực hoạt động",
+    "sectorsTitle": [
+      "Áp dụng trong ",
+      "năm lĩnh vực."
+    ],
+    "ctaTitle": "Trao đổi với chúng tôi về dự án của quý vị.",
+    "ctaSub": "Quý vị vui lòng cho chúng tôi biết lĩnh vực, mục tiêu và tiến độ. Chúng tôi phản hồi trong vòng 48 giờ.",
+    "cta": "Trao Đổi Với Chúng Tôi"
+  },
+  "Opportunity": {
+    "metaTitle": "Cơ Hội: Vì sao Zimbabwe, vì sao Việt Nam | MZM Africa",
+    "metaDescription": "Zimbabwe cần vốn đầu tư và thị trường xuất khẩu mới. Việt Nam cần nguyên liệu thô và thị trường cho doanh nghiệp của mình. Vì sao MZM hoạt động giữa hai quốc gia.",
+    "eyebrow": "Cơ Hội",
+    "title": "Vì sao Zimbabwe.",
+    "accent": "Vì sao Việt Nam.",
+    "lead": "Mỗi nền kinh tế cần những gì nền kinh tế kia có. Zimbabwe cần vốn đầu tư và thị trường xuất khẩu mới. Việt Nam cần nguyên liệu thô và thị trường cho doanh nghiệp của mình. Chính phủ hai nước đều đã nêu rõ điều này trong chính sách của mình.",
+    "contextLabel": "Bối cảnh chiến lược",
+    "contextTitle": [
+      "Vì sao điều này quan trọng ",
+      "vào lúc này."
+    ],
+    "zimbabweTitle": "Zimbabwe",
+    "vietnamTitle": "Việt Nam",
+    "zimbabwe": [
+      "Chiến lược Phát triển Quốc gia 2 (giai đoạn 2026-2030) và Chính sách Phát triển Công nghiệp Quốc gia Zimbabwe II (ZNIDP II) ưu tiên gia tăng giá trị, chế biến nông sản và xuất khẩu hàng chế tạo.",
+      "Từ tháng 2 năm 2026, xuất khẩu khoáng sản thô phải có kế hoạch chế biến đã được phê duyệt. Tháng 5 năm 2026, 14 loại khoáng sản quan trọng đã được công bố.",
+      "Nguồn thu từ xuất khẩu tập trung vào một số ít khoáng sản và một số ít người mua."
+    ],
+    "vietnam": [
+      "Chương trình GoGlobal (Quyết định 626/QĐ-TTg ngày 6 tháng 4 năm 2026) hỗ trợ doanh nghiệp Việt Nam đầu tư ra nước ngoài và xác định châu Phi là một thị trường.",
+      "Năm 2025, vốn đầu tư ra nước ngoài của Việt Nam đạt 1,36 tỷ USD, tăng 88,7%.",
+      "Các nhà máy Việt Nam nhập khẩu bông, thuốc lá, da và các nguyên liệu thô khác với khối lượng lớn."
+    ],
+    "betweenTitle": "Giữa hai quốc gia",
+    "between": [
+      "Tháng 11 năm 2025, chính phủ hai nước đã thống nhất hướng tới một hiệp định thương mại song phương và một hiệp định bảo hộ đầu tư, và Zimbabwe đã bổ nhiệm một đặc phái viên để thúc đẩy đầu tư từ Việt Nam.",
+      "Hai nước hiện không có đại sứ quán tại thủ đô của nhau. Zimbabwe được đại diện thông qua Kuala Lumpur, còn Việt Nam thông qua Pretoria."
+    ],
+    "thesisLabel": "Quan điểm cốt lõi",
+    "thesis": [
+      "Tài nguyên của Zimbabwe cần được chế biến tại Zimbabwe, với nguồn vốn và thiết bị từ những đối tác có ý định gắn bó lâu dài. Hoạt động kinh doanh giữa Zimbabwe và Việt Nam cần được thực hiện thông qua các đối tác đã được kiểm tra và các kênh chính thức, với nhân sự có mặt tại cả hai nước.",
+      "MZM ra đời để biến điều đó thành tiêu chuẩn."
+    ],
+    "focusLabel": "Trọng tâm",
+    "focusTitle": [
+      "Ưu tiên gia tăng giá trị ",
+      "hơn tốc độ giao dịch."
+    ],
+    "values": [
+      [
+        "Chế biến tại Zimbabwe",
+        "Chúng tôi ưu tiên các dự án gia tăng giá trị tại Zimbabwe: nhà máy chế biến, cơ sở đóng gói, nhà máy sản xuất và nguồn điện để vận hành các cơ sở này."
+      ],
+      [
+        "Đối tác Zimbabwe",
+        "Chúng tôi tôn trọng các ngành dành riêng cho công dân Zimbabwe, và xây dựng quan hệ đối tác về cung ứng và công nghệ với các doanh nghiệp do người Zimbabwe sở hữu."
+      ],
+      [
+        "Hợp tác lâu dài",
+        "Chúng tôi đánh giá một dự án dựa trên việc dự án có đi vào hoạt động và duy trì lâu dài hay không, không dựa trên tốc độ ký kết giao dịch."
+      ],
+      [
+        "Quyền từ chối",
+        "Các cơ hội không đạt yêu cầu kiểm tra của chúng tôi sẽ không được giới thiệu, bất kể quy mô."
+      ]
+    ],
+    "visionLabel": "Tầm nhìn",
+    "vision": "Đến năm 2030, trở thành công ty đầu tư và thương mại hàng đầu của Zimbabwe trên Hành Lang Zimbabwe - Việt Nam.",
+    "missionLabel": "Sứ mệnh",
+    "mission": "Mang đến hoạt động đầu tư và thương mại đã được kiểm tra giữa châu Á và Zimbabwe, đem lại lợi ích cho nhà đầu tư, người mua và Zimbabwe.",
+    "ctaTitle": "Xem cách chúng tôi triển khai.",
+    "ctaSub": "Một quy trình, năm giai đoạn, thực hiện tại cả hai nước.",
+    "cta": "Phương Pháp"
+  },
+  "Approach": {
+    "metaTitle": "Phương Pháp | MZM Africa",
+    "metaDescription": "Một quy trình cho mọi dự án: tìm hiểu và thống nhất, thẩm định thực địa, cấu trúc và phê duyệt, thực hiện, và triển khai, được điều phối từ Hà Nội và Zimbabwe.",
+    "eyebrow": "Phương Pháp",
+    "title": "Một quy trình. Hai quốc gia.",
+    "accent": "Mọi dự án.",
+    "lead": "Mọi dự án đều theo cùng năm giai đoạn, do văn phòng châu Á tại Hà Nội và đội ngũ của chúng tôi tại Zimbabwe cùng thực hiện.",
+    "frameworkLabel": "Khung vận hành",
+    "frameworkTitle": [
+      "Năm giai đoạn, ",
+      "mỗi giai đoạn có kết quả xác định."
+    ],
+    "outputLabel": "Kết quả",
+    "steps": [
+      [
+        "01",
+        "Tìm hiểu và Thống nhất",
+        "Chúng tôi xác định phạm vi dự án: lĩnh vực, quy mô, tiến độ và mục tiêu. Chúng tôi xác nhận cơ hội phù hợp với pháp luật và chính sách của Zimbabwe, và kiểm tra xung đột lợi ích. Thư thỏa thuận phí được ký trước khi bắt đầu công việc.",
+        "Phạm vi công việc đã thống nhất và thư thỏa thuận phí đã ký"
+      ],
+      [
+        "02",
+        "Thẩm định Thực địa",
+        "Đội ngũ của chúng tôi tại Zimbabwe kiểm tra quyền sở hữu tài sản, chủ sở hữu, giấy phép và các cá nhân liên quan với cơ quan có thẩm quyền, đồng thời đến thăm địa điểm hoặc nhà sản xuất. Các cơ hội không đạt yêu cầu sẽ không được giới thiệu.",
+        "Báo cáo thẩm định"
+      ],
+      [
+        "03",
+        "Cấu trúc và Phê duyệt",
+        "Chúng tôi xây dựng cấu trúc trong khuôn khổ quy định về các ngành dành riêng cho công dân Zimbabwe, các yêu cầu về chế biến và chính sách ngành, đồng thời cùng luật sư được cấp phép chuẩn bị hồ sơ nộp ZIDA, các bộ, ZERA hoặc hồ sơ xuất khẩu, đứng tên chính khách hàng. Đối với nhà đầu tư Việt Nam, chúng tôi chuẩn bị các tài liệu từ Zimbabwe cần thiết cho thủ tục đăng ký tại Việt Nam.",
+        "Hồ sơ sẵn sàng phê duyệt tại cả hai nước"
+      ],
+      [
+        "04",
+        "Giới thiệu và Thực hiện",
+        "Trên cơ sở thỏa thuận bảo mật, chúng tôi giới thiệu các bên và quản lý quá trình đàm phán, hồ sơ và phê duyệt cho đến khi ký kết.",
+        "Thỏa thuận đã ký và hồ sơ đã nộp"
+      ],
+      [
+        "05",
+        "Triển khai và Quản trị",
+        "Sau khi được cấp phép, chúng tôi điều phối nhà cung cấp, đối tác, nguồn điện và các giấy phép cho đến khi dự án đi vào hoạt động, và báo cáo cho cả hai bên tại các mốc đã thống nhất.",
+        "Dự án đi vào hoạt động hoặc tuyến cung ứng đã được thiết lập"
+      ]
+    ],
+    "presenceLabel": "Lợi thế xuyên biên giới",
+    "presenceTitle": [
+      "Có mặt trực tiếp ",
+      "tại cả hai nước."
+    ],
+    "presence": [
+      [
+        "Hà Nội, Việt Nam",
+        "Văn phòng châu Á",
+        "Do Giám đốc Điều hành Andy Moyo phụ trách. Gặp gỡ trực tiếp nhà đầu tư, người mua, nhà cung cấp thiết bị và các tổ chức thương mại của Việt Nam và châu Á, trong cùng múi giờ với họ."
+      ],
+      [
+        "Zimbabwe",
+        "Vận hành",
+        "Do Giám đốc Thương mại Ebern Moyo phụ trách, cùng Phó Giám đốc Điều hành Chido A. Mumvuri phụ trách phát triển kinh doanh. Kiểm tra cơ hội và nhà cung cấp tại thực địa, làm việc với các cơ quan của Zimbabwe và quản lý việc triển khai."
+      ],
+      [
+        "Cả hai nước",
+        "Cả hai phía của mọi thủ tục phê duyệt",
+        "Chúng tôi làm việc thông qua ZIDA, ZimTrade, các bộ chuyên ngành, MMCZ, Fidelity Gold Refinery (Nhà máy tinh luyện vàng Fidelity) và ZERA tại Zimbabwe, cùng VCCI, VIETRADE và các bộ liên quan tại Việt Nam. MZM là công ty tư nhân và không đại diện cho bất kỳ cơ quan nào trong số này."
+      ]
+    ],
+    "commitmentsLabel": "Quản lý rủi ro",
+    "commitmentsTitle": [
+      "Cam kết ",
+      "thực hiện."
+    ],
+    "commitments": [
+      [
+        "Thẩm định trước khi giới thiệu",
+        "Không cơ hội, nhà sản xuất hay đối tác nào được giới thiệu trước khi vượt qua quy trình kiểm tra của chúng tôi."
+      ],
+      [
+        "Chỉ qua kênh chính thức",
+        "Vốn đầu tư được đăng ký với ZIDA, khoáng sản được bán qua MMCZ hoặc Fidelity Gold Refinery, dự án điện được cấp phép hoặc đăng ký với ZERA, và hoạt động xuất khẩu tuân theo thủ tục của ZimTrade và hải quan."
+      ],
+      [
+        "Áp dụng pháp luật hiện hành",
+        "Cấu trúc giao dịch tuân theo quy định năm 2026 về các ngành dành riêng cho công dân Zimbabwe, các yêu cầu về chế biến và khung quy định về khoáng sản quan trọng, với sự tham gia của luật sư được cấp phép ở mọi nội dung cần tư vấn pháp lý."
+      ],
+      [
+        "Phí được thỏa thuận bằng văn bản",
+        "Phí được thỏa thuận trong thư đã ký và được công bố cho mọi bên. Mọi lợi ích mà thành viên của MZM nắm giữ đều được công bố trước khi bắt đầu công việc."
+      ],
+      [
+        "Không trả tiền để tiếp cận",
+        "Chúng tôi không bao giờ trả tiền hoặc hứa trả tiền cho bất kỳ quan chức nào, và không làm việc với bất kỳ ai thu phí để giới thiệu tiếp cận quan chức."
+      ],
+      [
+        "Bảo mật",
+        "Thông tin chi tiết về dự án chỉ được chia sẻ trên cơ sở thỏa thuận bảo mật."
+      ]
+    ],
+    "governanceLink": "Quản trị và đạo đức kinh doanh →",
+    "fraudLink": "Cảnh báo lừa đảo →",
+    "ctaTitle": "Trao đổi với chúng tôi về dự án của quý vị.",
+    "ctaSub": "Chúng tôi phản hồi mọi yêu cầu trong vòng 48 giờ.",
+    "cta": "Trao Đổi Với Chúng Tôi"
+  },
+  "Sectors": {
+    "metaTitle": "Lĩnh Vực | MZM Africa",
+    "metaDescription": "MZM hoạt động trong năm lĩnh vực tại Zimbabwe: Khai khoáng và Chế biến, Nông nghiệp và Chế biến Nông sản, Năng lượng, Sản xuất và Khu Công nghiệp, Du lịch và Khách sạn.",
+    "eyebrow": "Lĩnh Vực",
+    "title": "Năm lĩnh vực.",
+    "accent": "Một tiêu chuẩn.",
+    "lead": "MZM hoạt động trong năm lĩnh vực mà Zimbabwe ưu tiên thu hút đầu tư nhất, theo Chiến lược Phát triển Quốc gia 2 của nước này. Mọi lĩnh vực đều áp dụng cùng một quy trình kiểm tra, cùng quy tắc về phí và cùng một đội ngũ.",
+    "sectorTag": "Lĩnh vực {num}",
+    "exploreSector": "Tìm hiểu lĩnh vực",
+    "corridorLabel": "Chương Trình Trọng Điểm",
+    "corridorTitle": "Hành Lang Zimbabwe - Việt Nam",
+    "corridorBody": "Một chương trình hai chiều áp dụng cho cả năm lĩnh vực: đầu tư của Việt Nam vào Zimbabwe, và sản phẩm của Zimbabwe đến người mua Việt Nam.",
+    "corridorLink": "Về Hành Lang",
+    "processTitle": "Cùng một quy trình cho mọi lĩnh vực.",
+    "processBody": "Kiểm tra trước mọi lần giới thiệu, phí được thỏa thuận bằng văn bản, và không thu tiền để đổi lấy quyền tiếp cận. Xem cách MZM triển khai một dự án.",
+    "processCta": "Phương Pháp",
+    "status": {
+      "open": "Mở cửa cho đầu tư",
+      "conditions": "Mở cửa, có điều kiện",
+      "trade": "Đã có giao thương",
+      "enquiries": "Tiếp nhận yêu cầu",
+      "access": "Chờ mở cửa thị trường",
+      "large": "Chỉ quy mô lớn"
+    },
+    "items": {
+      "mining": {
+        "title": "Khai khoáng và Chế biến",
+        "imageAlt": "Máy xúc đang làm việc tại một mỏ lộ thiên",
+        "summary": "Đầu tư vào crôm, lithium, vàng và các khoáng sản khác, được cấu trúc để quặng được chế biến tại Zimbabwe.",
+        "lead": "Khai khoáng là ngành mang lại nguồn thu xuất khẩu lớn nhất của Zimbabwe, và Chính phủ hiện yêu cầu khoáng sản phải được chế biến trong nước trước khi bán ra nước ngoài. MZM giới thiệu những nhà đầu tư có kế hoạch bao gồm khâu chế biến này.",
+        "context": [
+          "Từ ngày 25 tháng 2 năm 2026, việc xuất khẩu khoáng sản thô phải có kế hoạch chế biến tại Zimbabwe được Bộ Mỏ và Phát triển Khai khoáng phê duyệt.",
+          "Ngày 22 tháng 5 năm 2026, Bộ Mỏ và Phát triển Khai khoáng công bố 14 khoáng sản quan trọng, trong đó có lithium, crôm và đồng. Nhà nước sẽ nắm giữ tỷ lệ sở hữu tối thiểu trong hoạt động khai thác các khoáng sản này. Quy định xác định mức tỷ lệ này vẫn chưa được ban hành.",
+          "Khai khoáng chiếm tỷ trọng lớn nhất trong số giấy phép đầu tư được ZIDA phê duyệt trong 6 tháng đầu năm 2026."
+        ],
+        "focus": [
+          {
+            "name": "Crôm",
+            "status": "conditions",
+            "body": "Đầu tư vào sản xuất ferrochrome và các hoạt động chế biến khác. Xuất khẩu crôm thô không còn được phép."
+          },
+          {
+            "name": "Lithium",
+            "status": "conditions",
+            "body": "Đầu tư vào chế biến, và các dự án có kế hoạch chế biến. Các nhà sản xuất lớn phải xây dựng năng lực sản xuất lithium sulfat chậm nhất vào tháng 1 năm 2027."
+          },
+          {
+            "name": "Vàng",
+            "status": "large",
+            "body": "Khai thác vàng quy mô nhỏ và vừa là ngành dành riêng cho công dân Zimbabwe. MZM chỉ làm việc với các dự án quy mô lớn, và toàn bộ vàng được bán cho Fidelity Gold Refinery (Nhà máy tinh luyện vàng Fidelity)."
+          },
+          {
+            "name": "Đồng và các khoáng sản quan trọng khác",
+            "status": "enquiries",
+            "body": "Đồng, niken, kim loại nhóm bạch kim, graphit và các khoáng sản khác, tuân theo quy định về tỷ lệ sở hữu của Nhà nước khi quy định này được ban hành."
+          }
+        ],
+        "services": [
+          "Kiểm tra quyền khai thác mỏ và quyền sở hữu với Bộ Mỏ và Phát triển Khai khoáng trước mọi lần giới thiệu",
+          "Thiết lập dự án để chế biến tại Zimbabwe",
+          "Giới thiệu các nhà cung cấp công nghệ và thiết bị chế biến châu Á",
+          "Kết nối người mua cho các nhà sản xuất được cấp phép, với việc bán hàng qua MMCZ hoặc Fidelity Gold Refinery",
+          "Lập kế hoạch cung cấp điện thông qua hoạt động của chúng tôi trong lĩnh vực năng lượng"
+        ],
+        "zimbabwe": [
+          "Chương trình chế biến sâu của Bộ Mỏ và Phát triển Khai khoáng (2026)",
+          "Công bố danh mục khoáng sản quan trọng (ngày 22 tháng 5 năm 2026)",
+          "Chiến lược Phát triển Quốc gia 2 (2026 đến 2030)"
+        ],
+        "vietnam": [
+          "Chương trình GoGlobal (Quyết định 626/QĐ-TTg, 2026): hỗ trợ doanh nghiệp Việt Nam đầu tư ra nước ngoài",
+          "Ngành thép đang phát triển và nhập khẩu hợp kim fero"
+        ],
+        "zimInstitutions": [
+          [
+            "Bộ Mỏ và Phát triển Khai khoáng",
+            "Quyền khai thác mỏ, phê duyệt xuất khẩu và kế hoạch chế biến"
+          ],
+          [
+            "Tổng công ty Tiếp thị Khoáng sản Zimbabwe (MMCZ)",
+            "Đại lý tiếp thị và xuất khẩu duy nhất đối với các khoáng sản ngoài vàng và bạc"
+          ],
+          [
+            "Fidelity Gold Refinery",
+            "Đơn vị duy nhất thu mua, tinh luyện và xuất khẩu vàng"
+          ],
+          [
+            "Cơ quan Đầu tư và Phát triển Zimbabwe (ZIDA)",
+            "Giấy phép đầu tư"
+          ]
+        ],
+        "vnInstitutions": [
+          [
+            "Hiệp hội Thép Việt Nam",
+            "Các doanh nghiệp sản xuất thép mua hợp kim fero"
+          ],
+          [
+            "Bộ Tài chính",
+            "Đăng ký đầu tư ra nước ngoài (Nghị định 103/2026/NĐ-CP)"
+          ],
+          [
+            "Ngân hàng Nhà nước Việt Nam",
+            "Đăng ký ngoại hối cho hoạt động đầu tư ra nước ngoài (Thông tư 34/2026/TT-NHNN)"
+          ]
+        ],
+        "boundaries": "Khai thác mỏ thủ công, khai thác vàng quy mô nhỏ và vừa, khai thác mỏ đá và khai thác đá granite là các ngành dành riêng cho công dân Zimbabwe. MZM chỉ làm việc với các dự án quy mô lớn và hoạt động chế biến. MZM không tự mua hoặc bán khoáng sản: mọi giao dịch bán đều đi qua MMCZ hoặc Fidelity Gold Refinery."
+      },
+      "agriculture": {
+        "title": "Nông nghiệp và Chế biến Nông sản",
+        "imageAlt": "Cây thuốc lá trên cánh đồng",
+        "summary": "Đầu tư vào chế biến, kho bảo quản và chuỗi lạnh, cùng với người mua châu Á cho thuốc lá, bông, các loại hạt và trái cây của Zimbabwe.",
+        "lead": "Nông nghiệp là nền tảng của hoạt động thương mại hiện nay với Việt Nam: thuốc lá chiếm gần như toàn bộ hàng hóa Zimbabwe bán sang Việt Nam. MZM làm việc theo cả hai chiều, đưa đầu tư của châu Á vào lĩnh vực chế biến và đưa nông sản Zimbabwe đến người mua châu Á.",
+        "context": [
+          "Thuốc lá chiếm gần như toàn bộ kim ngạch xuất khẩu hiện nay của Zimbabwe sang Việt Nam.",
+          "Năm 2025, Việt Nam nhập khẩu 1,71 triệu tấn bông, chủ yếu từ Hoa Kỳ, Brazil và Australia, và không có nhà cung cấp đáng kể nào từ châu Phi.",
+          "Kế hoạch tăng trưởng ngành làm vườn của Zimbabwe tập trung vào việt quất, bơ, mắc ca, cam quýt và cà phê để xuất khẩu."
+        ],
+        "focus": [
+          {
+            "name": "Thuốc lá",
+            "status": "trade",
+            "body": "Lá thuốc lá sấy lò, bán qua các thương nhân Zimbabwe được cấp phép cho các nhà sản xuất được cấp phép của Việt Nam. Các nhà sản xuất này nhập khẩu trong phạm vi hạn ngạch hằng năm."
+          },
+          {
+            "name": "Bông",
+            "status": "enquiries",
+            "body": "Bông xơ cho các nhà máy kéo sợi Việt Nam, từ các cơ sở cán bông đã đăng ký với Cơ quan Tiếp thị Nông nghiệp."
+          },
+          {
+            "name": "Các loại hạt và trái cây",
+            "status": "access",
+            "body": "Hiện nay: mắc ca và các loại hạt đã qua chế biến. Việt quất, cam quýt và bơ tươi: khi Việt Nam hoàn tất đánh giá kiểm dịch thực vật cho từng loại quả."
+          },
+          {
+            "name": "Đầu tư chế biến nông sản",
+            "status": "open",
+            "body": "Cơ sở đóng gói, chuỗi lạnh, và chế biến hạt có dầu, sữa và trái cây."
+          }
+        ],
+        "services": [
+          "Đầu tư vào chế biến trái cây, hạt có dầu, sữa và bông",
+          "Đầu tư vào chuỗi lạnh, cơ sở đóng gói và kho bảo quản",
+          "Giới thiệu các nhà cung cấp máy móc chế biến của Việt Nam",
+          "Kết nối người mua châu Á cho thuốc lá, bông, các loại hạt và thực phẩm chế biến",
+          "Hướng dẫn quy định nhập khẩu của Việt Nam cho từng sản phẩm"
+        ],
+        "zimbabwe": [
+          "Chiến lược Phát triển Quốc gia 2 (2026 đến 2030)",
+          "Kế hoạch tăng trưởng ngành làm vườn đến năm 2030",
+          "Chính sách Phát triển Công nghiệp Quốc gia Zimbabwe II (ZNIDP II): chuỗi giá trị hạt có dầu, sữa, dệt may và da"
+        ],
+        "vietnam": [
+          "Chương trình GoGlobal: nông nghiệp và chế biến thực phẩm được xác định là lĩnh vực ưu tiên",
+          "Các ngành chế biến phụ thuộc vào bông, thuốc lá và các loại hạt nhập khẩu"
+        ],
+        "zimInstitutions": [
+          [
+            "Bộ Đất đai, Nông nghiệp, Thủy sản, Tài nguyên Nước và Phát triển Nông thôn (Ministry of Lands, Agriculture, Fisheries, Water and Rural Development)",
+            "Chính sách và sản xuất nông nghiệp"
+          ],
+          [
+            "Ủy ban Công nghiệp và Tiếp thị Thuốc lá (TIMB)",
+            "Cấp phép cho thương nhân thuốc lá, doanh nghiệp thu mua theo hợp đồng và sàn đấu giá"
+          ],
+          [
+            "Cơ quan Tiếp thị Nông nghiệp (AMA)",
+            "Đăng ký cơ sở cán bông và thương nhân bông"
+          ],
+          [
+            "ZimTrade",
+            "Phát triển xuất khẩu và các chương trình kết nối người mua"
+          ]
+        ],
+        "vnInstitutions": [
+          [
+            "Hiệp hội Thuốc lá Việt Nam",
+            "Các nhà sản xuất và người mua thuốc lá được cấp phép"
+          ],
+          [
+            "Hiệp hội Bông Sợi Việt Nam (VCOSA)",
+            "Các nhà máy kéo sợi mua bông"
+          ],
+          [
+            "Cục Trồng trọt và Bảo vệ Thực vật",
+            "Mở cửa thị trường về kiểm dịch thực vật cho trái cây tươi"
+          ]
+        ],
+        "boundaries": "Phân loại và đóng gói thuốc lá là các ngành dành riêng cho công dân Zimbabwe, và lĩnh vực xay xát ngũ cốc chỉ mở cửa cho nhà đầu tư nước ngoài khi vượt các ngưỡng quy định về vốn đầu tư và số lao động. Trong các lĩnh vực này, MZM làm việc với các thương nhân và doanh nghiệp chế biến Zimbabwe được cấp phép, và tập trung vào chế biến, kho bảo quản và hợp đồng cung ứng, không phải đất đai."
+      },
+      "energy": {
+        "title": "Năng lượng",
+        "imageAlt": "Tấm pin mặt trời lắp đặt trên đồng cỏ",
+        "summary": "Điện mặt trời và hệ thống lưu trữ cho mỏ, cơ sở chế biến và nhà máy, với thiết bị được cung ứng từ các nhà sản xuất châu Á.",
+        "lead": "Nguồn điện ổn định là một trong những điểm nghẽn chính đối với khai khoáng, chế biến và tăng trưởng công nghiệp tại Zimbabwe. MZM kết nối các cơ sở cần điện với các nhà cung cấp thiết bị và nhà phát triển dự án châu Á.",
+        "context": [
+          "Chính phủ đã chỉ đạo các cơ sở luyện kim mới và các mỏ lớn phải tự đảm bảo nguồn điện.",
+          "Các quy định đăng Công báo vào tháng 7 năm 2026 bãi bỏ phí cấp phép cho nhà máy năng lượng tái tạo dưới 10 MW, và cho phép nhà máy điện tự dùng từ 100 kW đến 10 MW được đăng ký thay vì phải xin giấy phép.",
+          "Các dự án năng lượng dẫn đầu về giá trị vốn đầu tư được ZIDA phê duyệt trong quý I năm 2026."
+        ],
+        "focus": [
+          {
+            "name": "Điện mặt trời tự dùng cho mỏ",
+            "status": "open",
+            "body": "Nhà máy điện mặt trời cho các mỏ và nhà máy luyện kim phải tự cung cấp điện."
+          },
+          {
+            "name": "Hệ thống lưu trữ và hệ thống hybrid",
+            "status": "open",
+            "body": "Hệ thống lưu trữ bằng pin và hệ thống hybrid cho các cơ sở cần điện liên tục suốt ngày đêm."
+          },
+          {
+            "name": "Nhà máy điện tự dùng cho công nghiệp",
+            "status": "open",
+            "body": "Nhà máy từ 100 kW đến 10 MW cho doanh nghiệp chế biến nông sản và nhà máy sản xuất, đăng ký với ZERA."
+          },
+          {
+            "name": "Dự án lưới điện và phân phối",
+            "status": "conditions",
+            "body": "Phân phối điện tư nhân và cơ chế bù trừ điện năng ảo (virtual net metering), được mở ra theo các quy định năm 2026 và do ZERA cấp phép."
+          }
+        ],
+        "services": [
+          "Cung ứng điện mặt trời và hệ thống lưu trữ cho khách hàng khai khoáng và chế biến nông sản",
+          "Giới thiệu các nhà sản xuất thiết bị điện mặt trời châu Á",
+          "Kiểm tra nhà cung cấp và hồ sơ mua sắm",
+          "Kết nối các dự án tại Zimbabwe với các nhà phát triển điện được cấp phép",
+          "Lập kế hoạch cung cấp điện cho các khách hàng khai khoáng và nông nghiệp của MZM"
+        ],
+        "zimbabwe": [
+          "Chiến lược Phát triển Quốc gia 2: hạ tầng năng lượng",
+          "Cải cách về cấp phép và bù trừ điện năng năm 2026",
+          "Chỉ đạo tự đảm bảo nguồn điện đối với các cơ sở luyện kim mới"
+        ],
+        "vietnam": [
+          "Một trung tâm lớn về sản xuất và xuất khẩu tấm pin mặt trời",
+          "Chương trình GoGlobal: hỗ trợ doanh nghiệp Việt Nam đầu tư ra nước ngoài"
+        ],
+        "zimInstitutions": [
+          [
+            "Bộ Năng lượng và Phát triển Điện lực (Ministry of Energy and Power Development)",
+            "Chính sách năng lượng"
+          ],
+          [
+            "Cơ quan Quản lý Năng lượng Zimbabwe (ZERA)",
+            "Cấp phép và đăng ký cho hoạt động phát điện và phân phối điện"
+          ],
+          [
+            "Cơ quan Đầu tư và Phát triển Zimbabwe (ZIDA)",
+            "Giấy phép đầu tư"
+          ]
+        ],
+        "vnInstitutions": [
+          [
+            "Hiệp hội Năng lượng Việt Nam",
+            "Tổ chức ngành về điện và năng lượng tái tạo"
+          ],
+          [
+            "Cục Xúc tiến Thương mại (VIETRADE)",
+            "Vận hành Văn phòng Chương trình GoGlobal"
+          ]
+        ],
+        "boundaries": "MZM tư vấn và kết nối, không xây dựng hay vận hành nhà máy điện. Các dự án phát điện do nhà phát triển hoặc đơn vị vận hành xin cấp phép hoặc đăng ký với ZERA, và MZM điều phối các nhà cung cấp và đối tác."
+      },
+      "manufacturing": {
+        "title": "Sản xuất và Khu Công nghiệp",
+        "imageAlt": "Máy móc bên trong một nhà máy",
+        "summary": "Lựa chọn địa điểm và gia nhập Đặc khu Kinh tế cho các nhà sản xuất châu Á trong ngành dệt may, da, thực phẩm và chế biến kim loại.",
+        "lead": "Công nghiệp hóa là trọng tâm trong chiến lược phát triển của Zimbabwe, và Chương trình GoGlobal của Việt Nam xác định chính các ngành này cho doanh nghiệp Việt Nam đầu tư ra nước ngoài. MZM giúp các nhà sản xuất châu Á lựa chọn địa điểm, xin giấy phép và bắt đầu hoạt động tại Zimbabwe.",
+        "context": [
+          "Chính sách Phát triển Công nghiệp Quốc gia Zimbabwe II (ZNIDP II), giai đoạn 2026 đến 2030, đặt mục tiêu tăng kim ngạch xuất khẩu hàng chế tạo lên hơn gấp đôi.",
+          "Zimbabwe có sáu Đặc khu Kinh tế công lập, trong đó có các khu sản xuất tại Bulawayo và một khu chế biến nông sản và chế biến sâu tại Mutare.",
+          "ZIDA công bố các ưu đãi cho nhà đầu tư tại Đặc khu Kinh tế, gồm miễn thuế thu nhập doanh nghiệp trong năm năm và hoàn thuế nhập khẩu đối với máy móc, thiết bị đầu tư."
+        ],
+        "focus": [
+          {
+            "name": "Dệt may",
+            "status": "open",
+            "body": "Nhà máy kéo sợi và may mặc gần nguồn bông của Zimbabwe."
+          },
+          {
+            "name": "Da và giày dép",
+            "status": "open",
+            "body": "Thuộc da, sản xuất giày dép và đồ da, sử dụng da thô của Zimbabwe."
+          },
+          {
+            "name": "Thực phẩm và chế biến nông sản",
+            "status": "open",
+            "body": "Chế biến thực phẩm, hạt có dầu và sữa cho thị trường trong nước và khu vực."
+          },
+          {
+            "name": "Chế biến kim loại",
+            "status": "open",
+            "body": "Chế biến thép và kim loại gắn với chính sách chế biến sâu của Zimbabwe."
+          }
+        ],
+        "services": [
+          "Lựa chọn địa điểm tại các Đặc khu Kinh tế và khu công nghiệp",
+          "Hỗ trợ xin giấy phép Đặc khu Kinh tế thông qua ZIDA",
+          "Báo cáo tóm tắt về quy định, ưu đãi và lao động",
+          "Giới thiệu đối tác, nhà cung cấp và đơn vị cung cấp dịch vụ trong nước",
+          "Lập kế hoạch về điện và nguyên liệu thông qua hoạt động của chúng tôi trong lĩnh vực năng lượng và nông nghiệp"
+        ],
+        "zimbabwe": [
+          "Chính sách Phát triển Công nghiệp Quốc gia Zimbabwe II (ZNIDP II), 2026 đến 2030",
+          "Chiến lược Nội địa hóa (2026 đến 2035)",
+          "Đặc khu Kinh tế theo Luật ZIDA"
+        ],
+        "vietnam": [
+          "Chương trình GoGlobal: dệt may, giày dép, chế biến thực phẩm và cơ khí được xác định là lĩnh vực ưu tiên",
+          "Mục tiêu hỗ trợ chuyên sâu cho 100 doanh nghiệp Việt Nam đầu tư ra nước ngoài đến năm 2030"
+        ],
+        "zimInstitutions": [
+          [
+            "Bộ Công nghiệp và Thương mại",
+            "Chính sách công nghiệp và giấy phép đối với các ngành dành riêng cho công dân Zimbabwe"
+          ],
+          [
+            "Cơ quan Đầu tư và Phát triển Zimbabwe (ZIDA)",
+            "Giấy phép đầu tư và giấy phép Đặc khu Kinh tế"
+          ],
+          [
+            "Liên đoàn Công nghiệp Zimbabwe (Confederation of Zimbabwe Industries)",
+            "Tổ chức ngành của các nhà sản xuất"
+          ]
+        ],
+        "vnInstitutions": [
+          [
+            "Hiệp hội Dệt May Việt Nam (VITAS)",
+            "Các doanh nghiệp sản xuất dệt may"
+          ],
+          [
+            "Hiệp hội Da Giày Túi xách Việt Nam (LEFASO)",
+            "Các doanh nghiệp sản xuất giày dép và đồ da"
+          ],
+          [
+            "Liên đoàn Thương mại và Công nghiệp Việt Nam (VCCI)",
+            "Liên đoàn doanh nghiệp quốc gia"
+          ]
+        ],
+        "boundaries": "Các dự án đầu tư sản xuất mất nhiều thời gian hơn và cần nhiều loại phê duyệt. MZM làm việc với các cố vấn pháp lý và thuế được cấp phép trong mọi trường hợp cần tư vấn, và không đưa ra các ưu đãi hoặc phê duyệt mà chỉ cơ quan nhà nước mới có thẩm quyền cấp."
+      },
+      "tourism": {
+        "title": "Du lịch và Khách sạn",
+        "imageAlt": "Thác Victoria lúc hoàng hôn",
+        "summary": "Đầu tư khách sạn, khu nghỉ dưỡng và trung tâm hội nghị tại các điểm đến du lịch chính của Zimbabwe.",
+        "lead": "Du lịch là một trong những trụ cột trong chiến lược tăng trưởng của Zimbabwe, được xây dựng xoay quanh Thác Victoria và năm Di sản Thế giới UNESCO. MZM kết nối nhà đầu tư và đơn vị vận hành trong ngành khách sạn với các dự án cần thiết cho sự tăng trưởng đó.",
+        "context": [
+          "Tháng 11 năm 2025, Chính phủ đã giảm phí đăng ký du lịch và công bố các ưu đãi thuế cho dịch vụ lưu trú, hội nghị, hàng không và du lịch sinh thái.",
+          "Đặc khu Kinh tế Masuwe tại thành phố Victoria Falls được chỉ định cho du lịch và dịch vụ tài chính.",
+          "Zimbabwe đồng đăng cai ICC Men’s Cricket World Cup (Giải vô địch thế giới môn cricket nam) năm 2027."
+        ],
+        "focus": [
+          {
+            "name": "Khách sạn và khu nghỉ dưỡng",
+            "status": "open",
+            "body": "Cơ sở lưu trú xây mới và nâng cấp tại Victoria Falls, Hwange, Kariba và vùng cao nguyên phía đông."
+          },
+          {
+            "name": "Cơ sở hội nghị",
+            "status": "open",
+            "body": "Địa điểm tổ chức hội nghị và sự kiện, hiện thuộc diện được hưởng các ưu đãi thuế mới."
+          },
+          {
+            "name": "Du lịch sinh thái",
+            "status": "open",
+            "body": "Khu nghỉ dưỡng và khu cắm trại ít tác động đến môi trường gần các vườn quốc gia và khu di sản."
+          },
+          {
+            "name": "Dự án khu du lịch",
+            "status": "open",
+            "body": "Các dự án trong Đặc khu Kinh tế Masuwe, được cấp phép thông qua ZIDA."
+          }
+        ],
+        "services": [
+          "Kết nối đầu tư trong ngành khách sạn",
+          "Hỗ trợ gia nhập thị trường cho các đơn vị vận hành khách sạn châu Á",
+          "Hỗ trợ xin giấy phép Đặc khu Kinh tế thông qua ZIDA",
+          "Đăng ký và xếp hạng với Cơ quan Du lịch Zimbabwe",
+          "Kiểm tra đối tác và nhà cung cấp"
+        ],
+        "zimbabwe": [
+          "Chiến lược Phát triển Quốc gia 2: du lịch và xúc tiến đầu tư",
+          "Chiến lược tăng trưởng du lịch quốc gia",
+          "Các Đặc khu Kinh tế du lịch"
+        ],
+        "vietnam": [
+          "Chương trình GoGlobal: hỗ trợ doanh nghiệp dịch vụ và phân phối Việt Nam ở nước ngoài",
+          "Các tập đoàn Việt Nam mở rộng sang lĩnh vực bất động sản và khách sạn tại châu Phi"
+        ],
+        "zimInstitutions": [
+          [
+            "Bộ Du lịch và Ngành Khách sạn (Ministry of Tourism and Hospitality Industry)",
+            "Chính sách du lịch"
+          ],
+          [
+            "Cơ quan Du lịch Zimbabwe",
+            "Đăng ký, xếp hạng và cấp phép cho các đơn vị kinh doanh du lịch"
+          ],
+          [
+            "Cơ quan Đầu tư và Phát triển Zimbabwe (ZIDA)",
+            "Giấy phép đầu tư và giấy phép Đặc khu Kinh tế"
+          ]
+        ],
+        "vnInstitutions": [
+          [
+            "Liên đoàn Thương mại và Công nghiệp Việt Nam (VCCI)",
+            "Liên đoàn doanh nghiệp quốc gia"
+          ],
+          [
+            "Cục Xúc tiến Thương mại (VIETRADE)",
+            "Vận hành Văn phòng Chương trình GoGlobal"
+          ]
+        ],
+        "boundaries": "Đại lý lữ hành và vận tải hành khách, trừ các thương hiệu quốc tế, là các ngành dành riêng cho công dân Zimbabwe. MZM làm việc với các dự án khách sạn, khu nghỉ dưỡng và cơ sở hội nghị, và giới thiệu đối tác Zimbabwe cho các hoạt động thuộc ngành dành riêng."
+      }
+    }
+  },
+  "SectorPage": {
+    "eyebrow": "Lĩnh vực · Lĩnh vực {num}/05",
+    "whyLabel": "Vì sao chọn lĩnh vực này",
+    "whyTitle": [
+      "Cơ hội ",
+      "tại Zimbabwe."
+    ],
+    "whatLabel": "Công việc của MZM",
+    "focusLabel": "Mảng trọng tâm",
+    "focusTitle": [
+      "Những mảng chúng tôi hoạt động, ",
+      "và hiện trạng của từng mảng."
+    ],
+    "focusSub": "Mỗi mảng đều nêu rõ tình trạng hiện tại theo quy định của Zimbabwe và Việt Nam, để quý vị biết rõ những gì hiện đang mở.",
+    "policyLabel": "Sự tương đồng chính sách",
+    "policyTitle": [
+      "Điểm gặp nhau ",
+      "trong ưu tiên của hai nước."
+    ],
+    "zimPriorities": "Ưu tiên của Zimbabwe",
+    "vnPriorities": "Ưu tiên của Việt Nam",
+    "instLabel": "Cơ quan, tổ chức",
+    "instTitle": [
+      "Các cơ quan ",
+      "cần làm việc trong lĩnh vực này."
+    ],
+    "instSub": "MZM hỗ trợ khách hàng chuẩn bị để làm việc với từng cơ quan này. MZM là công ty tư nhân và không đại diện cho bất kỳ cơ quan nào trong số này.",
+    "zimbabwe": "Zimbabwe",
+    "vietnam": "Việt Nam",
+    "limitsLabel": "Những việc chúng tôi không làm",
+    "limitsTitle": [
+      "Giới hạn rõ ràng, ",
+      "nêu ngay từ đầu."
+    ],
+    "limitsBody": "Mọi cơ hội đều được kiểm tra trước khi đến tay nhà đầu tư, và mọi khoản phí đều được thỏa thuận bằng văn bản và công bố cho tất cả các bên.",
+    "readHow": "Xem phương pháp của chúng tôi",
+    "ctaTitle": "Trao đổi về cơ hội trong lĩnh vực {sector}.",
+    "ctaWrite": "Gửi thư đến",
+    "ctaReply": "Chúng tôi phản hồi trong vòng 48 giờ.",
+    "getInTouch": "Liên Hệ",
+    "otherSectors": "Các lĩnh vực khác"
+  },
+  "Corridor": {
+    "hero": {
+      "eyebrow": "Chương Trình Trọng Điểm",
+      "title": "Hành Lang",
+      "accent": "Zimbabwe - Việt Nam.",
+      "lead": "Một chương trình hai chiều. Chúng tôi đưa đầu tư của Việt Nam vào Zimbabwe và đưa sản phẩm của Zimbabwe đến người mua Việt Nam. Đội ngũ tại Bulawayo và văn phòng châu Á tại Hà Nội quản lý cả hai chiều."
+    },
+    "doors": [
+      {
+        "id": "invest",
+        "who": "Dành cho Nhà Đầu Tư",
+        "title": "Đầu tư vào Zimbabwe",
+        "body": "Các cơ hội đã được thẩm định thuộc năm lĩnh vực của chúng tôi, được cấu trúc phù hợp với pháp luật và chính sách của Zimbabwe.",
+        "cta": "Xem các lĩnh vực đầu tư"
+      },
+      {
+        "id": "source",
+        "who": "Dành cho Người Mua và Nhà Nhập Khẩu",
+        "title": "Nhập hàng từ Zimbabwe",
+        "body": "Các nhà sản xuất nông sản và hàng chế biến của Zimbabwe, được thẩm định trước khi giới thiệu qua văn phòng Hà Nội.",
+        "cta": "Xem xuất khẩu và tiếp cận thị trường"
+      },
+      {
+        "id": "producers",
+        "who": "Dành cho Nhà Sản Xuất Zimbabwe",
+        "title": "Bán hàng vào Việt Nam",
+        "body": "Kết nối người mua, hồ sơ xuất khẩu và hỗ trợ gia nhập thị trường cho người trồng trọt và doanh nghiệp chế biến.",
+        "cta": "Đăng ký quan tâm"
+      }
+    ],
+    "flowsLabel": "Dòng Chảy Hai Chiều",
+    "flowsTitle": [
+      "Một hành lang, ",
+      "hai chiều."
+    ],
+    "flows": [
+      [
+        "Vào Zimbabwe",
+        [
+          "Vốn đầu tư cho chế biến và nông công nghiệp",
+          "Thiết bị, máy móc và công nghệ điện mặt trời",
+          "Chuyên môn về chế biến và chuỗi cung ứng",
+          "Đầu tư khách sạn và dịch vụ lưu trú"
+        ]
+      ],
+      [
+        "Vào châu Á",
+        [
+          "Thuốc lá, bông và nông sản làm vườn",
+          "Da, các loại hạt và thực phẩm chế biến",
+          "Khoáng sản và kim loại đã qua chế biến",
+          "Các cơ hội đầu tư đã được thẩm định"
+        ]
+      ]
+    ],
+    "whyLabel": "Vì Sao Hành Lang Hiệu Quả",
+    "whyTitle": [
+      "Hai hệ thống ưu tiên quốc gia ",
+      "cùng một hướng."
+    ],
+    "whyLead": "Zimbabwe cần đầu tư vào gia tăng giá trị và thị trường mới cho hàng xuất khẩu. Việt Nam muốn doanh nghiệp của mình đầu tư ra nước ngoài và cần nguyên liệu cho các ngành chế biến. Hành Lang phục vụ cả hai.",
+    "priorities": [
+      [
+        "Zimbabwe",
+        [
+          [
+            "Đầu tư",
+            "Chiến lược Phát triển Quốc gia 2 (2026 đến 2030) và Chính sách Phát triển Công nghiệp Quốc gia Zimbabwe II (ZNIDP II) kêu gọi đầu tư vào gia tăng giá trị, chế biến nông sản và chế biến sâu khoáng sản."
+          ],
+          [
+            "Thị trường xuất khẩu",
+            "Kim ngạch xuất khẩu tập trung vào một số ít khoáng sản và một số ít người mua. ZimTrade và kế hoạch tăng trưởng ngành làm vườn của Zimbabwe ưu tiên thị trường mới cho nông sản và hàng chế tạo."
+          ]
+        ]
+      ],
+      [
+        "Việt Nam",
+        [
+          [
+            "Đầu tư ra nước ngoài",
+            "Chương trình GoGlobal (Quyết định 626/QĐ-TTg, 2026) do Bộ Công Thương chủ trì hỗ trợ doanh nghiệp Việt Nam đầu tư ra nước ngoài trong chế biến nông sản, dệt may, da giày và sản xuất, và xác định châu Phi là thị trường tiềm năng."
+          ],
+          [
+            "Nguyên liệu",
+            "Các ngành chế biến của Việt Nam nhập khẩu khối lượng lớn bông, thuốc lá và các nguyên liệu nông sản khác."
+          ]
+        ]
+      ]
+    ],
+    "status": {
+      "now": "Đã Có Giao Thương",
+      "open": "Tiếp Nhận Yêu Cầu",
+      "access": "Chờ Mở Cửa Thị Trường"
+    },
+    "exportLabel": "Xuất Khẩu và Tiếp Cận Thị Trường",
+    "exportTitle": [
+      "Sản phẩm Zimbabwe",
+      "cho người mua Việt Nam."
+    ],
+    "exportLead": "Mỗi dòng sản phẩm đều ghi rõ tình trạng hiện tại, để người mua biết mặt hàng nào đã có giao thương và mặt hàng nào còn chờ phê duyệt tiếp cận thị trường.",
+    "products": [
+      {
+        "title": "Thuốc lá",
+        "status": "now",
+        "image": "/images/product-tobacco.jpg",
+        "alt": "Lá thuốc lá đã sấy",
+        "body": "Lá thuốc lá Virginia sấy lò, cung cấp qua các thương nhân Zimbabwe được cấp phép. Thuốc lá hiện là mặt hàng chính Zimbabwe xuất sang Việt Nam."
+      },
+      {
+        "title": "Thực phẩm chế biến và bảo quản lâu",
+        "status": "open",
+        "image": "/images/product-foods.jpg",
+        "alt": "Trái cây sấy và các loại hạt",
+        "body": "Trái cây sấy, các loại hạt, nước ép cô đặc, chè và cà phê. Yêu cầu nhập khẩu được xác nhận theo từng sản phẩm trước mọi cam kết cung ứng."
+      },
+      {
+        "title": "Trái cây tươi",
+        "status": "access",
+        "image": "/images/product-fruit.jpg",
+        "alt": "Việt quất trên cây",
+        "body": "Việt quất, cam quýt và bơ. Trái cây tươi chỉ được cung ứng sau khi Việt Nam cấp phép nhập khẩu cho từng loại quả theo quy trình kiểm dịch thực vật."
+      },
+      {
+        "title": "Khoáng sản chế biến",
+        "status": "open",
+        "image": "/images/product-minerals.jpg",
+        "alt": "Sản phẩm thép cán",
+        "body": "Ferrochrome và các kim loại chế biến khác từ nhà sản xuất được cấp phép, bán qua các kênh tiếp thị khoáng sản chính thức của Zimbabwe."
+      }
+    ],
+    "moreProducts": [
+      [
+        "Bông xơ",
+        "Dành cho các nhà máy kéo sợi. Ngành dệt may Việt Nam nhập khẩu phần lớn lượng bông sử dụng."
+      ],
+      [
+        "Da thô và da thuộc",
+        "Da thô và da thành phẩm cho các nhà sản xuất giày dép và đồ da."
+      ],
+      [
+        "Mắc ca và các loại hạt khác",
+        "Hạt nguyên vỏ và hạt chế biến cho doanh nghiệp chế biến và nhà nhập khẩu thực phẩm châu Á."
+      ]
+    ],
+    "stepsTitle": "Quy trình một giao dịch xuất khẩu",
+    "stepsLead": "Tiêu chuẩn thẩm định áp dụng cho nhà đầu tư cũng được áp dụng cho mọi nhà cung cấp chúng tôi giới thiệu.",
+    "steps": [
+      [
+        "01",
+        "Thẩm định nhà sản xuất",
+        "Kiểm tra đăng ký, năng lực, chất lượng và chứng nhận tại Zimbabwe."
+      ],
+      [
+        "02",
+        "Kết nối người mua",
+        "Giới thiệu đến nhà nhập khẩu và doanh nghiệp chế biến Việt Nam qua văn phòng Hà Nội."
+      ],
+      [
+        "03",
+        "Đáp ứng quy định nhập khẩu",
+        "Chuẩn bị trước giấy chứng nhận kiểm dịch thực vật, tiêu chuẩn sản phẩm và hồ sơ hải quan."
+      ],
+      [
+        "04",
+        "Giao hàng và thanh toán",
+        "Giám định trước khi giao hàng, đại lý thông quan được cấp phép và thanh toán qua các kênh ngân hàng được công nhận."
+      ]
+    ],
+    "investLabel": "Đầu Tư vào Zimbabwe",
+    "investTitle": [
+      "Năm ",
+      "lĩnh vực đầu tư."
+    ],
+    "instLabel": "Kênh Chính Thức",
+    "instTitle": [
+      "Các cơ quan ",
+      "mọi giao dịch đều đi qua."
+    ],
+    "instLead": "MZM không cung cấp con đường vòng qua các cơ quan của Zimbabwe. Mọi khoản đầu tư, giao dịch khoáng sản và hàng xuất khẩu đều đi qua kênh chính thức tương ứng, và chúng tôi chuẩn bị cho khách hàng ở từng bước.",
+    "institutions": [
+      [
+        "ZIDA",
+        "Cơ quan Đầu tư và Phát triển Zimbabwe",
+        "Giấy phép đầu tư, giấy phép Đặc khu Kinh tế và đăng ký nhà đầu tư."
+      ],
+      [
+        "ZimTrade",
+        "Cơ quan phát triển và xúc tiến thương mại quốc gia",
+        "Phát triển xuất khẩu, thông tin thị trường và chương trình kết nối người mua."
+      ],
+      [
+        "MMCZ",
+        "Tổng công ty Tiếp thị Khoáng sản Zimbabwe",
+        "Tiếp thị và bán các loại khoáng sản ngoài vàng và bạc."
+      ],
+      [
+        "Fidelity Gold Refinery",
+        "Thu mua và tinh luyện vàng",
+        "Bán toàn bộ vàng được sản xuất tại Zimbabwe."
+      ],
+      [
+        "ZERA",
+        "Cơ quan Quản lý Năng lượng Zimbabwe",
+        "Cấp phép và đăng ký các dự án phát điện."
+      ],
+      [
+        "Các bộ ngành",
+        "Mỏ, Nông nghiệp, Công nghiệp và Thương mại, Năng lượng, Du lịch",
+        "Giấy phép ngành, phê duyệt chính sách và quy định về các ngành dành riêng cho công dân Zimbabwe."
+      ],
+      [
+        "VCCI",
+        "Liên đoàn Thương mại và Công nghiệp Việt Nam",
+        "Liên đoàn doanh nghiệp quốc gia, diễn đàn doanh nghiệp và kết nối người mua tại Việt Nam."
+      ],
+      [
+        "VIETRADE",
+        "Cục Xúc tiến Thương mại",
+        "Vận hành Văn phòng Chương trình GoGlobal hỗ trợ doanh nghiệp Việt Nam đầu tư ra nước ngoài."
+      ],
+      [
+        "Cục TT&BVTV",
+        "Cục Trồng trọt và Bảo vệ Thực vật",
+        "Phân tích nguy cơ dịch hại để mở cửa thị trường Việt Nam cho từng loại trái cây tươi."
+      ]
+    ],
+    "buyerTitle": "Quý vị muốn mua hàng từ Zimbabwe?",
+    "buyerBody": "Hãy cho văn phòng Hà Nội biết sản phẩm, khối lượng và quy cách quý vị cần.",
+    "buyerCta": "Liên Hệ Bộ Phận Thương Mại",
+    "producerTitle": "Quý vị là nhà sản xuất Zimbabwe?",
+    "producerBody": "Đăng ký sản phẩm để được thẩm định và kết nối với người mua tại Việt Nam.",
+    "producerCta": "Đăng Ký Nhà Cung Cấp",
+    "metaTitle": "Hành Lang Zimbabwe - Việt Nam | MZM Africa",
+    "metaDescription": "Chương trình hai chiều: đầu tư của Việt Nam vào Zimbabwe, và sản phẩm Zimbabwe đến người mua Việt Nam. Được quản lý từ Bulawayo và Hà Nội."
+  },
+  "About": {
+    "metaTitle": "Về MZM | Mekong Zambezi Meridian Consultants",
+    "metaDescription": "MZM Consultants là công ty đăng ký tại Zimbabwe, có trụ sở chính tại Bulawayo và văn phòng châu Á tại Hà Nội, hoạt động trong lĩnh vực đầu tư và thương mại giữa Zimbabwe và Việt Nam.",
+    "eyebrow": "Về MZM",
+    "title": "Một đội ngũ tại",
+    "accent": "Zimbabwe và Việt Nam.",
+    "lead": "Mekong Zambezi Meridian Consultants là công ty đăng ký tại Zimbabwe, có trụ sở chính tại Bulawayo và văn phòng châu Á tại Hà Nội. Chúng tôi hỗ trợ doanh nghiệp châu Á đầu tư vào Zimbabwe và hỗ trợ nhà sản xuất Zimbabwe bán hàng sang châu Á, trong năm lĩnh vực: khai khoáng, nông nghiệp, năng lượng, sản xuất, du lịch và khách sạn.",
+    "whatLabel": "MZM là ai",
+    "whatTitle": [
+      "Giữa cơ hội tại Zimbabwe ",
+      "và nguồn vốn châu Á."
+    ],
+    "whatParas": [
+      "MZM làm việc giữa hai phía: một bên là chủ sở hữu, nhà sản xuất và dự án tại Zimbabwe, bên kia là nhà đầu tư và người mua châu Á muốn hợp tác với họ. Chúng tôi tìm kiếm cơ hội, kiểm tra tại thực địa, chuẩn bị theo pháp luật Zimbabwe và giới thiệu đến đúng nhà đầu tư hoặc người mua.",
+      "Giám đốc Điều hành của chúng tôi phụ trách văn phòng châu Á tại Hà Nội. Giám đốc Thương mại điều hành hoạt động của chúng tôi tại Zimbabwe. Khách hàng làm việc với cùng một đội ngũ gọn nhẹ tại cả hai nước.",
+      "Mọi dự án đều được thực hiện qua các kênh chính thức của Zimbabwe: ZIDA, ZimTrade, các bộ chuyên ngành và các kênh bán khoáng sản và vàng chính thức."
+    ],
+    "points": [
+      [
+        "Đăng ký tại Zimbabwe",
+        "Thành lập tại Zimbabwe và am hiểu thủ tục của ZIDA, ZimTrade, các bộ chuyên ngành, MMCZ, Fidelity Gold Refinery (Nhà máy tinh luyện vàng Fidelity) và ZERA."
+      ],
+      [
+        "Kiểm tra trước khi giới thiệu",
+        "Quyền sở hữu tài sản, chủ sở hữu, giấy phép và các cá nhân liên quan đều được kiểm tra trước khi bất kỳ cơ hội hoặc nhà cung cấp nào được giới thiệu."
+      ],
+      [
+        "Văn phòng châu Á tại Hà Nội",
+        "Hiện diện thường xuyên tại Việt Nam, gặp gỡ trực tiếp nhà đầu tư, người mua, nhà cung cấp thiết bị và các tổ chức thương mại Việt Nam."
+      ],
+      [
+        "Năm lĩnh vực, một tiêu chuẩn",
+        "Khai khoáng, nông nghiệp, năng lượng, sản xuất, du lịch và khách sạn đều áp dụng cùng quy trình kiểm tra, cùng quy định về phí và cùng một đội ngũ."
+      ]
+    ],
+    "storyLabel": "Vì sao Bulawayo và Hà Nội",
+    "storyTitle": [
+      "Hai cơ sở, ",
+      "được chọn để phục vụ công việc."
+    ],
+    "storyParas": [
+      "MZM được thành lập bởi những người Zimbabwe nhận thấy một khoảng trống: Zimbabwe có khoáng sản, đất đai, nông sản và tài sản du lịch, cần vốn đầu tư và thị trường xuất khẩu mới, nhưng còn ít kết nối trực tiếp với nguồn vốn và người mua tại Đông Á và Đông Nam Á.",
+      "Chúng tôi chọn Hà Nội có chủ đích. Việt Nam là nền kinh tế sản xuất, nhập khẩu những nguyên liệu thô mà Zimbabwe sản xuất, và Chương trình GoGlobal, ban hành năm 2026, khuyến khích doanh nghiệp Việt Nam đầu tư ra nước ngoài, trong đó châu Phi được xác định là một thị trường.",
+      "Các cải cách năm 2026 của Zimbabwe, từ yêu cầu chế biến trong ngành khai khoáng đến các chính sách năng lượng và công nghiệp mới, khiến nhà đầu tư mới cần một đối tác nắm rõ quy định thực tế tại chỗ. MZM được xây dựng để trở thành đối tác đó."
+    ],
+    "imageCaption": [
+      "Chế biến và ",
+      "gia tăng giá trị tại Zimbabwe"
+    ],
+    "officesLabel": "Văn phòng",
+    "officesTitle": [
+      "Một công ty, ",
+      "hai cơ sở."
+    ],
+    "offices": [
+      [
+        "Trụ sở chính",
+        "Bulawayo, Zimbabwe",
+        "Phát triển dự án, thẩm định thực địa, phê duyệt pháp lý và triển khai tại chỗ.",
+        "Đồng cỏ và đồi núi tại Zimbabwe"
+      ],
+      [
+        "Văn phòng châu Á",
+        "Hà Nội, Việt Nam",
+        "Quan hệ với nhà đầu tư, người mua và nhà cung cấp tại Việt Nam và khu vực Đông Nam Á.",
+        "Hồ nước và đường chân trời Hà Nội"
+      ]
+    ],
+    "moreTitle": "Tìm hiểu thêm về cách chúng tôi làm việc",
+    "moreLinks": [
+      [
+        "Cơ Hội",
+        "/opportunity"
+      ],
+      [
+        "Phương Pháp",
+        "/how-we-work"
+      ],
+      [
+        "Đội Ngũ",
+        "/team"
+      ]
+    ]
+  },
+  "Team": {
+    "metaTitle": "Đội Ngũ | MZM Africa",
+    "metaDescription": "Ban lãnh đạo MZM Consultants tại Hà Nội và Zimbabwe.",
+    "eyebrow": "Đội Ngũ",
+    "title": "Một đội ngũ,",
+    "accent": "tại hai quốc gia.",
+    "members": [
+      {
+        "initials": "AM",
+        "name": "Andy Moyo",
+        "role": "Giám đốc Điều hành",
+        "location": "Hà Nội, Việt Nam",
+        "bio": "Andy Moyo là nhà sáng lập và Giám đốc Điều hành của MZM Consultants. Làm việc tại Hà Nội, ông phụ trách văn phòng châu Á của công ty và các hoạt động với nhà đầu tư, người mua và tổ chức thương mại của Việt Nam và châu Á. Ông chỉ đạo mọi dự án trong năm lĩnh vực của MZM, từ buổi gặp đầu tiên với nhà đầu tư hoặc người mua đến khi giới thiệu một cơ hội đã được kiểm tra tại Zimbabwe."
+      },
+      {
+        "initials": "EM",
+        "name": "Ebern Moyo",
+        "role": "Giám đốc Thương mại",
+        "location": "Zimbabwe",
+        "bio": "Ebern Moyo là Giám đốc Thương mại của MZM Consultants và điều hành hoạt động của công ty tại Zimbabwe. Ông chịu trách nhiệm kiểm tra cơ hội và nhà cung cấp tại thực địa, làm việc với các cơ quan của Zimbabwe và quản lý việc triển khai cho khách hàng trong cả năm lĩnh vực. Ông phối hợp với Giám đốc Điều hành tại Hà Nội để khách hàng làm việc với một đội ngũ thống nhất tại cả hai nước."
+      },
+      {
+        "initials": "CM",
+        "name": "Chido A. Mumvuri",
+        "role": "Phó Giám đốc Điều hành kiêm Trưởng phòng Phát triển Kinh doanh",
+        "location": "Zimbabwe",
+        "bio": "Chido A. Mumvuri là Phó Giám đốc Điều hành kiêm Trưởng phòng Phát triển Kinh doanh của MZM Consultants, đồng thời là người đồng sáng lập công ty. Bà phát triển các quan hệ đối tác thương mại của công ty và định hướng cách thức giới thiệu các cơ hội của MZM đến nhà đầu tư và người mua quốc tế."
+      }
+    ]
+  },
+  "Contact": {
+    "metaTitle": "Liên Hệ | MZM Africa",
+    "metaDescription": "Liên hệ MZM Consultants tại Hà Nội hoặc Zimbabwe về đầu tư vào Zimbabwe, tìm nguồn hàng từ Zimbabwe hoặc bán hàng vào thị trường Việt Nam.",
+    "eyebrow": "Liên Hệ",
+    "title": "Trao đổi dự án của quý vị",
+    "accent": "với chúng tôi.",
+    "lead": "Đầu tư vào Zimbabwe, nguồn cung từ Zimbabwe hoặc gia nhập thị trường Việt Nam. Xin cho chúng tôi biết nhu cầu của quý vị, và người phụ trách phù hợp tại Hà Nội hoặc Zimbabwe sẽ phản hồi.",
+    "whoLabel": "Đối tượng nên liên hệ",
+    "who": [
+      [
+        "Nhà đầu tư tổ chức và doanh nghiệp",
+        "Cơ hội đầu tư trong bất kỳ lĩnh vực nào thuộc năm lĩnh vực của chúng tôi"
+      ],
+      [
+        "Doanh nghiệp Việt Nam và châu Á đầu tư ra nước ngoài",
+        "Gia nhập thị trường, địa điểm, đối tác và thủ tục phê duyệt tại Zimbabwe"
+      ],
+      [
+        "Người mua và nhà nhập khẩu",
+        "Nguồn cung đã được thẩm định gồm thuốc lá, bông, da, các loại hạt, trái cây, thực phẩm chế biến và khoáng sản đã qua chế biến"
+      ],
+      [
+        "Nhà sản xuất và chủ sở hữu quyền tài sản tại Zimbabwe",
+        "Giới thiệu người mua, hỗ trợ xuất khẩu và tìm đối tác đầu tư"
+      ],
+      [
+        "Cơ quan nhà nước, phòng thương mại và hiệp hội thương mại",
+        "Xúc tiến đầu tư, đoàn công tác thương mại và diễn đàn doanh nghiệp"
+      ]
+    ],
+    "formTitle": [
+      "Xin cho chúng tôi biết về ",
+      "dự án của quý vị."
+    ],
+    "formIntro": "Yêu cầu càng cụ thể, chúng tôi càng phản hồi nhanh. Xin nêu rõ lĩnh vực, nội dung quý vị muốn đầu tư, mua hoặc bán, quy mô ước tính và tiến độ dự kiến.",
+    "nextLabel": "Các bước tiếp theo",
+    "next": [
+      [
+        "Xác nhận trong vòng 48 giờ",
+        "Mọi yêu cầu đều nhận được phản hồi từ một địa chỉ @mzmafrica.com trong vòng 48 giờ."
+      ],
+      [
+        "Cuộc gọi đầu tiên",
+        "Giám đốc Điều hành hoặc Giám đốc Thương mại sắp xếp một cuộc gọi để tìm hiểu dự án của quý vị."
+      ],
+      [
+        "Thỏa thuận bảo mật",
+        "Thông tin chi tiết về dự án chỉ được trao đổi sau khi thỏa thuận bảo mật được ký kết."
+      ],
+      [
+        "Thư thỏa thuận phí đã ký",
+        "Công việc chỉ bắt đầu sau khi phí được thống nhất bằng văn bản."
+      ]
+    ],
+    "fraudTitle": "Hãy tự bảo vệ trước hành vi mạo danh.",
+    "fraudBody": "Email của MZM chỉ được gửi từ các địa chỉ có đuôi @mzmafrica.com. MZM không bao giờ yêu cầu thanh toán để cung cấp tài liệu hoặc để bảo đảm việc tiếp cận quan chức.",
+    "fraudLink": "Đọc cảnh báo gian lận của chúng tôi",
+    "emailLabel": "Email",
+    "hqLabel": "Trụ sở chính",
+    "hq": "Bulawayo, Zimbabwe",
+    "asiaLabel": "Văn phòng châu Á",
+    "asia": "Hà Nội, Việt Nam",
+    "fields": {
+      "firstName": "Tên",
+      "lastName": "Họ",
+      "email": "Địa chỉ email",
+      "enquiryType": "Loại yêu cầu",
+      "organisation": "Tổ chức và chức vụ",
+      "interest": "Lĩnh vực quan tâm",
+      "message": "Nội dung"
+    },
+    "placeholders": {
+      "firstName": "Tên",
+      "lastName": "Họ",
+      "email": "name@company.com",
+      "organisation": "Tổ chức và chức vụ của quý vị",
+      "message": "Mô tả dự án của quý vị: lĩnh vực, mục tiêu, quy mô ước tính và tiến độ. Xin không gửi tài liệu mật cho đến khi thỏa thuận bảo mật có hiệu lực."
+    },
+    "enquiryTypes": {
+      "meeting": "Hẹn gặp đội ngũ của chúng tôi",
+      "brief": "Yêu cầu tài liệu đầu tư Zimbabwe",
+      "general": "Yêu cầu chung"
+    },
+    "briefNote": "Chúng tôi sẽ gửi Tài liệu Đầu tư Zimbabwe qua email đến địa chỉ quý vị cung cấp.",
+    "selectOne": "Chọn một mục",
+    "groups": {
+      "sector": "Lĩnh vực",
+      "corridor": "Hành Lang",
+      "general": "Chung"
+    },
+    "interests": {
+      "mining": "Khai khoáng và Chế biến",
+      "agriculture": "Nông nghiệp và Chế biến Nông sản",
+      "energy": "Năng lượng",
+      "manufacturing": "Sản xuất và Khu Công nghiệp",
+      "tourism": "Du lịch và Khách sạn",
+      "buying": "Mua sản phẩm Zimbabwe",
+      "selling": "Bán sản phẩm Zimbabwe sang Việt Nam",
+      "equipment": "Cung ứng Thiết bị và Năng lượng",
+      "advisory": "Tư vấn Gia nhập Thị trường",
+      "government": "Cơ quan Nhà nước, Phòng Thương mại hoặc Hiệp hội Thương mại"
+    },
+    "privacyBefore": "Khi gửi biểu mẫu này, quý vị đồng ý để MZM xử lý thông tin của quý vị như được nêu trong",
+    "privacyLink": "chính sách bảo mật",
+    "submit": "Gửi Yêu Cầu",
+    "sending": "Đang gửi...",
+    "successTitle": "Xin Cảm Ơn",
+    "successBody": "Chúng tôi đã nhận được yêu cầu của quý vị và sẽ phản hồi trong vòng 48 giờ.",
+    "error": "Đã có lỗi xảy ra. Xin vui lòng gửi email trực tiếp cho chúng tôi theo địa chỉ projects@mzmafrica.com"
+  },
+  "Governance": {
+    "metaTitle": "Quản Trị và Đạo Đức | MZM Africa",
+    "metaDescription": "Tiêu chuẩn quản trị của MZM: rà soát dự án ủy thác, làm việc với quan chức, xung đột lợi ích và công khai phí.",
+    "eyebrow": "Quản Trị và Đạo Đức",
+    "title": "Cơ chế kiểm soát minh bạch,",
+    "accent": "trước khi quý vị cam kết.",
+    "lead": "Nhà đầu tư, người mua và cơ quan quản lý cần biết cách MZM làm việc trước khi hợp tác với chúng tôi. Các tiêu chuẩn này áp dụng cho mọi dự án ủy thác trong mọi lĩnh vực.",
+    "reviewLabel": "Rà Soát Dự Án Ủy Thác",
+    "reviewTitle": [
+      "Năm bước kiểm tra ",
+      "trước mọi dự án ủy thác."
+    ],
+    "reviewSub": "MZM không nhận bất kỳ dự án ủy thác nào cho đến khi Giám đốc Điều hành xác nhận đạt đủ cả năm bước kiểm tra.",
+    "checks": [
+      [
+        "Thẩm định",
+        "Quyền sở hữu, tài liệu và danh tính đối tác giao dịch đều đạt tiêu chuẩn thẩm định của chúng tôi."
+      ],
+      [
+        "Phù hợp quy định",
+        "Cấu trúc giao dịch tuân thủ pháp luật hiện hành của Zimbabwe và chính sách ngành, bao gồm các ngành dành riêng cho công dân Zimbabwe."
+      ],
+      [
+        "Kiểm tra xung đột lợi ích",
+        "Không thành viên nào của đội ngũ MZM hoặc doanh nghiệp liên quan nắm giữ lợi ích chưa được công khai."
+      ],
+      [
+        "Thư thỏa thuận phí",
+        "Phí được thống nhất bằng văn bản và công khai cho tất cả các bên."
+      ],
+      [
+        "Đăng ký",
+        "Khoản đầu tư nước ngoài được đăng ký với Cơ quan Đầu tư và Phát triển Zimbabwe (ZIDA) ngay từ đầu."
+      ]
+    ],
+    "officialsLabel": "Làm Việc Với Quan Chức",
+    "officialsTitle": [
+      "Làm việc qua kênh thể chế, ",
+      "không trả tiền để được tiếp cận."
+    ],
+    "officialsBody": "MZM làm việc với chính phủ thông qua các cơ quan chính thức: Cơ quan Đầu tư và Phát triển Zimbabwe, các bộ quản lý ngành, các phòng thương mại và các cơ quan đại diện ngoại giao.",
+    "officials": [
+      "MZM không bao giờ trả tiền, hoặc hứa trả tiền, cho bất kỳ quan chức nào để được tiếp cận, được phê duyệt hoặc được xử lý nhanh hơn.",
+      "MZM không làm việc với bất kỳ ai thu phí để giới thiệu với quan chức.",
+      "Nhân vật công chúng có thể đứng ra tổ chức cuộc họp hoặc giới thiệu các bên. Họ không bao giờ là bên ký kết hay bên nhận phí của MZM.",
+      "Quà tặng và chiêu đãi có giá trị vượt mức khiêm tốn đều được ghi vào sổ đăng ký."
+    ],
+    "columns": [
+      [
+        "Kênh chính thức",
+        "Khoản đầu tư được đăng ký với ZIDA, khoáng sản được bán qua các kênh tiếp thị chính thức của Zimbabwe, và hoạt động xuất khẩu tuân theo thủ tục của ZimTrade và hải quan. MZM không đưa ra cách nào để lách qua các kênh này."
+      ],
+      [
+        "Xung đột lợi ích",
+        "Mọi lợi ích mà thành viên đội ngũ MZM hoặc doanh nghiệp liên quan nắm giữ trong một giao dịch đều được công khai bằng văn bản cho tất cả các bên trước khi bắt đầu công việc."
+      ],
+      [
+        "Cơ cấu doanh nghiệp",
+        "MZM là công ty đăng ký tại Zimbabwe, có trụ sở chính tại Bulawayo và văn phòng châu Á tại Hà Nội. Phí chỉ được lập hóa đơn qua các tài khoản công ty đã đăng ký của MZM."
+      ]
+    ],
+    "fraudPrompt": "Quý vị nhận được tin nhắn tự xưng là của MZM và chưa chắc chắn về tin nhắn đó?",
+    "fraudLink": "Đọc cảnh báo gian lận của chúng tôi"
+  },
+  "FraudNotice": {
+    "metaTitle": "Cảnh Báo Gian Lận và Mạo Danh | MZM Africa",
+    "metaDescription": "Cách nhận biết thông tin liên lạc xác thực từ MZM Consultants và những việc cần làm nếu quý vị nhận được tin nhắn đáng ngờ sử dụng tên của chúng tôi.",
+    "eyebrow": "Cảnh Báo Gian Lận và Mạo Danh",
+    "title": "Hãy tự bảo vệ",
+    "accent": "trước hành vi mạo danh.",
+    "lead": "Các cơ hội trong khai khoáng và thương mại thường thu hút hành vi gian lận, và tên của chúng tôi có thể bị những người không làm việc cho MZM sử dụng. Dưới đây là cách nhận biết thông tin liên lạc xác thực từ chúng tôi.",
+    "label": "Cách MZM Liên Lạc",
+    "listTitle": [
+      "Năm điều ",
+      "luôn luôn đúng."
+    ],
+    "genuine": [
+      "Email của MZM chỉ được gửi từ các địa chỉ có đuôi @mzmafrica.com. Đội ngũ của chúng tôi cũng có thể liên hệ với quý vị qua WhatsApp, WeChat hoặc Zalo, nhưng tài liệu và thông tin thanh toán chỉ được gửi từ một địa chỉ @mzmafrica.com.",
+      "Phí được thống nhất trong thư thỏa thuận phí có chữ ký trước khi bắt đầu bất kỳ công việc nào.",
+      "Các khoản thanh toán cho MZM chỉ được chuyển vào tài khoản ngân hàng đã đăng ký của công ty MZM, không bao giờ vào tài khoản cá nhân.",
+      "MZM không bao giờ yêu cầu thanh toán để cung cấp tài liệu, giữ chỗ một khu mỏ, hoặc bảo đảm việc tiếp cận quan chức.",
+      "Thông tin chi tiết về dự án chỉ được chia sẻ sau khi có thỏa thuận bảo mật, không bao giờ qua tin nhắn tự gửi đến mà quý vị không yêu cầu."
+    ],
+    "unsureTitle": "Nếu quý vị không chắc chắn",
+    "unsureBefore": "Không gửi tiền hoặc tài liệu. Hãy chuyển tiếp tin nhắn đó đến",
+    "unsureAfter": "và chúng tôi sẽ xác nhận trong vòng 48 giờ liệu tin nhắn đó có phải do MZM gửi hay không."
+  },
+  "Privacy": {
+    "metaTitle": "Chính Sách Bảo Mật | MZM Africa",
+    "metaDescription": "Cách MZM Africa thu thập, sử dụng và bảo vệ thông tin cá nhân được gửi qua mzmafrica.com.",
+    "eyebrow": "Pháp Lý",
+    "title": "Chính Sách Bảo Mật",
+    "updated": "Cập nhật lần cuối ngày 7 tháng 10 năm 2026",
+    "sections": [
+      {
+        "heading": "Chúng tôi là ai",
+        "body": [
+          "Trang web mzmafrica.com do Mekong Zambezi Meridian Consultants (\"MZM\", \"chúng tôi\"), một công ty đăng ký tại Zimbabwe, vận hành. MZM chịu trách nhiệm đối với thông tin cá nhân được thu thập qua trang web này."
+        ]
+      },
+      {
+        "heading": "Thông tin chúng tôi thu thập",
+        "body": [
+          "Khi quý vị gửi yêu cầu qua biểu mẫu liên hệ của chúng tôi, chúng tôi thu thập các thông tin quý vị cung cấp: họ và tên, địa chỉ email, tổ chức và chức vụ, loại yêu cầu, lĩnh vực quan tâm và nội dung tin nhắn.",
+          "Khi quý vị gửi email trực tiếp cho chúng tôi, chúng tôi nhận được địa chỉ email của quý vị và nội dung email đó.",
+          "Chúng tôi không yêu cầu, và đề nghị quý vị không gửi qua trang web này, giấy tờ tùy thân, thông tin tài khoản ngân hàng hoặc thẻ, hay bất kỳ thông tin cá nhân nhạy cảm nào khác."
+        ]
+      },
+      {
+        "heading": "Cách chúng tôi sử dụng thông tin",
+        "body": [
+          "Chúng tôi sử dụng thông tin quý vị gửi cho chúng tôi để phản hồi yêu cầu của quý vị, đánh giá liệu chúng tôi có thể hỗ trợ quý vị hay không, và trao đổi với quý vị về một dự án tiềm năng.",
+          "Chúng tôi không bán thông tin cá nhân của quý vị, và không sử dụng thông tin đó để gửi tin nhắn tiếp thị, trừ khi quý vị đã yêu cầu chúng tôi làm vậy."
+        ]
+      },
+      {
+        "heading": "Bên xử lý thông tin",
+        "body": [
+          "Thông tin gửi qua biểu mẫu liên hệ được tiếp nhận và lưu trữ bởi Netlify, Inc., đơn vị cung cấp dịch vụ lưu trữ cho trang web này, và được chuyển tiếp đến hộp thư email công việc của chúng tôi. Các nhà cung cấp này có thể xử lý và lưu trữ dữ liệu bên ngoài Zimbabwe. Chúng tôi chỉ chia sẻ thông tin của quý vị với các nhà cung cấp dịch vụ hỗ trợ hoạt động kinh doanh của chúng tôi và với các cố vấn chuyên môn khi cần thiết để phản hồi yêu cầu của quý vị, hoặc khi pháp luật yêu cầu."
+        ]
+      },
+      {
+        "heading": "Dữ liệu trang web",
+        "body": [
+          "Nhà cung cấp dịch vụ lưu trữ của chúng tôi ghi lại các thông tin kỹ thuật tiêu chuẩn, chẳng hạn như địa chỉ IP và các trang được yêu cầu truy cập, để vận hành và bảo đảm an ninh cho trang web.",
+          "Trang web này tải phông chữ từ Google Fonts, nghĩa là trình duyệt của quý vị kết nối với máy chủ của Google và chia sẻ địa chỉ IP của quý vị với Google.",
+          "Nếu quý vị chọn ngôn ngữ trên trang web này, lựa chọn của quý vị được lưu trong một cookie nhỏ (NEXT_LOCALE) để trang web hiển thị cùng ngôn ngữ đó trong lần truy cập tiếp theo. Chúng tôi không sử dụng cookie quảng cáo hoặc cookie theo dõi."
+        ]
+      },
+      {
+        "heading": "Thời gian lưu giữ",
+        "body": [
+          "Chúng tôi chỉ lưu giữ thông tin yêu cầu trong thời gian cần thiết để phản hồi quý vị, quản lý bất kỳ dự án nào phát sinh từ yêu cầu đó, và đáp ứng các nghĩa vụ pháp lý và nghĩa vụ lưu trữ hồ sơ của chúng tôi."
+        ]
+      },
+      {
+        "heading": "Quyền của quý vị",
+        "body": [
+          "Quý vị có thể yêu cầu chúng tôi xác nhận những thông tin cá nhân nào chúng tôi đang lưu giữ về quý vị, chỉnh sửa hoặc xóa các thông tin đó. Quý vị cũng có thể phản đối cách chúng tôi sử dụng thông tin đó. Để gửi yêu cầu, xin gửi email đến projects@mzmafrica.com. Chúng tôi có thể cần xác minh danh tính của quý vị trước khi xử lý yêu cầu.",
+          "Chúng tôi xử lý thông tin cá nhân phù hợp với pháp luật về bảo vệ dữ liệu được áp dụng, bao gồm Đạo luật Bảo vệ Dữ liệu và An ninh mạng của Zimbabwe. Nếu quý vị không hài lòng với phản hồi của chúng tôi, quý vị có thể liên hệ với cơ quan có thẩm quyền về bảo vệ dữ liệu có liên quan."
+        ]
+      },
+      {
+        "heading": "An toàn thông tin",
+        "body": [
+          "Chúng tôi thực hiện các biện pháp hợp lý để bảo vệ thông tin cá nhân chúng tôi lưu giữ khỏi bị mất mát, sử dụng sai mục đích và truy cập trái phép. Không có phương thức truyền tải nào qua internet là an toàn tuyệt đối."
+        ]
+      },
+      {
+        "heading": "Thay đổi chính sách này",
+        "body": [
+          "Chúng tôi có thể cập nhật chính sách này tùy từng thời điểm. Ngày ghi ở đầu trang này cho biết thời điểm chính sách được thay đổi lần gần nhất."
+        ]
+      }
+    ],
+    "contactHeading": "Liên Hệ",
+    "contactBefore": "Mọi câu hỏi về chính sách này xin gửi đến"
+  },
+  "News": {
+    "metaTitle": "Tin Tức và Phân Tích | MZM Africa",
+    "metaDescription": "Tin tức, cập nhật chính sách và phân tích thị trường về đầu tư và thương mại giữa Zimbabwe và Việt Nam.",
+    "eyebrow": "Tin Tức và Phân Tích",
+    "title": "Tin Mới Nhất Từ MZM",
+    "empty": "Chưa có bài viết",
+    "emptySub": "Xin vui lòng quay lại sau để xem tin tức và cập nhật mới từ MZM Africa.",
+    "readMore": "Xem thêm",
+    "back": "Quay Lại Tin Tức",
+    "update": "Cập nhật",
+    "englishOnly": "Các bài viết hiện chỉ có bằng tiếng Anh."
+  }
+}

@@ -2,7 +2,7 @@
 export default function PageHero({ eyebrow, title, accent, lead, image }) {
   return (
     <section
-      className="pt-36 pb-16 border-b border-white/8 relative overflow-hidden bg-[#0A0E18]"
+      className="pt-36 pb-16 border-b border-white/10 relative overflow-hidden bg-[#0A0E18]"
       style={image ? { backgroundImage: `url(${image})`, backgroundSize: 'cover', backgroundPosition: 'center' } : undefined}
     >
       {image && <div className="absolute inset-0 bg-[#080C14]/85" />}
