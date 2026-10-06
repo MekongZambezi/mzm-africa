@@ -7,11 +7,12 @@ import { practices } from '../lib/practices'
 // Homepage copy in English and Vietnamese. Chinese falls back to English.
 const en = {
   eyebrow: 'Mekong Zambezi Meridian Consultants',
-  h1: ['One team in', 'Zimbabwe and Vietnam.'],
-  sub: 'We help Asian companies invest in Zimbabwe, and help Zimbabwean producers sell to Asia. Our Managing Director leads the Asia desk in Hanoi. Our Commercial Director runs our operations in Zimbabwe.',
+  h1: ['Zimbabwe’s priorities', 'meet Vietnam’s.'],
+  sub: 'Raw materials from Zimbabwe. Investment from Vietnam. Zimbabwe’s development strategy and Vietnam’s GoGlobal Programme point at many of the same sectors, and we work where they overlap.',
   cta1: 'Invest in Zimbabwe',
   cta2: 'Buy from Zimbabwe',
-  stats: [['5', 'Sectors, one standard'], ['2', 'Countries, one team'], ['2', 'Directions: investment in, exports out'], ['48hr', 'Reply to every enquiry']],
+  cta3: 'Sell into Vietnam',
+  stats: [['Zimbabwe brings', ['Lithium, chrome, gold and other minerals', 'Cotton, tobacco, nuts and fruit', 'Special Economic Zones with tax incentives', 'Victoria Falls and five UNESCO World Heritage Sites']], ['Vietnam brings', ['Factories that import raw materials', 'Processing, machinery and solar equipment', 'Companies investing abroad under GoGlobal', '1.71 million tonnes of cotton imported in 2025']]],
   sectorsLabel: 'Our Business',
   sectorsTitle: ['Five sectors.', 'One standard.'],
   sectorsSub: 'We work in the sectors where Zimbabwe most wants investment, and we apply the same checks in each.',
@@ -19,8 +20,8 @@ const en = {
   sectorText: {},
   viewAll: 'View all sectors',
   teamLabel: 'Why MZM',
-  teamTitle: ['A named person', 'in each country.'],
-  teamSub: 'You deal with the same small team from first meeting to delivery, in Vietnam and in Zimbabwe.',
+  teamTitle: ['Zimbabwe and Vietnam,', 'doing business directly.'],
+  teamSub: 'Zimbabwe has no embassy in Hanoi, and Vietnam has none in Harare. MZM works on the ground in both countries, so you deal with the same small team from first meeting to delivery.',
   team: [
     ['Hanoi, Vietnam', 'Andy Moyo', 'Managing Director', 'Meets Vietnamese and Asian investors, buyers and trade bodies, and leads every engagement.'],
     ['Zimbabwe', 'Ebern Moyo', 'Commercial Director', 'Runs MZM’s operations in Zimbabwe: checks opportunities, works with Zimbabwean institutions and manages delivery on the ground.'],
@@ -43,6 +44,9 @@ const en = {
   instLabel: 'Official Channels',
   instTitle: ['The institutions', 'our clients work through.'],
   instNote: 'MZM is a private firm and does not represent any government body.',
+  instLink: 'See what each institution does',
+  zimShort: ['ZIDA', 'ZimTrade', 'Ministry of Mines', 'MMCZ', 'Fidelity Gold Refinery', 'Ministry of Industry and Commerce', 'ZERA', 'TIMB', 'Zimbabwe Tourism Authority'],
+  vnShort: ['VCCI', 'Ministry of Industry and Trade', 'VIETRADE (GoGlobal)', 'Ministry of Finance', 'State Bank of Vietnam', 'Plant Production and Protection Department'],
   zim: ['Zimbabwe', ['Zimbabwe Investment and Development Agency (ZIDA)', 'ZimTrade', 'Ministry of Mines and Mining Development', 'Minerals Marketing Corporation of Zimbabwe (MMCZ)', 'Fidelity Gold Refinery', 'Ministry of Industry and Commerce', 'Zimbabwe Energy Regulatory Authority (ZERA)', 'Zimbabwe Tourism Authority']],
   vn: ['Vietnam', ['Vietnam Chamber of Commerce and Industry (VCCI)', 'Ministry of Industry and Trade and the Vietnam Trade Promotion Agency (GoGlobal Programme)', 'Ministry of Finance (outward investment registration)', 'State Bank of Vietnam (foreign exchange for outward investment)', 'Plant Production and Protection Department (fruit market access)', 'Sector associations: textiles, leather, tobacco, fruit, steel and energy']],
   ctaTitle: 'Have a project or a product in mind?',
@@ -52,11 +56,12 @@ const en = {
 
 const vi = {
   eyebrow: 'Mekong Zambezi Meridian Consultants',
-  h1: ['Một đội ngũ tại', 'Zimbabwe và Việt Nam.'],
-  sub: 'Chúng tôi giúp doanh nghiệp châu Á đầu tư vào Zimbabwe và giúp nhà sản xuất Zimbabwe bán hàng sang châu Á. Giám đốc Điều hành của chúng tôi phụ trách văn phòng châu Á tại Hà Nội. Giám đốc Thương mại điều hành hoạt động của chúng tôi tại Zimbabwe.',
+  h1: ['Ưu tiên của Zimbabwe', 'gặp ưu tiên của Việt Nam.'],
+  sub: 'Nguyên liệu từ Zimbabwe. Đầu tư từ Việt Nam. Chiến lược phát triển của Zimbabwe và Chương trình GoGlobal của Việt Nam cùng hướng tới nhiều lĩnh vực chung, và chúng tôi làm việc ở nơi hai bên gặp nhau.',
   cta1: 'Đầu tư vào Zimbabwe',
   cta2: 'Mua hàng từ Zimbabwe',
-  stats: [['5', 'Lĩnh vực, một tiêu chuẩn'], ['2', 'Quốc gia, một đội ngũ'], ['2', 'Chiều: đầu tư vào, xuất khẩu ra'], ['48 giờ', 'Phản hồi mọi yêu cầu']],
+  cta3: 'Bán hàng vào Việt Nam',
+  stats: [['Zimbabwe có', ['Lithium, crôm, vàng và các khoáng sản khác', 'Bông, thuốc lá, các loại hạt và trái cây', 'Đặc khu Kinh tế với ưu đãi thuế', 'Thác Victoria và năm Di sản Thế giới UNESCO']], ['Việt Nam có', ['Nhà máy nhập khẩu nguyên liệu', 'Thiết bị chế biến, máy móc và điện mặt trời', 'Doanh nghiệp đầu tư ra nước ngoài theo GoGlobal', '1,71 triệu tấn bông nhập khẩu năm 2025']]],
   sectorsLabel: 'Lĩnh Vực Hoạt Động',
   sectorsTitle: ['Năm lĩnh vực.', 'Một tiêu chuẩn.'],
   sectorsSub: 'Chúng tôi hoạt động trong các lĩnh vực Zimbabwe ưu tiên thu hút đầu tư nhất, và áp dụng cùng một quy trình kiểm tra cho mỗi lĩnh vực.',
@@ -70,8 +75,8 @@ const vi = {
   },
   viewAll: 'Xem tất cả lĩnh vực',
   teamLabel: 'Vì Sao Chọn MZM',
-  teamTitle: ['Một người phụ trách', 'tại mỗi quốc gia.'],
-  teamSub: 'Bạn làm việc với cùng một đội ngũ từ buổi gặp đầu tiên đến khi hoàn tất, tại Việt Nam và tại Zimbabwe.',
+  teamTitle: ['Zimbabwe và Việt Nam,', 'làm ăn trực tiếp.'],
+  teamSub: 'Zimbabwe không có đại sứ quán tại Hà Nội, và Việt Nam không có đại sứ quán tại Harare. MZM làm việc tại cả hai nước, để bạn làm việc với cùng một đội ngũ từ buổi gặp đầu tiên đến khi hoàn tất.',
   team: [
     ['Hà Nội, Việt Nam', 'Andy Moyo', 'Giám đốc Điều hành', 'Làm việc với nhà đầu tư, người mua và các hiệp hội thương mại Việt Nam và châu Á, và phụ trách mọi dự án.'],
     ['Zimbabwe', 'Ebern Moyo', 'Giám đốc Thương mại', 'Điều hành hoạt động của MZM tại Zimbabwe: kiểm tra cơ hội, làm việc với các cơ quan Zimbabwe và quản lý triển khai tại chỗ.'],
@@ -94,6 +99,9 @@ const vi = {
   instLabel: 'Kênh Chính Thức',
   instTitle: ['Các cơ quan', 'khách hàng của chúng tôi làm việc cùng.'],
   instNote: 'MZM là doanh nghiệp tư nhân và không đại diện cho bất kỳ cơ quan nhà nước nào.',
+  instLink: 'Xem vai trò của từng cơ quan',
+  zimShort: ['ZIDA', 'ZimTrade', 'Bộ Mỏ', 'MMCZ', 'Fidelity Gold Refinery', 'Bộ Công nghiệp và Thương mại', 'ZERA', 'TIMB', 'Cơ quan Du lịch Zimbabwe'],
+  vnShort: ['VCCI', 'Bộ Công Thương', 'Cục Xúc tiến Thương mại (GoGlobal)', 'Bộ Tài chính', 'Ngân hàng Nhà nước', 'Cục Trồng trọt và Bảo vệ Thực vật'],
   zim: ['Zimbabwe', ['Cơ quan Đầu tư và Phát triển Zimbabwe (ZIDA)', 'ZimTrade', 'Bộ Mỏ và Phát triển Khai khoáng', 'Tổng công ty Tiếp thị Khoáng sản Zimbabwe (MMCZ)', 'Fidelity Gold Refinery', 'Bộ Công nghiệp và Thương mại', 'Cơ quan Quản lý Năng lượng Zimbabwe (ZERA)', 'Cơ quan Du lịch Zimbabwe']],
   vn: ['Việt Nam', ['Liên đoàn Thương mại và Công nghiệp Việt Nam (VCCI)', 'Bộ Công Thương và Cục Xúc tiến Thương mại (Chương trình GoGlobal)', 'Bộ Tài chính (đăng ký đầu tư ra nước ngoài)', 'Ngân hàng Nhà nước Việt Nam (ngoại hối cho đầu tư ra nước ngoài)', 'Cục Trồng trọt và Bảo vệ Thực vật (mở cửa thị trường trái cây)', 'Các hiệp hội ngành: dệt may, da giày, thuốc lá, rau quả, thép và năng lượng']],
   ctaTitle: 'Bạn có dự án hoặc sản phẩm cần tìm?',
@@ -120,9 +128,10 @@ export default function Home() {
     <>
       {/* HERO */}
       <section className="relative min-h-screen flex flex-col justify-end pb-20 pt-32 overflow-hidden">
-        <video autoPlay muted loop playsInline preload="metadata" poster="/images/hero-poster.jpg" className="absolute inset-0 w-full h-full object-cover">
-          <source src="/images/hero-video.mp4" type="video/mp4" />
-        </video>
+        <div className="absolute inset-0 grid grid-cols-1 md:grid-cols-2">
+          <div className="bg-cover bg-center" style={{ backgroundImage: 'url(/images/zimbabwe-landscape.jpg)' }} />
+          <div className="hidden md:block bg-cover bg-center" style={{ backgroundImage: 'url(/images/hanoi.jpg)' }} />
+        </div>
         <div className="absolute inset-0 bg-gradient-to-b from-[#080C14]/70 via-[#080C14]/55 to-[#080C14]" />
         <div className="absolute inset-0 bg-gradient-to-r from-[#080C14]/80 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-6 w-full">
@@ -137,12 +146,15 @@ export default function Home() {
           <div className="flex flex-wrap gap-4 items-center mb-16">
             <Link href="/business" className="bg-[#C4A04A] text-[#080C14] text-xs font-black tracking-widest uppercase px-8 py-4 hover:bg-[#E0CA8E] transition-colors">{c.cta1}</Link>
             <Link href="/corridor#source" className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase px-8 py-4 border border-[#C4A04A]/50 hover:bg-[#C4A04A]/10 transition-colors">{c.cta2}</Link>
+            <Link href="/corridor#producers" className="text-white text-xs font-bold tracking-widest uppercase px-8 py-4 border border-white/25 hover:border-[#C4A04A]/60 hover:text-[#C4A04A] transition-colors">{c.cta3}</Link>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 border-t border-white/10 pt-8 gap-y-6">
-            {c.stats.map(([num, label]) => (
-              <div key={label} className="pr-6 border-r border-white/10 last:border-0">
-                <div className="text-[#C4A04A] font-serif font-bold text-4xl leading-none mb-1">{num}</div>
-                <div className="text-gray-400 text-xs font-medium leading-tight">{label}</div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-white/10 border border-white/10 max-w-4xl">
+            {c.stats.map(([title, items]) => (
+              <div key={title} className="bg-[#080C14]/80 backdrop-blur-sm p-6">
+                <div className="text-[#C4A04A] text-[11px] font-black tracking-widest uppercase mb-3">{title}</div>
+                <ul className="space-y-1.5">
+                  {items.map((it) => <li key={it} className="flex gap-3 text-sm text-gray-200 font-light"><span className="text-[#C4A04A] shrink-0">—</span>{it}</li>)}
+                </ul>
               </div>
             ))}
           </div>
@@ -260,15 +272,16 @@ export default function Home() {
             <p className="text-gray-400 font-light max-w-md leading-relaxed">{c.instNote}</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {[c.zim, c.vn].map(([country, items]) => (
-              <div key={country} className="border border-white/10 bg-[#080C14]">
-                <div className="px-8 py-5 border-b border-white/10 font-serif text-2xl font-semibold text-[#C4A04A]">{country}</div>
-                <ul>
-                  {items.map((it) => <li key={it} className="px-8 py-4 border-b border-white/5 last:border-0 text-sm text-gray-200 font-light">{it}</li>)}
-                </ul>
+            {[[c.zim[0], c.zimShort], [c.vn[0], c.vnShort]].map(([country, items]) => (
+              <div key={country}>
+                <div className="font-serif text-2xl font-semibold text-[#C4A04A] mb-4">{country}</div>
+                <div className="flex flex-wrap gap-2">
+                  {items.map((it) => <span key={it} className="text-xs text-gray-200 border border-white/15 px-3 py-2">{it}</span>)}
+                </div>
               </div>
             ))}
           </div>
+          <div className="mt-8"><Link href="/corridor#channels" className="group text-[#C4A04A] text-xs font-bold tracking-widest uppercase inline-flex items-center gap-2">{c.instLink} <Arrow cls="w-4 h-4" /></Link></div>
         </div>
       </section>
 

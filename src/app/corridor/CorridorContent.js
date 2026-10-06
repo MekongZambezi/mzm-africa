@@ -324,7 +324,7 @@ export default function CorridorContent() {
       </section>
 
       {/* INSTITUTIONS */}
-      <section className="py-24 bg-[#080C14] border-t border-white/8">
+      <section id="channels" className="py-24 bg-[#080C14] border-t border-white/8 scroll-mt-20">
         <div className="max-w-7xl mx-auto px-6">
           <SectionLabel>{c.instLabel}</SectionLabel>
           <h2 className="font-serif text-4xl md:text-5xl font-bold mb-4">{Title(c.instTitle)}</h2>
