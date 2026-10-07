@@ -31,7 +31,7 @@ export default async function SectorPage({ params: { locale, slug } }) {
 
   return (
     <>
-      <PageHero eyebrow={t('eyebrow', { num: p.num })} title={s.title} lead={s.lead} image={p.image} />
+      <PageHero eyebrow={t('eyebrow', { num: p.num })} title={s.title} lead={s.lead} image={p.image} video={p.video} />
 
       {/* WHY + WHAT */}
       <section className="py-20 bg-[#080C14]">

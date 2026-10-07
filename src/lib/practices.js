@@ -2,12 +2,19 @@
 // areas, institutions) lives in messages/en.json and messages/vi.json under
 // Sectors.items, so both languages carry the same depth for every sector.
 
+// Short muted header loops (free-licence stock, trimmed and compressed).
+// Generic footage only: never captioned as an MZM project or a named site.
+const HERO_VIDEOS = {
+  energy: { src: '/videos/energy-hero.mp4', webm: '/videos/energy-hero.webm', poster: '/videos/energy-hero-poster.jpg' },
+}
+
 export const practices = ['mining', 'agriculture', 'energy', 'manufacturing', 'tourism'].map((slug, i) => ({
   slug,
   href: `/business/${slug}`,
   num: String(i + 1).padStart(2, '0'),
   image: `/images/practice-${slug}.jpg`,
   contact: 'projects@mzmafrica.com',
+  video: HERO_VIDEOS[slug] || null,
 }))
 
 export function getPractice(slug) {
