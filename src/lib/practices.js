@@ -5,6 +5,8 @@
 // Short muted header loops (free-licence stock, trimmed and compressed).
 // Generic footage only: never captioned as an MZM project or a named site.
 const HERO_VIDEOS = {
+  mining: { src: '/videos/mining-hero.mp4', webm: '/videos/mining-hero.webm', poster: '/videos/mining-hero-poster.jpg' },
+  manufacturing: { src: '/videos/manufacturing-hero.mp4', webm: '/videos/manufacturing-hero.webm', poster: '/videos/manufacturing-hero-poster.jpg' },
   energy: { src: '/videos/energy-hero.mp4', webm: '/videos/energy-hero.webm', poster: '/videos/energy-hero-poster.jpg' },
 }
 
