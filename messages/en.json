@@ -53,7 +53,6 @@
     "about": "About",
     "aboutSub": [
       "About MZM",
-      "Our Team",
       "Our Offices"
     ],
     "news": "Insights",
@@ -76,7 +75,6 @@
       "The Opportunity",
       "Our Approach",
       "About MZM",
-      "Our Team",
       "Governance & Ethics"
     ],
     "serviceLinks": [
@@ -104,7 +102,7 @@
       "Investment and trade",
       "between Zimbabwe and Vietnam."
     ],
-    "sub": "We help Asian companies invest in Zimbabwe, and Zimbabwean producers sell to Asia, with teams in Hanoi and Zimbabwe.",
+    "sub": "We help Vietnamese and Asian companies invest in Zimbabwe, and Zimbabwean producers sell into Asia. One team, on the ground in Hanoi and Zimbabwe.",
     "cta1": "Speak to Our Team",
     "cta2": "Request Our Zimbabwe Investment Brief",
     "mandateLabel": "Our Firm",
@@ -115,7 +113,7 @@
     "pillars": [
       [
         "What We Do",
-        "We prepare and execute investment into Zimbabwe, and open Asian markets to Zimbabwean products. Four capabilities: investment facilitation, export and market access, equipment and energy sourcing, and market-entry advisory, across five sectors.",
+        "We prepare and deliver investment into Zimbabwe, and open Asian markets to Zimbabwean products, through four capabilities applied across five sectors.",
         "Our capabilities",
         "/what-we-do"
       ],
@@ -137,7 +135,7 @@
       "Five sectors.",
       "One standard."
     ],
-    "sectorsSub": "The sectors where Zimbabwe most wants investment, each held to the same verification standard and the same fee rules.",
+    "sectorsSub": "The sectors where Zimbabwe most wants investment, each held to the same verification standard and the same fee terms.",
     "sectorText": {
       "mining": [
         "Mining and Beneficiation",
@@ -145,7 +143,7 @@
       ],
       "agriculture": [
         "Agriculture and Agro-processing",
-        "Processing, cold chain, and Asian buyers for tobacco, cotton, nuts and fruit."
+        "Blueberries, processing and cold chain, and Asian buyers for tobacco, cotton and nuts."
       ],
       "energy": [
         "Energy",
@@ -172,8 +170,8 @@
         "Investment approved by ZIDA in the first half of 2026"
       ],
       [
-        "2026",
-        "Vietnam’s GoGlobal Programme names Africa as a market for Vietnamese investment"
+        "12,000 tonnes",
+        "Blueberries Zimbabwe expects to export in 2026, up from 9,500 tonnes in 2025"
       ],
       [
         "USD 1.36bn",
@@ -193,7 +191,7 @@
     "eyebrow": "Capabilities",
     "title": "Four capabilities. Five sectors.",
     "accent": "One accountable team.",
-    "lead": "MZM delivers four capabilities: investment facilitation into Zimbabwe, export and market access for Zimbabwean producers, equipment and energy sourcing, and market-entry advisory. We apply them across mining, agriculture, energy, manufacturing, and tourism and hospitality, with one verification standard and one team accountable in Hanoi and in Zimbabwe.",
+    "lead": "Four capabilities, applied across mining, agriculture, energy, manufacturing, and tourism and hospitality, under one verification standard and one team accountable in Hanoi and in Zimbabwe.",
     "needLabel": "The Market Need",
     "capabilityLabel": "The Capability",
     "impactLabel": "Client Impact",
@@ -292,7 +290,7 @@
     ],
     "thesisLabel": "Our Core Thesis",
     "thesis": [
-      "Zimbabwe’s resources should be processed in Zimbabwe, financed and equipped by partners who intend to stay. Business between Zimbabwe and Vietnam should run through checked counterparties and official channels, with people on the ground in both countries.",
+      "Zimbabwe’s resources should be processed in Zimbabwe, financed and equipped by partners who intend to stay. Business between Zimbabwe and Vietnam should run through verified counterparties and official channels, with people on the ground in both countries.",
       "MZM exists to make that the standard."
     ],
     "focusLabel": "Our Focus",
@@ -321,7 +319,7 @@
     "visionLabel": "Vision",
     "vision": "To be the leading Zimbabwean investment and trade firm on the Zimbabwe-Vietnam corridor by 2030.",
     "missionLabel": "Mission",
-    "mission": "To bring checked investment and trade between Asia and Zimbabwe that benefits investors, buyers and Zimbabwe.",
+    "mission": "To move verified investment and trade between Asia and Zimbabwe, on terms that work for investors, buyers and Zimbabwe.",
     "ctaTitle": "See how we deliver.",
     "ctaSub": "One process, five stages, run in both countries.",
     "cta": "Our Approach"
@@ -380,12 +378,12 @@
       [
         "Hanoi, Vietnam",
         "Asia Desk",
-        "Led by Managing Director Andy Moyo. Meets Vietnamese and Asian investors, buyers, equipment suppliers and trade bodies in person, in their own time zone."
+        "Led by our Managing Director. Meets Vietnamese and Asian investors, buyers, equipment suppliers and trade bodies in person, in their own time zone."
       ],
       [
         "Zimbabwe",
         "Operations",
-        "Led by Commercial Director Ebern Moyo, with Deputy Managing Director Chido A. Mumvuri leading business development. Checks opportunities and suppliers on the ground, works with Zimbabwean institutions and manages delivery."
+        "Led by our Commercial Director. Verifies opportunities and suppliers on the ground, works with Zimbabwean institutions and manages delivery."
       ],
       [
         "Both countries",
@@ -436,12 +434,12 @@
     "eyebrow": "Sectors",
     "title": "Five sectors.",
     "accent": "One standard.",
-    "lead": "MZM works in the five sectors where Zimbabwe most wants investment, as set out in its National Development Strategy 2. Every sector gets the same checks, the same fee rules and the same team.",
+    "lead": "MZM works in the five sectors where Zimbabwe most wants investment, as set out in its National Development Strategy 2. Every sector gets the same verification standard, the same fee terms and the same team.",
     "sectorTag": "Sector {num}",
     "exploreSector": "Explore the sector",
-    "corridorLabel": "Flagship Programme",
+    "corridorLabel": "Our Two-Way Practice",
     "corridorTitle": "The Zimbabwe-Vietnam Corridor",
-    "corridorBody": "A two-way programme that runs across all five sectors: Vietnamese investment into Zimbabwe, and Zimbabwean products to Vietnamese buyers.",
+    "corridorBody": "Our two-way work across all five sectors: Vietnamese investment into Zimbabwe, and Zimbabwean products to Vietnamese buyers.",
     "corridorLink": "About the Corridor",
     "processTitle": "The same process in every sector.",
     "processBody": "Checks before every introduction, fees in writing, and no paid access. See how an MZM engagement works.",
@@ -540,11 +538,12 @@
       "agriculture": {
         "title": "Agriculture and Agro-processing",
         "imageAlt": "Tobacco growing in a field",
-        "summary": "Investment in processing, storage and cold chain, and Asian buyers for Zimbabwean tobacco, cotton, nuts and fruit.",
-        "lead": "Agriculture is the base of today’s trade with Vietnam: tobacco makes up almost all of what Zimbabwe sells there. MZM works in both directions, bringing Asian investment into processing and Zimbabwean produce to Asian buyers.",
+        "summary": "Investment in blueberries, processing and cold chain, and Asian buyers for Zimbabwean tobacco, cotton, nuts and fruit.",
+        "lead": "Agriculture is the base of today’s trade with Vietnam: tobacco makes up almost all of what Zimbabwe sells there. Blueberries are a fast-growing new export. MZM works in both directions, bringing Asian investment into farms, processing and cold chain, and Zimbabwean produce to Asian buyers.",
         "context": [
           "Tobacco makes up almost all of Zimbabwe’s current exports to Vietnam.",
           "Vietnam imported 1.71 million tonnes of cotton in 2025, mainly from the United States, Brazil and Australia, with no significant African supplier.",
+          "Zimbabwe’s blueberry exports reached 9,500 tonnes in 2025 and are expected to reach 12,000 tonnes in 2026. The first shipment to China left in July 2026.",
           "Zimbabwe’s horticulture growth plan focuses on blueberries, avocados, macadamia, citrus and coffee for export."
         ],
         "focus": [
@@ -561,7 +560,7 @@
           {
             "name": "Nuts and fruit",
             "status": "access",
-            "body": "Macadamia and processed nuts now. Fresh blueberries, citrus and avocados once Vietnam completes its plant health review for each fruit."
+            "body": "Macadamia and processed nuts now. Fresh citrus and avocados once Vietnam completes its plant health review for each fruit."
           },
           {
             "name": "Agro-processing investment",
@@ -570,6 +569,7 @@
           }
         ],
         "services": [
+          "Investment in blueberry farm expansion, packhouses and cold chain",
           "Investment in fruit, oilseed, dairy and cotton processing",
           "Cold chain, packhouse and storage investment",
           "Introductions to Vietnamese processing machinery suppliers",
@@ -601,6 +601,10 @@
           [
             "ZimTrade",
             "Export development and buyer programmes"
+          ],
+          [
+            "Horticultural Development Council (HDC)",
+            "Industry body for horticulture growers and exporters"
           ]
         ],
         "vnInstitutions": [
@@ -617,7 +621,38 @@
             "Plant health market access for fresh fruit"
           ]
         ],
-        "boundaries": "Tobacco grading and packaging are reserved for Zimbabwean citizens, and grain milling is open to foreign investors only above set investment and employment thresholds. MZM works with licensed Zimbabwean merchants and processors in these areas, and focuses on processing, storage and supply contracts, not land."
+        "boundaries": "Tobacco grading and packaging are reserved for Zimbabwean citizens, and grain milling is open to foreign investors only above set investment and employment thresholds. MZM works with licensed Zimbabwean merchants and processors in these areas, and focuses on processing, storage and supply contracts, not land.",
+        "spotlight": {
+          "label": "Spotlight: Blueberries",
+          "title": [
+            "Africa’s third-largest blueberry producer, ",
+            "now shipping to China."
+          ],
+          "body": "Zimbabwe ranks third in Africa for blueberries, after Morocco and South Africa, and already exports to the Netherlands, the UK, Germany, Spain, the UAE, Hong Kong, Singapore and Malaysia. China opened in July 2026. Growers need capital to expand: each hectare costs about US$50,000 to 55,000 to establish, and access to finance is the sector’s main constraint.",
+          "facts": [
+            [
+              "12,000 t",
+              "Exports expected in 2026, up from 9,500 t in 2025"
+            ],
+            [
+              "850 ha",
+              "Under blueberries in 2026, up from 650 ha in 2025"
+            ],
+            [
+              "July 2026",
+              "First shipment to China, under zero tariffs"
+            ]
+          ],
+          "pointsLabel": "What MZM does",
+          "points": [
+            "Investment in farm expansion, packhouses and cold chain, alongside established growers",
+            "Buyer introductions in Asian markets already open, including China, Hong Kong, Singapore and Malaysia",
+            "Preparation for Vietnam’s plant health review, the step that opens the Vietnamese market to Zimbabwean blueberries"
+          ],
+          "source": "Sources: International Blueberry Organization; Horticultural Development Council of Zimbabwe, 2026.",
+          "image": "/images/product-fruit.jpg",
+          "alt": "Blueberries growing on the bush"
+        }
       },
       "energy": {
         "title": "Energy",
@@ -881,7 +916,7 @@
       "Clear limits, ",
       "stated up front."
     ],
-    "limitsBody": "Every opportunity is checked before it reaches an investor, and every fee is agreed in writing and disclosed to all parties.",
+    "limitsBody": "Every opportunity is verified before it reaches an investor, and every fee is agreed in writing and disclosed to all parties.",
     "readHow": "Read our approach",
     "ctaTitle": "Discuss an opportunity in {sector}.",
     "ctaWrite": "Write to",
@@ -891,10 +926,10 @@
   },
   "Corridor": {
     "hero": {
-      "eyebrow": "Flagship Programme",
+      "eyebrow": "Our Two-Way Practice",
       "title": "The Zimbabwe-Vietnam",
       "accent": "Corridor.",
-      "lead": "A two-way programme. We bring Vietnamese investment into Zimbabwe, and we take Zimbabwean products to Vietnamese buyers. Our team in Bulawayo and our Asia desk in Hanoi manage both directions."
+      "lead": "Our trade and investment work runs both ways. We bring Vietnamese investment into Zimbabwe, and take Zimbabwean products to Vietnamese buyers. Our team in Bulawayo and our Asia desk in Hanoi manage both directions."
     },
     "doors": [
       {
@@ -937,7 +972,7 @@
       [
         "Into Asia",
         [
-          "Tobacco, cotton and horticultural produce",
+          "Tobacco, cotton, blueberries and other horticultural produce",
           "Leather, nuts and processed foods",
           "Processed minerals and metals",
           "Verified investment opportunities"
@@ -1005,11 +1040,11 @@
         "body": "Dried fruit, nuts, juice concentrates, tea and coffee. Import requirements are confirmed product by product before any supply commitment."
       },
       {
-        "title": "Fresh Fruit",
+        "title": "Blueberries and Fresh Fruit",
         "status": "access",
         "image": "/images/product-fruit.jpg",
         "alt": "Blueberries growing on the bush",
-        "body": "Blueberries, citrus and avocados. Fresh fruit can be supplied once Vietnam approves import access for each fruit through its plant health process."
+        "body": "Zimbabwe already exports blueberries to Europe, the Middle East, China and Southeast Asia. Blueberries, citrus and avocados can be supplied to Vietnam once it approves import access for each fruit."
       },
       {
         "title": "Processed Minerals",
@@ -1122,7 +1157,7 @@
     "producerBody": "Register your products for verification and buyer introductions in Vietnam.",
     "producerCta": "Register as a Supplier",
     "metaTitle": "The Zimbabwe-Vietnam Corridor | MZM Africa",
-    "metaDescription": "A two-way programme: Vietnamese investment into Zimbabwe, and Zimbabwean products to Vietnamese buyers. Managed from Bulawayo and Hanoi."
+    "metaDescription": "Two-way trade and investment: Vietnamese investment into Zimbabwe, and Zimbabwean products to Vietnamese buyers. Managed from Bulawayo and Hanoi."
   },
   "About": {
     "metaTitle": "About MZM | Mekong Zambezi Meridian Consultants",
@@ -1138,7 +1173,7 @@
     ],
     "whatParas": [
       "MZM works between two sides: Zimbabwean owners, producers and projects, and the Asian investors and buyers who want to work with them. We find opportunities, check them on the ground, prepare them under Zimbabwean law, and introduce them to the right investor or buyer.",
-      "Our Managing Director leads the Asia desk in Hanoi. Our Commercial Director runs our operations in Zimbabwe. Clients deal with the same small team in both countries.",
+      "Our Managing Director leads the Asia desk in Hanoi. Our Commercial Director runs our operations in Zimbabwe. Clients work with the same senior team in both countries.",
       "Every engagement runs through Zimbabwe’s official channels: ZIDA, ZimTrade, the sector ministries, and the official sales channels for minerals and gold."
     ],
     "points": [
@@ -1147,7 +1182,7 @@
         "Incorporated in Zimbabwe and familiar with the procedures of ZIDA, ZimTrade, the sector ministries, MMCZ, Fidelity Gold Refinery and ZERA."
       ],
       [
-        "Checked Before Introduction",
+        "Verified Before Introduction",
         "Title, ownership, licences and the people involved are checked before any opportunity or supplier is introduced."
       ],
       [
@@ -1156,7 +1191,7 @@
       ],
       [
         "Five Sectors, One Standard",
-        "Mining, agriculture, energy, manufacturing, and tourism and hospitality all follow the same checks, the same fee rules and the same team."
+        "Mining, agriculture, energy, manufacturing, and tourism and hospitality all follow the same verification standard, the same fee terms and the same team."
       ]
     ],
     "storyLabel": "Why Bulawayo and Hanoi",
@@ -1203,39 +1238,9 @@
         "/how-we-work"
       ],
       [
-        "Our Team",
-        "/team"
+        "Governance and Ethics",
+        "/governance"
       ]
-    ]
-  },
-  "Team": {
-    "metaTitle": "Our Team | MZM Africa",
-    "metaDescription": "The MZM Consultants leadership team in Hanoi and Zimbabwe.",
-    "eyebrow": "Our Team",
-    "title": "One team,",
-    "accent": "in two countries.",
-    "members": [
-      {
-        "initials": "AM",
-        "name": "Andy Moyo",
-        "role": "Managing Director",
-        "location": "Hanoi, Vietnam",
-        "bio": "Andy Moyo is the founder and Managing Director of MZM Consultants. Based in Hanoi, he leads the firm’s Asia desk and its work with Vietnamese and Asian investors, buyers and trade bodies. He directs every engagement across MZM’s five sectors, from the first meeting with an investor or buyer to the introduction of a checked opportunity in Zimbabwe."
-      },
-      {
-        "initials": "EM",
-        "name": "Ebern Moyo",
-        "role": "Commercial Director",
-        "location": "Zimbabwe",
-        "bio": "Ebern Moyo is Commercial Director of MZM Consultants and runs the firm’s operations in Zimbabwe. He is responsible for checking opportunities and suppliers on the ground, working with Zimbabwean institutions, and managing delivery for clients across all five sectors. He works with the Managing Director in Hanoi so that clients deal with one team in both countries."
-      },
-      {
-        "initials": "CM",
-        "name": "Chido A. Mumvuri",
-        "role": "Deputy Managing Director & Head of Business Development",
-        "location": "Zimbabwe",
-        "bio": "Chido A. Mumvuri is Deputy Managing Director and Head of Business Development at MZM Consultants, which she co-founded. She develops the firm’s commercial partnerships and shapes how MZM’s opportunities are presented to international investors and buyers."
-      }
     ]
   },
   "Contact": {
@@ -1509,8 +1514,8 @@
   "News": {
     "metaTitle": "News and Insights | MZM Africa",
     "metaDescription": "News, policy updates and market insights on investment and trade between Zimbabwe and Vietnam.",
-    "eyebrow": "News and Insights",
-    "title": "Latest From MZM",
+    "eyebrow": "News and Analysis",
+    "title": "Insights",
     "empty": "No posts yet",
     "emptySub": "Check back soon for news and updates from MZM Africa.",
     "readMore": "Read more",

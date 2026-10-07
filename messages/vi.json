@@ -53,7 +53,6 @@
     "about": "Về MZM",
     "aboutSub": [
       "Về MZM",
-      "Đội Ngũ",
       "Văn Phòng"
     ],
     "news": "Tin Tức",
@@ -76,7 +75,6 @@
       "Cơ Hội",
       "Phương Pháp",
       "Về MZM",
-      "Đội Ngũ",
       "Quản Trị & Đạo Đức"
     ],
     "serviceLinks": [
@@ -104,7 +102,7 @@
       "Đầu tư và thương mại",
       "giữa Zimbabwe và Việt Nam."
     ],
-    "sub": "Chúng tôi giúp doanh nghiệp châu Á đầu tư vào Zimbabwe, và nhà sản xuất Zimbabwe bán hàng sang châu Á, với đội ngũ tại Hà Nội và Zimbabwe.",
+    "sub": "Chúng tôi giúp doanh nghiệp Việt Nam và châu Á đầu tư vào Zimbabwe, và giúp nhà sản xuất Zimbabwe bán hàng sang châu Á. Một đội ngũ, hiện diện tại Hà Nội và Zimbabwe.",
     "cta1": "Trao Đổi Với Chúng Tôi",
     "cta2": "Yêu Cầu Tài Liệu Đầu Tư Zimbabwe",
     "mandateLabel": "Về Chúng Tôi",
@@ -115,7 +113,7 @@
     "pillars": [
       [
         "Chúng Tôi Làm Gì",
-        "Chúng tôi chuẩn bị và triển khai đầu tư vào Zimbabwe, và mở thị trường châu Á cho sản phẩm Zimbabwe. Bốn năng lực: hỗ trợ đầu tư, xuất khẩu và tiếp cận thị trường, cung ứng thiết bị và năng lượng, và tư vấn gia nhập thị trường, trong năm lĩnh vực.",
+        "Chúng tôi chuẩn bị và triển khai đầu tư vào Zimbabwe, và mở thị trường châu Á cho sản phẩm Zimbabwe, thông qua bốn năng lực áp dụng trong năm lĩnh vực.",
         "Năng lực",
         "/what-we-do"
       ],
@@ -137,7 +135,7 @@
       "Năm lĩnh vực.",
       "Một tiêu chuẩn."
     ],
-    "sectorsSub": "Các lĩnh vực Zimbabwe ưu tiên thu hút đầu tư nhất, cùng một tiêu chuẩn kiểm tra và cùng một quy tắc về phí.",
+    "sectorsSub": "Các lĩnh vực Zimbabwe ưu tiên thu hút đầu tư nhất, cùng một tiêu chuẩn thẩm định và cùng các điều khoản về phí.",
     "sectorText": {
       "mining": [
         "Khai khoáng và Chế biến",
@@ -145,7 +143,7 @@
       ],
       "agriculture": [
         "Nông nghiệp và Chế biến Nông sản",
-        "Chế biến, chuỗi lạnh và người mua châu Á cho thuốc lá, bông, các loại hạt và trái cây."
+        "Việt quất, chế biến và chuỗi lạnh, cùng người mua châu Á cho thuốc lá, bông và các loại hạt."
       ],
       "energy": [
         "Năng lượng",
@@ -172,8 +170,8 @@
         "Vốn đầu tư được ZIDA phê duyệt trong 6 tháng đầu năm 2026"
       ],
       [
-        "2026",
-        "Chương trình GoGlobal của Việt Nam xác định châu Phi là thị trường đầu tư"
+        "12.000 tấn",
+        "Việt quất Zimbabwe dự kiến xuất khẩu năm 2026, tăng từ 9.500 tấn năm 2025"
       ],
       [
         "1,36 tỷ USD",
@@ -193,7 +191,7 @@
     "eyebrow": "Năng Lực",
     "title": "Bốn năng lực. Năm lĩnh vực.",
     "accent": "Một đội ngũ chịu trách nhiệm.",
-    "lead": "MZM cung cấp bốn năng lực: hỗ trợ đầu tư vào Zimbabwe, xuất khẩu và tiếp cận thị trường cho các nhà sản xuất Zimbabwe, tìm nguồn thiết bị và năng lượng, và tư vấn gia nhập thị trường. Chúng tôi áp dụng các năng lực này trong các lĩnh vực khai khoáng, nông nghiệp, năng lượng, sản xuất, du lịch và khách sạn, với một tiêu chuẩn thẩm định chung và một đội ngũ chịu trách nhiệm tại Hà Nội và tại Zimbabwe.",
+    "lead": "Bốn năng lực, áp dụng trong khai khoáng, nông nghiệp, năng lượng, sản xuất, du lịch và khách sạn, theo một tiêu chuẩn thẩm định chung và một đội ngũ chịu trách nhiệm tại Hà Nội và tại Zimbabwe.",
     "needLabel": "Nhu cầu thị trường",
     "capabilityLabel": "Năng lực triển khai",
     "impactLabel": "Giá trị cho khách hàng",
@@ -292,7 +290,7 @@
     ],
     "thesisLabel": "Quan điểm cốt lõi",
     "thesis": [
-      "Tài nguyên của Zimbabwe cần được chế biến tại Zimbabwe, với nguồn vốn và thiết bị từ những đối tác có ý định gắn bó lâu dài. Hoạt động kinh doanh giữa Zimbabwe và Việt Nam cần được thực hiện thông qua các đối tác đã được kiểm tra và các kênh chính thức, với nhân sự có mặt tại cả hai nước.",
+      "Tài nguyên của Zimbabwe cần được chế biến tại Zimbabwe, với nguồn vốn và thiết bị từ những đối tác có ý định gắn bó lâu dài. Hoạt động kinh doanh giữa Zimbabwe và Việt Nam cần được thực hiện thông qua các đối tác đã được thẩm định và các kênh chính thức, với nhân sự có mặt tại cả hai nước.",
       "MZM ra đời để biến điều đó thành tiêu chuẩn."
     ],
     "focusLabel": "Trọng tâm",
@@ -321,7 +319,7 @@
     "visionLabel": "Tầm nhìn",
     "vision": "Đến năm 2030, trở thành công ty đầu tư và thương mại hàng đầu của Zimbabwe trên Hành Lang Zimbabwe - Việt Nam.",
     "missionLabel": "Sứ mệnh",
-    "mission": "Mang đến hoạt động đầu tư và thương mại đã được kiểm tra giữa châu Á và Zimbabwe, đem lại lợi ích cho nhà đầu tư, người mua và Zimbabwe.",
+    "mission": "Đưa hoạt động đầu tư và thương mại đã được thẩm định giữa châu Á và Zimbabwe, với các điều kiện có lợi cho nhà đầu tư, người mua và Zimbabwe.",
     "ctaTitle": "Xem cách chúng tôi triển khai.",
     "ctaSub": "Một quy trình, năm giai đoạn, thực hiện tại cả hai nước.",
     "cta": "Phương Pháp"
@@ -380,12 +378,12 @@
       [
         "Hà Nội, Việt Nam",
         "Văn phòng châu Á",
-        "Do Giám đốc Điều hành Andy Moyo phụ trách. Gặp gỡ trực tiếp nhà đầu tư, người mua, nhà cung cấp thiết bị và các tổ chức thương mại của Việt Nam và châu Á, trong cùng múi giờ với họ."
+        "Do Giám đốc Điều hành phụ trách. Gặp gỡ trực tiếp nhà đầu tư, người mua, nhà cung cấp thiết bị và các tổ chức thương mại của Việt Nam và châu Á, trong cùng múi giờ với họ."
       ],
       [
         "Zimbabwe",
         "Vận hành",
-        "Do Giám đốc Thương mại Ebern Moyo phụ trách, cùng Phó Giám đốc Điều hành Chido A. Mumvuri phụ trách phát triển kinh doanh. Kiểm tra cơ hội và nhà cung cấp tại thực địa, làm việc với các cơ quan của Zimbabwe và quản lý việc triển khai."
+        "Do Giám đốc Thương mại phụ trách. Thẩm định cơ hội và nhà cung cấp tại thực địa, làm việc với các cơ quan của Zimbabwe và quản lý việc triển khai."
       ],
       [
         "Cả hai nước",
@@ -436,12 +434,12 @@
     "eyebrow": "Lĩnh Vực",
     "title": "Năm lĩnh vực.",
     "accent": "Một tiêu chuẩn.",
-    "lead": "MZM hoạt động trong năm lĩnh vực mà Zimbabwe ưu tiên thu hút đầu tư nhất, theo Chiến lược Phát triển Quốc gia 2 của nước này. Mọi lĩnh vực đều áp dụng cùng một quy trình kiểm tra, cùng quy tắc về phí và cùng một đội ngũ.",
+    "lead": "MZM hoạt động trong năm lĩnh vực mà Zimbabwe ưu tiên thu hút đầu tư nhất, theo Chiến lược Phát triển Quốc gia 2 của nước này. Mọi lĩnh vực đều áp dụng cùng tiêu chuẩn thẩm định, cùng các điều khoản về phí và cùng một đội ngũ.",
     "sectorTag": "Lĩnh vực {num}",
     "exploreSector": "Tìm hiểu lĩnh vực",
-    "corridorLabel": "Chương Trình Trọng Điểm",
+    "corridorLabel": "Hoạt Động Hai Chiều",
     "corridorTitle": "Hành Lang Zimbabwe - Việt Nam",
-    "corridorBody": "Một chương trình hai chiều áp dụng cho cả năm lĩnh vực: đầu tư của Việt Nam vào Zimbabwe, và sản phẩm của Zimbabwe đến người mua Việt Nam.",
+    "corridorBody": "Hoạt động hai chiều của chúng tôi trong cả năm lĩnh vực: đầu tư của Việt Nam vào Zimbabwe, và sản phẩm của Zimbabwe đến người mua Việt Nam.",
     "corridorLink": "Về Hành Lang",
     "processTitle": "Cùng một quy trình cho mọi lĩnh vực.",
     "processBody": "Kiểm tra trước mọi lần giới thiệu, phí được thỏa thuận bằng văn bản, và không thu tiền để đổi lấy quyền tiếp cận. Xem cách MZM triển khai một dự án.",
@@ -540,11 +538,12 @@
       "agriculture": {
         "title": "Nông nghiệp và Chế biến Nông sản",
         "imageAlt": "Cây thuốc lá trên cánh đồng",
-        "summary": "Đầu tư vào chế biến, kho bảo quản và chuỗi lạnh, cùng với người mua châu Á cho thuốc lá, bông, các loại hạt và trái cây của Zimbabwe.",
-        "lead": "Nông nghiệp là nền tảng của hoạt động thương mại hiện nay với Việt Nam: thuốc lá chiếm gần như toàn bộ hàng hóa Zimbabwe bán sang Việt Nam. MZM làm việc theo cả hai chiều, đưa đầu tư của châu Á vào lĩnh vực chế biến và đưa nông sản Zimbabwe đến người mua châu Á.",
+        "summary": "Đầu tư vào việt quất, chế biến và chuỗi lạnh, cùng người mua châu Á cho thuốc lá, bông, các loại hạt và trái cây của Zimbabwe.",
+        "lead": "Nông nghiệp là nền tảng của hoạt động thương mại hiện nay với Việt Nam: thuốc lá chiếm gần như toàn bộ hàng hóa Zimbabwe bán sang Việt Nam. Việt quất là mặt hàng xuất khẩu mới đang tăng trưởng nhanh. MZM làm việc theo cả hai chiều, đưa đầu tư của châu Á vào trang trại, chế biến và chuỗi lạnh, và đưa nông sản Zimbabwe đến người mua châu Á.",
         "context": [
           "Thuốc lá chiếm gần như toàn bộ kim ngạch xuất khẩu hiện nay của Zimbabwe sang Việt Nam.",
           "Năm 2025, Việt Nam nhập khẩu 1,71 triệu tấn bông, chủ yếu từ Hoa Kỳ, Brazil và Australia, và không có nhà cung cấp đáng kể nào từ châu Phi.",
+          "Xuất khẩu việt quất của Zimbabwe đạt 9.500 tấn năm 2025 và dự kiến đạt 12.000 tấn năm 2026. Lô hàng đầu tiên sang Trung Quốc được xuất đi vào tháng 7 năm 2026.",
           "Kế hoạch tăng trưởng ngành làm vườn của Zimbabwe tập trung vào việt quất, bơ, mắc ca, cam quýt và cà phê để xuất khẩu."
         ],
         "focus": [
@@ -561,7 +560,7 @@
           {
             "name": "Các loại hạt và trái cây",
             "status": "access",
-            "body": "Hiện nay: mắc ca và các loại hạt đã qua chế biến. Việt quất, cam quýt và bơ tươi: khi Việt Nam hoàn tất đánh giá kiểm dịch thực vật cho từng loại quả."
+            "body": "Hiện nay: mắc ca và các loại hạt đã qua chế biến. Cam quýt và bơ tươi: khi Việt Nam hoàn tất đánh giá kiểm dịch thực vật cho từng loại quả."
           },
           {
             "name": "Đầu tư chế biến nông sản",
@@ -570,6 +569,7 @@
           }
         ],
         "services": [
+          "Đầu tư mở rộng trang trại việt quất, cơ sở đóng gói và chuỗi lạnh",
           "Đầu tư vào chế biến trái cây, hạt có dầu, sữa và bông",
           "Đầu tư vào chuỗi lạnh, cơ sở đóng gói và kho bảo quản",
           "Giới thiệu các nhà cung cấp máy móc chế biến của Việt Nam",
@@ -601,6 +601,10 @@
           [
             "ZimTrade",
             "Phát triển xuất khẩu và các chương trình kết nối người mua"
+          ],
+          [
+            "Hội đồng Phát triển Ngành làm vườn (HDC)",
+            "Tổ chức ngành của các nhà trồng và xuất khẩu nông sản làm vườn"
           ]
         ],
         "vnInstitutions": [
@@ -617,7 +621,38 @@
             "Mở cửa thị trường về kiểm dịch thực vật cho trái cây tươi"
           ]
         ],
-        "boundaries": "Phân loại và đóng gói thuốc lá là các ngành dành riêng cho công dân Zimbabwe, và lĩnh vực xay xát ngũ cốc chỉ mở cửa cho nhà đầu tư nước ngoài khi vượt các ngưỡng quy định về vốn đầu tư và số lao động. Trong các lĩnh vực này, MZM làm việc với các thương nhân và doanh nghiệp chế biến Zimbabwe được cấp phép, và tập trung vào chế biến, kho bảo quản và hợp đồng cung ứng, không phải đất đai."
+        "boundaries": "Phân loại và đóng gói thuốc lá là các ngành dành riêng cho công dân Zimbabwe, và lĩnh vực xay xát ngũ cốc chỉ mở cửa cho nhà đầu tư nước ngoài khi vượt các ngưỡng quy định về vốn đầu tư và số lao động. Trong các lĩnh vực này, MZM làm việc với các thương nhân và doanh nghiệp chế biến Zimbabwe được cấp phép, và tập trung vào chế biến, kho bảo quản và hợp đồng cung ứng, không phải đất đai.",
+        "spotlight": {
+          "label": "Tiêu Điểm: Việt Quất",
+          "title": [
+            "Nước sản xuất việt quất lớn thứ ba châu Phi, ",
+            "nay đã xuất khẩu sang Trung Quốc."
+          ],
+          "body": "Zimbabwe đứng thứ ba châu Phi về sản xuất việt quất, sau Maroc và Nam Phi, và đã xuất khẩu sang Hà Lan, Anh, Đức, Tây Ban Nha, UAE, Hồng Kông, Singapore và Malaysia. Trung Quốc mở cửa vào tháng 7 năm 2026. Các nhà trồng cần vốn để mở rộng: mỗi hecta cần khoảng 50.000 đến 55.000 USD để thiết lập, và tiếp cận tài chính là hạn chế lớn nhất của ngành.",
+          "facts": [
+            [
+              "12.000 tấn",
+              "Xuất khẩu dự kiến năm 2026, tăng từ 9.500 tấn năm 2025"
+            ],
+            [
+              "850 ha",
+              "Diện tích trồng năm 2026, tăng từ 650 ha năm 2025"
+            ],
+            [
+              "Tháng 7/2026",
+              "Lô hàng đầu tiên sang Trung Quốc, thuế suất 0%"
+            ]
+          ],
+          "pointsLabel": "MZM làm gì",
+          "points": [
+            "Đầu tư mở rộng trang trại, cơ sở đóng gói và chuỗi lạnh, cùng với các nhà trồng đã có kinh nghiệm",
+            "Kết nối người mua tại các thị trường châu Á đã mở cửa, gồm Trung Quốc, Hồng Kông, Singapore và Malaysia",
+            "Chuẩn bị cho quy trình đánh giá kiểm dịch thực vật của Việt Nam, bước mở cửa thị trường Việt Nam cho việt quất Zimbabwe"
+          ],
+          "source": "Nguồn: International Blueberry Organization; Hội đồng Phát triển Ngành làm vườn Zimbabwe (HDC), 2026.",
+          "image": "/images/product-fruit.jpg",
+          "alt": "Việt quất trên cây"
+        }
       },
       "energy": {
         "title": "Năng lượng",
@@ -881,7 +916,7 @@
       "Giới hạn rõ ràng, ",
       "nêu ngay từ đầu."
     ],
-    "limitsBody": "Mọi cơ hội đều được kiểm tra trước khi đến tay nhà đầu tư, và mọi khoản phí đều được thỏa thuận bằng văn bản và công bố cho tất cả các bên.",
+    "limitsBody": "Mọi cơ hội đều được thẩm định trước khi đến tay nhà đầu tư, và mọi khoản phí đều được thỏa thuận bằng văn bản và công bố cho tất cả các bên.",
     "readHow": "Xem phương pháp của chúng tôi",
     "ctaTitle": "Trao đổi về cơ hội trong lĩnh vực {sector}.",
     "ctaWrite": "Gửi thư đến",
@@ -891,10 +926,10 @@
   },
   "Corridor": {
     "hero": {
-      "eyebrow": "Chương Trình Trọng Điểm",
+      "eyebrow": "Hoạt Động Hai Chiều",
       "title": "Hành Lang",
       "accent": "Zimbabwe - Việt Nam.",
-      "lead": "Một chương trình hai chiều. Chúng tôi đưa đầu tư của Việt Nam vào Zimbabwe và đưa sản phẩm của Zimbabwe đến người mua Việt Nam. Đội ngũ tại Bulawayo và văn phòng châu Á tại Hà Nội quản lý cả hai chiều."
+      "lead": "Hoạt động đầu tư và thương mại của chúng tôi diễn ra theo cả hai chiều. Chúng tôi đưa đầu tư của Việt Nam vào Zimbabwe và đưa sản phẩm của Zimbabwe đến người mua Việt Nam. Đội ngũ tại Bulawayo và văn phòng châu Á tại Hà Nội quản lý cả hai chiều."
     },
     "doors": [
       {
@@ -937,7 +972,7 @@
       [
         "Vào châu Á",
         [
-          "Thuốc lá, bông và nông sản làm vườn",
+          "Thuốc lá, bông, việt quất và các nông sản làm vườn khác",
           "Da, các loại hạt và thực phẩm chế biến",
           "Khoáng sản và kim loại đã qua chế biến",
           "Các cơ hội đầu tư đã được thẩm định"
@@ -1005,11 +1040,11 @@
         "body": "Trái cây sấy, các loại hạt, nước ép cô đặc, chè và cà phê. Yêu cầu nhập khẩu được xác nhận theo từng sản phẩm trước mọi cam kết cung ứng."
       },
       {
-        "title": "Trái cây tươi",
+        "title": "Việt quất và trái cây tươi",
         "status": "access",
         "image": "/images/product-fruit.jpg",
         "alt": "Việt quất trên cây",
-        "body": "Việt quất, cam quýt và bơ. Trái cây tươi chỉ được cung ứng sau khi Việt Nam cấp phép nhập khẩu cho từng loại quả theo quy trình kiểm dịch thực vật."
+        "body": "Zimbabwe đã xuất khẩu việt quất sang châu Âu, Trung Đông, Trung Quốc và Đông Nam Á. Việt quất, cam quýt và bơ có thể được cung ứng sang Việt Nam sau khi Việt Nam cấp phép nhập khẩu cho từng loại quả."
       },
       {
         "title": "Khoáng sản chế biến",
@@ -1122,7 +1157,7 @@
     "producerBody": "Đăng ký sản phẩm để được thẩm định và kết nối với người mua tại Việt Nam.",
     "producerCta": "Đăng Ký Nhà Cung Cấp",
     "metaTitle": "Hành Lang Zimbabwe - Việt Nam | MZM Africa",
-    "metaDescription": "Chương trình hai chiều: đầu tư của Việt Nam vào Zimbabwe, và sản phẩm Zimbabwe đến người mua Việt Nam. Được quản lý từ Bulawayo và Hà Nội."
+    "metaDescription": "Thương mại và đầu tư hai chiều: đầu tư của Việt Nam vào Zimbabwe, và sản phẩm Zimbabwe đến người mua Việt Nam. Được quản lý từ Bulawayo và Hà Nội."
   },
   "About": {
     "metaTitle": "Về MZM | Mekong Zambezi Meridian Consultants",
@@ -1138,7 +1173,7 @@
     ],
     "whatParas": [
       "MZM làm việc giữa hai phía: một bên là chủ sở hữu, nhà sản xuất và dự án tại Zimbabwe, bên kia là nhà đầu tư và người mua châu Á muốn hợp tác với họ. Chúng tôi tìm kiếm cơ hội, kiểm tra tại thực địa, chuẩn bị theo pháp luật Zimbabwe và giới thiệu đến đúng nhà đầu tư hoặc người mua.",
-      "Giám đốc Điều hành của chúng tôi phụ trách văn phòng châu Á tại Hà Nội. Giám đốc Thương mại điều hành hoạt động của chúng tôi tại Zimbabwe. Khách hàng làm việc với cùng một đội ngũ gọn nhẹ tại cả hai nước.",
+      "Giám đốc Điều hành của chúng tôi phụ trách văn phòng châu Á tại Hà Nội. Giám đốc Thương mại điều hành hoạt động của chúng tôi tại Zimbabwe. Khách hàng làm việc với cùng một đội ngũ lãnh đạo tại cả hai nước.",
       "Mọi dự án đều được thực hiện qua các kênh chính thức của Zimbabwe: ZIDA, ZimTrade, các bộ chuyên ngành và các kênh bán khoáng sản và vàng chính thức."
     ],
     "points": [
@@ -1147,7 +1182,7 @@
         "Thành lập tại Zimbabwe và am hiểu thủ tục của ZIDA, ZimTrade, các bộ chuyên ngành, MMCZ, Fidelity Gold Refinery (Nhà máy tinh luyện vàng Fidelity) và ZERA."
       ],
       [
-        "Kiểm tra trước khi giới thiệu",
+        "Thẩm định trước khi giới thiệu",
         "Quyền sở hữu tài sản, chủ sở hữu, giấy phép và các cá nhân liên quan đều được kiểm tra trước khi bất kỳ cơ hội hoặc nhà cung cấp nào được giới thiệu."
       ],
       [
@@ -1156,7 +1191,7 @@
       ],
       [
         "Năm lĩnh vực, một tiêu chuẩn",
-        "Khai khoáng, nông nghiệp, năng lượng, sản xuất, du lịch và khách sạn đều áp dụng cùng quy trình kiểm tra, cùng quy định về phí và cùng một đội ngũ."
+        "Khai khoáng, nông nghiệp, năng lượng, sản xuất, du lịch và khách sạn đều áp dụng cùng tiêu chuẩn thẩm định, cùng các điều khoản về phí và cùng một đội ngũ."
       ]
     ],
     "storyLabel": "Vì sao Bulawayo và Hà Nội",
@@ -1203,39 +1238,9 @@
         "/how-we-work"
       ],
       [
-        "Đội Ngũ",
-        "/team"
+        "Quản Trị và Đạo Đức",
+        "/governance"
       ]
-    ]
-  },
-  "Team": {
-    "metaTitle": "Đội Ngũ | MZM Africa",
-    "metaDescription": "Ban lãnh đạo MZM Consultants tại Hà Nội và Zimbabwe.",
-    "eyebrow": "Đội Ngũ",
-    "title": "Một đội ngũ,",
-    "accent": "tại hai quốc gia.",
-    "members": [
-      {
-        "initials": "AM",
-        "name": "Andy Moyo",
-        "role": "Giám đốc Điều hành",
-        "location": "Hà Nội, Việt Nam",
-        "bio": "Andy Moyo là nhà sáng lập và Giám đốc Điều hành của MZM Consultants. Làm việc tại Hà Nội, ông phụ trách văn phòng châu Á của công ty và các hoạt động với nhà đầu tư, người mua và tổ chức thương mại của Việt Nam và châu Á. Ông chỉ đạo mọi dự án trong năm lĩnh vực của MZM, từ buổi gặp đầu tiên với nhà đầu tư hoặc người mua đến khi giới thiệu một cơ hội đã được kiểm tra tại Zimbabwe."
-      },
-      {
-        "initials": "EM",
-        "name": "Ebern Moyo",
-        "role": "Giám đốc Thương mại",
-        "location": "Zimbabwe",
-        "bio": "Ebern Moyo là Giám đốc Thương mại của MZM Consultants và điều hành hoạt động của công ty tại Zimbabwe. Ông chịu trách nhiệm kiểm tra cơ hội và nhà cung cấp tại thực địa, làm việc với các cơ quan của Zimbabwe và quản lý việc triển khai cho khách hàng trong cả năm lĩnh vực. Ông phối hợp với Giám đốc Điều hành tại Hà Nội để khách hàng làm việc với một đội ngũ thống nhất tại cả hai nước."
-      },
-      {
-        "initials": "CM",
-        "name": "Chido A. Mumvuri",
-        "role": "Phó Giám đốc Điều hành kiêm Trưởng phòng Phát triển Kinh doanh",
-        "location": "Zimbabwe",
-        "bio": "Chido A. Mumvuri là Phó Giám đốc Điều hành kiêm Trưởng phòng Phát triển Kinh doanh của MZM Consultants, đồng thời là người đồng sáng lập công ty. Bà phát triển các quan hệ đối tác thương mại của công ty và định hướng cách thức giới thiệu các cơ hội của MZM đến nhà đầu tư và người mua quốc tế."
-      }
     ]
   },
   "Contact": {
@@ -1509,8 +1514,8 @@
   "News": {
     "metaTitle": "Tin Tức và Phân Tích | MZM Africa",
     "metaDescription": "Tin tức, cập nhật chính sách và phân tích thị trường về đầu tư và thương mại giữa Zimbabwe và Việt Nam.",
-    "eyebrow": "Tin Tức và Phân Tích",
-    "title": "Tin Mới Nhất Từ MZM",
+    "eyebrow": "Tin Tức",
+    "title": "Tin Tức và Phân Tích",
     "empty": "Chưa có bài viết",
     "emptySub": "Xin vui lòng quay lại sau để xem tin tức và cập nhật mới từ MZM Africa.",
     "readMore": "Xem thêm",

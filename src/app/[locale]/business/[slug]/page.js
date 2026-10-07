@@ -76,6 +76,35 @@ export default async function SectorPage({ params: { locale, slug } }) {
         </div>
       </section>
 
+      {/* SPOTLIGHT (optional, per sector) */}
+      {s.spotlight && (
+        <section className="py-20 bg-[#080C14]">
+          <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-5 gap-10 items-start">
+            <div className="lg:col-span-3">
+              <SectionLabel>{s.spotlight.label}</SectionLabel>
+              <h2 className="font-serif text-4xl font-bold mb-6 leading-tight">{s.spotlight.title[0]}<span className="text-[#C4A04A] italic">{s.spotlight.title[1]}</span></h2>
+              <p className="text-gray-300 font-light text-lg leading-relaxed mb-8">{s.spotlight.body}</p>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-px bg-white/10 border border-white/10 mb-8">
+                {s.spotlight.facts.map(([n, t]) => (
+                  <div key={n} className="bg-[#0A0E18] p-6">
+                    <div className="font-serif text-3xl font-bold text-[#C4A04A] mb-2 leading-none">{n}</div>
+                    <div className="text-gray-400 text-sm font-light leading-snug">{t}</div>
+                  </div>
+                ))}
+              </div>
+              <div className="text-[10px] font-black tracking-widest uppercase text-gray-400 mb-4">{s.spotlight.pointsLabel}</div>
+              <ul className="space-y-3 mb-6">
+                {s.spotlight.points.map((x) => <li key={x} className="flex gap-3 text-sm text-gray-200 font-light leading-relaxed"><Dash />{x}</li>)}
+              </ul>
+              <p className="text-xs text-gray-500">{s.spotlight.source}</p>
+            </div>
+            <div className="lg:col-span-2 border border-white/10 overflow-hidden">
+              <img src={s.spotlight.image} alt={s.spotlight.alt} loading="lazy" className="w-full aspect-[4/5] object-cover" />
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* POLICY */}
       <section className="py-20 bg-[#080C14]">
         <div className="max-w-7xl mx-auto px-6">

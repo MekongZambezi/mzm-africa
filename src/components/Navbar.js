@@ -10,7 +10,7 @@ const SUB_LINKS = {
   opportunity: ['/opportunity#context', '/opportunity#thesis'],
   approach: ['/how-we-work#framework', '/how-we-work#commitments', '/governance', '/fraud-notice'],
   corridor: ['/corridor#invest', '/corridor#source', '/corridor#producers'],
-  about: ['/about', '/team', '/about#offices'],
+  about: ['/about', '/about#offices'],
 }
 
 const TOP_LINKS = [

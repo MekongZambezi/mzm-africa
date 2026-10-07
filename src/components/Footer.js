@@ -1,7 +1,7 @@
 import { useTranslations } from 'next-intl'
 import { Link } from '../i18n/navigation'
 
-const COMPANY_HREFS = ['/what-we-do', '/opportunity', '/how-we-work', '/about', '/team', '/governance']
+const COMPANY_HREFS = ['/what-we-do', '/opportunity', '/how-we-work', '/about', '/governance']
 const BUSINESS_HREFS = ['/business/mining', '/business/agriculture', '/business/energy', '/business/manufacturing', '/business/tourism', '/corridor']
 
 export default function Footer() {
