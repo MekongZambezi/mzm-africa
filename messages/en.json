@@ -98,7 +98,8 @@
     "fraud": "Fraud notice",
     "privacy": "Privacy policy",
     "governance": "Governance & Ethics",
-    "whatsapp": "WhatsApp and WeChat"
+    "whatsapp": "WhatsApp and Zalo",
+    "chatAria": "Message MZM on"
   },
   "Home": {
     "eyebrow": "Mekong Zambezi Meridian Consultants",
@@ -1356,7 +1357,8 @@
     "successTitle": "Thank You",
     "successBody": "We have received your enquiry and will respond within 48 hours.",
     "error": "Something went wrong. Please email us directly at projects@mzmafrica.com",
-    "whatsappLabel": "WhatsApp and WeChat"
+    "whatsappLabel": "WhatsApp and Zalo",
+    "chatAria": "Message MZM on"
   },
   "Governance": {
     "metaTitle": "Governance and Ethics | MZM Africa",
@@ -1435,7 +1437,7 @@
       "always true."
     ],
     "genuine": [
-      "MZM email comes only from addresses ending in @mzmafrica.com. Our only WhatsApp and WeChat number is +84 814 944 804. Our team may also contact you on Zalo, but documents and payment details are only ever sent from an @mzmafrica.com address.",
+      "MZM email comes only from addresses ending in @mzmafrica.com. Our team also uses WhatsApp and Zalo, reachable through the buttons on this website, but documents and payment details are only ever sent from an @mzmafrica.com address.",
       "Fees are agreed in a signed fee letter before any work begins.",
       "Payments to MZM are made only to MZM’s registered company bank accounts, never to a personal account.",
       "MZM never asks for payment to release documents, reserve a claim, or secure access to officials.",

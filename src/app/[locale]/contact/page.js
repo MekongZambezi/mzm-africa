@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react'
 import { useLocale, useMessages } from 'next-intl'
 import { Link } from '../../../i18n/navigation'
+import ChatLinks from '../../../components/ChatLinks'
 
 // Submitted values stay in English so enquiries read the same in the MZM inbox,
 // whichever language the visitor used. The visitor's language is sent as a field.
@@ -99,7 +100,7 @@ export default function Contact() {
             </ol>
 
             <div className="space-y-6">
-              {[[c.emailLabel, 'projects@mzmafrica.com', 'mailto:projects@mzmafrica.com'], [c.whatsappLabel, '+84 814 944 804', 'https://wa.me/84814944804'], [c.hqLabel, c.hq, null], [c.asiaLabel, c.asia, null]].map(([label, value, href]) => (
+              {[[c.emailLabel, 'projects@mzmafrica.com', 'mailto:projects@mzmafrica.com'], [c.hqLabel, c.hq, null], [c.asiaLabel, c.asia, null]].map(([label, value, href]) => (
                 <div key={label} className="flex gap-4">
                   <div className="w-10 h-10 border border-[#C4A04A]/30 flex items-center justify-center shrink-0"><div className="w-2 h-2 bg-[#C4A04A]" /></div>
                   <div>
@@ -108,6 +109,14 @@ export default function Contact() {
                   </div>
                 </div>
               ))}
+            </div>
+
+            <div className="flex gap-4 mt-6">
+              <div className="w-10 h-10 border border-[#C4A04A]/30 flex items-center justify-center shrink-0"><div className="w-2 h-2 bg-[#C4A04A]" /></div>
+              <div>
+                <div className="text-xs font-bold tracking-widest uppercase text-gray-400 mb-2">{c.whatsappLabel}</div>
+                <ChatLinks label={c.chatAria} />
+              </div>
             </div>
 
             <div className="mt-10 border border-[#C4A04A]/30 bg-[#C4A04A]/5 p-5 text-sm text-gray-300 font-light leading-relaxed">

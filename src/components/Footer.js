@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl'
 import { Link } from '../i18n/navigation'
+import ChatLinks from './ChatLinks'
 
 const COMPANY_HREFS = ['/what-we-do', '/opportunity', '/how-we-work', '/about', '/team', '/governance']
 const BUSINESS_HREFS = ['/business/mining', '/business/agriculture', '/business/energy', '/business/manufacturing', '/business/tourism', '/corridor']
@@ -47,7 +48,7 @@ export default function Footer() {
               </li>
               <li>
                 <div className="text-xs text-gray-400 uppercase tracking-wider mb-1">{t('whatsapp')}</div>
-                <a href="https://wa.me/84814944804" className="hover:text-[#C4A04A] transition-colors">+84 814 944 804</a>
+                <ChatLinks label={t('chatAria')} size="sm" />
               </li>
               <li>
                 <Link href="/contact?type=brief" className="inline-block mt-2 text-xs font-bold tracking-widest uppercase text-[#C4A04A] border border-[#7A6230] px-4 py-2 hover:bg-[#C4A04A] hover:text-[#080C14] transition-colors">{t('enquire')}</Link>

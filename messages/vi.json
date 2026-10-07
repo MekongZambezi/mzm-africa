@@ -98,7 +98,8 @@
     "fraud": "Cảnh báo gian lận",
     "privacy": "Chính sách bảo mật",
     "governance": "Quản Trị & Đạo Đức",
-    "whatsapp": "WhatsApp và WeChat"
+    "whatsapp": "WhatsApp và Zalo",
+    "chatAria": "Nhắn tin cho MZM qua"
   },
   "Home": {
     "eyebrow": "Mekong Zambezi Meridian Consultants",
@@ -1356,7 +1357,8 @@
     "successTitle": "Xin Cảm Ơn",
     "successBody": "Chúng tôi đã nhận được yêu cầu của quý vị và sẽ phản hồi trong vòng 48 giờ.",
     "error": "Đã có lỗi xảy ra. Xin vui lòng gửi email trực tiếp cho chúng tôi theo địa chỉ projects@mzmafrica.com",
-    "whatsappLabel": "WhatsApp và WeChat"
+    "whatsappLabel": "WhatsApp và Zalo",
+    "chatAria": "Nhắn tin cho MZM qua"
   },
   "Governance": {
     "metaTitle": "Quản Trị và Đạo Đức | MZM Africa",
@@ -1435,7 +1437,7 @@
       "luôn luôn đúng."
     ],
     "genuine": [
-      "Email của MZM chỉ được gửi từ các địa chỉ có đuôi @mzmafrica.com. Số WhatsApp và WeChat duy nhất của chúng tôi là +84 814 944 804. Đội ngũ của chúng tôi cũng có thể liên hệ với quý vị qua Zalo, nhưng tài liệu và thông tin thanh toán chỉ được gửi từ một địa chỉ @mzmafrica.com.",
+      "Email của MZM chỉ được gửi từ các địa chỉ có đuôi @mzmafrica.com. Đội ngũ của chúng tôi cũng sử dụng WhatsApp và Zalo, có thể liên hệ qua các nút trên trang web này, nhưng tài liệu và thông tin thanh toán chỉ được gửi từ một địa chỉ @mzmafrica.com.",
       "Phí được thống nhất trong thư thỏa thuận phí có chữ ký trước khi bắt đầu bất kỳ công việc nào.",
       "Các khoản thanh toán cho MZM chỉ được chuyển vào tài khoản ngân hàng đã đăng ký của công ty MZM, không bao giờ vào tài khoản cá nhân.",
       "MZM không bao giờ yêu cầu thanh toán để cung cấp tài liệu, giữ chỗ một khu mỏ, hoặc bảo đảm việc tiếp cận quan chức.",
