@@ -45,8 +45,9 @@ export default async function LocaleLayout({ children, params: { locale } }) {
       </head>
       <body>
         <NextIntlClientProvider locale={locale} messages={clientMessages}>
+          <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:bg-[#C4A04A] focus:text-[#080C14] focus:px-4 focus:py-2 focus:text-sm focus:font-bold">{messages.Common.skip}</a>
           <Navbar />
-          <main>{children}</main>
+          <main id="main" tabIndex={-1}>{children}</main>
           <Footer />
         </NextIntlClientProvider>
       </body>

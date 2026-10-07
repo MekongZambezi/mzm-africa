@@ -148,7 +148,7 @@ export default async function Corridor({ params: { locale } }) {
             {practices.map((p) => (
               <Link key={p.slug} href={p.href} className="group flex flex-col md:flex-row md:items-baseline justify-between gap-2 md:gap-10 py-6 border-b border-white/10 hover:bg-white/[0.02] transition-colors">
                 <span className="flex items-baseline gap-5">
-                  <span className="font-serif text-xl text-[#C4A04A]/50 font-bold">{p.num}</span>
+                  <span className="font-serif text-xl text-[#C4A04A]/70 font-bold">{p.num}</span>
                   <span className="font-serif text-2xl md:text-3xl font-semibold group-hover:text-[#C4A04A] transition-colors">{sectors[p.slug].title}</span>
                 </span>
                 <span className="text-gray-400 font-light text-sm md:max-w-md md:text-right">{sectors[p.slug].summary}</span>

@@ -11,8 +11,6 @@ const nextConfig = {
       { source: '/:locale(en|vi)/minerals', destination: '/:locale/business/mining', permanent: true },
       { source: '/:locale(en|vi)/services', destination: '/:locale/business/mining', permanent: true },
       { source: '/:locale(en|vi)/why-we-do-it', destination: '/:locale/opportunity', permanent: true },
-      { source: '/:locale(en|vi)/team', destination: '/:locale/about', permanent: true },
-      { source: '/team', destination: '/about', permanent: true },
       { source: '/minerals', destination: '/business/mining', permanent: true },
       { source: '/services', destination: '/business/mining', permanent: true },
       { source: '/why-we-do-it', destination: '/opportunity', permanent: true },

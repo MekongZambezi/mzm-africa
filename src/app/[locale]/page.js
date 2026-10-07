@@ -53,7 +53,7 @@ export default async function Home({ params: { locale } }) {
             {c.pillars.map(([title, body, link, href], i) => (
               <Link key={href} href={href} className="group bg-[#080C14] p-10 hover:bg-[#0D1320] transition-colors relative flex flex-col">
                 <div className="absolute top-0 left-0 w-full h-0.5 bg-[#C4A04A] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
-                <div className="font-serif text-5xl font-bold text-[#C4A04A]/30 mb-6">{String(i + 1).padStart(2, '0')}</div>
+                <div className="font-serif text-5xl font-bold text-[#C4A04A]/70 mb-6">{String(i + 1).padStart(2, '0')}</div>
                 <h3 className="font-serif text-3xl font-semibold mb-5">{title}</h3>
                 <p className="text-gray-300 font-light leading-relaxed mb-8 flex-1">{body}</p>
                 <span className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase inline-flex items-center gap-2">{link} <Arrow /></span>

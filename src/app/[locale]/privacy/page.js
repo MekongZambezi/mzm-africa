@@ -19,7 +19,7 @@ export default async function Privacy({ params: { locale } }) {
             <span className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase">{c.eyebrow}</span>
           </div>
           <h1 className="font-serif text-4xl md:text-5xl font-bold leading-tight mb-4">{c.title}</h1>
-          <div className="text-gray-500 text-sm">{c.updated}</div>
+          <div className="text-gray-400 text-sm">{c.updated}</div>
         </div>
       </section>
 

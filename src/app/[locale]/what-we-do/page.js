@@ -23,7 +23,7 @@ export default async function Capabilities({ params: { locale } }) {
           {c.items.map((item) => (
             <article key={item.num} id={`capability-${item.num}`} className="border border-white/10 bg-[#0A0E18] grid grid-cols-1 lg:grid-cols-12 scroll-mt-24">
               <div className="lg:col-span-4 p-10 border-b lg:border-b-0 lg:border-r border-white/10">
-                <div className="font-serif text-5xl font-bold text-[#C4A04A]/40 mb-4">{item.num}</div>
+                <div className="font-serif text-5xl font-bold text-[#C4A04A]/70 mb-4">{item.num}</div>
                 <h2 className="font-serif text-3xl font-semibold leading-snug mb-6">{item.name}</h2>
                 <div className="text-[10px] font-black tracking-widest uppercase text-gray-400 mb-2">{c.needLabel}</div>
                 <p className="text-gray-300 font-light leading-relaxed text-sm">{item.need}</p>
@@ -52,7 +52,7 @@ export default async function Capabilities({ params: { locale } }) {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-px bg-white/10 border border-white/10">
             {practices.map((p) => (
               <Link key={p.slug} href={p.href} className="group bg-[#080C14] p-7 hover:bg-[#0D1320] transition-colors">
-                <div className="font-serif text-2xl font-bold text-[#C4A04A]/50 mb-3">{p.num}</div>
+                <div className="font-serif text-2xl font-bold text-[#C4A04A]/70 mb-3">{p.num}</div>
                 <div className="font-serif text-xl font-semibold leading-snug mb-3 group-hover:text-[#C4A04A] transition-colors">{sectors[p.slug].title}</div>
                 <p className="text-gray-400 text-sm font-light leading-relaxed">{sectors[p.slug].summary}</p>
               </Link>

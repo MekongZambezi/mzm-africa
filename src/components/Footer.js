@@ -1,7 +1,7 @@
 import { useTranslations } from 'next-intl'
 import { Link } from '../i18n/navigation'
 
-const COMPANY_HREFS = ['/what-we-do', '/opportunity', '/how-we-work', '/about', '/governance']
+const COMPANY_HREFS = ['/what-we-do', '/opportunity', '/how-we-work', '/about', '/team', '/governance']
 const BUSINESS_HREFS = ['/business/mining', '/business/agriculture', '/business/energy', '/business/manufacturing', '/business/tourism', '/corridor']
 
 export default function Footer() {
@@ -37,13 +37,17 @@ export default function Footer() {
             <h4 className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase mb-5">{t('contact')}</h4>
             <ul className="space-y-4 text-sm text-gray-400">
               <li>
-                <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">{t('email')}</div>
+                <div className="text-xs text-gray-400 uppercase tracking-wider mb-1">{t('email')}</div>
                 <a href="mailto:projects@mzmafrica.com" className="hover:text-[#C4A04A] transition-colors">projects@mzmafrica.com</a>
               </li>
               <li>
-                <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">{t('offices')}</div>
+                <div className="text-xs text-gray-400 uppercase tracking-wider mb-1">{t('offices')}</div>
                 <div>{t('hq')}</div>
                 <div>{t('asia')}</div>
+              </li>
+              <li>
+                <div className="text-xs text-gray-400 uppercase tracking-wider mb-1">{t('whatsapp')}</div>
+                <a href="https://wa.me/84814944804" className="hover:text-[#C4A04A] transition-colors">+84 814 944 804</a>
               </li>
               <li>
                 <Link href="/contact?type=brief" className="inline-block mt-2 text-xs font-bold tracking-widest uppercase text-[#C4A04A] border border-[#7A6230] px-4 py-2 hover:bg-[#C4A04A] hover:text-[#080C14] transition-colors">{t('enquire')}</Link>
@@ -52,8 +56,8 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-8">
-          <p className="text-xs text-gray-500">© {new Date().getFullYear()} Mekong Zambezi Meridian Consultants. {t('rights')}</p>
-          <p className="text-xs text-gray-600 text-center">
+          <p className="text-xs text-gray-400">© {new Date().getFullYear()} Mekong Zambezi Meridian Consultants (Private) Limited. {t('rights')}</p>
+          <p className="text-xs text-gray-400 text-center">
             {t('registered')} · <Link href="/fraud-notice" className="text-gray-400 hover:text-[#C4A04A] transition-colors">{t('fraud')}</Link> · <Link href="/governance" className="hover:text-gray-400 transition-colors">{t('governance')}</Link> · <Link href="/privacy" className="hover:text-gray-400 transition-colors">{t('privacy')}</Link>
           </p>
         </div>

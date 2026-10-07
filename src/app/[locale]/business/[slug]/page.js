@@ -96,7 +96,7 @@ export default async function SectorPage({ params: { locale, slug } }) {
               <ul className="space-y-3 mb-6">
                 {s.spotlight.points.map((x) => <li key={x} className="flex gap-3 text-sm text-gray-200 font-light leading-relaxed"><Dash />{x}</li>)}
               </ul>
-              <p className="text-xs text-gray-500">{s.spotlight.source}</p>
+              <p className="text-xs text-gray-400">{s.spotlight.source}</p>
             </div>
             <div className="lg:col-span-2 border border-white/10 overflow-hidden">
               <img src={s.spotlight.image} alt={s.spotlight.alt} loading="lazy" className="w-full aspect-[4/5] object-cover" />
@@ -168,7 +168,7 @@ export default async function SectorPage({ params: { locale, slug } }) {
           <div>
             <h2 className="font-serif text-3xl font-bold mb-2">{t('ctaTitle', { sector: s.title })}</h2>
             <p className="text-gray-400 font-light">
-              {c.ctaWrite} <a href={`mailto:${p.contact}`} className="text-[#C4A04A] hover:text-[#E0CA8E]">{p.contact}</a>. {c.ctaReply}
+              {c.ctaWrite} <a href={`mailto:${p.contact}`} className="text-[#C4A04A] underline underline-offset-4 hover:text-[#E0CA8E]">{p.contact}</a>. {c.ctaReply}
             </p>
           </div>
           <Link href="/contact?type=consultation" className="shrink-0 bg-[#C4A04A] text-[#080C14] text-xs font-black tracking-widest uppercase px-10 py-4 hover:bg-[#E0CA8E] transition-colors">{c.getInTouch}</Link>
@@ -182,7 +182,7 @@ export default async function SectorPage({ params: { locale, slug } }) {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-white/10 border border-white/10">
             {others.map((o) => (
               <Link key={o.slug} href={o.href} className="bg-[#080C14] p-6 hover:bg-[#0D1320] transition-colors">
-                <div className="font-serif text-xl text-[#C4A04A]/50 font-bold mb-2">{o.num}</div>
+                <div className="font-serif text-xl text-[#C4A04A]/70 font-bold mb-2">{o.num}</div>
                 <div className="font-serif text-lg font-semibold leading-snug">{m.Sectors.items[o.slug].title}</div>
               </Link>
             ))}

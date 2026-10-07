@@ -56,7 +56,7 @@ export default async function Opportunity({ params: { locale } }) {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-white/10 border border-white/10">
             {c.values.map(([title, body], i) => (
               <div key={title} className="bg-[#080C14] p-8">
-                <div className="font-serif text-3xl font-bold text-[#C4A04A]/30 mb-4">{String(i + 1).padStart(2, '0')}</div>
+                <div className="font-serif text-3xl font-bold text-[#C4A04A]/70 mb-4">{String(i + 1).padStart(2, '0')}</div>
                 <h3 className="font-serif text-2xl font-semibold mb-3">{title}</h3>
                 <p className="text-gray-400 font-light text-sm leading-relaxed">{body}</p>
               </div>

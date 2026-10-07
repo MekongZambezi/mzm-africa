@@ -66,7 +66,7 @@ export default function LanguageSwitcher({ variant = 'dropdown', onSwitch }) {
               <button type="button" lang={l.code} onClick={() => select(l.code)}
                 className={`w-full flex items-center justify-between gap-4 px-4 py-3 text-sm text-left border-b border-white/5 last:border-0 transition-colors ${locale === l.code ? 'text-[#C4A04A]' : 'text-gray-300 hover:text-white hover:bg-white/5'}`}>
                 <span>{l.name}</span>
-                <span className="text-[10px] font-black tracking-widest text-gray-500">{l.short}</span>
+                <span className="text-[10px] font-black tracking-widest text-gray-400">{l.short}</span>
               </button>
             </li>
           ))}

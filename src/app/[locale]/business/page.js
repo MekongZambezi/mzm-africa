@@ -32,7 +32,7 @@ export default async function Sectors({ params: { locale } }) {
                 </div>
                 <div className="p-8 flex flex-col flex-1">
                   <div className="flex items-center justify-between mb-4">
-                    <span className="font-serif text-3xl font-bold text-[#C4A04A]/40">{p.num}</span>
+                    <span className="font-serif text-3xl font-bold text-[#C4A04A]/70">{p.num}</span>
                     <span className="text-[10px] font-black tracking-widest uppercase px-3 py-1 bg-[#C4A04A]/10 text-[#C4A04A]">{t('sectorTag', { num: p.num })}</span>
                   </div>
                   <h2 className="font-serif text-2xl font-semibold mb-3">{s.title}</h2>

@@ -10,7 +10,7 @@ const SUB_LINKS = {
   opportunity: ['/opportunity#context', '/opportunity#thesis'],
   approach: ['/how-we-work#framework', '/how-we-work#commitments', '/governance', '/fraud-notice'],
   corridor: ['/corridor#invest', '/corridor#source', '/corridor#producers'],
-  about: ['/about', '/about#offices'],
+  about: ['/about', '/team', '/about#offices'],
 }
 
 const TOP_LINKS = [
@@ -93,7 +93,7 @@ export default function Navbar() {
       {mobileOpen && (
         <div className="xl:hidden bg-[#0F1520] border-t border-white/10 px-6 py-4 max-h-[calc(100vh-4rem)] overflow-y-auto">
           <div className="mb-4 pb-4 border-b border-white/10">
-            <div className="text-[10px] font-black tracking-widest uppercase text-gray-500 mb-3">{t('language')}</div>
+            <div className="text-[10px] font-black tracking-widest uppercase text-gray-400 mb-3">{t('language')}</div>
             <LanguageSwitcher variant="buttons" onSwitch={() => setMobileOpen(false)} />
           </div>
           {navItems.map((item) => (

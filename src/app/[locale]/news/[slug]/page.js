@@ -53,7 +53,7 @@ export default async function NewsPost({ params: { locale, slug } }) {
           <Link href="/news" className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase flex items-center gap-2 mb-6 hover:gap-3 transition-all">← {c.back}</Link>
           <div className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase mb-3">{post.category || c.update}</div>
           <h1 lang="en" className="font-serif text-4xl md:text-5xl font-bold leading-tight mb-4">{post.title}</h1>
-          <div className="text-gray-500 text-sm">{formatDate(post.date, locale)}</div>
+          <div className="text-gray-400 text-sm">{formatDate(post.date, locale)}</div>
           {c.englishOnly && <p className="text-gray-400 text-sm font-light mt-4">{c.englishOnly}</p>}
         </div>
       </section>

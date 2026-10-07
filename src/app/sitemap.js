@@ -10,7 +10,7 @@ const SITE = 'https://mzmafrica.com'
 export default function sitemap() {
   const newsDir = path.join(process.cwd(), 'content/news')
   const news = fs.existsSync(newsDir) ? fs.readdirSync(newsDir).filter((f) => f.endsWith('.md')).map((f) => `/news/${f.replace(/\.md$/, '')}`) : []
-  const paths = ['', '/what-we-do', '/business', ...practices.map((p) => p.href), '/opportunity', '/how-we-work', '/corridor', '/about', '/news', ...news, '/contact', '/governance', '/fraud-notice', '/privacy']
+  const paths = ['', '/what-we-do', '/business', ...practices.map((p) => p.href), '/opportunity', '/how-we-work', '/corridor', '/about', '/team', '/news', ...news, '/contact', '/governance', '/fraud-notice', '/privacy']
   const now = new Date()
   return paths.flatMap((p) =>
     routing.locales.map((locale) => ({

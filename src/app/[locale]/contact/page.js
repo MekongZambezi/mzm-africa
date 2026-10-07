@@ -19,7 +19,7 @@ const INTEREST_VALUES = {
 }
 
 const inputCls = 'w-full bg-[#0F1520] border border-white/10 text-white px-4 py-3 text-sm focus:border-[#C4A04A]/60 focus:outline-none transition-colors placeholder-gray-600'
-const labelCls = 'block text-xs font-bold tracking-widest uppercase text-gray-500 mb-2'
+const labelCls = 'block text-xs font-bold tracking-widest uppercase text-gray-400 mb-2'
 
 export default function Contact() {
   const c = useMessages().Contact
@@ -99,11 +99,11 @@ export default function Contact() {
             </ol>
 
             <div className="space-y-6">
-              {[[c.emailLabel, 'projects@mzmafrica.com', 'mailto:projects@mzmafrica.com'], [c.hqLabel, c.hq, null], [c.asiaLabel, c.asia, null]].map(([label, value, href]) => (
+              {[[c.emailLabel, 'projects@mzmafrica.com', 'mailto:projects@mzmafrica.com'], [c.whatsappLabel, '+84 814 944 804', 'https://wa.me/84814944804'], [c.hqLabel, c.hq, null], [c.asiaLabel, c.asia, null]].map(([label, value, href]) => (
                 <div key={label} className="flex gap-4">
                   <div className="w-10 h-10 border border-[#C4A04A]/30 flex items-center justify-center shrink-0"><div className="w-2 h-2 bg-[#C4A04A]" /></div>
                   <div>
-                    <div className="text-xs font-bold tracking-widest uppercase text-gray-500 mb-1">{label}</div>
+                    <div className="text-xs font-bold tracking-widest uppercase text-gray-400 mb-1">{label}</div>
                     {href ? <a href={href} className="text-white hover:text-[#C4A04A] transition-colors">{value}</a> : <div className="text-white">{value}</div>}
                   </div>
                 </div>
@@ -132,33 +132,33 @@ export default function Contact() {
                 <div className="grid grid-cols-2 gap-5">
                   {[['firstName', 'text'], ['lastName', 'text']].map(([name, type]) => (
                     <div key={name}>
-                      <label className={labelCls}>{c.fields[name]}</label>
-                      <input type={type} name={name} placeholder={c.placeholders[name]} required className={inputCls} />
+                      <label htmlFor={`f-${name}`} className={labelCls}>{c.fields[name]}</label>
+                      <input id={`f-${name}`} type={type} name={name} placeholder={c.placeholders[name]} required className={inputCls} />
                     </div>
                   ))}
                 </div>
 
                 <div>
-                  <label className={labelCls}>{c.fields.email}</label>
-                  <input type="email" name="email" placeholder={c.placeholders.email} required className={inputCls} />
+                  <label htmlFor="f-email" className={labelCls}>{c.fields.email}</label>
+                  <input id="f-email" type="email" autoComplete="email" name="email" placeholder={c.placeholders.email} required className={inputCls} />
                 </div>
 
                 <div>
-                  <label className={labelCls}>{c.fields.enquiryType}</label>
-                  <select name="enquiryType" value={ENQUIRY_VALUES[enquiryType]} onChange={(e) => setEnquiryType(Object.keys(ENQUIRY_VALUES).find((k) => ENQUIRY_VALUES[k] === e.target.value))} className={`${inputCls} appearance-none`}>
+                  <label htmlFor="f-enquiryType" className={labelCls}>{c.fields.enquiryType}</label>
+                  <select id="f-enquiryType" name="enquiryType" value={ENQUIRY_VALUES[enquiryType]} onChange={(e) => setEnquiryType(Object.keys(ENQUIRY_VALUES).find((k) => ENQUIRY_VALUES[k] === e.target.value))} className={`${inputCls} appearance-none`}>
                     {Object.entries(ENQUIRY_VALUES).map(([key, value]) => <option key={key} value={value}>{c.enquiryTypes[key]}</option>)}
                   </select>
                   {enquiryType === 'brief' && <p className="text-xs text-[#C4A04A] mt-2">{c.briefNote}</p>}
                 </div>
 
                 <div>
-                  <label className={labelCls}>{c.fields.organisation}</label>
-                  <input type="text" name="company" placeholder={c.placeholders.organisation} className={inputCls} />
+                  <label htmlFor="f-company" className={labelCls}>{c.fields.organisation}</label>
+                  <input id="f-company" type="text" name="company" autoComplete="organization" placeholder={c.placeholders.organisation} className={inputCls} />
                 </div>
 
                 <div>
-                  <label className={labelCls}>{c.fields.interest}</label>
-                  <select name="interest" defaultValue="" className={`${inputCls} appearance-none`}>
+                  <label htmlFor="f-interest" className={labelCls}>{c.fields.interest}</label>
+                  <select id="f-interest" name="interest" defaultValue="" className={`${inputCls} appearance-none`}>
                     <option value="">{c.selectOne}</option>
                     {INTEREST_GROUPS.map(([group, keys]) => (
                       <optgroup key={group} label={c.groups[group]}>
@@ -169,11 +169,11 @@ export default function Contact() {
                 </div>
 
                 <div>
-                  <label className={labelCls}>{c.fields.message}</label>
-                  <textarea name="message" rows={5} placeholder={c.placeholders.message} className={`${inputCls} resize-none`} />
+                  <label htmlFor="f-message" className={labelCls}>{c.fields.message}</label>
+                  <textarea id="f-message" name="message" rows={5} placeholder={c.placeholders.message} className={`${inputCls} resize-none`} />
                 </div>
 
-                <p className="text-xs text-gray-500 leading-relaxed">
+                <p className="text-xs text-gray-400 leading-relaxed">
                   {c.privacyBefore} <Link href="/privacy" className="text-[#C4A04A] underline underline-offset-2">{c.privacyLink}</Link>.
                 </p>
 

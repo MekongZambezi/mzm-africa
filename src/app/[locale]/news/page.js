@@ -40,7 +40,7 @@ export default async function News({ params: { locale } }) {
       <section className="py-20 bg-[#080C14]">
         <div className="max-w-7xl mx-auto px-6">
           {posts.length === 0 ? (
-            <div className="text-center py-20 text-gray-500">
+            <div className="text-center py-20 text-gray-400">
               <div className="font-serif text-2xl mb-2">{c.empty}</div>
               <p className="font-light">{c.emptySub}</p>
             </div>
@@ -58,7 +58,7 @@ export default async function News({ params: { locale } }) {
                     <h2 lang="en" className="font-serif text-xl font-bold mb-3 group-hover:text-[#C4A04A] transition-colors leading-snug">{post.title}</h2>
                     <p lang="en" className="text-gray-400 text-sm font-light leading-relaxed mb-4">{post.excerpt}</p>
                     <div className="flex items-center justify-between">
-                      <span className="text-gray-600 text-xs">{post.date}</span>
+                      <span className="text-gray-400 text-xs">{post.date}</span>
                       <span className="text-[#C4A04A] text-xs font-bold tracking-wider uppercase flex items-center gap-1">{c.readMore} →</span>
                     </div>
                   </div>

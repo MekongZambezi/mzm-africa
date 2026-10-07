@@ -13,7 +13,8 @@
     "getInTouch": "Get In Touch",
     "otherSectors": "Other Sectors",
     "backToNews": "Back to News",
-    "update": "Update"
+    "update": "Update",
+    "skip": "Skip to content"
   },
   "Nav": {
     "capabilities": "Capabilities",
@@ -53,6 +54,7 @@
     "about": "About",
     "aboutSub": [
       "About MZM",
+      "Our Team",
       "Our Offices"
     ],
     "news": "Insights",
@@ -75,6 +77,7 @@
       "The Opportunity",
       "Our Approach",
       "About MZM",
+      "Our Team",
       "Governance & Ethics"
     ],
     "serviceLinks": [
@@ -87,14 +90,15 @@
     ],
     "email": "Email",
     "offices": "Offices",
-    "hq": "Headquarters: Bulawayo, Zimbabwe",
+    "hq": "Headquarters: 35 Ascot Mews, Bulawayo, Zimbabwe",
     "asia": "Asia Desk: Hanoi, Vietnam",
     "enquire": "Request Our Investment Brief",
     "rights": "All rights reserved.",
-    "registered": "Registered in Zimbabwe",
+    "registered": "Registered in Zimbabwe, company no. 92165A0132026",
     "fraud": "Fraud notice",
     "privacy": "Privacy policy",
-    "governance": "Governance & Ethics"
+    "governance": "Governance & Ethics",
+    "whatsapp": "WhatsApp and WeChat"
   },
   "Home": {
     "eyebrow": "Mekong Zambezi Meridian Consultants",
@@ -378,12 +382,12 @@
       [
         "Hanoi, Vietnam",
         "Asia Desk",
-        "Led by our Managing Director. Meets Vietnamese and Asian investors, buyers, equipment suppliers and trade bodies in person, in their own time zone."
+        "Led by Managing Director Andy Moyo. Meets Vietnamese and Asian investors, buyers, equipment suppliers and trade bodies in person, in their own time zone."
       ],
       [
         "Zimbabwe",
         "Operations",
-        "Led by our Commercial Director. Verifies opportunities and suppliers on the ground, works with Zimbabwean institutions and manages delivery."
+        "Led by Commercial Director Chido A. Mumvuri, with Business Development Manager Ebern Moyo. Verifies opportunities and suppliers on the ground, works with Zimbabwean institutions and manages delivery."
       ],
       [
         "Both countries",
@@ -1173,13 +1177,13 @@
     ],
     "whatParas": [
       "MZM works between two sides: Zimbabwean owners, producers and projects, and the Asian investors and buyers who want to work with them. We find opportunities, check them on the ground, prepare them under Zimbabwean law, and introduce them to the right investor or buyer.",
-      "Our Managing Director leads the Asia desk in Hanoi. Our Commercial Director runs our operations in Zimbabwe. Clients work with the same senior team in both countries.",
+      "Our Managing Director leads the Asia desk in Hanoi. Our Commercial Director leads our work in Zimbabwe, with our Business Development Manager. Clients work with the same senior team in both countries.",
       "Every engagement runs through Zimbabwe’s official channels: ZIDA, ZimTrade, the sector ministries, and the official sales channels for minerals and gold."
     ],
     "points": [
       [
         "Zimbabwe-Registered",
-        "Incorporated in Zimbabwe and familiar with the procedures of ZIDA, ZimTrade, the sector ministries, MMCZ, Fidelity Gold Refinery and ZERA."
+        "Incorporated in Zimbabwe, company no. 92165A0132026, with its registered office at 35 Ascot Mews, Bulawayo. Familiar with the procedures of ZIDA, ZimTrade, the sector ministries, MMCZ, Fidelity Gold Refinery and ZERA."
       ],
       [
         "Verified Before Introduction",
@@ -1230,8 +1234,8 @@
     "moreTitle": "More about how we work",
     "moreLinks": [
       [
-        "The Opportunity",
-        "/opportunity"
+        "Our Team",
+        "/team"
       ],
       [
         "Our Approach",
@@ -1302,7 +1306,7 @@
     "fraudLink": "Read our fraud notice",
     "emailLabel": "Email",
     "hqLabel": "Headquarters",
-    "hq": "Bulawayo, Zimbabwe",
+    "hq": "35 Ascot Mews, Bulawayo, Zimbabwe",
     "asiaLabel": "Asia Desk",
     "asia": "Hanoi, Vietnam",
     "fields": {
@@ -1351,7 +1355,8 @@
     "sending": "Sending...",
     "successTitle": "Thank You",
     "successBody": "We have received your enquiry and will respond within 48 hours.",
-    "error": "Something went wrong. Please email us directly at projects@mzmafrica.com"
+    "error": "Something went wrong. Please email us directly at projects@mzmafrica.com",
+    "whatsappLabel": "WhatsApp and WeChat"
   },
   "Governance": {
     "metaTitle": "Governance and Ethics | MZM Africa",
@@ -1411,7 +1416,7 @@
       ],
       [
         "Corporate structure",
-        "MZM is a Zimbabwe-registered firm headquartered in Bulawayo, with an Asia desk in Hanoi. Fees are invoiced only through MZM’s registered company accounts."
+        "Mekong Zambezi Meridian Consultants (Private) Limited is registered in Zimbabwe, company no. 92165A0132026, with its registered office at 35 Ascot Mews, Bulawayo, and an Asia desk in Hanoi. Fees are invoiced only through MZM’s registered company accounts."
       ]
     ],
     "fraudPrompt": "Received a message claiming to be from MZM that you are unsure about?",
@@ -1430,7 +1435,7 @@
       "always true."
     ],
     "genuine": [
-      "MZM email comes only from addresses ending in @mzmafrica.com. Our team may also contact you on WhatsApp, WeChat or Zalo, but documents and payment details are only ever sent from an @mzmafrica.com address.",
+      "MZM email comes only from addresses ending in @mzmafrica.com. Our only WhatsApp and WeChat number is +84 814 944 804. Our team may also contact you on Zalo, but documents and payment details are only ever sent from an @mzmafrica.com address.",
       "Fees are agreed in a signed fee letter before any work begins.",
       "Payments to MZM are made only to MZM’s registered company bank accounts, never to a personal account.",
       "MZM never asks for payment to release documents, reserve a claim, or secure access to officials.",
@@ -1522,5 +1527,35 @@
     "back": "Back to News",
     "update": "Update",
     "englishOnly": ""
+  },
+  "Team": {
+    "metaTitle": "Our Team | MZM Africa",
+    "metaDescription": "The MZM Consultants leadership team in Hanoi and Zimbabwe.",
+    "eyebrow": "Our Team",
+    "title": "One team,",
+    "accent": "in two countries.",
+    "members": [
+      {
+        "initials": "AM",
+        "name": "Andy Moyo",
+        "role": "Managing Director",
+        "location": "Hanoi, Vietnam",
+        "bio": "Andy Moyo is the founder and Managing Director of MZM Consultants. Based in Hanoi, he leads the firm’s Asia desk and its work with Vietnamese and Asian investors, buyers and trade bodies. He directs every engagement across MZM’s five sectors, from the first meeting with an investor or buyer to the introduction of a verified opportunity in Zimbabwe."
+      },
+      {
+        "initials": "CM",
+        "name": "Chido A. Mumvuri",
+        "role": "Commercial Director",
+        "location": "Zimbabwe",
+        "bio": "Chido A. Mumvuri is Commercial Director of MZM Consultants, which she co-founded, and leads the firm’s commercial work in Zimbabwe. She is responsible for client delivery, commercial partnerships and the firm’s work with Zimbabwean institutions across all five sectors, working with the Managing Director in Hanoi so that clients deal with one team in both countries."
+      },
+      {
+        "initials": "EM",
+        "name": "Ebern Moyo",
+        "role": "Business Development Manager",
+        "location": "Zimbabwe",
+        "bio": "Ebern Moyo is Business Development Manager at MZM Consultants, based in Zimbabwe. He identifies new opportunities, builds relationships with Zimbabwean producers, title holders and partners, and carries out first checks on the ground before an opportunity enters the firm’s verification process."
+      }
+    ]
   }
 }
