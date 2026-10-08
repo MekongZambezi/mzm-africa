@@ -12,6 +12,6 @@ Now in its 28th edition, Mine Entra is organised by the Zimbabwe International T
 
 That focus sits at the centre of what MZM does. As a Zimbabwean mining facilitation and deal-structuring firm, MZM connects registered mineral title holders with funded international investors, and structures compliant deals that move Zimbabwe's minerals up the value chain rather than out of the country as raw ore.
 
-MZM attends Mine Entra with active mandates in chrome, lithium and gold, each structured, title-verified and investor-ready. For title holders seeking investment, and for investors seeking compliant entry into Zimbabwe's minerals sector, the expo is a direct opportunity to meet the MZM team in Bulawayo.
+MZM attends Mine Entra to meet title holders, producers and suppliers. For title holders seeking investment, and for investors seeking compliant entry into Zimbabwe's minerals sector, the expo is a direct opportunity to meet the MZM team in Bulawayo.
 
 To arrange a meeting during Mine Entra 2026, contact projects@mzmafrica.com.

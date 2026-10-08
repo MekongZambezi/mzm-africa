@@ -22,7 +22,7 @@ Gold, Diamonds, Coal, Iron Ore, Limestone, Potash, Phosphorus, Pyrites, and Oil 
 
 The State now holds mandatory minimum shareholding in the exploitation of Critical Minerals, exercised through designated Special Purpose Vehicles. No person may export any Critical Mineral in raw or unbeneficiated form without a conditional transitional plan approved by the Minister of Mines, which must include a specific timeline for local beneficiation beyond concentrate stage. Applications for mining rights on Critical Minerals require prior ministerial approval.
 
-This does not close Zimbabwe's critical minerals sector to foreign investment. It structures it. Foreign investors who want to participate in chrome, lithium, copper, nickel, or PGMs must do so through a compliant SPV that includes State co-investment. Investors who attempt to structure around this requirement will not achieve regulatory clearance.
+This does not close Zimbabwe's critical minerals sector to foreign investment. The State shareholding applies to the exploitation of these minerals by anyone, not only foreign investors. The declaration does not set the size of the State's stake or how it is acquired; those details are left to implementing regulations, which had not been published at the time of writing.
 
 ## Instrument 2: Reservation of Small and Medium Scale Gold Mining
 
@@ -42,7 +42,7 @@ Large-scale gold operations above the prescribed thresholds remain accessible to
 
 ## MZM's Position
 
-MZM's two active investor-ready projects are chrome and lithium. Both are structured under the Critical Minerals SPV framework as required by the 22 May instrument. Neither project has been affected by the gold reservation policy.
+MZM's chrome and lithium work is designed to accommodate the State shareholding once the regulations set its size, and to meet the requirement for processing in Zimbabwe. The gold reservation policy does not affect it.
 
 MZM does not facilitate foreign investment in small or medium scale gold mining. Any gold-related engagement MZM undertakes is confined to large-scale operations that qualify above the statutory thresholds. MZM will confirm investor eligibility for any gold structure before proceeding.
 
