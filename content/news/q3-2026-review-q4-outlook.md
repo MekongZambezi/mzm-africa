@@ -37,15 +37,15 @@ The Minerals Marketing Corporation of Zimbabwe (MMCZ) reported mineral export ea
 
 ## 2. Critical Minerals: the export restriction list widens
 
-Under the Ministry of Mines' statement of 22 May 2026, fourteen minerals, including chrome, lithium, copper, nickel, PGMs, antimony and tungsten, are declared Critical Minerals [2]. For these minerals, the State takes a mandatory minimum shareholding through designated special purpose vehicles, applications for mining rights require the Minister's prior approval, and raw exports require a Minister-approved transitional plan.
+Under the Ministry of Mines' statement of 22 May 2026, fourteen minerals, including chrome, lithium, copper, nickel, PGMs, antimony and tungsten, are declared Critical Minerals [2]. For these minerals, the State takes a mandatory minimum shareholding through designated special purpose vehicles. Applications for mining rights need the Minister's prior approval, and raw exports need a Minister-approved transitional plan.
 
-In September, the Ministry confirmed that exports of antimony and tungsten ores and concentrates have been suspended, following a letter from the Secretary for Mines to MMCZ dated 21 July 2026 [3].
+In September, the Ministry confirmed that exports of antimony and tungsten ores and concentrates have been suspended. The suspension followed a letter from the Secretary for Mines to MMCZ dated 21 July 2026 [3].
 
 **Implications.** Restrictions have been extended to additional minerals twice this year. Any structure involving a declared Critical Mineral should provide for State participation, ministerial approval and in-country processing from the outset.
 
 ## 3. Chrome
 
-Raw chrome ore exports remain prohibited, and the government has not relaxed this restriction as it did for lithium. In May, the Minister of Mines, Dr Polite Kambamura, stated that Zimbabwe will move from exporting chrome concentrate to exporting ferrochrome and other chrome alloys, without giving a date [4]. The Ministry has announced regional beneficiation hubs, with chrome-producing areas designated for ferrochrome and chromium alloy production [5], and government has stated that new smelting capacity should rely on its own power generation rather than the national grid [6]. In June, the Minister said measures for small-scale chrome miners were being prepared, including toll processing through government facilities [7].
+Raw chrome ore exports remain prohibited, and the government has not relaxed this restriction as it did for lithium. In May, the Minister of Mines, Dr Polite Kambamura, stated that Zimbabwe will move from exporting chrome concentrate to exporting ferrochrome and other chrome alloys, without giving a date [4]. The Ministry has announced regional beneficiation hubs, with chrome-producing areas designated for ferrochrome and chromium alloy production [5]. Government has also stated that new smelting capacity should rely on its own power generation rather than the national grid [6]. In June, the Minister said measures for small-scale chrome miners were being prepared, including toll processing through government facilities [7].
 
 **For title holders.** The value of chrome ground increasingly depends on its access to a domestic smelter or processor. Investors are likely to assess offtake and processing routes alongside grade and tonnage.
 
@@ -79,7 +79,7 @@ Gold deliveries to Fidelity Gold Refinery totalled approximately 31.2 tonnes in 
 }
 ```
 
-Under the Ministry's policy of 22 May 2026, the small and medium scale gold sector, defined by production and capital thresholds, is reserved for Zimbabwean citizens and wholly Zimbabwean-owned entities [2]. All operators in that category must re-register by 1 January 2027, with verification of citizenship, beneficial ownership, financing structures and production levels. The policy states that nominee and proxy arrangements designed to avoid it are unlawful. It also requires senior and middle management at gold and other mines to be 98% Zimbabwean, and requires an approved ESG framework and Environmental Impact Assessment before any mining project begins. Detailed implementation guidelines are still awaited.
+Under the Ministry's policy of 22 May 2026, the small and medium scale gold sector is reserved for Zimbabwean citizens and wholly Zimbabwean-owned entities [2]. The sector is defined by production and capital thresholds. All operators in that category must re-register by 1 January 2027, with verification of citizenship, beneficial ownership, financing structures and production levels. The policy states that nominee and proxy arrangements designed to avoid it are unlawful. It also requires senior and middle management at gold and other mines to be 98% Zimbabwean. Every mining project needs an approved ESG framework and Environmental Impact Assessment before it begins. Detailed implementation guidelines are still awaited.
 
 On 30 September, the Zimbabwe Miners Federation called for support for small-scale mining to be turned into access to finance, modern equipment and formalisation measures [11].
 
@@ -89,7 +89,7 @@ On 30 September, the Zimbabwe Miners Federation called for support for small-sca
 
 ## 6. Title administration
 
-The Ministry's Mashonaland Central office required holders of small and medium scale blocks registered before 2001 to submit survey-grade coordinates for the cadastre land folio exercise by 2 October 2026 [12].
+The Ministry's Mashonaland Central office asked holders of small and medium scale blocks registered before 2001 to submit survey-grade coordinates by 2 October 2026 [12]. The coordinates feed the cadastre land folio exercise.
 
 **Implications.** The Ministry is actively updating its title records. Clean, current registration is the starting point for any transaction, and holders of older titles should confirm their status with their provincial mining office.
 

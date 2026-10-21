@@ -20,21 +20,21 @@ Gold, Diamonds, Coal, Iron Ore, Limestone, Potash, Phosphorus, Pyrites, and Oil 
 
 **What this means in practice:**
 
-The State now holds mandatory minimum shareholding in the exploitation of Critical Minerals, exercised through designated Special Purpose Vehicles. No person may export any Critical Mineral in raw or unbeneficiated form without a conditional transitional plan approved by the Minister of Mines, which must include a specific timeline for local beneficiation beyond concentrate stage. Applications for mining rights on Critical Minerals require prior ministerial approval.
+The State now holds mandatory minimum shareholding in the exploitation of Critical Minerals, exercised through designated Special Purpose Vehicles. No person may export any Critical Mineral in raw or unbeneficiated form without a conditional transitional plan approved by the Minister of Mines. The plan must include a specific timeline for local beneficiation beyond concentrate stage. Applications for mining rights on Critical Minerals require prior ministerial approval.
 
-This does not close Zimbabwe's critical minerals sector to foreign investment. The State shareholding applies to the exploitation of these minerals by anyone, not only foreign investors. The declaration does not set the size of the State's stake or how it is acquired; those details are left to implementing regulations, which had not been published at the time of writing.
+This does not close Zimbabwe's critical minerals sector to foreign investment. The State shareholding applies to the exploitation of these minerals by anyone, not only foreign investors. The declaration does not set the size of the State's stake or how it is acquired. Those details are left to implementing regulations, which had not been published at the time of writing.
 
 ## Instrument 2: Reservation of Small and Medium Scale Gold Mining
 
 With immediate effect, the small and medium scale gold mining sector is reserved exclusively for Zimbabwean citizens and wholly Zimbabwean-owned entities.
 
-Small and medium scale is defined as operations producing up to 20 kilograms of gold per month and/or with capital investment up to $15 million.
+Small and medium scale is defined as operations producing up to 20 kilograms of gold per month, or with capital investment of up to US$15 million, or both.
 
 **What this means for foreign investors:**
 
 Foreign individuals, foreign-controlled companies, and entities with foreign beneficial owners may not acquire, hold, or control any mining title in the small or medium scale gold category. They may not participate directly or indirectly in the operation or management of such activities. Tribute arrangements, joint ventures, syndicates, or partnerships that confer economic or operational control over small-scale gold activities are explicitly prohibited. Proxy and nominee structures intended to circumvent the policy are unlawful.
 
-All foreign operators currently in the small-scale gold sector must, by 1 January 2027, either increase production above 20 kilograms per month and recapitalise above $15 million, and so qualify as large-scale, or exit the sector.
+By 1 January 2027, all foreign operators currently in the small-scale gold sector must either qualify as large-scale or exit the sector. To qualify, they must increase production above 20 kilograms per month and recapitalise above US$15 million.
 
 **What remains open to foreign investors in gold:**
 
