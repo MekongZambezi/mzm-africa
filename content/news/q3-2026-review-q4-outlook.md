@@ -105,7 +105,7 @@ The Ministry's Mashonaland Central office required holders of small and medium s
 
 ## MZM's position
 
-MZM structures its chrome and lithium mandates under the Critical Minerals framework, including State participation and in-country processing, and does not present structures that depend on exporting raw material. MZM's gold engagements are structured in full compliance with the 22 May 2026 participation policy, and each party's eligibility is verified before an engagement proceeds.
+MZM structures its mining engagements under the Critical Minerals framework, including State participation and in-country processing, and does not present structures that depend on exporting raw material. MZM's gold engagements are structured in full compliance with the 22 May 2026 participation policy, and each party's eligibility is verified before an engagement proceeds.
 
 Registered title holders and investors who want to understand how these developments affect a specific asset or structure can [contact the MZM team](/contact). MZM will publish its next brief once the lithium deadline and the gold implementation guidelines are confirmed.
 

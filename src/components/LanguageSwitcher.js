@@ -53,7 +53,7 @@ export default function LanguageSwitcher({ variant = 'dropdown', onSwitch }) {
   const current = LANGUAGES.find((l) => l.code === locale) || LANGUAGES[0]
   return (
     <div ref={ref} className="relative">
-      <button type="button" onClick={() => setOpen(!open)} aria-haspopup="listbox" aria-expanded={open} aria-label={`${t('language')}: ${current.name}`}
+      <button type="button" onClick={() => setOpen(!open)} aria-haspopup="listbox" aria-expanded={open} aria-label={`${current.short} ${t('language')}: ${current.name}`}
         className={`flex items-center gap-2 border border-white/15 px-3 py-2 text-xs font-bold tracking-wider text-gray-200 hover:border-[#C4A04A]/60 transition-colors ${pending ? 'opacity-60' : ''}`}>
         <svg className="w-4 h-4 text-[#C4A04A]" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" strokeWidth={1.5} /><path strokeWidth={1.5} d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9M12 3c-2.5 2.6-3.8 5.6-3.8 9s1.3 6.4 3.8 9" /></svg>
         {current.short}

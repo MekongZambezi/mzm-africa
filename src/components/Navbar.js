@@ -51,7 +51,7 @@ export default function Navbar() {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled || mobileOpen ? 'bg-[#080C14]/95 backdrop-blur-md border-b border-white/10' : 'bg-transparent'}`}>
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
         <Link href="/" aria-label={t('homeLabel')} className="flex items-center shrink-0">
-          <img src="/images/mzm-logo.jpg" alt="MZM Africa" className="h-12 w-auto object-contain" />
+          <img src="/images/mzm-logo.jpg" alt="MZM Africa" width="400" height="303" className="h-12 w-auto object-contain" />
         </Link>
 
         <ul className="hidden xl:flex items-center gap-1">

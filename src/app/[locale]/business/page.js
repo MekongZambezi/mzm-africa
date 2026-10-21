@@ -28,7 +28,7 @@ export default async function Sectors({ params: { locale } }) {
             return (
               <Link key={p.slug} href={p.href} className="group border border-white/10 bg-[#0A0E18] hover:border-[#C4A04A]/50 transition-colors flex flex-col">
                 <div className="aspect-[16/10] overflow-hidden">
-                  <img src={p.image} alt={s.imageAlt} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                  <img src={p.image} srcSet={`${p.imageSm} 800w, ${p.image} 1600w`} sizes="(min-width: 768px) 50vw, 100vw" width="1600" height="1067" loading="lazy" decoding="async" alt={s.imageAlt} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                 </div>
                 <div className="p-8 flex flex-col flex-1">
                   <div className="flex items-center justify-between mb-4">

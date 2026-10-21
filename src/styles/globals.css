@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Mulish:wght@300;400;500;600;700&display=swap');
-
 :root {
   --gold: #C4A04A;
   --dark: #080C14;
@@ -20,6 +18,9 @@ body {
 h1, h2, h3, h4 {
   font-family: 'Cormorant Garamond', Georgia, serif;
 }
+
+/* Small uppercase labels that are headings for structure but use the body font. */
+.label-heading { font-family: 'Mulish', system-ui, sans-serif; }
 
 .ticker-wrap {
   overflow: hidden;
@@ -220,5 +221,10 @@ h1, h2, h3, h4 {
 .article-body > h2:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
 
 @media (prefers-reduced-motion: reduce) {
+  .hero-video { display: none; }
+}
+
+/* Phones show the still poster instead of the video, to save mobile data. */
+@media (max-width: 767px) {
   .hero-video { display: none; }
 }

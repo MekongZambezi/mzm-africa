@@ -15,6 +15,7 @@ export const practices = ['mining', 'agriculture', 'energy', 'manufacturing', 't
   href: `/business/${slug}`,
   num: String(i + 1).padStart(2, '0'),
   image: `/images/practice-${slug}.jpg`,
+  imageSm: `/images/practice-${slug}-sm.jpg`,
   contact: 'projects@mzmafrica.com',
   video: HERO_VIDEOS[slug] || null,
 }))

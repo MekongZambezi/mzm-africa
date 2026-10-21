@@ -22,10 +22,10 @@ export default async function Home({ params: { locale } }) {
   return (
     <>
       {/* HERO */}
-      <style>{`@keyframes mzmFade{0%,40%{opacity:0}50%,90%{opacity:1}100%{opacity:0}}@keyframes mzmZoom{from{transform:scale(1)}to{transform:scale(1.08)}}.mzm-fade{animation:mzmFade 18s ease-in-out infinite}.mzm-zoom{animation:mzmZoom 18s ease-out infinite alternate}@media (prefers-reduced-motion:reduce){.mzm-fade,.mzm-zoom{animation:none}}`}</style>
+      <style>{`@keyframes mzmFade{0%,40%{opacity:0}50%,90%{opacity:1}100%{opacity:0}}@keyframes mzmZoom{from{transform:scale(1)}to{transform:scale(1.08)}}.mzm-fade{animation:mzmFade 18s ease-in-out infinite}.mzm-zoom{animation:mzmZoom 18s ease-out infinite alternate}@media (prefers-reduced-motion:reduce){.mzm-fade,.mzm-zoom{animation:none}}.mzm-hero-a{background-image:url(/images/zimbabwe-landscape-sm.jpg)}.mzm-hero-b{background-image:url(/images/hanoi-sm.jpg)}@media (min-width:768px){.mzm-hero-a{background-image:url(/images/zimbabwe-landscape.jpg)}.mzm-hero-b{background-image:url(/images/hanoi.jpg)}}`}</style>
       <section className="relative h-screen min-h-[680px] flex flex-col justify-end pb-24 overflow-hidden">
-        <div className="absolute inset-0 bg-cover bg-center mzm-zoom" style={{ backgroundImage: 'url(/images/zimbabwe-landscape.jpg)' }} />
-        <div className="absolute inset-0 bg-cover bg-center mzm-fade" style={{ backgroundImage: 'url(/images/hanoi.jpg)' }} />
+        <div className="absolute inset-0 bg-cover bg-center mzm-zoom mzm-hero-a" />
+        <div className="absolute inset-0 bg-cover bg-center mzm-fade mzm-hero-b" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#080C14] via-[#080C14]/50 to-[#080C14]/20" />
         <div className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-[#080C14]/80 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-6 w-full">
@@ -78,7 +78,7 @@ export default async function Home({ params: { locale } }) {
               const [title, summary] = c.sectorText[p.slug]
               return (
                 <Link key={p.slug} href={p.href} className="group relative overflow-hidden border border-white/10 hover:border-[#C4A04A]/50 transition-colors min-h-[420px] flex flex-col justify-end">
-                  <img src={p.image} alt={sectors[p.slug].imageAlt} className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                  <img src={p.image} srcSet={`${p.imageSm} 800w, ${p.image} 1600w`} sizes="(min-width: 1024px) 20vw, (min-width: 640px) 50vw, 100vw" width="1600" height="1067" loading="lazy" decoding="async" alt={sectors[p.slug].imageAlt} className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#080C14] via-[#080C14]/80 to-[#080C14]/10" />
                   <div className="relative p-6">
                     <div className="font-serif text-2xl font-bold text-[#C4A04A] mb-2">{p.num}</div>
@@ -106,11 +106,12 @@ export default async function Home({ params: { locale } }) {
               </div>
             ))}
           </div>
+          {c.factsSource && <p className="mt-10 text-xs text-gray-400 font-light">{c.factsSource}</p>}
         </div>
       </section>
 
       {/* CLOSING CTA */}
-      <section className="py-24 relative overflow-hidden" style={{ backgroundImage: 'url(/images/hanoi.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <section className="py-24 relative overflow-hidden" style={{ backgroundImage: 'url(/images/hanoi-sm.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="absolute inset-0 bg-[#080C14]/90" />
         <div className="relative max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between md:items-center gap-10">
           <div className="max-w-2xl">

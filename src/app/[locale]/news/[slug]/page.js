@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation'
 import { getMessages, setRequestLocale } from 'next-intl/server'
 import { markdownToHtml } from '../../../../lib/markdown'
 import { Link } from '../../../../i18n/navigation'
-import { alternates } from '../../../../i18n/meta'
+import { alternates, social, OG_IMAGE } from '../../../../i18n/meta'
 
 function formatDate(d, locale) {
   const date = new Date(`${d}T00:00:00Z`)
@@ -36,7 +36,10 @@ export async function generateMetadata({ params: { locale, slug } }) {
     title: `${post.title} | MZM Africa`,
     description: post.excerpt,
     alternates: alternates(locale, `/news/${slug}`),
-    openGraph: { title: post.title, description: post.excerpt, type: 'article', images: post.image ? [post.image] : [] },
+    ...(() => {
+      const sm = social(locale, post.title, post.excerpt, post.image ? { url: post.image, alt: post.title } : OG_IMAGE)
+      return { ...sm, openGraph: { ...sm.openGraph, type: 'article', publishedTime: post.date } }
+    })(),
   }
 }
 

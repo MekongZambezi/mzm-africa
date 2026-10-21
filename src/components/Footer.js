@@ -15,11 +15,11 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 pb-12 border-b border-white/10">
           <div>
-            <img src="/images/mzm-logo.jpg" alt="MZM Africa" className="h-16 w-auto object-contain mb-4" />
+            <img src="/images/mzm-logo.jpg" alt="MZM Africa" width="400" height="303" loading="lazy" className="h-16 w-auto object-contain mb-4" />
             <p className="text-gray-400 text-sm leading-relaxed font-light">{t('desc')}</p>
           </div>
           <div>
-            <h4 className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase mb-5">{t('company')}</h4>
+            <h2 className="label-heading text-[#C4A04A] text-xs font-bold tracking-widest uppercase mb-5">{t('company')}</h2>
             <ul className="space-y-3">
               {companyLinks.map((label, i) => (
                 <li key={COMPANY_HREFS[i]}><Link href={COMPANY_HREFS[i]} className="text-gray-400 text-sm hover:text-white transition-colors">{label}</Link></li>
@@ -27,7 +27,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h4 className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase mb-5">{t('services')}</h4>
+            <h2 className="label-heading text-[#C4A04A] text-xs font-bold tracking-widest uppercase mb-5">{t('services')}</h2>
             <ul className="space-y-3">
               {serviceLinks.map((label, i) => (
                 <li key={BUSINESS_HREFS[i]}><Link href={BUSINESS_HREFS[i]} className="text-gray-400 text-sm hover:text-white transition-colors">{label}</Link></li>
@@ -35,7 +35,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h4 className="text-[#C4A04A] text-xs font-bold tracking-widest uppercase mb-5">{t('contact')}</h4>
+            <h2 className="label-heading text-[#C4A04A] text-xs font-bold tracking-widest uppercase mb-5">{t('contact')}</h2>
             <ul className="space-y-4 text-sm text-gray-400">
               <li>
                 <div className="text-xs text-gray-400 uppercase tracking-wider mb-1">{t('email')}</div>

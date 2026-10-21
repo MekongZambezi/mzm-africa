@@ -3,7 +3,7 @@ import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server
 import { Link } from '../../../../i18n/navigation'
 import PageHero, { SectionLabel } from '../../../../components/PageHero'
 import { practices, getPractice, STATUS_STYLE } from '../../../../lib/practices'
-import { alternates } from '../../../../i18n/meta'
+import { alternates, social } from '../../../../i18n/meta'
 
 export function generateStaticParams() {
   return practices.map((p) => ({ slug: p.slug }))
@@ -13,7 +13,8 @@ export async function generateMetadata({ params: { locale, slug } }) {
   const p = getPractice(slug)
   if (!p) return {}
   const item = (await getMessages({ locale })).Sectors.items[slug]
-  return { title: `${item.title} | MZM Africa`, description: item.summary, alternates: alternates(locale, p.href) }
+  const title = `${item.title} | MZM Africa`
+  return { title, description: item.summary, alternates: alternates(locale, p.href), ...social(locale, title, item.summary, { url: p.image, width: 1600, height: 1067, alt: item.imageAlt || item.title }) }
 }
 
 const Dash = () => <span className="text-[#C4A04A] shrink-0">—</span>

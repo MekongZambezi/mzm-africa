@@ -1,9 +1,20 @@
+// Fonts are served from this site rather than Google Fonts: faster first paint,
+// and visitors' IP addresses are not sent to a third party.
+import '@fontsource/cormorant-garamond/400.css'
+import '@fontsource/cormorant-garamond/400-italic.css'
+import '@fontsource/cormorant-garamond/600.css'
+import '@fontsource/cormorant-garamond/700.css'
+import '@fontsource/mulish/300.css'
+import '@fontsource/mulish/400.css'
+import '@fontsource/mulish/500.css'
+import '@fontsource/mulish/600.css'
+import '@fontsource/mulish/700.css'
 import '../../styles/globals.css'
 import { notFound } from 'next/navigation'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server'
 import { routing } from '../../i18n/routing'
-import { alternates, SITE_URL } from '../../i18n/meta'
+import { alternates, social, SITE_URL } from '../../i18n/meta'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 
@@ -18,13 +29,7 @@ export async function generateMetadata({ params: { locale } }) {
     title: t('title'),
     description: t('description'),
     alternates: alternates(locale, ''),
-    openGraph: {
-      siteName: 'MZM Africa',
-      title: t('title'),
-      description: t('description'),
-      locale: locale === 'vi' ? 'vi_VN' : 'en_GB',
-      alternateLocale: locale === 'vi' ? ['en_GB'] : ['vi_VN'],
-    },
+    ...social(locale, t('title'), t('description')),
   }
 }
 
@@ -38,11 +43,6 @@ export default async function LocaleLayout({ children, params: { locale } }) {
 
   return (
     <html lang={locale}>
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Mulish:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-      </head>
       <body>
         <NextIntlClientProvider locale={locale} messages={clientMessages}>
           <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:bg-[#C4A04A] focus:text-[#080C14] focus:px-4 focus:py-2 focus:text-sm focus:font-bold">{messages.Common.skip}</a>

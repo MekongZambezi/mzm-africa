@@ -10,8 +10,8 @@ export default function PageHero({ eyebrow, title, accent, lead, image, video })
     >
       {video && (
         <video className="hero-video absolute inset-0 w-full h-full object-cover" poster={video.poster} autoPlay muted loop playsInline preload="metadata" aria-hidden="true">
-          <source src={video.src} type="video/mp4" />
-          {video.webm && <source src={video.webm} type="video/webm" />}
+          <source src={video.src} type="video/mp4" media="(min-width: 768px)" />
+          {video.webm && <source src={video.webm} type="video/webm" media="(min-width: 768px)" />}
         </video>
       )}
       {video && <div className="absolute inset-0 bg-[#080C14]/80 md:bg-transparent md:bg-gradient-to-r md:from-[#080C14]/90 md:via-[#080C14]/75 md:to-[#080C14]/50" />}

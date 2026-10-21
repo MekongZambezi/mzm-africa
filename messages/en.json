@@ -171,8 +171,8 @@
     ],
     "facts": [
       [
-        "USD 3bn+",
-        "Investment approved by ZIDA in the first half of 2026"
+        "USD 1.59bn",
+        "Investment approved by ZIDA in the second quarter of 2026, with mining the largest sector"
       ],
       [
         "12,000 tonnes",
@@ -184,11 +184,12 @@
       ],
       [
         "1.71m tonnes",
-        "Cotton imported by Vietnam in 2025, with no significant African supplier"
+        "Cotton imported by Vietnam in 2025, 85% of it from the United States, Brazil and Australia"
       ]
     ],
     "closeTitle": "Discuss your project with us.",
-    "closeSub": "Investment, supply or market entry between Zimbabwe and Vietnam. We reply to every enquiry within 48 hours."
+    "closeSub": "Investment, supply or market entry between Zimbabwe and Vietnam. We reply to every enquiry within 48 hours.",
+    "factsSource": "Sources: ZIDA, Q2 2026 results; Horticultural Development Council of Zimbabwe; Vietnam National Statistics Office; Vietnam Customs."
   },
   "Capabilities": {
     "metaTitle": "Capabilities | MZM Africa",
@@ -204,7 +205,7 @@
       {
         "num": "01",
         "name": "Investment Facilitation into Zimbabwe",
-        "need": "Asian investors see opportunity in Zimbabwe but face unfamiliar rules, unverified sellers and new requirements to process minerals and produce in the country. ZIDA approved over USD 3 billion of investment in the first half of 2026, and its focus is now on approvals that become operating projects.",
+        "need": "Asian investors see opportunity in Zimbabwe but face unfamiliar rules, unverified sellers and new requirements to process minerals and produce in the country. ZIDA approved USD 1.59 billion of investment in the second quarter of 2026, and has said its focus is now on turning approvals into operating projects.",
         "capability": [
           "Opportunity sourcing across five sectors, matched to the investor’s objectives",
           "Title, ownership, licence and counterparty checks with the relevant Zimbabwean authority",
@@ -218,7 +219,7 @@
       {
         "num": "02",
         "name": "Export and Market Access: Zimbabwe to Asia",
-        "need": "In June 2026, five mineral lines made up 86.8% of Zimbabwe’s goods exports and three buyers took 92.3%. Vietnam imported 1.71 million tonnes of cotton in 2025 with no significant African supplier, and tobacco is still the only established Zimbabwean export to Vietnam.",
+        "need": "In June 2026, five mineral lines made up 86.8% of Zimbabwe’s goods exports and three buyers took 92.3%. Vietnam imported 1.71 million tonnes of cotton in 2025, 85% of it from the United States, Brazil and Australia, and tobacco is still the only established Zimbabwean export to Vietnam.",
         "capability": [
           "Buyer identification and introductions: spinning mills, tobacco manufacturers, leather and footwear makers, nut processors and food importers",
           "Producer verification: registration, capacity, quality and certification",
@@ -231,7 +232,7 @@
       {
         "num": "03",
         "name": "Equipment, Technology and Energy Sourcing",
-        "need": "Power and equipment decide whether a licensed project operates. Government has directed that new smelting capacity and large mines provide their own power, and rules gazetted in July 2026 let own-use plants between 100 kW and 10 MW register rather than apply for a licence.",
+        "need": "Power and equipment decide whether a licensed project operates. Government has directed that new smelting capacity and large mines provide their own power, and 2026 regulations let generation plants of up to 10 MW register with ZERA instead of applying for a full generation licence.",
         "capability": [
           "Captive solar and battery storage sourcing for mines, processors and factories",
           "Processing machinery for minerals, agro-processing, textiles and leather",
@@ -280,17 +281,17 @@
     "vietnamTitle": "Vietnam",
     "zimbabwe": [
       "National Development Strategy 2 (2026 to 2030) and the Zimbabwe National Industrial Development Policy II prioritise value addition, agro-processing and manufactured exports.",
-      "Since February 2026, raw mineral exports need an approved processing plan. In May 2026, 14 critical minerals were declared.",
+      "Since 25 February 2026, raw minerals can be exported only by title holders with approved processing plants, under permit. In May 2026, 14 critical minerals were declared.",
       "Export earnings are concentrated in a few minerals and a few buyers."
     ],
     "vietnam": [
-      "The GoGlobal Programme (Decision 626/QD-TTg, 6 April 2026) supports Vietnamese firms investing abroad and names Africa as a market.",
+      "The GoGlobal Programme (Decision 626/QD-TTg, 6 April 2026), led by the Ministry of Industry and Trade, supports Vietnamese firms investing and trading abroad, with in-depth support for at least 100 firms investing overseas by 2030.",
       "Vietnamese outward investment reached USD 1.36 billion in 2025, up 88.7%.",
       "Vietnamese factories import cotton, tobacco, leather and other raw materials at scale."
     ],
     "betweenTitle": "Between the two countries",
     "between": [
-      "In November 2025 the two governments agreed to work towards a bilateral trade agreement and an investment protection agreement, and Zimbabwe appointed a special envoy to promote Vietnamese investment.",
+      "Zimbabwe and Vietnam are preparing a Zimbabwean business delegation and a Vietnam-Zimbabwe Business Forum in Hanoi, and VCCI and the Zimbabwe Chamber of Commerce have agreed to work towards a cooperation agreement.",
       "Neither country has an embassy in the other’s capital. Zimbabwe is represented from Kuala Lumpur and Vietnam from Pretoria."
     ],
     "thesisLabel": "Our Core Thesis",
@@ -464,9 +465,9 @@
         "summary": "Investment in chrome, lithium, gold and other minerals, set up so the ore is processed inside Zimbabwe.",
         "lead": "Mining is Zimbabwe’s largest export earner, and the government now expects minerals to be processed in the country before they are sold abroad. MZM brings investors whose plans include that processing.",
         "context": [
-          "Since 25 February 2026, raw mineral exports need a Ministry of Mines approved plan to process them in Zimbabwe.",
+          "Since 25 February 2026, raw minerals can be exported only by title holders with approved processing plants, under a permit recommended by the provincial mining office.",
           "On 22 May 2026 the Ministry declared 14 critical minerals, including lithium, chrome and copper. The State will hold a minimum shareholding in their exploitation. The regulations that set its size are still pending.",
-          "Mining took the largest share of investment licences approved by ZIDA in the first half of 2026."
+          "Mining took the largest share of investment approved by ZIDA in the second quarter of 2026: 86 licences worth USD 768.5 million."
         ],
         "focus": [
           {
@@ -477,12 +478,12 @@
           {
             "name": "Lithium",
             "status": "conditions",
-            "body": "Processing investment, and projects with a processing plan. Large producers must build lithium sulphate capacity by January 2027."
+            "body": "Processing investment, and projects with a processing plan. Lithium concentrate exports are due to stop from January 2027, so producers need processing capacity in Zimbabwe."
           },
           {
             "name": "Gold",
             "status": "large",
-            "body": "Small and medium gold mining is reserved for Zimbabweans. MZM works only on large-scale projects, with all gold sold to Fidelity Gold Refinery."
+            "body": "Under the Ministry of Mines policy of 22 May 2026, gold operations producing up to 20 kg a month or with capital of up to USD 15 million are reserved for Zimbabwean citizens. MZM works only on projects above those thresholds, with all gold sold to Fidelity Gold Refinery."
           },
           {
             "name": "Copper and other critical minerals",
@@ -503,7 +504,7 @@
           "National Development Strategy 2 (2026 to 2030)"
         ],
         "vietnam": [
-          "GoGlobal Programme (Decision 626/QD-TTg, 2026): support for Vietnamese firms investing abroad",
+          "GoGlobal Programme (Decision 626/QD-TTg, 6 April 2026): support for Vietnamese firms investing and trading abroad",
           "A growing steel industry that imports ferroalloys"
         ],
         "zimInstitutions": [
@@ -538,7 +539,7 @@
             "Foreign exchange registration for outward investment (Circular 34/2026)"
           ]
         ],
-        "boundaries": "Artisanal mining, small and medium gold mining, quarrying and granite mining are reserved for Zimbabwean citizens. MZM works only on large-scale projects and processing. MZM does not buy or sell minerals itself: every sale goes through MMCZ or Fidelity Gold Refinery."
+        "boundaries": "Artisanal mining is reserved for Zimbabwean citizens under SI 215 of 2025, and gold mining up to 20 kg a month or USD 15 million of capital is reserved under the Ministry of Mines policy of 22 May 2026. MZM works only on projects above those thresholds and on processing. MZM does not buy or sell minerals itself: every sale goes through MMCZ or Fidelity Gold Refinery."
       },
       "agriculture": {
         "title": "Agriculture and Agro-processing",
@@ -547,7 +548,7 @@
         "lead": "Agriculture is the base of today’s trade with Vietnam: tobacco makes up almost all of what Zimbabwe sells there. Blueberries are a fast-growing new export. MZM works in both directions, bringing Asian investment into farms, processing and cold chain, and Zimbabwean produce to Asian buyers.",
         "context": [
           "Tobacco makes up almost all of Zimbabwe’s current exports to Vietnam.",
-          "Vietnam imported 1.71 million tonnes of cotton in 2025, mainly from the United States, Brazil and Australia, with no significant African supplier.",
+          "Vietnam imported 1.71 million tonnes of cotton in 2025, 85% of it from the United States, Brazil and Australia.",
           "Zimbabwe’s blueberry exports reached 9,500 tonnes in 2025 and are expected to reach 12,000 tonnes in 2026. The first shipment to China left in July 2026.",
           "Zimbabwe’s horticulture growth plan focuses on blueberries, avocados, macadamia, citrus and coffee for export."
         ],
@@ -587,7 +588,7 @@
           "ZNIDP II: oilseeds, dairy, textiles and leather value chains"
         ],
         "vietnam": [
-          "GoGlobal Programme: agriculture and food processing named as priority sectors",
+          "GoGlobal Programme (Decision 626/QD-TTg, 6 April 2026): support for Vietnamese firms investing and trading abroad",
           "Processing industries that rely on imported cotton, tobacco and nuts"
         ],
         "zimInstitutions": [
@@ -666,8 +667,8 @@
         "lead": "Reliable power is one of the main limits on mining, processing and industrial growth in Zimbabwe. MZM connects operations that need power with Asian equipment suppliers and developers.",
         "context": [
           "Government has directed that new smelting capacity and large mines provide their own power.",
-          "Rules gazetted in July 2026 remove licence fees for renewable plants under 10 MW and let own-use plants from 100 kW to 10 MW register rather than apply for a licence.",
-          "Energy projects led ZIDA’s investment approvals by value in the first quarter of 2026."
+          "Statutory Instruments 125 and 126 of 2026 let commercial and own-use plants of up to 10 MW register with ZERA instead of applying for a full generation licence.",
+          "Energy, mining and manufacturing made up 80% of the projected investment in ZIDA’s first-quarter 2026 figures."
         ],
         "focus": [
           {
@@ -737,7 +738,7 @@
         "title": "Manufacturing and Industrial Parks",
         "imageAlt": "Machinery inside a factory",
         "summary": "Site selection and Special Economic Zone entry for Asian manufacturers in textiles, leather, food and metal processing.",
-        "lead": "Industrialisation is at the centre of Zimbabwe’s development strategy, and Vietnam’s GoGlobal Programme names the same industries for its firms abroad. MZM helps Asian manufacturers choose a site, get licensed and start operating in Zimbabwe.",
+        "lead": "Industrialisation is at the centre of Zimbabwe’s development strategy, and Vietnam’s GoGlobal Programme supports Vietnamese firms that invest and produce abroad. MZM helps Asian manufacturers choose a site, get licensed and start operating in Zimbabwe.",
         "context": [
           "The Zimbabwe National Industrial Development Policy II (2026 to 2030) aims to more than double manufactured exports.",
           "Zimbabwe has six public Special Economic Zones, including manufacturing zones in Bulawayo and an agro-processing and beneficiation zone in Mutare.",
@@ -778,7 +779,7 @@
           "Special Economic Zones under the ZIDA Act"
         ],
         "vietnam": [
-          "GoGlobal Programme: textiles, footwear, food processing and mechanical engineering named as priority sectors",
+          "GoGlobal Programme (Decision 626/QD-TTg, 6 April 2026): support for Vietnamese firms investing and trading abroad",
           "Target of in-depth support for 100 Vietnamese firms investing abroad by 2030"
         ],
         "zimInstitutions": [
@@ -1009,7 +1010,7 @@
         [
           [
             "Investing abroad",
-            "The GoGlobal Programme (Decision 626/QD-TTg, 2026), led by the Ministry of Industry and Trade, supports Vietnamese firms investing abroad in agro-processing, textiles, leather and manufacturing, and names Africa as a potential market."
+            "The GoGlobal Programme (Decision 626/QD-TTg, 6 April 2026), led by the Ministry of Industry and Trade, supports Vietnamese firms investing and trading abroad, including in-depth support for at least 100 firms investing overseas by 2030."
           ],
           [
             "Raw materials",
@@ -1206,7 +1207,7 @@
     ],
     "storyParas": [
       "MZM was founded by Zimbabweans who saw a gap: Zimbabwe has minerals, land, produce and tourism assets, and wants investment and new export markets, but has had little direct contact with the capital and buyers in East and Southeast Asia.",
-      "We chose Hanoi on purpose. Vietnam is a manufacturing economy that imports the raw materials Zimbabwe produces, and its GoGlobal Programme, launched in 2026, encourages Vietnamese firms to invest abroad, with Africa named as a market.",
+      "We chose Hanoi on purpose. Vietnam is a manufacturing economy that imports the raw materials Zimbabwe produces, and its GoGlobal Programme, approved in April 2026, supports Vietnamese firms that invest and trade abroad.",
       "Zimbabwe’s 2026 reforms, from processing requirements in mining to new energy and industrial policies, mean new investors need a partner who knows the rules on the ground. MZM was built to be that partner."
     ],
     "imageCaption": [
@@ -1452,7 +1453,7 @@
     "metaDescription": "How MZM Africa collects, uses and protects personal information submitted through mzmafrica.com.",
     "eyebrow": "Legal",
     "title": "Privacy Policy",
-    "updated": "Last updated 7 October 2026",
+    "updated": "Last updated 21 October 2026",
     "sections": [
       {
         "heading": "Who we are",
@@ -1463,7 +1464,7 @@
       {
         "heading": "Information we collect",
         "body": [
-          "When you send an enquiry through our contact form, we collect the details you provide: your first and last name, email address, organisation and role, enquiry type, area of interest and message.",
+          "When you send an enquiry through our contact form, we collect the details you provide: your first and last name, email address, organisation and role, enquiry type, area of interest and message, and the language version of the site you used.",
           "When you email us directly, we receive your email address and the contents of your email.",
           "We do not ask for, and ask you not to send through this website, identity documents, bank or card details, or any other sensitive personal information."
         ]
@@ -1485,7 +1486,7 @@
         "heading": "Website data",
         "body": [
           "Our hosting provider records standard technical information, such as IP addresses and the pages requested, to operate and secure the website.",
-          "This website loads fonts from Google Fonts, which means your browser connects to Google servers and shares your IP address with Google.",
+          "This website serves its fonts from its own server. It does not load fonts, scripts or trackers from Google or other third parties.",
           "If you choose a language on this website, your choice is saved in a small cookie (NEXT_LOCALE) so the site shows the same language on your next visit. We do not use advertising or tracking cookies."
         ]
       },
@@ -1498,8 +1499,8 @@
       {
         "heading": "Your rights",
         "body": [
-          "You can ask us to confirm what personal information we hold about you, to correct it, or to delete it. You can also object to how we use it. To make a request, email projects@mzmafrica.com. We may need to confirm your identity before acting on a request.",
-          "We handle personal information in line with applicable data protection law, including Zimbabwe's Cyber and Data Protection Act. If you are not satisfied with our response, you may contact the relevant data protection authority."
+          "You can ask us to confirm what personal information we hold about you, to correct it, to delete it, or to stop using it, and you can withdraw your consent at any time. To make a request, email projects@mzmafrica.com. We may need to confirm your identity before acting on a request.",
+          "We handle personal information in line with applicable data protection law, including Zimbabwe’s Cyber and Data Protection Act [Chapter 12:07] and Vietnam’s Law on Personal Data Protection (Law No. 91/2025/QH15). If you are not satisfied with our response, you may contact the Postal and Telecommunications Regulatory Authority of Zimbabwe (POTRAZ), which is Zimbabwe’s Data Protection Authority, or the Ministry of Public Security in Vietnam."
         ]
       },
       {
