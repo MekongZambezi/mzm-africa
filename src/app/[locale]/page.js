@@ -22,7 +22,7 @@ export default async function Home({ params: { locale } }) {
   return (
     <>
       {/* HERO */}
-      <style>{`@keyframes mzmFade{0%,40%{opacity:0}50%,90%{opacity:1}100%{opacity:0}}@keyframes mzmZoom{from{transform:scale(1)}to{transform:scale(1.08)}}.mzm-fade{animation:mzmFade 18s ease-in-out infinite}.mzm-zoom{animation:mzmZoom 18s ease-out infinite alternate}@media (prefers-reduced-motion:reduce){.mzm-fade,.mzm-zoom{animation:none}}.mzm-hero-a{background-image:url(/images/zimbabwe-landscape-sm.jpg)}.mzm-hero-b{background-image:url(/images/hanoi-sm.jpg)}@media (min-width:768px){.mzm-hero-a{background-image:url(/images/zimbabwe-landscape.jpg)}.mzm-hero-b{background-image:url(/images/hanoi.jpg)}}`}</style>
+      <style>{`@keyframes mzmFade{0%,40%{opacity:0}50%,90%{opacity:1}100%{opacity:0}}@keyframes mzmZoom{from{transform:scale(1)}to{transform:scale(1.08)}}.mzm-fade{animation:mzmFade 18s ease-in-out infinite}.mzm-zoom{animation:mzmZoom 18s ease-out infinite alternate}@media (prefers-reduced-motion:reduce){.mzm-fade,.mzm-zoom{animation:none}}.mzm-hero-a{background-image:url(/images/hero-victoria-falls-sm.jpg)}.mzm-hero-b{background-image:url(/images/hanoi-sm.jpg)}@media (min-width:768px){.mzm-hero-a{background-image:url(/images/hero-victoria-falls.jpg);background-position:62% center}.mzm-hero-b{background-image:url(/images/hanoi.jpg)}}`}</style>
       <section className="relative h-screen min-h-[680px] flex flex-col justify-end pb-24 overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center mzm-zoom mzm-hero-a" />
         <div className="absolute inset-0 bg-cover bg-center mzm-fade mzm-hero-b" />
