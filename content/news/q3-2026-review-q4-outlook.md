@@ -79,7 +79,7 @@ Gold deliveries to Fidelity Gold Refinery totalled approximately 31.2 tonnes in 
 }
 ```
 
-Under the Ministry's policy of 22 May 2026, the small and medium scale gold sector is reserved for Zimbabwean citizens and wholly Zimbabwean-owned entities [2]. The sector is defined by production and capital thresholds. All operators in that category must re-register by 1 January 2027, with verification of citizenship, beneficial ownership, financing structures and production levels. The policy states that nominee and proxy arrangements designed to avoid it are unlawful. It also requires senior and middle management at gold and other mines to be 98% Zimbabwean. Every mining project needs an approved ESG framework and Environmental Impact Assessment before it begins. Detailed implementation guidelines are still awaited.
+Under the Ministry's policy of 22 May 2026, the small and medium scale gold sector is reserved for Zimbabwean citizens and wholly Zimbabwean-owned entities [2]. The sector is defined by production and capital thresholds. All operators in that category must re-register by 1 January 2027, with verification of citizenship, beneficial ownership, financing structures and production levels. The policy states that nominee and proxy arrangements designed to avoid it are unlawful. It also requires senior and middle management at gold and other mines to be 98% Zimbabwean. The policy also requires an approved ESG framework and Environmental Impact Assessment before any mining project begins. Detailed implementation guidelines are still awaited.
 
 On 30 September, the Zimbabwe Miners Federation called for support for small-scale mining to be turned into access to finance, modern equipment and formalisation measures [11].
 
@@ -89,7 +89,7 @@ On 30 September, the Zimbabwe Miners Federation called for support for small-sca
 
 ## 6. Title administration
 
-The Ministry's Mashonaland Central office asked holders of small and medium scale blocks registered before 2001 to submit survey-grade coordinates by 2 October 2026 [12]. The coordinates feed the cadastre land folio exercise.
+The Ministry's Mashonaland Central office required holders of small and medium scale blocks registered before 2001 to submit survey-grade coordinates by 2 October 2026 [12]. The coordinates are for the cadastre land folio exercise.
 
 **Implications.** The Ministry is actively updating its title records. Clean, current registration is the starting point for any transaction, and holders of older titles should confirm their status with their provincial mining office.
 

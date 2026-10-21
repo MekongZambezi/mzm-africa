@@ -130,7 +130,7 @@
       ],
       [
         "Cách Chúng Tôi Làm Việc",
-        "Một quy trình cho mọi dự án: kiểm tra trước khi giới thiệu, cấu trúc theo pháp luật hiện hành của Zimbabwe, phê duyệt qua kênh chính thức, và hỗ trợ đến khi vận hành. Văn phòng Hà Nội và đội ngũ tại Zimbabwe cùng triển khai mỗi dự án.",
+        "Một quy trình cho mọi dự án: kiểm tra trước khi giới thiệu, cấu trúc theo pháp luật hiện hành của Zimbabwe, phê duyệt qua kênh chính thức, và hỗ trợ đến khi vận hành. Văn phòng châu Á tại Hà Nội và đội ngũ tại Zimbabwe cùng triển khai mỗi dự án.",
         "Phương pháp",
         "/how-we-work"
       ]
@@ -167,7 +167,7 @@
     "factsLabel": "Cơ Sở",
     "factsTitle": [
       "Bốn con số",
-      "làm cơ sở cho công việc của chúng tôi."
+      "về hành lang Zimbabwe - Việt Nam."
     ],
     "facts": [
       [
@@ -294,15 +294,15 @@
       "Zimbabwe và Việt Nam đang chuẩn bị cho chuyến thăm của đoàn doanh nghiệp Zimbabwe và Diễn đàn Doanh nghiệp Việt Nam - Zimbabwe tại Hà Nội. VCCI và Phòng Thương mại Zimbabwe đã thống nhất hướng tới ký kết thỏa thuận hợp tác.",
       "Hai nước hiện không có đại sứ quán tại thủ đô của nhau. Zimbabwe được đại diện thông qua Kuala Lumpur, còn Việt Nam thông qua Pretoria."
     ],
-    "thesisLabel": "Quan điểm của chúng tôi",
+    "thesisLabel": "Quan Điểm Của Chúng Tôi",
     "thesis": [
       "Tài nguyên của Zimbabwe cần được chế biến tại Zimbabwe, với nguồn vốn và thiết bị từ những đối tác có ý định gắn bó lâu dài. Hoạt động kinh doanh giữa Zimbabwe và Việt Nam cần được thực hiện thông qua các đối tác đã được thẩm định và các kênh chính thức, với nhân sự có mặt tại cả hai nước.",
       "MZM ra đời để biến điều đó thành tiêu chuẩn."
     ],
     "focusLabel": "Trọng tâm",
     "focusTitle": [
-      "Chế biến tại Zimbabwe ",
-      "trước tốc độ giao dịch."
+      "Ưu tiên chế biến tại Zimbabwe ",
+      "hơn tốc độ giao dịch."
     ],
     "values": [
       [
@@ -405,7 +405,7 @@
     "commitments": [
       [
         "Thẩm định trước khi giới thiệu",
-        "Chúng tôi không giới thiệu bất kỳ cơ hội, nhà sản xuất hay đối tác nào trước khi họ vượt qua quy trình kiểm tra của chúng tôi."
+        "Chúng tôi không giới thiệu bất kỳ cơ hội, nhà sản xuất hay đối tác nào trước khi vượt qua quy trình kiểm tra của chúng tôi."
       ],
       [
         "Chỉ qua kênh chính thức",
@@ -443,7 +443,7 @@
     "lead": "MZM hoạt động trong năm lĩnh vực mà Zimbabwe ưu tiên thu hút đầu tư nhất, theo Chiến lược Phát triển Quốc gia 2 của nước này. Mọi lĩnh vực đều áp dụng cùng tiêu chuẩn thẩm định, cùng các điều khoản về phí và cùng một đội ngũ.",
     "sectorTag": "Lĩnh vực {num}",
     "exploreSector": "Tìm hiểu lĩnh vực",
-    "corridorLabel": "Thương mại và đầu tư hai chiều",
+    "corridorLabel": "Thương Mại Và Đầu Tư Hai Chiều",
     "corridorTitle": "Hành Lang Zimbabwe - Việt Nam",
     "corridorBody": "Hoạt động hai chiều của chúng tôi trong cả năm lĩnh vực: đầu tư của Việt Nam vào Zimbabwe, và sản phẩm của Zimbabwe đến người mua Việt Nam.",
     "corridorLink": "Về Hành Lang",
@@ -483,7 +483,7 @@
           {
             "name": "Vàng",
             "status": "large",
-            "body": "Theo chính sách của Bộ Mỏ ngày 22/5/2026, các hoạt động khai thác vàng quy mô nhỏ hơn được dành riêng cho công dân Zimbabwe. Ngưỡng áp dụng là 20 kg mỗi tháng hoặc vốn 15 triệu USD. MZM chỉ làm việc với các dự án vượt các ngưỡng này. Toàn bộ vàng được bán cho Fidelity Gold Refinery (Nhà máy tinh luyện vàng Fidelity)."
+            "body": "Theo chính sách của Bộ Mỏ ngày 22/5/2026, hoạt động khai thác vàng có sản lượng đến 20 kg mỗi tháng, hoặc vốn đầu tư đến 15 triệu USD, được dành riêng cho công dân Zimbabwe. MZM chỉ làm việc với các dự án vượt các ngưỡng này, và toàn bộ vàng được bán cho Fidelity Gold Refinery (Nhà máy tinh luyện vàng Fidelity)."
           },
           {
             "name": "Đồng và các khoáng sản quan trọng khác",
@@ -738,7 +738,7 @@
         "title": "Sản xuất và Khu Công nghiệp",
         "imageAlt": "Máy móc bên trong một nhà máy",
         "summary": "Lựa chọn địa điểm và gia nhập Đặc khu Kinh tế cho các nhà sản xuất châu Á trong ngành dệt may, da, thực phẩm và chế biến kim loại.",
-        "lead": "Công nghiệp hóa là một mục tiêu chính trong chiến lược phát triển của Zimbabwe, và Chương trình GoGlobal của Việt Nam hỗ trợ doanh nghiệp Việt Nam đầu tư và sản xuất ở nước ngoài. MZM giúp các nhà sản xuất châu Á lựa chọn địa điểm, xin giấy phép và bắt đầu hoạt động tại Zimbabwe.",
+        "lead": "Công nghiệp hóa là mục tiêu trọng tâm trong chiến lược phát triển của Zimbabwe, và Chương trình GoGlobal của Việt Nam hỗ trợ doanh nghiệp Việt Nam đầu tư và sản xuất ở nước ngoài. MZM giúp các nhà sản xuất châu Á lựa chọn địa điểm, xin giấy phép và bắt đầu hoạt động tại Zimbabwe.",
         "context": [
           "Chính sách Phát triển Công nghiệp Quốc gia Zimbabwe II (ZNIDP II), giai đoạn 2026 đến 2030, đặt mục tiêu tăng kim ngạch xuất khẩu hàng chế tạo lên hơn gấp đôi.",
           "Zimbabwe có sáu Đặc khu Kinh tế công lập, trong đó có các khu sản xuất tại Bulawayo và một khu chế biến nông sản và chế biến sâu tại Mutare.",
@@ -932,7 +932,7 @@
   },
   "Corridor": {
     "hero": {
-      "eyebrow": "Thương mại và đầu tư hai chiều",
+      "eyebrow": "Thương Mại Và Đầu Tư Hai Chiều",
       "title": "Hành Lang",
       "accent": "Zimbabwe - Việt Nam.",
       "lead": "Hoạt động đầu tư và thương mại của chúng tôi diễn ra theo cả hai chiều. Chúng tôi đưa đầu tư của Việt Nam vào Zimbabwe và đưa sản phẩm của Zimbabwe đến người mua Việt Nam. Đội ngũ tại Bulawayo và văn phòng châu Á tại Hà Nội quản lý cả hai chiều."
@@ -987,8 +987,8 @@
     ],
     "whyLabel": "Vì Sao Hành Lang Hiệu Quả",
     "whyTitle": [
-      "Nơi chính sách của Zimbabwe ",
-      "và Việt Nam gặp nhau."
+      "Điểm tương đồng ",
+      "trong chính sách của Zimbabwe và Việt Nam."
     ],
     "whyLead": "Zimbabwe cần đầu tư vào gia tăng giá trị và thị trường mới cho hàng xuất khẩu. Việt Nam muốn doanh nghiệp của mình đầu tư ra nước ngoài và cần nguyên liệu cho các ngành chế biến. Hành Lang phục vụ cả hai.",
     "priorities": [
@@ -1192,7 +1192,7 @@
         "Quyền sở hữu tài sản, chủ sở hữu, giấy phép và các cá nhân liên quan đều được kiểm tra trước khi bất kỳ cơ hội hoặc nhà cung cấp nào được giới thiệu."
       ],
       [
-        "Văn phòng châu Á, Hà Nội",
+        "Văn phòng châu Á tại Hà Nội",
         "Hiện diện thường xuyên tại Việt Nam, gặp gỡ trực tiếp nhà đầu tư, người mua, nhà cung cấp thiết bị và các tổ chức thương mại Việt Nam."
       ],
       [
@@ -1557,7 +1557,7 @@
         "name": "Ebern Moyo",
         "role": "Trưởng phòng Phát triển Kinh doanh",
         "location": "Zimbabwe",
-        "bio": "Ebern Moyo là Trưởng phòng Phát triển Kinh doanh của MZM, làm việc tại Zimbabwe. Ông tìm kiếm cơ hội mới, xây dựng quan hệ với các nhà sản xuất, chủ sở hữu quyền khai thác và đối tác tại Zimbabwe, và trực tiếp kiểm tra ban đầu trước khi cơ hội được đưa vào quy trình thẩm định của công ty."
+        "bio": "Ebern Moyo là Trưởng phòng Phát triển Kinh doanh của MZM, làm việc tại Zimbabwe. Ông tìm kiếm cơ hội mới, xây dựng quan hệ với các nhà sản xuất, chủ sở hữu quyền khai thác và đối tác tại Zimbabwe, và trực tiếp thực hiện kiểm tra ban đầu trước khi cơ hội được đưa vào quy trình thẩm định của công ty."
       }
     ]
   }
