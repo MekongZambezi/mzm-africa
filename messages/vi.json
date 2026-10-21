@@ -281,7 +281,7 @@
     "vietnamTitle": "Việt Nam",
     "zimbabwe": [
       "Chiến lược Phát triển Quốc gia 2 (giai đoạn 2026-2030) và Chính sách Phát triển Công nghiệp Quốc gia Zimbabwe II (ZNIDP II) ưu tiên gia tăng giá trị, chế biến nông sản và xuất khẩu hàng chế tạo.",
-      "Từ ngày 25/2/2026, khoáng sản thô chỉ được xuất khẩu bởi chủ giấy phép khai thác có nhà máy chế biến đã được phê duyệt, theo giấy phép xuất khẩu. Tháng 5 năm 2026, 14 loại khoáng sản quan trọng đã được công bố.",
+      "Từ ngày 25/2/2026, chỉ chủ giấy phép khai thác có nhà máy chế biến đã được phê duyệt mới được xuất khẩu khoáng sản thô, theo giấy phép xuất khẩu. Tháng 5 năm 2026, 14 loại khoáng sản quan trọng đã được công bố.",
       "Nguồn thu từ xuất khẩu tập trung vào một số ít khoáng sản và một số ít người mua."
     ],
     "vietnam": [
@@ -465,7 +465,7 @@
         "summary": "Đầu tư vào crôm, lithium, vàng và các khoáng sản khác, được cấu trúc để quặng được chế biến tại Zimbabwe.",
         "lead": "Khai khoáng là ngành mang lại nguồn thu xuất khẩu lớn nhất của Zimbabwe, và Chính phủ hiện yêu cầu khoáng sản phải được chế biến trong nước trước khi bán ra nước ngoài. MZM giới thiệu những nhà đầu tư có kế hoạch bao gồm khâu chế biến này.",
         "context": [
-          "Từ ngày 25/2/2026, khoáng sản thô chỉ được xuất khẩu bởi chủ giấy phép khai thác có nhà máy chế biến đã được phê duyệt, theo giấy phép có khuyến nghị của văn phòng mỏ cấp tỉnh.",
+          "Từ ngày 25/2/2026, chỉ chủ giấy phép khai thác có nhà máy chế biến đã được phê duyệt mới được xuất khẩu khoáng sản thô, theo giấy phép do văn phòng mỏ cấp tỉnh đề xuất.",
           "Ngày 22 tháng 5 năm 2026, Bộ Mỏ và Phát triển Khai khoáng công bố 14 khoáng sản quan trọng, trong đó có lithium, crôm và đồng. Nhà nước sẽ nắm giữ tỷ lệ sở hữu tối thiểu trong hoạt động khai thác các khoáng sản này. Quy định xác định mức tỷ lệ này vẫn chưa được ban hành.",
           "Khai khoáng chiếm tỷ trọng lớn nhất trong vốn đầu tư được ZIDA phê duyệt trong quý II năm 2026: 86 giấy phép trị giá 768,5 triệu USD."
         ],
@@ -510,7 +510,7 @@
         "zimInstitutions": [
           [
             "Bộ Mỏ và Phát triển Khai khoáng",
-            "Quyền khai thác mỏ, phê duyệt xuất khẩu và kế hoạch chế biến"
+            "Quyền khai thác mỏ, giấy phép xuất khẩu và phê duyệt nhà máy chế biến"
           ],
           [
             "Tổng công ty Tiếp thị Khoáng sản Zimbabwe (MMCZ)",
@@ -684,7 +684,7 @@
           {
             "name": "Nhà máy điện tự dùng cho công nghiệp",
             "status": "open",
-            "body": "Nhà máy từ 100 kW đến 10 MW cho doanh nghiệp chế biến nông sản và nhà máy sản xuất, đăng ký với ZERA."
+            "body": "Nhà máy có công suất đến 10 MW cho doanh nghiệp chế biến nông sản và nhà máy sản xuất, đăng ký với ZERA."
           },
           {
             "name": "Dự án lưới điện và phân phối",
@@ -780,7 +780,7 @@
         ],
         "vietnam": [
           "Chương trình GoGlobal (Quyết định 626/QĐ-TTg ngày 6/4/2026): hỗ trợ doanh nghiệp Việt Nam đầu tư và kinh doanh ở nước ngoài",
-          "Mục tiêu hỗ trợ chuyên sâu cho 100 doanh nghiệp Việt Nam đầu tư ra nước ngoài đến năm 2030"
+          "Mục tiêu hỗ trợ chuyên sâu cho ít nhất 100 doanh nghiệp Việt Nam đầu tư ra nước ngoài đến năm 2030"
         ],
         "zimInstitutions": [
           [

@@ -11,7 +11,7 @@ export const OG_IMAGE = { url: '/images/og-default.jpg', width: 1200, height: 63
 export function social(locale, title, description, image = OG_IMAGE) {
   const images = [image]
   return {
-    openGraph: { siteName: 'MZM Africa', title, description, images, locale: locale === 'vi' ? 'vi_VN' : 'en_GB' },
+    openGraph: { siteName: 'MZM Africa', title, description, images, locale: locale === 'vi' ? 'vi_VN' : 'en_GB', alternateLocale: locale === 'vi' ? ['en_GB'] : ['vi_VN'] },
     twitter: { card: 'summary_large_image', title, description, images },
   }
 }

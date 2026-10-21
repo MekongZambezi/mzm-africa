@@ -1,5 +1,5 @@
 ---
-title: "Ministry of Mines Policy Announcements — 22 May 2026: What They Mean for Foreign Investors"
+title: "Ministry of Mines Policy Announcements of 22 May 2026: What They Mean for Foreign Investors"
 date: "2026-05-22"
 category: "Policy & Regulation"
 excerpt: "Zimbabwe's Ministry of Mines issued two significant policy statements on 22 May 2026. MZM sets out what each instrument says, who it affects, and how MZM's current projects are structured in response."
@@ -34,7 +34,7 @@ Small and medium scale is defined as operations producing up to 20 kilograms of 
 
 Foreign individuals, foreign-controlled companies, and entities with foreign beneficial owners may not acquire, hold, or control any mining title in the small or medium scale gold category. They may not participate directly or indirectly in the operation or management of such activities. Tribute arrangements, joint ventures, syndicates, or partnerships that confer economic or operational control over small-scale gold activities are explicitly prohibited. Proxy and nominee structures intended to circumvent the policy are unlawful.
 
-All foreign operators currently in the small-scale gold sector must, by 1 January 2027, either increase production above 20 kilograms per month and recapitalise above $15 million — thereby qualifying as large-scale — or exit the sector.
+All foreign operators currently in the small-scale gold sector must, by 1 January 2027, either increase production above 20 kilograms per month and recapitalise above $15 million, and so qualify as large-scale, or exit the sector.
 
 **What remains open to foreign investors in gold:**
 
@@ -52,4 +52,4 @@ MZM will update this page as implementation guidelines and compliance procedures
 
 ---
 
-*Sources: Ministry of Mines and Mining Development — Policy Statement on Mineral Classification and Declaration, 22 May 2026. Ministry of Mines and Mining Development — Policy Statement on Participation in Zimbabwe's Small and Medium Scale Gold Mining Sector, 22 May 2026.*
+*Sources: Ministry of Mines and Mining Development, Policy Statement on Mineral Classification and Declaration, 22 May 2026. Ministry of Mines and Mining Development, Policy Statement on Participation in Zimbabwe's Small and Medium Scale Gold Mining Sector, 22 May 2026.*

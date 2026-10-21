@@ -111,7 +111,7 @@ export default async function Home({ params: { locale } }) {
       </section>
 
       {/* CLOSING CTA */}
-      <section className="py-24 relative overflow-hidden" style={{ backgroundImage: 'url(/images/hanoi-sm.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <section className="py-24 relative overflow-hidden mzm-hero-b" style={{ backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="absolute inset-0 bg-[#080C14]/90" />
         <div className="relative max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between md:items-center gap-10">
           <div className="max-w-2xl">
