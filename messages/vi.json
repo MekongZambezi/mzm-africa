@@ -1529,7 +1529,17 @@
     "readMore": "Xem thêm",
     "back": "Quay Lại Tin Tức",
     "update": "Cập nhật",
-    "englishOnly": "Các bài viết hiện chỉ có bằng tiếng Anh."
+    "englishOnly": "Bài viết này hiện chỉ có bằng tiếng Anh.",
+    "latest": "Phân tích mới nhất",
+    "latestPlural": "Phân tích mới nhất",
+    "all": "Xem tất cả bài viết",
+    "minRead": "phút đọc",
+    "readIn": "Đọc bài viết bằng",
+    "more": "Bài viết khác",
+    "englishTag": "Tiếng Anh",
+    "ctaTitle": "Trao đổi với đội ngũ của chúng tôi",
+    "ctaBody": "Nếu diễn biến này liên quan đến kế hoạch đầu tư, cung ứng hoặc gia nhập thị trường của quý vị giữa Việt Nam và Zimbabwe, hãy trao đổi với đội ngũ của chúng tôi tại Hà Nội hoặc Bulawayo.",
+    "ctaButton": "Trao Đổi Với Chúng Tôi"
   },
   "Team": {
     "metaTitle": "Đội Ngũ | MZM Africa",

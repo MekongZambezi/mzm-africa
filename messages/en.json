@@ -1527,9 +1527,19 @@
     "empty": "No posts yet",
     "emptySub": "Check back soon for news and updates from MZM.",
     "readMore": "Read more",
-    "back": "Back to News",
+    "back": "Back to Insights",
     "update": "Update",
-    "englishOnly": ""
+    "englishOnly": "",
+    "latest": "Latest insight",
+    "latestPlural": "Latest insights",
+    "all": "View all insights",
+    "minRead": "min read",
+    "readIn": "Read this article in",
+    "more": "More insights",
+    "englishTag": "",
+    "ctaTitle": "Discuss this with our team",
+    "ctaBody": "If this development affects your investment, supply or market entry plans between Vietnam and Zimbabwe, speak to our team in Hanoi or Bulawayo.",
+    "ctaButton": "Speak to Our Team"
   },
   "Team": {
     "metaTitle": "Our Team | MZM Africa",

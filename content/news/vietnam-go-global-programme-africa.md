@@ -6,8 +6,6 @@ excerpt: "Vietnam's new internationalisation programme aims to support thousands
 image: "/images/go-global-vietnam-zimbabwe.jpg"
 ---
 
-![Go Global: Vietnam's Pathway to Zimbabwe and Africa](/images/go-global-vietnam-zimbabwe.jpg)
-
 *Vietnam's new internationalisation programme aims to support thousands of businesses expanding overseas by 2030. For African markets, including Zimbabwe, the policy creates opportunities for investment, manufacturing partnerships and stronger commercial ties.*
 
 **HANOI, VIETNAM | 4 November 2026**

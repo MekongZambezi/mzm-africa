@@ -16,6 +16,14 @@ image: "/images/policy-banner.jpg"
 ---
 ```
 
+## Vietnamese version
+
+To publish an article in Vietnamese as well, add a second file with the same name in `content/news/vi/`, with its own translated title, category and excerpt. The article then shows an English / Tiếng Việt switch, and Vietnamese readers see the Vietnamese title on the homepage and Insights page. Without that file, Vietnamese readers see the English article with a short notice.
+
+## Homepage
+
+The newest article by date appears automatically on the first screen of the homepage and at the top of the Insights page. No other step is needed.
+
 ## Formatting
 
 | Result | Type this |
