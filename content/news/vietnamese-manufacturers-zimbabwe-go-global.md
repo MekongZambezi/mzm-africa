@@ -62,4 +62,4 @@ To discuss whether Zimbabwe fits your company's plans, contact Andy Moyo at [and
 
 ---
 
-*Andy Moyo is the Founder and Managing Director of Mekong Zambezi Meridian Consultants (MZM), a trade and investment advisory firm registered in Zimbabwe, headquartered in Bulawayo, with an Asia desk in Hanoi. A Zimbabwean based in Hanoi, he works on connecting Vietnamese and other Asian companies with opportunities in Zimbabwe, and Zimbabwean producers with Asian capital and buyers.*
+*Andy Moyo is the Managing Director of Mekong Zambezi Meridian Consultants (MZM), a trade and investment advisory firm registered in Zimbabwe, headquartered in Bulawayo, with an Asia desk in Hanoi. A Zimbabwean based in Hanoi, he works on connecting Vietnamese and other Asian companies with opportunities in Zimbabwe, and Zimbabwean producers with Asian capital and buyers.*
